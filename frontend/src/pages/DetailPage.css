@@ -1,0 +1,135 @@
+.detail-page {
+  animation: fadeIn 0.3s ease-in;
+}
+
+.header-card {
+  margin-bottom: 24px;
+}
+
+/* 个人资料区域 */
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.profile-section .ant-avatar {
+  margin-bottom: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.profile-info {
+  width: 100%;
+}
+
+.profile-name {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  color: #262626;
+}
+
+.profile-tags {
+  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.contact-info {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid #f0f0f0;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+/* 统计数据 */
+.stat-value {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1890ff;
+}
+
+/* 评分区域 */
+.scores-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.score-card {
+  padding: 16px;
+  background: #fafafa;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.score-card.highlight {
+  background: linear-gradient(135deg, #fff5f5 0%, #ffe7e7 100%);
+  border: 2px solid #ff7875;
+}
+
+.score-label {
+  font-size: 14px;
+  color: #8c8c8c;
+  font-weight: 500;
+}
+
+.score-value {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* 风格标签区域 */
+.style-tags-section {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid #f0f0f0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tags-label {
+  font-weight: 600;
+  color: #262626;
+  margin-right: 8px;
+}
+
+/* 响应式 */
+@media (max-width: 768px) {
+  .profile-section {
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;
+    gap: 16px;
+  }
+
+  .profile-section .ant-avatar {
+    margin-bottom: 0;
+  }
+
+  .profile-tags {
+    justify-content: flex-start;
+  }
+
+  .contact-info {
+    justify-content: flex-start;
+  }
+
+  .profile-name {
+    font-size: 20px;
+  }
+
+  .scores-section {
+    margin-top: 24px;
+  }
+}
+

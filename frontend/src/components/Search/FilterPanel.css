@@ -1,0 +1,44 @@
+.filter-panel {
+  position: sticky;
+  top: 24px;
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+}
+
+.filter-panel .ant-card-body {
+  padding: 20px;
+}
+
+.filter-panel .ant-form-item {
+  margin-bottom: 20px;
+}
+
+.filter-panel .ant-form-item-label > label {
+  font-weight: 500;
+}
+
+.filter-panel .ant-divider {
+  margin: 16px 0;
+  font-weight: 600;
+  color: #262626;
+}
+
+/* 滚动条 */
+.filter-panel::-webkit-scrollbar {
+  width: 6px;
+}
+
+.filter-panel::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 3px;
+}
+
+.filter-panel::-webkit-scrollbar-thumb {
+  background: #bfbfbf;
+  border-radius: 3px;
+}
+
+.filter-panel::-webkit-scrollbar-thumb:hover {
+  background: #8c8c8c;
+}
+

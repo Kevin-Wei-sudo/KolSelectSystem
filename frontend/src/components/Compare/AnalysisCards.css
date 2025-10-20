@@ -1,0 +1,70 @@
+.analysis-card {
+  height: 100%;
+  transition: all 0.3s;
+}
+
+.analysis-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.analysis-card .ant-card-head {
+  background: linear-gradient(135deg, #f5f5f5 0%, #fafafa 100%);
+}
+
+.analysis-card .ant-card-body {
+  padding: 20px;
+}
+
+.analysis-section {
+  margin-bottom: 20px;
+}
+
+.analysis-section:last-child {
+  margin-bottom: 0;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+  font-weight: 600;
+  color: #262626;
+  font-size: 14px;
+}
+
+.analysis-item {
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.analysis-item.strength {
+  background: #f6ffed;
+  border-left: 3px solid #52c41a;
+}
+
+.analysis-item.weakness {
+  background: #fff1f0;
+  border-left: 3px solid #ff4d4f;
+}
+
+.recommendation {
+  background: linear-gradient(135deg, #fffbf0 0%, #fff7e6 100%);
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #ffd591;
+}
+
+.recommendation .section-title {
+  color: #d46b08;
+}
+
+.recommendation-text {
+  font-size: 14px;
+  color: #595959;
+  line-height: 1.6;
+  font-weight: 500;
+}
+

@@ -1,0 +1,48 @@
+{
+  "name": "kol-select-frontend",
+  "version": "1.0.0",
+  "description": "达人筛号系统前端应用",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.1",
+    "antd": "^5.12.0",
+    "axios": "^1.6.2",
+    "echarts": "^5.4.3",
+    "echarts-for-react": "^3.0.2",
+    "@ant-design/icons": "^5.2.6",
+    "dayjs": "^1.11.10",
+    "xlsx": "^0.18.5",
+    "jspdf": "^2.5.1",
+    "html2canvas": "^1.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-scripts": "^5.0.1"
+  },
+  "proxy": "http://localhost:3001"
+}
+

@@ -1,0 +1,84 @@
+.work-card {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.work-card .ant-card-body {
+  padding: 12px;
+}
+
+.work-cover {
+  position: relative;
+  padding-bottom: 133.33%; /* 3:4 比例 */
+  overflow: hidden;
+  background: #f0f0f0;
+}
+
+.work-cover img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.work-card:hover .work-cover img {
+  transform: scale(1.1);
+}
+
+.explosive-badge {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: linear-gradient(135deg, #ff6b6b 0%, #ff8787 100%);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(255, 107, 107, 0.4);
+}
+
+.commercial-badge {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+
+.work-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.work-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #262626;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.work-date {
+  font-size: 12px;
+  color: #8c8c8c;
+}
+
+.work-stats {
+  font-size: 12px;
+  color: #595959;
+}
+
+.work-stats .stat-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.work-stats .anticon {
+  color: #8c8c8c;
+}
+

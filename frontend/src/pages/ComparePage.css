@@ -1,0 +1,60 @@
+.compare-page {
+  animation: fadeIn 0.3s ease-in;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+/* 表格头部达人信息 */
+.influencer-header-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 8px;
+}
+
+.influencer-info {
+  text-align: center;
+}
+
+.influencer-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #262626;
+}
+
+.influencer-tags {
+  margin-top: 4px;
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* 响应式 */
+@media (max-width: 768px) {
+  .page-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .influencer-header-cell {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .influencer-info {
+    text-align: left;
+  }
+
+  .influencer-tags {
+    justify-content: flex-start;
+  }
+}
+

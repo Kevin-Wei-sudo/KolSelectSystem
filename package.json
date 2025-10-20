@@ -1,0 +1,23 @@
+{
+  "name": "kol-select-system",
+  "version": "1.0.0",
+  "description": "达人筛号系统 - 智能达人筛选与评估平台",
+  "main": "index.js",
+  "scripts": {
+    "start": "./start.sh",
+    "backend": "cd backend && npm start",
+    "frontend": "cd frontend && npm start",
+    "generate-data": "cd backend && node scripts/generateData.js",
+    "install-all": "cd backend && npm install && cd ../frontend && npm install"
+  },
+  "keywords": [
+    "kol",
+    "influencer",
+    "selection",
+    "ai",
+    "data-analysis"
+  ],
+  "author": "",
+  "license": "MIT"
+}
+

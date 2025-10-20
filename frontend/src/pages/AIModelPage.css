@@ -1,0 +1,226 @@
+.ai-model-page {
+  animation: fadeIn 0.3s ease-in;
+}
+
+/* 模型流程 */
+.model-flow {
+  padding: 20px;
+  background: linear-gradient(135deg, #f6f9fc 0%, #ffffff 100%);
+  border-radius: 8px;
+}
+
+.model-flow .ant-steps-item-icon {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-color: #667eea;
+}
+
+.model-tags {
+  margin-top: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/* 模型卡片 */
+.model-card {
+  height: 100%;
+}
+
+.model-card .ant-card-head {
+  background: linear-gradient(135deg, #f5f5f5 0%, #fafafa 100%);
+}
+
+.model-highlight {
+  border: 2px solid #ff7875;
+}
+
+.model-highlight .ant-card-head {
+  background: linear-gradient(135deg, #fff5f5 0%, #ffe7e7 100%);
+}
+
+.model-content {
+  padding: 8px 0;
+}
+
+.model-section {
+  margin-bottom: 24px;
+}
+
+.model-section:last-child {
+  margin-bottom: 0;
+}
+
+.model-section h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #262626;
+  margin-bottom: 12px;
+}
+
+.model-section p {
+  color: #595959;
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+.model-section ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.model-section li {
+  margin-bottom: 8px;
+  color: #595959;
+  line-height: 1.6;
+}
+
+/* 公式框 */
+.formula-box {
+  background: #f6f9fc;
+  border: 1px solid #d9d9d9;
+  border-left: 4px solid #1890ff;
+  padding: 16px;
+  border-radius: 4px;
+  font-family: 'Courier New', monospace;
+}
+
+.formula-box code {
+  display: block;
+  color: #262626;
+  line-height: 1.8;
+  font-size: 13px;
+}
+
+/* LSTM架构图 */
+.lstm-architecture {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.lstm-layer {
+  background: white;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-weight: 600;
+  color: #262626;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.lstm-arrow {
+  color: white;
+  font-size: 24px;
+  margin: 8px 0;
+  font-weight: bold;
+}
+
+/* 输出区域 */
+.output-section {
+  padding: 16px;
+}
+
+.output-section h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #262626;
+  margin-bottom: 16px;
+}
+
+.score-output, .comprehensive-score {
+  margin-top: 16px;
+}
+
+.score-item {
+  margin-bottom: 16px;
+  padding: 12px;
+  background: #fafafa;
+  border-radius: 6px;
+}
+
+.score-item p {
+  margin: 8px 0 0 0;
+  color: #8c8c8c;
+  font-size: 13px;
+}
+
+.level-tags {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.reasons-example {
+  margin-top: 16px;
+}
+
+.reasons-example ul {
+  margin-top: 12px;
+}
+
+.reasons-example li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+/* 优势卡片 */
+.advantage-card {
+  text-align: center;
+  padding: 24px;
+  background: linear-gradient(135deg, #f6f9fc 0%, #ffffff 100%);
+  border-radius: 8px;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+}
+
+.advantage-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-color: #1890ff;
+}
+
+.advantage-card h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #262626;
+  margin-bottom: 8px;
+}
+
+.advantage-card p {
+  color: #8c8c8c;
+  margin: 0;
+  font-size: 14px;
+}
+
+/* 响应式 */
+@media (max-width: 768px) {
+  .model-flow {
+    padding: 12px;
+  }
+
+  .model-section h4 {
+    font-size: 15px;
+  }
+
+  .formula-box code {
+    font-size: 12px;
+  }
+
+  .lstm-layer {
+    padding: 10px 16px;
+    font-size: 13px;
+  }
+
+  .output-section h3 {
+    font-size: 16px;
+  }
+
+  .level-tags {
+    gap: 8px;
+  }
+
+  .advantage-card {
+    padding: 16px;
+  }
+}
+

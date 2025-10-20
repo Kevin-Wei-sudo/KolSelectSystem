@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+/* 全局样式 */
+.page-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  color: #262626;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #262626;
+}
+
+/* 卡片样式 */
+.card-shadow {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.03),
+    0 1px 6px -1px rgba(0, 0, 0, 0.02),
+    0 2px 4px 0 rgba(0, 0, 0, 0.02);
+}
+
+/* 标签样式 */
+.tag-hot {
+  background: linear-gradient(135deg, #ff6b6b 0%, #ff8787 100%);
+  border: none;
+  color: white;
+}
+
+.tag-rising {
+  background: linear-gradient(135deg, #ff6b95 0%, #ff8fa3 100%);
+  border: none;
+  color: white;
+}
+
+.tag-cost-effective {
+  background: linear-gradient(135deg, #51cf66 0%, #69db7c 100%);
+  border: none;
+  color: white;
+}
+
+.tag-reputation {
+  background: linear-gradient(135deg, #4dabf7 0%, #74c0fc 100%);
+  border: none;
+  color: white;
+}
+
+/* 评分进度条 */
+.score-bar {
+  margin-bottom: 12px;
+}
+
+.score-bar-label {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+/* 响应式 */
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 20px;
+  }
+
+  .section-title {
+    font-size: 16px;
+  }
+}
+
+/* 动画 */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.3s ease-in;
+}
+
+/* Loading */
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
