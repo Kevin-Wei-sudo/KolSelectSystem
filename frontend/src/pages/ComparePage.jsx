@@ -67,9 +67,9 @@ const ComparePage = () => {
     }
   };
 
-  const handleExport = () => {
+  const handleExport = async () => {
     try {
-      exportComparisonToExcel(comparison, '达人对比报告');
+      await exportComparisonToExcel(comparison, '达人对比报告');
       message.success('导出成功');
     } catch (error) {
       message.error('导出失败');

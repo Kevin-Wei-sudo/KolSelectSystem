@@ -84,13 +84,13 @@ const SearchPage = () => {
     setSelectedIds(ids);
   };
 
-  const handleExport = () => {
+  const handleExport = async () => {
     if (influencers.length === 0) {
       message.warning('没有可导出的数据');
       return;
     }
     try {
-      exportToExcel(influencers, '达人筛选结果');
+      await exportToExcel(influencers, '达人筛选结果');
       message.success('导出成功');
     } catch (error) {
       message.error('导出失败');
