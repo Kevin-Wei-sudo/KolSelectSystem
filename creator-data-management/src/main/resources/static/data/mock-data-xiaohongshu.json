@@ -25,12 +25,12 @@
       "育儿专家",
       "母婴好物推荐"
     ],
-    "personaStability": 8.75,
-    "cooperationReputation": 9.20,
-    "commentQuality": 8.90,
-    "contentInnovation": 8.50,
-    "platformIndex": 9.10,
-    "platformRecommendationProb": 0.72,
+    "personaStability": 8.750,
+    "cooperationReputation": 9.200,
+    "commentQuality": 8.900,
+    "contentInnovation": 8.500,
+    "platformIndex": 9.100,
+    "platformRecommendationProb": 0.720,
     "scores": {
       "adaptability_score": 85,
       "influence_score": 92,
@@ -44,8 +44,8 @@
       "母婴种草效果强"
     ],
     "priceRange": "高",
-    "priceMin": 45000,
-    "priceMax": 65000,
+    "priceMin": 45000.00,
+    "priceMax": 65000.00,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -82,12 +82,12 @@
       "家居装修测评",
       "育儿观念分享"
     ],
-    "personaStability": 8.20,
-    "cooperationReputation": 8.80,
-    "commentQuality": 8.60,
-    "contentInnovation": 8.30,
-    "platformIndex": 8.90,
-    "platformRecommendationProb": 0.65,
+    "personaStability": 8.200,
+    "cooperationReputation": 8.800,
+    "commentQuality": 8.600,
+    "contentInnovation": 8.300,
+    "platformIndex": 8.900,
+    "platformRecommendationProb": 0.650,
     "scores": {
       "adaptability_score": 80,
       "influence_score": 87,
@@ -101,8 +101,8 @@
       "家居装修延伸领域"
     ],
     "priceRange": "中高",
-    "priceMin": 40000,
-    "priceMax": 58000,
+    "priceMin": 40000.00,
+    "priceMax": 58000.00,
     "verified": false,
     "contact": {
       "wechat": false,
@@ -140,12 +140,12 @@
       "亲子旅行",
       "宠妻账号"
     ],
-    "personaStability": 8.3,
-    "cooperationReputation": 8.8,
-    "commentQuality": 8.5,
-    "contentInnovation": 8.2,
-    "platformIndex": 8.7,
-    "platformRecommendationProb": 0.66,
+    "personaStability": 8.300,
+    "cooperationReputation": 8.800,
+    "commentQuality": 8.500,
+    "contentInnovation": 8.200,
+    "platformIndex": 8.700,
+    "platformRecommendationProb": 0.660,
     "scores": {
       "adaptability_score": 82,
       "influence_score": 86,
@@ -159,8 +159,8 @@
       "多品牌深度合作"
     ],
     "priceRange": "中高",
-    "priceMin": 38000,
-    "priceMax": 55000,
+    "priceMin": 38000.00,
+    "priceMax": 55000.00,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -197,12 +197,12 @@
       "国际选品",
       "松弛感育儿"
     ],
-    "personaStability": 8.9,
-    "cooperationReputation": 9.1,
-    "commentQuality": 8.7,
-    "contentInnovation": 8.6,
-    "platformIndex": 9.0,
-    "platformRecommendationProb": 0.72,
+    "personaStability": 8.900,
+    "cooperationReputation": 9.100,
+    "commentQuality": 8.700,
+    "contentInnovation": 8.600,
+    "platformIndex": 9.000,
+    "platformRecommendationProb": 0.720,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 91,
@@ -216,8 +216,8 @@
       "深度品牌合作"
     ],
     "priceRange": "中高",
-    "priceMin": 36000,
-    "priceMax": 52000,
+    "priceMin": 36000.00,
+    "priceMax": 52000.00,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -254,12 +254,12 @@
       "美妆母婴结合",
       "生活感账号"
     ],
-    "personaStability": 8.1,
-    "cooperationReputation": 8.9,
-    "commentQuality": 8.4,
-    "contentInnovation": 8.8,
-    "platformIndex": 9.2,
-    "platformRecommendationProb": 0.78,
+    "personaStability": 8.100,
+    "cooperationReputation": 8.900,
+    "commentQuality": 8.400,
+    "contentInnovation": 8.800,
+    "platformIndex": 9.200,
+    "platformRecommendationProb": 0.780,
     "scores": {
       "adaptability_score": 85,
       "influence_score": 93,
@@ -273,8 +273,8 @@
       "高互动爆款频出"
     ],
     "priceRange": "中高",
-    "priceMin": 35000,
-    "priceMax": 48000,
+    "priceMin": 35000.00,
+    "priceMax": 48000.00,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -312,12 +312,12 @@
       "产后恢复",
       "高知家庭"
     ],
-    "personaStability": 8.9,
-    "cooperationReputation": 9.3,
-    "commentQuality": 8.8,
-    "contentInnovation": 8.6,
-    "platformIndex": 9.0,
-    "platformRecommendationProb": 0.75,
+    "personaStability": 8.900,
+    "cooperationReputation": 9.300,
+    "commentQuality": 8.800,
+    "contentInnovation": 8.600,
+    "platformIndex": 9.000,
+    "platformRecommendationProb": 0.750,
     "scores": {
       "adaptability_score": 87,
       "influence_score": 90,
@@ -331,8 +331,8 @@
       "产后恢复垂类爆款"
     ],
     "priceRange": "中高",
-    "priceMin": 32000,
-    "priceMax": 46000,
+    "priceMin": 32000.00,
+    "priceMax": 46000.00,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -370,12 +370,12 @@
       "家庭幸福感",
       "旅行育儿"
     ],
-    "personaStability": 8.6,
-    "cooperationReputation": 9.1,
-    "commentQuality": 8.7,
-    "contentInnovation": 8.9,
-    "platformIndex": 9.3,
-    "platformRecommendationProb": 0.80,
+    "personaStability": 8.600,
+    "cooperationReputation": 9.100,
+    "commentQuality": 8.700,
+    "contentInnovation": 8.900,
+    "platformIndex": 9.300,
+    "platformRecommendationProb": 0.800,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 94,
@@ -389,8 +389,8 @@
       "家庭场景内容丰富"
     ],
     "priceRange": "中高",
-    "priceMin": 32000,
-    "priceMax": 46000,
+    "priceMin": 32000.00,
+    "priceMax": 46000.00,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -426,12 +426,12 @@
       "家居买手",
       "母婴干货输出"
     ],
-    "personaStability": 9.1,
-    "cooperationReputation": 9.0,
-    "commentQuality": 8.8,
-    "contentInnovation": 8.9,
-    "platformIndex": 9.2,
-    "platformRecommendationProb": 0.78,
+    "personaStability": 9.100,
+    "cooperationReputation": 9.000,
+    "commentQuality": 8.800,
+    "contentInnovation": 8.900,
+    "platformIndex": 9.200,
+    "platformRecommendationProb": 0.780,
     "scores": {
       "adaptability_score": 89,
       "influence_score": 90,
@@ -445,8 +445,8 @@
       "专业母婴测评内容"
     ],
     "priceRange": "中高",
-    "priceMin": 32000,
-    "priceMax": 45000,
+    "priceMin": 32000.00,
+    "priceMax": 45000.00,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -484,12 +484,12 @@
       "家庭氛围感",
       "中式保养"
     ],
-    "personaStability": 9.3,
-    "cooperationReputation": 9.2,
-    "commentQuality": 8.9,
-    "contentInnovation": 8.7,
-    "platformIndex": 9.0,
-    "platformRecommendationProb": 0.70,
+    "personaStability": 9.300,
+    "cooperationReputation": 9.200,
+    "commentQuality": 8.900,
+    "contentInnovation": 8.700,
+    "platformIndex": 9.000,
+    "platformRecommendationProb": 0.700,
     "scores": {
       "adaptability_score": 86,
       "influence_score": 91,
@@ -503,8 +503,8 @@
       "稳定的家庭育儿场景"
     ],
     "priceRange": "中高",
-    "priceMin": 32000,
-    "priceMax": 45000,
+    "priceMin": 32000.00,
+    "priceMax": 45000.00,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -541,12 +541,12 @@
       "学习用品测评",
       "生活干货"
     ],
-    "personaStability": 8.4,
-    "cooperationReputation": 8.7,
-    "commentQuality": 8.5,
-    "contentInnovation": 8.2,
-    "platformIndex": 8.8,
-    "platformRecommendationProb": 0.63,
+    "personaStability": 8.400,
+    "cooperationReputation": 8.700,
+    "commentQuality": 8.500,
+    "contentInnovation": 8.200,
+    "platformIndex": 8.800,
+    "platformRecommendationProb": 0.630,
     "scores": {
       "adaptability_score": 82,
       "influence_score": 85,
@@ -560,8 +560,8 @@
       "内容持续稳定更新"
     ],
     "priceRange": "中",
-    "priceMin": 28000,
-    "priceMax": 40000,
+    "priceMin": 28000.00,
+    "priceMax": 40000.00,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -599,12 +599,12 @@
       "减脂变美",
       "家庭生活"
     ],
-    "personaStability": 8.7,
-    "cooperationReputation": 9.0,
-    "commentQuality": 8.8,
-    "contentInnovation": 8.6,
-    "platformIndex": 9.1,
-    "platformRecommendationProb": 0.72,
+    "personaStability": 8.700,
+    "cooperationReputation": 9.000,
+    "commentQuality": 8.800,
+    "contentInnovation": 8.600,
+    "platformIndex": 9.100,
+    "platformRecommendationProb": 0.720,
     "scores": {
       "adaptability_score": 85,
       "influence_score": 90,
@@ -618,8 +618,8 @@
       "家庭互动高"
     ],
     "priceRange": "中高",
-    "priceMin": 26000,
-    "priceMax": 38000,
+    "priceMin": 26000.00,
+    "priceMax": 38000.00,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -657,12 +657,12 @@
       "职场女性",
       "家庭成长"
     ],
-    "personaStability": 8.5,
-    "cooperationReputation": 8.9,
-    "commentQuality": 8.6,
-    "contentInnovation": 8.3,
-    "platformIndex": 8.7,
-    "platformRecommendationProb": 0.68,
+    "personaStability": 8.500,
+    "cooperationReputation": 8.900,
+    "commentQuality": 8.600,
+    "contentInnovation": 8.300,
+    "platformIndex": 8.700,
+    "platformRecommendationProb": 0.680,
     "scores": {
       "adaptability_score": 82,
       "influence_score": 86,
@@ -676,8 +676,8 @@
       "育儿观点深度化"
     ],
     "priceRange": "中",
-    "priceMin": 26000,
-    "priceMax": 38000,
+    "priceMin": 26000.00,
+    "priceMax": 38000.00,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -714,12 +714,12 @@
       "四口之家",
       "自然养育"
     ],
-    "personaStability": 8.9,
-    "cooperationReputation": 9.1,
-    "commentQuality": 8.7,
-    "contentInnovation": 8.6,
-    "platformIndex": 9.0,
-    "platformRecommendationProb": 0.70,
+    "personaStability": 8.900,
+    "cooperationReputation": 9.100,
+    "commentQuality": 8.700,
+    "contentInnovation": 8.600,
+    "platformIndex": 9.000,
+    "platformRecommendationProb": 0.700,
     "scores": {
       "adaptability_score": 86,
       "influence_score": 88,
@@ -733,8 +733,8 @@
       "全家可出镜表现力强"
     ],
     "priceRange": "中",
-    "priceMin": 26000,
-    "priceMax": 38000,
+    "priceMin": 26000.00,
+    "priceMax": 38000.00,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -772,12 +772,12 @@
       "清华进修",
       "孕产干货"
     ],
-    "personaStability": 8.6,
-    "cooperationReputation": 8.9,
-    "commentQuality": 8.5,
-    "contentInnovation": 8.4,
-    "platformIndex": 8.8,
-    "platformRecommendationProb": 0.65,
+    "personaStability": 8.600,
+    "cooperationReputation": 8.900,
+    "commentQuality": 8.500,
+    "contentInnovation": 8.400,
+    "platformIndex": 8.800,
+    "platformRecommendationProb": 0.650,
     "scores": {
       "adaptability_score": 83,
       "influence_score": 87,
@@ -791,8 +791,8 @@
       "孕产垂类输出稳定"
     ],
     "priceRange": "中",
-    "priceMin": 26000,
-    "priceMax": 38000,
+    "priceMin": 26000.00,
+    "priceMax": 38000.00,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -829,12 +829,12 @@
       "精致生活",
       "自然探索"
     ],
-    "personaStability": 9.2,
-    "cooperationReputation": 9.3,
-    "commentQuality": 8.9,
-    "contentInnovation": 9.1,
-    "platformIndex": 9.4,
-    "platformRecommendationProb": 0.82,
+    "personaStability": 9.200,
+    "cooperationReputation": 9.300,
+    "commentQuality": 8.900,
+    "contentInnovation": 9.100,
+    "platformIndex": 9.400,
+    "platformRecommendationProb": 0.820,
     "scores": {
       "adaptability_score": 90,
       "influence_score": 94,
@@ -848,8 +848,8 @@
       "高颜值家庭号表现强"
     ],
     "priceRange": "中高",
-    "priceMin": 26000,
-    "priceMax": 38000,
+    "priceMin": 26000.00,
+    "priceMax": 38000.00,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -887,12 +887,12 @@
       "居家好物",
       "体验式育儿"
     ],
-    "personaStability": 8.8,
-    "cooperationReputation": 9.1,
-    "commentQuality": 8.5,
-    "contentInnovation": 8.4,
-    "platformIndex": 8.9,
-    "platformRecommendationProb": 0.68,
+    "personaStability": 8.800,
+    "cooperationReputation": 9.100,
+    "commentQuality": 8.500,
+    "contentInnovation": 8.400,
+    "platformIndex": 8.900,
+    "platformRecommendationProb": 0.680,
     "scores": {
       "adaptability_score": 84,
       "influence_score": 88,
@@ -906,8 +906,8 @@
       "测评系列化持续输出"
     ],
     "priceRange": "中",
-    "priceMin": 26000,
-    "priceMax": 36800,
+    "priceMin": 26000.00,
+    "priceMax": 36800.00,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -945,12 +945,12 @@
       "职场辣妈",
       "选品专业"
     ],
-    "personaStability": 8.7,
-    "cooperationReputation": 9.0,
-    "commentQuality": 8.8,
-    "contentInnovation": 8.6,
-    "platformIndex": 9.0,
-    "platformRecommendationProb": 0.72,
+    "personaStability": 8.700,
+    "cooperationReputation": 9.000,
+    "commentQuality": 8.800,
+    "contentInnovation": 8.600,
+    "platformIndex": 9.000,
+    "platformRecommendationProb": 0.720,
     "scores": {
       "adaptability_score": 85,
       "influence_score": 89,
@@ -964,8 +964,8 @@
       "选品内容转化率高"
     ],
     "priceRange": "中",
-    "priceMin": 25000,
-    "priceMax": 35000,
+    "priceMin": 25000.00,
+    "priceMax": 35000.00,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -1002,12 +1002,12 @@
       "选品专家",
       "混合喂养"
     ],
-    "personaStability": 8.9,
-    "cooperationReputation": 9.2,
-    "commentQuality": 8.7,
-    "contentInnovation": 8.8,
-    "platformIndex": 9.1,
-    "platformRecommendationProb": 0.74,
+    "personaStability": 8.900,
+    "cooperationReputation": 9.200,
+    "commentQuality": 8.700,
+    "contentInnovation": 8.800,
+    "platformIndex": 9.100,
+    "platformRecommendationProb": 0.740,
     "scores": {
       "adaptability_score": 87,
       "influence_score": 90,
@@ -1021,8 +1021,8 @@
       "广告拍摄场景丰富"
     ],
     "priceRange": "中",
-    "priceMin": 25000,
-    "priceMax": 35000,
+    "priceMin": 25000.00,
+    "priceMax": 35000.00,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -1060,12 +1060,12 @@
       "高效生活",
       "零食日常"
     ],
-    "personaStability": 8.8,
-    "cooperationReputation": 9.0,
-    "commentQuality": 8.6,
-    "contentInnovation": 8.5,
-    "platformIndex": 8.9,
-    "platformRecommendationProb": 0.69,
+    "personaStability": 8.800,
+    "cooperationReputation": 9.000,
+    "commentQuality": 8.600,
+    "contentInnovation": 8.500,
+    "platformIndex": 8.900,
+    "platformRecommendationProb": 0.690,
     "scores": {
       "adaptability_score": 84,
       "influence_score": 87,
@@ -1079,8 +1079,8 @@
       "母婴与生活兼容性强"
     ],
     "priceRange": "中",
-    "priceMin": 21000,
-    "priceMax": 30000,
+    "priceMin": 21000.00,
+    "priceMax": 30000.00,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -1117,12 +1117,12 @@
       "亲子互动",
       "学习好物"
     ],
-    "personaStability": 8.9,
-    "cooperationReputation": 9.1,
-    "commentQuality": 8.6,
-    "contentInnovation": 8.7,
-    "platformIndex": 9.0,
-    "platformRecommendationProb": 0.70,
+    "personaStability": 8.900,
+    "cooperationReputation": 9.100,
+    "commentQuality": 8.600,
+    "contentInnovation": 8.700,
+    "platformIndex": 9.000,
+    "platformRecommendationProb": 0.700,
     "scores": {
       "adaptability_score": 85,
       "influence_score": 88,
@@ -1136,8 +1136,8 @@
       "户外旅游素材丰富"
     ],
     "priceRange": "中",
-    "priceMin": 21000,
-    "priceMax": 30000,
+    "priceMin": 21000.00,
+    "priceMax": 30000.00,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -1175,12 +1175,12 @@
       "海归妈妈",
       "宠妻日常"
     ],
-    "personaStability": 8.5,
-    "cooperationReputation": 9.0,
-    "commentQuality": 8.7,
-    "contentInnovation": 8.6,
-    "platformIndex": 8.9,
-    "platformRecommendationProb": 0.69,
+    "personaStability": 8.500,
+    "cooperationReputation": 9.000,
+    "commentQuality": 8.700,
+    "contentInnovation": 8.600,
+    "platformIndex": 8.900,
+    "platformRecommendationProb": 0.690,
     "scores": {
       "adaptability_score": 84,
       "influence_score": 87,
@@ -1194,8 +1194,8 @@
       "混血宝宝高话题性"
     ],
     "priceRange": "中",
-    "priceMin": 22000,
-    "priceMax": 30000,
+    "priceMin": 22000.00,
+    "priceMax": 30000.00,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -1232,12 +1232,12 @@
       "高知家庭",
       "育婴师妈妈"
     ],
-    "personaStability": 9.1,
-    "cooperationReputation": 9.3,
-    "commentQuality": 8.9,
-    "contentInnovation": 8.7,
-    "platformIndex": 9.2,
-    "platformRecommendationProb": 0.76,
+    "personaStability": 9.100,
+    "cooperationReputation": 9.300,
+    "commentQuality": 8.900,
+    "contentInnovation": 8.700,
+    "platformIndex": 9.200,
+    "platformRecommendationProb": 0.760,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 92,
@@ -1251,8 +1251,8 @@
       "家庭场景丰富"
     ],
     "priceRange": "中",
-    "priceMin": 20000,
-    "priceMax": 28000,
+    "priceMin": 20000.00,
+    "priceMax": 28000.00,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -1290,12 +1290,12 @@
       "产后变美",
       "育婴师家庭"
     ],
-    "personaStability": 8.4,
-    "cooperationReputation": 8.8,
-    "commentQuality": 8.5,
-    "contentInnovation": 8.3,
-    "platformIndex": 8.6,
-    "platformRecommendationProb": 0.63,
+    "personaStability": 8.400,
+    "cooperationReputation": 8.800,
+    "commentQuality": 8.500,
+    "contentInnovation": 8.300,
+    "platformIndex": 8.600,
+    "platformRecommendationProb": 0.630,
     "scores": {
       "adaptability_score": 80,
       "influence_score": 84,
@@ -1309,8 +1309,8 @@
       "家庭出镜自然"
     ],
     "priceRange": "中",
-    "priceMin": 22000,
-    "priceMax": 28000,
+    "priceMin": 22000.00,
+    "priceMax": 28000.00,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -1347,12 +1347,12 @@
       "AI高效带娃",
       "家装干货"
     ],
-    "personaStability": 8.9,
-    "cooperationReputation": 9.0,
-    "commentQuality": 8.6,
-    "contentInnovation": 8.8,
-    "platformIndex": 9.0,
-    "platformRecommendationProb": 0.71,
+    "personaStability": 8.900,
+    "cooperationReputation": 9.000,
+    "commentQuality": 8.600,
+    "contentInnovation": 8.800,
+    "platformIndex": 9.000,
+    "platformRecommendationProb": 0.710,
     "scores": {
       "adaptability_score": 86,
       "influence_score": 88,
@@ -1366,8 +1366,8 @@
       "家装与母婴融合内容独特"
     ],
     "priceRange": "中低",
-    "priceMin": 18000,
-    "priceMax": 25000,
+    "priceMin": 18000.00,
+    "priceMax": 25000.00,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -1404,12 +1404,12 @@
       "女性健康",
       "富养家庭"
     ],
-    "personaStability": 8.8,
-    "cooperationReputation": 9.1,
-    "commentQuality": 8.7,
-    "contentInnovation": 8.9,
-    "platformIndex": 9.2,
-    "platformRecommendationProb": 0.77,
+    "personaStability": 8.800,
+    "cooperationReputation": 9.100,
+    "commentQuality": 8.700,
+    "contentInnovation": 8.900,
+    "platformIndex": 9.200,
+    "platformRecommendationProb": 0.770,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 91,
@@ -1423,8 +1423,8 @@
       "视觉内容精致"
     ],
     "priceRange": "中低",
-    "priceMin": 16000,
-    "priceMax": 23000,
+    "priceMin": 16000.00,
+    "priceMax": 23000.00,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -1451,6 +1451,7 @@
     "followersCount": 1166478225,
     "avgViews": 46400,
     "engagementRate": 3.42,
+    "completionRate": null,
     "publishFrequency30d": 12,
     "publishFrequency90d": 36,
     "explosiveContentCount": 3,
@@ -1461,12 +1462,12 @@
       "产后恢复",
       "科学育儿"
     ],
-    "personaStability": 8.3,
-    "cooperationReputation": 8.7,
-    "commentQuality": 8.5,
-    "contentInnovation": 8.4,
-    "platformIndex": 8.6,
-    "platformRecommendationProb": 0.62,
+    "personaStability": 8.300,
+    "cooperationReputation": 8.700,
+    "commentQuality": 8.500,
+    "contentInnovation": 8.400,
+    "platformIndex": 8.600,
+    "platformRecommendationProb": 0.620,
     "scores": {
       "adaptability_score": 80,
       "influence_score": 83,
@@ -1480,9 +1481,14 @@
       "产后恢复类品牌高度契合"
     ],
     "priceRange": "中低",
-    "priceMin": 16000,
-    "priceMax": 22000,
+    "priceMin": 16000.00,
+    "priceMax": 22000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "佳贝艾特 – 曝光：147w+；互动：4w+"
     ]
@@ -1502,6 +1508,7 @@
     "followersCount": 347199340,
     "avgViews": 52240,
     "engagementRate": 6.83,
+    "completionRate": null,
     "publishFrequency30d": 14,
     "publishFrequency90d": 42,
     "explosiveContentCount": 4,
@@ -1512,12 +1519,12 @@
       "幸福家庭",
       "夫妻陪产"
     ],
-    "personaStability": 8.6,
-    "cooperationReputation": 8.9,
-    "commentQuality": 8.6,
-    "contentInnovation": 8.5,
-    "platformIndex": 8.8,
-    "platformRecommendationProb": 0.68,
+    "personaStability": 8.600,
+    "cooperationReputation": 8.900,
+    "commentQuality": 8.600,
+    "contentInnovation": 8.500,
+    "platformIndex": 8.800,
+    "platformRecommendationProb": 0.680,
     "scores": {
       "adaptability_score": 83,
       "influence_score": 86,
@@ -1531,9 +1538,14 @@
       "家庭陪产系列话题热度高"
     ],
     "priceRange": "中低",
-    "priceMin": 15000,
-    "priceMax": 20000,
+    "priceMin": 15000.00,
+    "priceMax": 20000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "老公陪产 – 曝光：132w+；互动：6.1w+"
     ]
@@ -1554,6 +1566,7 @@
     "followersCount": 9617683061,
     "avgViews": 48180,
     "engagementRate": 11.66,
+    "completionRate": null,
     "publishFrequency30d": 15,
     "publishFrequency90d": 44,
     "explosiveContentCount": 5,
@@ -1564,12 +1577,12 @@
       "月嫂团队",
       "高品质生活"
     ],
-    "personaStability": 8.9,
-    "cooperationReputation": 9.1,
-    "commentQuality": 8.8,
-    "contentInnovation": 8.7,
-    "platformIndex": 9.1,
-    "platformRecommendationProb": 0.74,
+    "personaStability": 8.900,
+    "cooperationReputation": 9.100,
+    "commentQuality": 8.800,
+    "contentInnovation": 8.700,
+    "platformIndex": 9.100,
+    "platformRecommendationProb": 0.740,
     "scores": {
       "adaptability_score": 87,
       "influence_score": 90,
@@ -1583,9 +1596,14 @@
       "月子期垂类匹配度高"
     ],
     "priceRange": "中低",
-    "priceMin": 15000,
-    "priceMax": 20000,
+    "priceMin": 15000.00,
+    "priceMax": 20000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "期待合作，共创爆款！"
     ]
@@ -1605,6 +1623,7 @@
     "followersCount": 647263434,
     "avgViews": 115700,
     "engagementRate": 9.54,
+    "completionRate": null,
     "publishFrequency30d": 12,
     "publishFrequency90d": 33,
     "explosiveContentCount": 4,
@@ -1615,12 +1634,12 @@
       "晚婚妈妈",
       "幸福主义"
     ],
-    "personaStability": 9.0,
-    "cooperationReputation": 9.2,
-    "commentQuality": 8.9,
-    "contentInnovation": 8.7,
-    "platformIndex": 9.1,
-    "platformRecommendationProb": 0.73,
+    "personaStability": 9.000,
+    "cooperationReputation": 9.200,
+    "commentQuality": 8.900,
+    "contentInnovation": 8.700,
+    "platformIndex": 9.100,
+    "platformRecommendationProb": 0.730,
     "scores": {
       "adaptability_score": 87,
       "influence_score": 91,
@@ -1634,9 +1653,14 @@
       "内容情绪价值高"
     ],
     "priceRange": "中低",
-    "priceMin": 15000,
-    "priceMax": 20000,
+    "priceMin": 15000.00,
+    "priceMax": 20000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "期待合作，共创爆款！"
     ]
@@ -1656,6 +1680,7 @@
     "followersCount": 271088449,
     "avgViews": 69020,
     "engagementRate": 5.83,
+    "completionRate": null,
     "publishFrequency30d": 10,
     "publishFrequency90d": 31,
     "explosiveContentCount": 3,
@@ -1666,12 +1691,12 @@
       "幼师背景",
       "松弛育儿"
     ],
-    "personaStability": 8.7,
-    "cooperationReputation": 9.0,
-    "commentQuality": 8.6,
-    "contentInnovation": 8.5,
-    "platformIndex": 8.8,
-    "platformRecommendationProb": 0.69,
+    "personaStability": 8.700,
+    "cooperationReputation": 9.000,
+    "commentQuality": 8.600,
+    "contentInnovation": 8.500,
+    "platformIndex": 8.800,
+    "platformRecommendationProb": 0.690,
     "scores": {
       "adaptability_score": 83,
       "influence_score": 86,
@@ -1685,9 +1710,14 @@
       "孕晚期群体匹配度高"
     ],
     "priceRange": "中低",
-    "priceMin": 15000,
-    "priceMax": 20000,
+    "priceMin": 15000.00,
+    "priceMax": 20000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "期待合作，共创爆款！"
     ]
@@ -1707,6 +1737,7 @@
     "followersCount": 271083969,
     "avgViews": 1074920,
     "engagementRate": 51.20,
+    "completionRate": null,
     "publishFrequency30d": 22,
     "publishFrequency90d": 63,
     "explosiveContentCount": 8,
@@ -1717,12 +1748,12 @@
       "户外玩家",
       "高净值消费群体"
     ],
-    "personaStability": 9.0,
-    "cooperationReputation": 9.3,
-    "commentQuality": 8.8,
-    "contentInnovation": 9.0,
-    "platformIndex": 9.3,
-    "platformRecommendationProb": 0.78,
+    "personaStability": 9.000,
+    "cooperationReputation": 9.300,
+    "commentQuality": 8.800,
+    "contentInnovation": 9.000,
+    "platformIndex": 9.300,
+    "platformRecommendationProb": 0.780,
     "scores": {
       "adaptability_score": 89,
       "influence_score": 92,
@@ -1736,9 +1767,14 @@
       "品牌调性高度契合"
     ],
     "priceRange": "高",
-    "priceMin": 50000,
-    "priceMax": 68000,
+    "priceMin": 50000.00,
+    "priceMax": 68000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "科颜氏防晒 – 曝光：1007w+；互动：1.3w+",
       "希思黎乳液 – 曝光：700w+；互动：4w+"
@@ -1759,6 +1795,7 @@
     "followersCount": 560391681,
     "avgViews": 3318540,
     "engagementRate": 84.15,
+    "completionRate": null,
     "publishFrequency30d": 24,
     "publishFrequency90d": 70,
     "explosiveContentCount": 10,
@@ -1769,12 +1806,12 @@
       "生活方式",
       "护发达人"
     ],
-    "personaStability": 9.2,
-    "cooperationReputation": 9.4,
-    "commentQuality": 9.0,
-    "contentInnovation": 9.1,
-    "platformIndex": 9.4,
-    "platformRecommendationProb": 0.81,
+    "personaStability": 9.200,
+    "cooperationReputation": 9.400,
+    "commentQuality": 9.000,
+    "contentInnovation": 9.100,
+    "platformIndex": 9.400,
+    "platformRecommendationProb": 0.810,
     "scores": {
       "adaptability_score": 91,
       "influence_score": 95,
@@ -1788,9 +1825,14 @@
       "适配高端护肤品牌"
     ],
     "priceRange": "高",
-    "priceMin": 48000,
-    "priceMax": 65000,
+    "priceMin": 48000.00,
+    "priceMax": 65000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "SINSIN防晒衣 – 曝光：2296w+；互动：15.7w+",
       "赛逸洗发水 – 曝光：96w+；互动：1.8w+"
@@ -1811,6 +1853,7 @@
     "followersCount": 278787831,
     "avgViews": 580590,
     "engagementRate": 71.58,
+    "completionRate": null,
     "publishFrequency30d": 18,
     "publishFrequency90d": 52,
     "explosiveContentCount": 6,
@@ -1821,12 +1864,12 @@
       "时尚达人",
       "高奢合作"
     ],
-    "personaStability": 9.1,
-    "cooperationReputation": 9.3,
-    "commentQuality": 8.9,
-    "contentInnovation": 8.8,
-    "platformIndex": 9.2,
-    "platformRecommendationProb": 0.75,
+    "personaStability": 9.100,
+    "cooperationReputation": 9.300,
+    "commentQuality": 8.900,
+    "contentInnovation": 8.800,
+    "platformIndex": 9.200,
+    "platformRecommendationProb": 0.750,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 91,
@@ -1840,9 +1883,14 @@
       "品牌契合度高"
     ],
     "priceRange": "高",
-    "priceMin": 42000,
-    "priceMax": 60000,
+    "priceMin": 42000.00,
+    "priceMax": 60000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "SINSIN防晒衣 – 曝光：20w+；互动：2w+"
     ]
@@ -1862,6 +1910,7 @@
     "followersCount": 271019982,
     "avgViews": 1039050,
     "engagementRate": 78.47,
+    "completionRate": null,
     "publishFrequency30d": 20,
     "publishFrequency90d": 55,
     "explosiveContentCount": 7,
@@ -1872,12 +1921,12 @@
       "海外生活",
       "美妆测评"
     ],
-    "personaStability": 9.3,
-    "cooperationReputation": 9.4,
-    "commentQuality": 9.0,
-    "contentInnovation": 9.2,
-    "platformIndex": 9.4,
-    "platformRecommendationProb": 0.79,
+    "personaStability": 9.300,
+    "cooperationReputation": 9.400,
+    "commentQuality": 9.000,
+    "contentInnovation": 9.200,
+    "platformIndex": 9.400,
+    "platformRecommendationProb": 0.790,
     "scores": {
       "adaptability_score": 90,
       "influence_score": 94,
@@ -1891,9 +1940,14 @@
       "抗老干货具说服力"
     ],
     "priceRange": "高",
-    "priceMin": 45000,
-    "priceMax": 60000,
+    "priceMin": 45000.00,
+    "priceMax": 60000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "YSL熬夜双精华 – 曝光：3654w+；互动：4.9w+",
       "娇韵诗双萃精华 – 曝光：414w+；互动：1.6w+"
@@ -1914,6 +1968,7 @@
     "followersCount": 299566303,
     "avgViews": 1173030,
     "engagementRate": 19.59,
+    "completionRate": null,
     "publishFrequency30d": 21,
     "publishFrequency90d": 58,
     "explosiveContentCount": 9,
@@ -1924,12 +1979,12 @@
       "医美实测",
       "素颜养成"
     ],
-    "personaStability": 9.2,
-    "cooperationReputation": 9.5,
-    "commentQuality": 9.1,
-    "contentInnovation": 9.3,
-    "platformIndex": 9.5,
-    "platformRecommendationProb": 0.83,
+    "personaStability": 9.200,
+    "cooperationReputation": 9.500,
+    "commentQuality": 9.100,
+    "contentInnovation": 9.300,
+    "platformIndex": 9.500,
+    "platformRecommendationProb": 0.830,
     "scores": {
       "adaptability_score": 92,
       "influence_score": 96,
@@ -1943,9 +1998,14 @@
       "适配高端医美护肤品牌"
     ],
     "priceRange": "高",
-    "priceMin": 42000,
-    "priceMax": 58000,
+    "priceMin": 42000.00,
+    "priceMax": 58000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "倩碧眼霜 – 曝光：230w+；互动：1.1w+",
       "Olay超白瓶身体乳 – 曝光：251w+；互动：1.6w+"
@@ -1966,6 +2026,7 @@
     "followersCount": 629555569,
     "avgViews": 767840,
     "engagementRate": 90.78,
+    "completionRate": null,
     "publishFrequency30d": 20,
     "publishFrequency90d": 58,
     "explosiveContentCount": 7,
@@ -1976,12 +2037,12 @@
       "普女逆袭",
       "时尚驾驭"
     ],
-    "personaStability": 9.0,
-    "cooperationReputation": 9.3,
-    "commentQuality": 8.8,
-    "contentInnovation": 9.0,
-    "platformIndex": 9.2,
-    "platformRecommendationProb": 0.76,
+    "personaStability": 9.000,
+    "cooperationReputation": 9.300,
+    "commentQuality": 8.800,
+    "contentInnovation": 9.000,
+    "platformIndex": 9.200,
+    "platformRecommendationProb": 0.760,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 91,
@@ -1995,9 +2056,14 @@
       "大牌合作稳定复投"
     ],
     "priceRange": "高",
-    "priceMin": 48000,
-    "priceMax": 58000,
+    "priceMin": 48000.00,
+    "priceMax": 58000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "淘宝618 – 曝光：67w+；互动：4.9w+",
       "海蓝之谜面霜 – 曝光：1125w+；互动：5.7k+"
@@ -2018,6 +2084,7 @@
     "followersCount": 389620833,
     "avgViews": 1569490,
     "engagementRate": 66.48,
+    "completionRate": null,
     "publishFrequency30d": 26,
     "publishFrequency90d": 73,
     "explosiveContentCount": 10,
@@ -2028,12 +2095,12 @@
       "创意彩妆",
       "爆款制造机"
     ],
-    "personaStability": 9.1,
-    "cooperationReputation": 9.4,
-    "commentQuality": 9.0,
-    "contentInnovation": 9.5,
-    "platformIndex": 9.5,
-    "platformRecommendationProb": 0.84,
+    "personaStability": 9.100,
+    "cooperationReputation": 9.400,
+    "commentQuality": 9.000,
+    "contentInnovation": 9.500,
+    "platformIndex": 9.500,
+    "platformRecommendationProb": 0.840,
     "scores": {
       "adaptability_score": 93,
       "influence_score": 96,
@@ -2047,9 +2114,14 @@
       "品牌曝光转化率高"
     ],
     "priceRange": "高",
-    "priceMin": 42000,
-    "priceMax": 58000,
+    "priceMin": 42000.00,
+    "priceMax": 58000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "优色林光引精华 – 曝光：518w+；互动：6.4w+",
       "薇婷脱毛膏 – 曝光：146w+；互动：15.7w+"
@@ -2070,6 +2142,7 @@
     "followersCount": 709971237,
     "avgViews": 933080,
     "engagementRate": 77.32,
+    "completionRate": null,
     "publishFrequency30d": 18,
     "publishFrequency90d": 55,
     "explosiveContentCount": 6,
@@ -2080,12 +2153,12 @@
       "形体管理",
       "大气高级感"
     ],
-    "personaStability": 9.2,
-    "cooperationReputation": 9.4,
-    "commentQuality": 9.0,
-    "contentInnovation": 8.9,
-    "platformIndex": 9.3,
-    "platformRecommendationProb": 0.78,
+    "personaStability": 9.200,
+    "cooperationReputation": 9.400,
+    "commentQuality": 9.000,
+    "contentInnovation": 8.900,
+    "platformIndex": 9.300,
+    "platformRecommendationProb": 0.780,
     "scores": {
       "adaptability_score": 90,
       "influence_score": 92,
@@ -2099,9 +2172,14 @@
       "护发垂类表现出色"
     ],
     "priceRange": "高",
-    "priceMin": 38000,
-    "priceMax": 52000,
+    "priceMin": 38000.00,
+    "priceMax": 52000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "云南白药养元青 – 曝光：66w+；互动：1w+",
       "馥绿德雅 – 曝光：297w+；互动：1.3w+"
@@ -2122,6 +2200,7 @@
     "followersCount": 602411621,
     "avgViews": 302630,
     "engagementRate": 34.65,
+    "completionRate": null,
     "publishFrequency30d": 15,
     "publishFrequency90d": 45,
     "explosiveContentCount": 5,
@@ -2132,12 +2211,12 @@
       "do脸圈",
       "生活方式"
     ],
-    "personaStability": 9.1,
-    "cooperationReputation": 9.5,
-    "commentQuality": 9.1,
-    "contentInnovation": 8.8,
-    "platformIndex": 9.3,
-    "platformRecommendationProb": 0.77,
+    "personaStability": 9.100,
+    "cooperationReputation": 9.500,
+    "commentQuality": 9.100,
+    "contentInnovation": 8.800,
+    "platformIndex": 9.300,
+    "platformRecommendationProb": 0.770,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 90,
@@ -2151,9 +2230,14 @@
       "高端品牌合作占比大"
     ],
     "priceRange": "中高",
-    "priceMin": 38000,
-    "priceMax": 50000,
+    "priceMin": 38000.00,
+    "priceMax": 50000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "雅诗兰黛 – 曝光：803w+；互动：2.3w+",
       "YSL圣罗兰 – 曝光：490w+；互动：2.6k+"
@@ -2174,6 +2258,7 @@
     "followersCount": 150316471,
     "avgViews": 1137550,
     "engagementRate": 84.75,
+    "completionRate": null,
     "publishFrequency30d": 19,
     "publishFrequency90d": 54,
     "explosiveContentCount": 7,
@@ -2184,12 +2269,12 @@
       "祛痘达人",
       "美妆实用派"
     ],
-    "personaStability": 9.0,
-    "cooperationReputation": 9.3,
-    "commentQuality": 8.9,
-    "contentInnovation": 9.0,
-    "platformIndex": 9.2,
-    "platformRecommendationProb": 0.79,
+    "personaStability": 9.000,
+    "cooperationReputation": 9.300,
+    "commentQuality": 8.900,
+    "contentInnovation": 9.000,
+    "platformIndex": 9.200,
+    "platformRecommendationProb": 0.790,
     "scores": {
       "adaptability_score": 89,
       "influence_score": 92,
@@ -2203,9 +2288,14 @@
       "粉丝粘性强互动率高"
     ],
     "priceRange": "中高",
-    "priceMin": 38000,
-    "priceMax": 48000,
+    "priceMin": 38000.00,
+    "priceMax": 48000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "互联网技术 – 曝光：460w+；互动：35w+",
       "卷发棒挑选 – 曝光：26w+；互动：1.7w+"
@@ -2227,6 +2317,7 @@
     "followersCount": 1070530041,
     "avgViews": 996280,
     "engagementRate": 51.16,
+    "completionRate": null,
     "publishFrequency30d": 20,
     "publishFrequency90d": 56,
     "explosiveContentCount": 8,
@@ -2237,12 +2328,12 @@
       "生活方式",
       "精致姐姐"
     ],
-    "personaStability": 9.1,
-    "cooperationReputation": 9.4,
-    "commentQuality": 8.9,
-    "contentInnovation": 8.9,
-    "platformIndex": 9.3,
-    "platformRecommendationProb": 0.78,
+    "personaStability": 9.100,
+    "cooperationReputation": 9.400,
+    "commentQuality": 8.900,
+    "contentInnovation": 8.900,
+    "platformIndex": 9.300,
+    "platformRecommendationProb": 0.780,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 92,
@@ -2256,9 +2347,14 @@
       "适配高端护肤医美品牌"
     ],
     "priceRange": "中高",
-    "priceMin": 35000,
-    "priceMax": 48000,
+    "priceMin": 35000.00,
+    "priceMax": 48000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "赫莲娜黑绑带 – 曝光：728w+；互动：1.3w+",
       "希思黎全能乳液 – 曝光：1365w+；互动：8.7w+"
@@ -2279,6 +2375,7 @@
     "followersCount": 153938173,
     "avgViews": 625880,
     "engagementRate": 74.16,
+    "completionRate": null,
     "publishFrequency30d": 22,
     "publishFrequency90d": 64,
     "explosiveContentCount": 6,
@@ -2289,12 +2386,12 @@
       "海岛旅行",
       "运动女孩"
     ],
-    "personaStability": 8.9,
-    "cooperationReputation": 9.2,
-    "commentQuality": 8.8,
-    "contentInnovation": 9.1,
-    "platformIndex": 9.0,
-    "platformRecommendationProb": 0.74,
+    "personaStability": 8.900,
+    "cooperationReputation": 9.200,
+    "commentQuality": 8.800,
+    "contentInnovation": 9.100,
+    "platformIndex": 9.000,
+    "platformRecommendationProb": 0.740,
     "scores": {
       "adaptability_score": 86,
       "influence_score": 89,
@@ -2308,9 +2405,14 @@
       "多品类合作潜力强"
     ],
     "priceRange": "中高",
-    "priceMin": 35000,
-    "priceMax": 45000,
+    "priceMin": 35000.00,
+    "priceMax": 45000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "期待合作，共创爆款！"
     ]
@@ -2331,6 +2433,7 @@
     "followersCount": 538817761,
     "avgViews": 612950,
     "engagementRate": 44.37,
+    "completionRate": null,
     "publishFrequency30d": 18,
     "publishFrequency90d": 50,
     "explosiveContentCount": 6,
@@ -2341,12 +2444,12 @@
       "抗衰护理",
       "夫妻档内容"
     ],
-    "personaStability": 9.3,
-    "cooperationReputation": 9.5,
-    "commentQuality": 9.1,
-    "contentInnovation": 9.0,
-    "platformIndex": 9.4,
-    "platformRecommendationProb": 0.80,
+    "personaStability": 9.300,
+    "cooperationReputation": 9.500,
+    "commentQuality": 9.100,
+    "contentInnovation": 9.000,
+    "platformIndex": 9.400,
+    "platformRecommendationProb": 0.800,
     "scores": {
       "adaptability_score": 89,
       "influence_score": 93,
@@ -2360,9 +2463,14 @@
       "抗衰护理类契合高"
     ],
     "priceRange": "中高",
-    "priceMin": 32000,
-    "priceMax": 45000,
+    "priceMin": 32000.00,
+    "priceMax": 45000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "天猫88vip – 曝光：35w+；互动：1.3w+",
       "beautigo脱毛仪 – 曝光：295w+；互动：8.7w+"
@@ -2383,6 +2491,7 @@
     "followersCount": 384054610,
     "avgViews": 554120,
     "engagementRate": 91.70,
+    "completionRate": null,
     "publishFrequency30d": 20,
     "publishFrequency90d": 60,
     "explosiveContentCount": 7,
@@ -2393,12 +2502,12 @@
       "高专业度",
       "测评达人"
     ],
-    "personaStability": 9.2,
-    "cooperationReputation": 9.3,
-    "commentQuality": 9.0,
-    "contentInnovation": 8.9,
-    "platformIndex": 9.2,
-    "platformRecommendationProb": 0.77,
+    "personaStability": 9.200,
+    "cooperationReputation": 9.300,
+    "commentQuality": 9.000,
+    "contentInnovation": 8.900,
+    "platformIndex": 9.200,
+    "platformRecommendationProb": 0.770,
     "scores": {
       "adaptability_score": 87,
       "influence_score": 91,
@@ -2412,9 +2521,14 @@
       "口碑与互动率优异"
     ],
     "priceRange": "中高",
-    "priceMin": 32000,
-    "priceMax": 45000,
+    "priceMin": 32000.00,
+    "priceMax": 45000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "希思黎全能乳液 – 曝光：78w+；互动：1.5w+"
     ]
@@ -2435,6 +2549,7 @@
     "followersCount": 538846254,
     "avgViews": 393960,
     "engagementRate": 57.93,
+    "completionRate": null,
     "publishFrequency30d": 16,
     "publishFrequency90d": 46,
     "explosiveContentCount": 5,
@@ -2445,12 +2560,12 @@
       "户外旅行",
       "阳光帅气"
     ],
-    "personaStability": 8.8,
-    "cooperationReputation": 9.0,
-    "commentQuality": 8.7,
-    "contentInnovation": 8.8,
-    "platformIndex": 8.9,
-    "platformRecommendationProb": 0.73,
+    "personaStability": 8.800,
+    "cooperationReputation": 9.000,
+    "commentQuality": 8.700,
+    "contentInnovation": 8.800,
+    "platformIndex": 8.900,
+    "platformRecommendationProb": 0.730,
     "scores": {
       "adaptability_score": 85,
       "influence_score": 88,
@@ -2464,9 +2579,14 @@
       "品牌调性年轻化"
     ],
     "priceRange": "中高",
-    "priceMin": 35000,
-    "priceMax": 45000,
+    "priceMin": 35000.00,
+    "priceMax": 45000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "日常笔记爆款-造型 – 曝光：126w+；互动：6.8k+"
     ]
@@ -2486,6 +2606,7 @@
     "followersCount": 297818531,
     "avgViews": 388590,
     "engagementRate": 30.94,
+    "completionRate": null,
     "publishFrequency30d": 20,
     "publishFrequency90d": 52,
     "explosiveContentCount": 6,
@@ -2496,12 +2617,12 @@
       "正畸经验",
       "拍照达人"
     ],
-    "personaStability": 9.0,
-    "cooperationReputation": 9.2,
-    "commentQuality": 8.9,
-    "contentInnovation": 8.8,
-    "platformIndex": 9.1,
-    "platformRecommendationProb": 0.74,
+    "personaStability": 9.000,
+    "cooperationReputation": 9.200,
+    "commentQuality": 8.900,
+    "contentInnovation": 8.800,
+    "platformIndex": 9.100,
+    "platformRecommendationProb": 0.740,
     "scores": {
       "adaptability_score": 86,
       "influence_score": 89,
@@ -2515,9 +2636,14 @@
       "合作口碑良好"
     ],
     "priceRange": "中高",
-    "priceMin": 35000,
-    "priceMax": 45000,
+    "priceMin": 35000.00,
+    "priceMax": 45000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "OPPO手机 – 曝光：24w+；互动：2.6k+",
       "素颜拍照神器 – 曝光：207w+；互动：41w+"
@@ -2539,6 +2665,7 @@
     "followersCount": 4297777524,
     "avgViews": 498390,
     "engagementRate": 16.80,
+    "completionRate": null,
     "publishFrequency30d": 21,
     "publishFrequency90d": 60,
     "explosiveContentCount": 7,
@@ -2549,12 +2676,12 @@
       "东田化妆师",
       "爆款制造机"
     ],
-    "personaStability": 9.1,
-    "cooperationReputation": 9.4,
-    "commentQuality": 9.0,
-    "contentInnovation": 9.1,
-    "platformIndex": 9.3,
-    "platformRecommendationProb": 0.78,
+    "personaStability": 9.100,
+    "cooperationReputation": 9.400,
+    "commentQuality": 9.000,
+    "contentInnovation": 9.100,
+    "platformIndex": 9.300,
+    "platformRecommendationProb": 0.780,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 91,
@@ -2568,9 +2695,14 @@
       "观众粘性强"
     ],
     "priceRange": "中高",
-    "priceMin": 32000,
-    "priceMax": 42000,
+    "priceMin": 32000.00,
+    "priceMax": 42000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "舒芙刮毛刀 – 曝光：698w+；互动：6.6w+",
       "雅诗兰黛粉底液 – 曝光：220w+；互动：1w+"
@@ -2591,6 +2723,7 @@
     "followersCount": 460388201,
     "avgViews": 203980,
     "engagementRate": 14.56,
+    "completionRate": null,
     "publishFrequency30d": 17,
     "publishFrequency90d": 48,
     "explosiveContentCount": 5,
@@ -2601,12 +2734,12 @@
       "主持人背景",
       "韩系熟龄风"
     ],
-    "personaStability": 9.3,
-    "cooperationReputation": 9.4,
-    "commentQuality": 9.0,
-    "contentInnovation": 8.8,
-    "platformIndex": 9.2,
-    "platformRecommendationProb": 0.76,
+    "personaStability": 9.300,
+    "cooperationReputation": 9.400,
+    "commentQuality": 9.000,
+    "contentInnovation": 8.800,
+    "platformIndex": 9.200,
+    "platformRecommendationProb": 0.760,
     "scores": {
       "adaptability_score": 87,
       "influence_score": 90,
@@ -2620,9 +2753,14 @@
       "生活品质高调性契合"
     ],
     "priceRange": "中高",
-    "priceMin": 32000,
-    "priceMax": 42000,
+    "priceMin": 32000.00,
+    "priceMax": 42000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "Coppertone水宝宝 – 曝光：138w+；互动：11.7w+",
       "薇婷脱毛膏 – 曝光：98w+；互动：1.7w+"
@@ -2643,6 +2781,7 @@
     "followersCount": 298972291,
     "avgViews": 648290,
     "engagementRate": 51.72,
+    "completionRate": null,
     "publishFrequency30d": 19,
     "publishFrequency90d": 53,
     "explosiveContentCount": 6,
@@ -2653,12 +2792,12 @@
       "40+妈妈",
       "学霸育儿"
     ],
-    "personaStability": 9.4,
-    "cooperationReputation": 9.5,
-    "commentQuality": 9.1,
-    "contentInnovation": 9.0,
-    "platformIndex": 9.4,
-    "platformRecommendationProb": 0.80,
+    "personaStability": 9.400,
+    "cooperationReputation": 9.500,
+    "commentQuality": 9.100,
+    "contentInnovation": 9.000,
+    "platformIndex": 9.400,
+    "platformRecommendationProb": 0.800,
     "scores": {
       "adaptability_score": 89,
       "influence_score": 93,
@@ -2672,9 +2811,14 @@
       "多品牌合作场景广"
     ],
     "priceRange": "中高",
-    "priceMin": 26000,
-    "priceMax": 38000,
+    "priceMin": 26000.00,
+    "priceMax": 38000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "小熊洗衣机 – 曝光：35w+；互动：2.1w+"
     ]
@@ -2694,6 +2838,7 @@
     "followersCount": 567361764,
     "avgViews": 470590,
     "engagementRate": 32.99,
+    "completionRate": null,
     "publishFrequency30d": 18,
     "publishFrequency90d": 50,
     "explosiveContentCount": 6,
@@ -2704,12 +2849,12 @@
       "生活方式",
       "气质姐姐"
     ],
-    "personaStability": 9.2,
-    "cooperationReputation": 9.4,
-    "commentQuality": 9.0,
-    "contentInnovation": 8.9,
-    "platformIndex": 9.2,
-    "platformRecommendationProb": 0.77,
+    "personaStability": 9.200,
+    "cooperationReputation": 9.400,
+    "commentQuality": 9.000,
+    "contentInnovation": 8.900,
+    "platformIndex": 9.200,
+    "platformRecommendationProb": 0.770,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 90,
@@ -2723,9 +2868,14 @@
       "大牌合作频繁"
     ],
     "priceRange": "中高",
-    "priceMin": 28000,
-    "priceMax": 38000,
+    "priceMin": 28000.00,
+    "priceMax": 38000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "倩碧眼霜+精华 – 曝光：2490w+；互动：1.2w+",
       "凡士林防晒霜 – 曝光：162w+；互动：1.2w+"
@@ -2747,6 +2897,7 @@
     "followersCount": 1070528204,
     "avgViews": 576100,
     "engagementRate": 29.97,
+    "completionRate": null,
     "publishFrequency30d": 19,
     "publishFrequency90d": 55,
     "explosiveContentCount": 6,
@@ -2757,12 +2908,12 @@
       "高尔夫达人",
       "防晒美白"
     ],
-    "personaStability": 9.2,
-    "cooperationReputation": 9.4,
-    "commentQuality": 9.1,
-    "contentInnovation": 8.9,
-    "platformIndex": 9.3,
-    "platformRecommendationProb": 0.78,
+    "personaStability": 9.200,
+    "cooperationReputation": 9.400,
+    "commentQuality": 9.100,
+    "contentInnovation": 8.900,
+    "platformIndex": 9.300,
+    "platformRecommendationProb": 0.780,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 90,
@@ -2776,9 +2927,14 @@
       "内容调性稳定且生活品质感强"
     ],
     "priceRange": "中高",
-    "priceMin": 28000,
-    "priceMax": 38000,
+    "priceMin": 28000.00,
+    "priceMax": 38000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "皇家美素佳儿奶粉 – 曝光：89w+；互动：1.3w+",
       "科颜氏保湿霜 – 曝光：40w+；互动：1.3w+"
@@ -2799,6 +2955,7 @@
     "followersCount": 117144012,
     "avgViews": 306800,
     "engagementRate": 23.36,
+    "completionRate": null,
     "publishFrequency30d": 17,
     "publishFrequency90d": 50,
     "explosiveContentCount": 5,
@@ -2809,12 +2966,12 @@
       "翘臀训练",
       "高能量女性"
     ],
-    "personaStability": 9.3,
-    "cooperationReputation": 9.4,
-    "commentQuality": 9.0,
-    "contentInnovation": 9.1,
-    "platformIndex": 9.3,
-    "platformRecommendationProb": 0.76,
+    "personaStability": 9.300,
+    "cooperationReputation": 9.400,
+    "commentQuality": 9.000,
+    "contentInnovation": 9.100,
+    "platformIndex": 9.300,
+    "platformRecommendationProb": 0.760,
     "scores": {
       "adaptability_score": 87,
       "influence_score": 90,
@@ -2828,9 +2985,14 @@
       "品牌匹配度强"
     ],
     "priceRange": "中高",
-    "priceMin": 26000,
-    "priceMax": 36000,
+    "priceMin": 26000.00,
+    "priceMax": 36000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "苏菲卫生巾 – 曝光：15w+；互动：1.8k+",
       "养成吸金体质 – 曝光：66w+；互动：4.9w+"
@@ -2852,6 +3014,7 @@
     "followersCount": 6788305015,
     "avgViews": 141340,
     "engagementRate": 9.22,
+    "completionRate": null,
     "publishFrequency30d": 16,
     "publishFrequency90d": 45,
     "explosiveContentCount": 6,
@@ -2862,12 +3025,12 @@
       "女性力量",
       "真实自然"
     ],
-    "personaStability": 9.1,
-    "cooperationReputation": 9.3,
-    "commentQuality": 9.0,
-    "contentInnovation": 9.2,
-    "platformIndex": 9.4,
-    "platformRecommendationProb": 0.82,
+    "personaStability": 9.100,
+    "cooperationReputation": 9.300,
+    "commentQuality": 9.000,
+    "contentInnovation": 9.200,
+    "platformIndex": 9.400,
+    "platformRecommendationProb": 0.820,
     "scores": {
       "adaptability_score": 90,
       "influence_score": 92,
@@ -2881,9 +3044,14 @@
       "年轻化受众粘性强"
     ],
     "priceRange": "中",
-    "priceMin": 25000,
-    "priceMax": 35000,
+    "priceMin": 25000.00,
+    "priceMax": 35000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "霸王茶姬 – 曝光：85w+；互动：6w+",
       "芬斯狄娜 – 曝光：26w+；互动：1.9w+"
@@ -2904,6 +3072,7 @@
     "followersCount": 884397133,
     "avgViews": 420100,
     "engagementRate": 33.79,
+    "completionRate": null,
     "publishFrequency30d": 19,
     "publishFrequency90d": 53,
     "explosiveContentCount": 6,
@@ -2914,12 +3083,12 @@
       "旅行生活",
       "医美爱好者"
     ],
-    "personaStability": 9.1,
-    "cooperationReputation": 9.4,
-    "commentQuality": 9.0,
-    "contentInnovation": 8.9,
-    "platformIndex": 9.2,
-    "platformRecommendationProb": 0.75,
+    "personaStability": 9.100,
+    "cooperationReputation": 9.400,
+    "commentQuality": 9.000,
+    "contentInnovation": 8.900,
+    "platformIndex": 9.200,
+    "platformRecommendationProb": 0.750,
     "scores": {
       "adaptability_score": 87,
       "influence_score": 90,
@@ -2933,9 +3102,14 @@
       "外出旅行素材丰富"
     ],
     "priceRange": "中",
-    "priceMin": 25000,
-    "priceMax": 35000,
+    "priceMin": 25000.00,
+    "priceMax": 35000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "娇韵诗 – 曝光：146w+；互动：1w+"
     ]
@@ -2956,6 +3130,7 @@
     "followersCount": 5642870984,
     "avgViews": 286870,
     "engagementRate": 19.91,
+    "completionRate": null,
     "publishFrequency30d": 18,
     "publishFrequency90d": 52,
     "explosiveContentCount": 7,
@@ -2966,12 +3141,12 @@
       "护发达人",
       "韩系妆感"
     ],
-    "personaStability": 9.2,
-    "cooperationReputation": 9.5,
-    "commentQuality": 9.1,
-    "contentInnovation": 9.0,
-    "platformIndex": 9.4,
-    "platformRecommendationProb": 0.80,
+    "personaStability": 9.200,
+    "cooperationReputation": 9.500,
+    "commentQuality": 9.100,
+    "contentInnovation": 9.000,
+    "platformIndex": 9.400,
+    "platformRecommendationProb": 0.800,
     "scores": {
       "adaptability_score": 89,
       "influence_score": 93,
@@ -2985,9 +3160,14 @@
       "医美养护类品牌匹配度强"
     ],
     "priceRange": "中",
-    "priceMin": 25000,
-    "priceMax": 35000,
+    "priceMin": 25000.00,
+    "priceMax": 35000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "MAC卸妆油 – 曝光：146w+；互动：2k+",
       "力士植萃沐浴露 – 曝光：70w+；互动：4.5k+"
@@ -3009,6 +3189,7 @@
     "followersCount": 818018053,
     "avgViews": 540470,
     "engagementRate": 27.88,
+    "completionRate": null,
     "publishFrequency30d": 20,
     "publishFrequency90d": 56,
     "explosiveContentCount": 6,
@@ -3019,12 +3200,12 @@
       "小资生活",
       "运动达人"
     ],
-    "personaStability": 9.2,
-    "cooperationReputation": 9.5,
-    "commentQuality": 9.1,
-    "contentInnovation": 8.9,
-    "platformIndex": 9.3,
-    "platformRecommendationProb": 0.79,
+    "personaStability": 9.200,
+    "cooperationReputation": 9.500,
+    "commentQuality": 9.100,
+    "contentInnovation": 8.900,
+    "platformIndex": 9.300,
+    "platformRecommendationProb": 0.790,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 91,
@@ -3038,9 +3219,14 @@
       "女性成长内容粘性强"
     ],
     "priceRange": "中高",
-    "priceMin": 25000,
-    "priceMax": 35000,
+    "priceMin": 25000.00,
+    "priceMax": 35000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "优色林精华 – 曝光：64w+；互动：1w+"
     ]
@@ -3060,6 +3246,7 @@
     "followersCount": 514269751,
     "avgViews": 257800,
     "engagementRate": 12.40,
+    "completionRate": null,
     "publishFrequency30d": 16,
     "publishFrequency90d": 44,
     "explosiveContentCount": 4,
@@ -3070,12 +3257,12 @@
       "名媛圈层",
       "主持人气质"
     ],
-    "personaStability": 9.4,
-    "cooperationReputation": 9.6,
-    "commentQuality": 9.0,
-    "contentInnovation": 8.7,
-    "platformIndex": 9.2,
-    "platformRecommendationProb": 0.75,
+    "personaStability": 9.400,
+    "cooperationReputation": 9.600,
+    "commentQuality": 9.000,
+    "contentInnovation": 8.700,
+    "platformIndex": 9.200,
+    "platformRecommendationProb": 0.750,
     "scores": {
       "adaptability_score": 86,
       "influence_score": 89,
@@ -3089,9 +3276,14 @@
       "抗衰类内容专业权威"
     ],
     "priceRange": "中高",
-    "priceMin": 25000,
-    "priceMax": 35000,
+    "priceMin": 25000.00,
+    "priceMax": 35000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "绝色眼霜 – 曝光：72w+；互动：1.2w+"
     ]
@@ -3112,6 +3304,7 @@
     "followersCount": 150845507,
     "avgViews": 93580,
     "engagementRate": 30.49,
+    "completionRate": null,
     "publishFrequency30d": 22,
     "publishFrequency90d": 60,
     "explosiveContentCount": 5,
@@ -3122,12 +3315,12 @@
       "学习自律",
       "健身女孩"
     ],
-    "personaStability": 9.0,
-    "cooperationReputation": 9.2,
-    "commentQuality": 8.9,
-    "contentInnovation": 9.1,
-    "platformIndex": 9.3,
-    "platformRecommendationProb": 0.78,
+    "personaStability": 9.000,
+    "cooperationReputation": 9.200,
+    "commentQuality": 8.900,
+    "contentInnovation": 9.100,
+    "platformIndex": 9.300,
+    "platformRecommendationProb": 0.780,
     "scores": {
       "adaptability_score": 87,
       "influence_score": 89,
@@ -3141,9 +3334,14 @@
       "品牌年轻化方向契合"
     ],
     "priceRange": "中",
-    "priceMin": 28000,
-    "priceMax": 35000,
+    "priceMin": 28000.00,
+    "priceMax": 35000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "期待合作，共创爆款！"
     ]
@@ -3164,6 +3362,7 @@
     "followersCount": 4235278612,
     "avgViews": 285550,
     "engagementRate": 15.54,
+    "completionRate": null,
     "publishFrequency30d": 20,
     "publishFrequency90d": 55,
     "explosiveContentCount": 6,
@@ -3174,12 +3373,12 @@
       "黑眼圈改善",
       "发质养护"
     ],
-    "personaStability": 9.1,
-    "cooperationReputation": 9.3,
-    "commentQuality": 8.9,
-    "contentInnovation": 8.8,
-    "platformIndex": 9.1,
-    "platformRecommendationProb": 0.77,
+    "personaStability": 9.100,
+    "cooperationReputation": 9.300,
+    "commentQuality": 8.900,
+    "contentInnovation": 8.800,
+    "platformIndex": 9.100,
+    "platformRecommendationProb": 0.770,
     "scores": {
       "adaptability_score": 86,
       "influence_score": 88,
@@ -3193,9 +3392,14 @@
       "适配多个消费品类"
     ],
     "priceRange": "中",
-    "priceMin": 22000,
-    "priceMax": 32000,
+    "priceMin": 22000.00,
+    "priceMax": 32000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "博士伦净净瓶 – 曝光：56w+；互动：1.7w+",
       "妮维雅小气泡洁面 – 曝光：69w+；互动：1w+"
@@ -3216,6 +3420,7 @@
     "followersCount": 569465356,
     "avgViews": 617200,
     "engagementRate": 49.48,
+    "completionRate": null,
     "publishFrequency30d": 19,
     "publishFrequency90d": 52,
     "explosiveContentCount": 6,
@@ -3226,12 +3431,12 @@
       "大气温柔风",
       "养生美人"
     ],
-    "personaStability": 9.3,
-    "cooperationReputation": 9.4,
-    "commentQuality": 9.1,
-    "contentInnovation": 8.9,
-    "platformIndex": 9.3,
-    "platformRecommendationProb": 0.78,
+    "personaStability": 9.300,
+    "cooperationReputation": 9.400,
+    "commentQuality": 9.100,
+    "contentInnovation": 8.900,
+    "platformIndex": 9.300,
+    "platformRecommendationProb": 0.780,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 91,
@@ -3245,9 +3450,14 @@
       "观众画像精准稳定"
     ],
     "priceRange": "中",
-    "priceMin": 22000,
-    "priceMax": 32000,
+    "priceMin": 22000.00,
+    "priceMax": 32000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "模特过冬好物 – 曝光：13w+；互动：1.5k+"
     ]
@@ -3268,6 +3478,7 @@
     "followersCount": 2674516566,
     "avgViews": 268740,
     "engagementRate": 15.02,
+    "completionRate": null,
     "publishFrequency30d": 18,
     "publishFrequency90d": 50,
     "explosiveContentCount": 7,
@@ -3278,12 +3489,12 @@
       "发量富婆",
       "精致独立女性"
     ],
-    "personaStability": 9.3,
-    "cooperationReputation": 9.5,
-    "commentQuality": 9.1,
-    "contentInnovation": 8.9,
-    "platformIndex": 9.4,
-    "platformRecommendationProb": 0.79,
+    "personaStability": 9.300,
+    "cooperationReputation": 9.500,
+    "commentQuality": 9.100,
+    "contentInnovation": 8.900,
+    "platformIndex": 9.400,
+    "platformRecommendationProb": 0.790,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 92,
@@ -3297,9 +3508,14 @@
       "多品牌复投合作良好"
     ],
     "priceRange": "中高",
-    "priceMin": 21000,
-    "priceMax": 30000,
+    "priceMin": 21000.00,
+    "priceMax": 30000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "轻隐内衣 – 曝光：783w+；互动：5.5w+",
       "蔓迪米诺地尔 – 曝光：602w+；互动：65.4w+"
@@ -3321,6 +3537,7 @@
     "followersCount": 1137951075,
     "avgViews": 77320,
     "engagementRate": 3.24,
+    "completionRate": null,
     "publishFrequency30d": 20,
     "publishFrequency90d": 58,
     "explosiveContentCount": 5,
@@ -3331,12 +3548,12 @@
       "户外玩家",
       "自律女性"
     ],
-    "personaStability": 9.0,
-    "cooperationReputation": 9.2,
-    "commentQuality": 8.8,
-    "contentInnovation": 9.2,
-    "platformIndex": 9.3,
-    "platformRecommendationProb": 0.77,
+    "personaStability": 9.000,
+    "cooperationReputation": 9.200,
+    "commentQuality": 8.800,
+    "contentInnovation": 9.200,
+    "platformIndex": 9.300,
+    "platformRecommendationProb": 0.770,
     "scores": {
       "adaptability_score": 86,
       "influence_score": 88,
@@ -3350,9 +3567,14 @@
       "年轻女性粉丝粘性高"
     ],
     "priceRange": "中",
-    "priceMin": 21000,
-    "priceMax": 30000,
+    "priceMin": 21000.00,
+    "priceMax": 30000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "定妆喷雾测评 – 曝光：69w+；互动：3.2w+"
     ]
@@ -3373,6 +3595,7 @@
     "followersCount": 150017518,
     "avgViews": 621030,
     "engagementRate": 27.43,
+    "completionRate": null,
     "publishFrequency30d": 21,
     "publishFrequency90d": 60,
     "explosiveContentCount": 7,
@@ -3383,12 +3606,12 @@
       "成分党",
       "场景测评"
     ],
-    "personaStability": 9.4,
-    "cooperationReputation": 9.5,
-    "commentQuality": 9.2,
-    "contentInnovation": 9.1,
-    "platformIndex": 9.4,
-    "platformRecommendationProb": 0.80,
+    "personaStability": 9.400,
+    "cooperationReputation": 9.500,
+    "commentQuality": 9.200,
+    "contentInnovation": 9.100,
+    "platformIndex": 9.400,
+    "platformRecommendationProb": 0.800,
     "scores": {
       "adaptability_score": 89,
       "influence_score": 92,
@@ -3402,9 +3625,14 @@
       "内容结构完整垂直"
     ],
     "priceRange": "中高",
-    "priceMin": 21000,
-    "priceMax": 30000,
+    "priceMin": 21000.00,
+    "priceMax": 30000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "波司登防晒衣 – 曝光：20w+；互动：7.7k+",
       "化女书妆上综艺 – 曝光：401w+；互动：5.8w+"
@@ -3426,6 +3654,7 @@
     "followersCount": 6257376085,
     "avgViews": 387890,
     "engagementRate": 13.64,
+    "completionRate": null,
     "publishFrequency30d": 20,
     "publishFrequency90d": 55,
     "explosiveContentCount": 8,
@@ -3436,12 +3665,12 @@
       "白瘦美",
       "氛围博主"
     ],
-    "personaStability": 9.2,
-    "cooperationReputation": 9.4,
-    "commentQuality": 9.0,
-    "contentInnovation": 9.1,
-    "platformIndex": 9.3,
-    "platformRecommendationProb": 0.79,
+    "personaStability": 9.200,
+    "cooperationReputation": 9.400,
+    "commentQuality": 9.000,
+    "contentInnovation": 9.100,
+    "platformIndex": 9.300,
+    "platformRecommendationProb": 0.790,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 91,
@@ -3455,9 +3684,14 @@
       "多品牌合作表现出色"
     ],
     "priceRange": "中",
-    "priceMin": 20000,
-    "priceMax": 28000,
+    "priceMin": 20000.00,
+    "priceMax": 28000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "秀乎巧克力 – 曝光：26w+；互动：1.8w+",
       "悦木之源护手霜 – 曝光：179w+；互动：1.6k+"
@@ -3479,6 +3713,7 @@
     "followersCount": 622667424,
     "avgViews": 66440,
     "engagementRate": 9.55,
+    "completionRate": null,
     "publishFrequency30d": 17,
     "publishFrequency90d": 49,
     "explosiveContentCount": 5,
@@ -3489,12 +3724,12 @@
       "高颜值情侣",
       "中式养生"
     ],
-    "personaStability": 9.3,
-    "cooperationReputation": 9.5,
-    "commentQuality": 9.1,
-    "contentInnovation": 9.0,
-    "platformIndex": 9.3,
-    "platformRecommendationProb": 0.78,
+    "personaStability": 9.300,
+    "cooperationReputation": 9.500,
+    "commentQuality": 9.100,
+    "contentInnovation": 9.000,
+    "platformIndex": 9.300,
+    "platformRecommendationProb": 0.780,
     "scores": {
       "adaptability_score": 87,
       "influence_score": 90,
@@ -3508,9 +3743,14 @@
       "粉丝黏性强"
     ],
     "priceRange": "中",
-    "priceMin": 22000,
-    "priceMax": 28000,
+    "priceMin": 22000.00,
+    "priceMax": 28000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "乐敦莹 – 曝光：56w+；互动：5k+",
       "淘宝618 – 曝光：15w+；互动：5k+"
@@ -3532,6 +3772,7 @@
     "followersCount": 677762851,
     "avgViews": 605810,
     "engagementRate": 38.17,
+    "completionRate": null,
     "publishFrequency30d": 22,
     "publishFrequency90d": 61,
     "explosiveContentCount": 7,
@@ -3542,12 +3783,12 @@
       "贵妇护肤",
       "敏肌上岸"
     ],
-    "personaStability": 9.4,
-    "cooperationReputation": 9.6,
-    "commentQuality": 9.3,
-    "contentInnovation": 9.1,
-    "platformIndex": 9.4,
-    "platformRecommendationProb": 0.80,
+    "personaStability": 9.400,
+    "cooperationReputation": 9.600,
+    "commentQuality": 9.300,
+    "contentInnovation": 9.100,
+    "platformIndex": 9.400,
+    "platformRecommendationProb": 0.800,
     "scores": {
       "adaptability_score": 89,
       "influence_score": 92,
@@ -3561,9 +3802,14 @@
       "品牌合作复投率高"
     ],
     "priceRange": "中高",
-    "priceMin": 22000,
-    "priceMax": 28000,
+    "priceMin": 22000.00,
+    "priceMax": 28000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "优色林光引精华 – 曝光：143w+；互动：2w+"
     ]
@@ -3585,6 +3831,7 @@
     "followersCount": 700924808,
     "avgViews": 85380,
     "engagementRate": 11.51,
+    "completionRate": null,
     "publishFrequency30d": 18,
     "publishFrequency90d": 48,
     "explosiveContentCount": 4,
@@ -3595,12 +3842,12 @@
       "备婚变美",
       "婚纱模特"
     ],
-    "personaStability": 9.2,
-    "cooperationReputation": 9.3,
-    "commentQuality": 8.9,
-    "contentInnovation": 8.8,
-    "platformIndex": 9.1,
-    "platformRecommendationProb": 0.75,
+    "personaStability": 9.200,
+    "cooperationReputation": 9.300,
+    "commentQuality": 8.900,
+    "contentInnovation": 8.800,
+    "platformIndex": 9.100,
+    "platformRecommendationProb": 0.750,
     "scores": {
       "adaptability_score": 86,
       "influence_score": 89,
@@ -3614,9 +3861,14 @@
       "旅游生活类合作潜力大"
     ],
     "priceRange": "中",
-    "priceMin": 22000,
-    "priceMax": 28000,
+    "priceMin": 22000.00,
+    "priceMax": 28000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "期待合作，共创爆款！"
     ]
@@ -3637,6 +3889,7 @@
     "followersCount": 2910222135,
     "avgViews": 124820,
     "engagementRate": 5.12,
+    "completionRate": null,
     "publishFrequency30d": 24,
     "publishFrequency90d": 65,
     "explosiveContentCount": 6,
@@ -3647,12 +3900,12 @@
       "瑕疵皮改善",
       "极限测评"
     ],
-    "personaStability": 9.1,
-    "cooperationReputation": 9.3,
-    "commentQuality": 8.8,
-    "contentInnovation": 9.2,
-    "platformIndex": 9.2,
-    "platformRecommendationProb": 0.78,
+    "personaStability": 9.100,
+    "cooperationReputation": 9.300,
+    "commentQuality": 8.800,
+    "contentInnovation": 9.200,
+    "platformIndex": 9.200,
+    "platformRecommendationProb": 0.780,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 90,
@@ -3666,9 +3919,14 @@
       "广告转化效果优异"
     ],
     "priceRange": "中",
-    "priceMin": 18000,
-    "priceMax": 26000,
+    "priceMin": 18000.00,
+    "priceMax": 26000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "free卫生巾 – 曝光：23w+；互动：1.2w+",
       "施华蔻洗发水 – 曝光：36w+；互动：1w+"
@@ -3690,6 +3948,7 @@
     "followersCount": 560657747,
     "avgViews": 256050,
     "engagementRate": 11.71,
+    "completionRate": null,
     "publishFrequency30d": 23,
     "publishFrequency90d": 63,
     "explosiveContentCount": 8,
@@ -3700,12 +3959,12 @@
       "短剧女主",
       "E人强输出"
     ],
-    "personaStability": 9.3,
-    "cooperationReputation": 9.4,
-    "commentQuality": 9.0,
-    "contentInnovation": 9.2,
-    "platformIndex": 9.4,
-    "platformRecommendationProb": 0.79,
+    "personaStability": 9.300,
+    "cooperationReputation": 9.400,
+    "commentQuality": 9.000,
+    "contentInnovation": 9.200,
+    "platformIndex": 9.400,
+    "platformRecommendationProb": 0.790,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 91,
@@ -3719,9 +3978,14 @@
       "互动率高爆文频出"
     ],
     "priceRange": "中",
-    "priceMin": 18000,
-    "priceMax": 26000,
+    "priceMin": 18000.00,
+    "priceMax": 26000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "体态矫正 – 曝光：730w+；互动：12w+"
     ]
@@ -3742,6 +4006,7 @@
     "followersCount": 1084652205,
     "avgViews": 329910,
     "engagementRate": 17.01,
+    "completionRate": null,
     "publishFrequency30d": 25,
     "publishFrequency90d": 68,
     "explosiveContentCount": 9,
@@ -3752,12 +4017,12 @@
       "真实测评",
       "百元好物"
     ],
-    "personaStability": 9.1,
-    "cooperationReputation": 9.4,
-    "commentQuality": 9.0,
-    "contentInnovation": 9.3,
-    "platformIndex": 9.3,
-    "platformRecommendationProb": 0.80,
+    "personaStability": 9.100,
+    "cooperationReputation": 9.400,
+    "commentQuality": 9.000,
+    "contentInnovation": 9.300,
+    "platformIndex": 9.300,
+    "platformRecommendationProb": 0.800,
     "scores": {
       "adaptability_score": 89,
       "influence_score": 92,
@@ -3771,9 +4036,14 @@
       "品牌合作多维度拓展"
     ],
     "priceRange": "中",
-    "priceMin": 18000,
-    "priceMax": 25000,
+    "priceMin": 18000.00,
+    "priceMax": 25000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "yep磁感小粉瓶 – 曝光：371w+；互动：1w+",
       "欧邦琪 – 曝光：29w+；互动：1w+"
@@ -3795,6 +4065,7 @@
     "followersCount": 9497981121,
     "avgViews": 473730,
     "engagementRate": 24.64,
+    "completionRate": null,
     "publishFrequency30d": 20,
     "publishFrequency90d": 57,
     "explosiveContentCount": 6,
@@ -3805,12 +4076,12 @@
       "冷白皮",
       "抗老优等生"
     ],
-    "personaStability": 9.4,
-    "cooperationReputation": 9.6,
-    "commentQuality": 9.2,
-    "contentInnovation": 9.1,
-    "platformIndex": 9.4,
-    "platformRecommendationProb": 0.80,
+    "personaStability": 9.400,
+    "cooperationReputation": 9.600,
+    "commentQuality": 9.200,
+    "contentInnovation": 9.100,
+    "platformIndex": 9.400,
+    "platformRecommendationProb": 0.800,
     "scores": {
       "adaptability_score": 89,
       "influence_score": 92,
@@ -3824,9 +4095,14 @@
       "品牌合作稳定"
     ],
     "priceRange": "中",
-    "priceMin": 18000,
-    "priceMax": 25000,
+    "priceMin": 18000.00,
+    "priceMax": 25000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "自然堂粉钻玫瑰水乳 – 曝光：129w+；互动：1w+"
     ]
@@ -3847,6 +4123,7 @@
     "followersCount": 158573254,
     "avgViews": 266700,
     "engagementRate": 23.34,
+    "completionRate": null,
     "publishFrequency30d": 21,
     "publishFrequency90d": 56,
     "explosiveContentCount": 7,
@@ -3857,12 +4134,12 @@
       "身材管理",
       "果茶控"
     ],
-    "personaStability": 9.3,
-    "cooperationReputation": 9.5,
-    "commentQuality": 9.1,
-    "contentInnovation": 9.2,
-    "platformIndex": 9.3,
-    "platformRecommendationProb": 0.79,
+    "personaStability": 9.300,
+    "cooperationReputation": 9.500,
+    "commentQuality": 9.100,
+    "contentInnovation": 9.200,
+    "platformIndex": 9.300,
+    "platformRecommendationProb": 0.790,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 91,
@@ -3876,9 +4153,14 @@
       "视觉表达能力强"
     ],
     "priceRange": "中",
-    "priceMin": 20000,
-    "priceMax": 25000,
+    "priceMin": 20000.00,
+    "priceMax": 25000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "模特围巾系法 – 曝光：75w+；互动：8.8w+",
       "低卡水果茶分享 – 曝光：20w+；互动：3.1w+"
@@ -3900,6 +4182,7 @@
     "followersCount": 115000,
     "avgViews": 57000,
     "engagementRate": 11.22,
+    "completionRate": null,
     "publishFrequency30d": 19,
     "publishFrequency90d": 54,
     "explosiveContentCount": 5,
@@ -3910,12 +4193,12 @@
       "舞蹈健身",
       "编导背景"
     ],
-    "personaStability": 9.0,
-    "cooperationReputation": 9.2,
-    "commentQuality": 8.8,
-    "contentInnovation": 9.1,
-    "platformIndex": 9.2,
-    "platformRecommendationProb": 0.77,
+    "personaStability": 9.000,
+    "cooperationReputation": 9.200,
+    "commentQuality": 8.800,
+    "contentInnovation": 9.100,
+    "platformIndex": 9.200,
+    "platformRecommendationProb": 0.770,
     "scores": {
       "adaptability_score": 86,
       "influence_score": 88,
@@ -3929,9 +4212,14 @@
       "内容调性亲和真实"
     ],
     "priceRange": "中低",
-    "priceMin": 15000,
-    "priceMax": 22000,
+    "priceMin": 15000.00,
+    "priceMax": 22000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "期待合作，共创爆款！"
     ]
@@ -3952,6 +4240,7 @@
     "followersCount": 96979899,
     "avgViews": 175470,
     "engagementRate": 19.21,
+    "completionRate": null,
     "publishFrequency30d": 22,
     "publishFrequency90d": 58,
     "explosiveContentCount": 6,
@@ -3962,12 +4251,12 @@
       "内服达人",
       "素颜养成"
     ],
-    "personaStability": 9.3,
-    "cooperationReputation": 9.4,
-    "commentQuality": 9.0,
-    "contentInnovation": 9.0,
-    "platformIndex": 9.3,
-    "platformRecommendationProb": 0.78,
+    "personaStability": 9.300,
+    "cooperationReputation": 9.400,
+    "commentQuality": 9.000,
+    "contentInnovation": 9.000,
+    "platformIndex": 9.300,
+    "platformRecommendationProb": 0.780,
     "scores": {
       "adaptability_score": 87,
       "influence_score": 90,
@@ -3981,9 +4270,14 @@
       "产品转化自然可信"
     ],
     "priceRange": "中低",
-    "priceMin": 15000,
-    "priceMax": 22000,
+    "priceMin": 15000.00,
+    "priceMax": 22000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "期待合作，共创爆款！"
     ]
@@ -4004,6 +4298,7 @@
     "followersCount": 9561741615,
     "avgViews": 169410,
     "engagementRate": 6.92,
+    "completionRate": null,
     "publishFrequency30d": 23,
     "publishFrequency90d": 61,
     "explosiveContentCount": 7,
@@ -4014,12 +4309,12 @@
       "电子闺蜜",
       "奇葩测评"
     ],
-    "personaStability": 9.2,
-    "cooperationReputation": 9.3,
-    "commentQuality": 8.9,
-    "contentInnovation": 9.3,
-    "platformIndex": 9.3,
-    "platformRecommendationProb": 0.78,
+    "personaStability": 9.200,
+    "cooperationReputation": 9.300,
+    "commentQuality": 8.900,
+    "contentInnovation": 9.300,
+    "platformIndex": 9.300,
+    "platformRecommendationProb": 0.780,
     "scores": {
       "adaptability_score": 87,
       "influence_score": 90,
@@ -4033,9 +4328,14 @@
       "多品类合作能力强"
     ],
     "priceRange": "中低",
-    "priceMin": 15000,
-    "priceMax": 20000,
+    "priceMin": 15000.00,
+    "priceMax": 20000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "yep磁感小粉瓶 – 曝光：176w+；互动：2.8w+"
     ]
@@ -4057,6 +4357,7 @@
     "followersCount": 685549085,
     "avgViews": 78170,
     "engagementRate": 4.00,
+    "completionRate": null,
     "publishFrequency30d": 20,
     "publishFrequency90d": 55,
     "explosiveContentCount": 6,
@@ -4067,12 +4368,12 @@
       "自律女孩",
       "旅游玩家"
     ],
-    "personaStability": 9.2,
-    "cooperationReputation": 9.3,
-    "commentQuality": 8.9,
-    "contentInnovation": 9.1,
-    "platformIndex": 9.2,
-    "platformRecommendationProb": 0.77,
+    "personaStability": 9.200,
+    "cooperationReputation": 9.300,
+    "commentQuality": 8.900,
+    "contentInnovation": 9.100,
+    "platformIndex": 9.200,
+    "platformRecommendationProb": 0.770,
     "scores": {
       "adaptability_score": 87,
       "influence_score": 89,
@@ -4086,9 +4387,14 @@
       "旅游题材拓宽合作领域"
     ],
     "priceRange": "中低",
-    "priceMin": 15000,
-    "priceMax": 20000,
+    "priceMin": 15000.00,
+    "priceMax": 20000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "俄罗斯旅游攻略 – 曝光：445w+；互动：39w+"
     ]
@@ -4109,6 +4415,7 @@
     "followersCount": 9543658526,
     "avgViews": 287860,
     "engagementRate": 24.11,
+    "completionRate": null,
     "publishFrequency30d": 23,
     "publishFrequency90d": 60,
     "explosiveContentCount": 7,
@@ -4119,12 +4426,12 @@
       "彩妆脸",
       "生活精致vlog"
     ],
-    "personaStability": 9.3,
-    "cooperationReputation": 9.4,
-    "commentQuality": 9.0,
-    "contentInnovation": 9.2,
-    "platformIndex": 9.4,
-    "platformRecommendationProb": 0.79,
+    "personaStability": 9.300,
+    "cooperationReputation": 9.400,
+    "commentQuality": 9.000,
+    "contentInnovation": 9.200,
+    "platformIndex": 9.400,
+    "platformRecommendationProb": 0.790,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 91,
@@ -4138,9 +4445,14 @@
       "粉丝互动强"
     ],
     "priceRange": "中低",
-    "priceMin": 12000,
-    "priceMax": 18000,
+    "priceMin": 12000.00,
+    "priceMax": 18000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "秋冬口红分享 – 曝光：60w+；互动：1.3w+"
     ]
@@ -4162,6 +4474,7 @@
     "followersCount": 8723161418,
     "avgViews": 87200,
     "engagementRate": 21.90,
+    "completionRate": null,
     "publishFrequency30d": 22,
     "publishFrequency90d": 59,
     "explosiveContentCount": 6,
@@ -4172,12 +4485,12 @@
       "设计师奖得主",
       "原创妆容"
     ],
-    "personaStability": 9.2,
-    "cooperationReputation": 9.4,
-    "commentQuality": 9.0,
-    "contentInnovation": 9.3,
-    "platformIndex": 9.3,
-    "platformRecommendationProb": 0.78,
+    "personaStability": 9.200,
+    "cooperationReputation": 9.400,
+    "commentQuality": 9.000,
+    "contentInnovation": 9.300,
+    "platformIndex": 9.300,
+    "platformRecommendationProb": 0.780,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 91,
@@ -4191,9 +4504,14 @@
       "设计师背景强化审美壁垒"
     ],
     "priceRange": "中低",
-    "priceMin": 12000,
-    "priceMax": 18000,
+    "priceMin": 12000.00,
+    "priceMax": 18000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "期待合作，共创爆款！"
     ]
@@ -4214,6 +4532,7 @@
     "followersCount": 713006348,
     "avgViews": 528550,
     "engagementRate": 21.48,
+    "completionRate": null,
     "publishFrequency30d": 20,
     "publishFrequency90d": 57,
     "explosiveContentCount": 5,
@@ -4224,12 +4543,12 @@
       "熟龄肌",
       "体态达人"
     ],
-    "personaStability": 9.4,
-    "cooperationReputation": 9.5,
-    "commentQuality": 9.1,
-    "contentInnovation": 9.1,
-    "platformIndex": 9.4,
-    "platformRecommendationProb": 0.79,
+    "personaStability": 9.400,
+    "cooperationReputation": 9.500,
+    "commentQuality": 9.100,
+    "contentInnovation": 9.100,
+    "platformIndex": 9.400,
+    "platformRecommendationProb": 0.790,
     "scores": {
       "adaptability_score": 89,
       "influence_score": 91,
@@ -4243,9 +4562,14 @@
       "合作品牌多样化"
     ],
     "priceRange": "中低",
-    "priceMin": 12000,
-    "priceMax": 18000,
+    "priceMin": 12000.00,
+    "priceMax": 18000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "期待合作，共创爆款！"
     ]
@@ -4266,6 +4590,7 @@
     "followersCount": 9846576252,
     "avgViews": 317790,
     "engagementRate": 11.49,
+    "completionRate": null,
     "publishFrequency30d": 24,
     "publishFrequency90d": 62,
     "explosiveContentCount": 8,
@@ -4276,12 +4601,12 @@
       "舞蹈模特",
       "街拍控"
     ],
-    "personaStability": 9.3,
-    "cooperationReputation": 9.4,
-    "commentQuality": 9.1,
-    "contentInnovation": 9.2,
-    "platformIndex": 9.3,
-    "platformRecommendationProb": 0.78,
+    "personaStability": 9.300,
+    "cooperationReputation": 9.400,
+    "commentQuality": 9.100,
+    "contentInnovation": 9.200,
+    "platformIndex": 9.300,
+    "platformRecommendationProb": 0.780,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 90,
@@ -4295,9 +4620,14 @@
       "可承接多品类合作"
     ],
     "priceRange": "中低",
-    "priceMin": 12000,
-    "priceMax": 18000,
+    "priceMin": 12000.00,
+    "priceMax": 18000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "ins风穿搭公式 – 曝光：52w+；互动：8.1w+"
     ]
@@ -4319,6 +4649,7 @@
     "followersCount": 397177147,
     "avgViews": 213190,
     "engagementRate": 11.25,
+    "completionRate": null,
     "publishFrequency30d": 22,
     "publishFrequency90d": 58,
     "explosiveContentCount": 6,
@@ -4329,12 +4660,12 @@
       "护发达人",
       "生活感强"
     ],
-    "personaStability": 9.1,
-    "cooperationReputation": 9.3,
-    "commentQuality": 9.0,
-    "contentInnovation": 9.2,
-    "platformIndex": 9.3,
-    "platformRecommendationProb": 0.78,
+    "personaStability": 9.100,
+    "cooperationReputation": 9.300,
+    "commentQuality": 9.000,
+    "contentInnovation": 9.200,
+    "platformIndex": 9.300,
+    "platformRecommendationProb": 0.780,
     "scores": {
       "adaptability_score": 87,
       "influence_score": 90,
@@ -4348,9 +4679,14 @@
       "品牌接受度高"
     ],
     "priceRange": "中低",
-    "priceMin": 12000,
-    "priceMax": 18000,
+    "priceMin": 12000.00,
+    "priceMax": 18000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "蹦极vlog – 曝光：473w+；互动：12w+"
     ]
@@ -4372,6 +4708,7 @@
     "followersCount": 3883090689,
     "avgViews": 39150,
     "engagementRate": 10.65,
+    "completionRate": null,
     "publishFrequency30d": 19,
     "publishFrequency90d": 52,
     "explosiveContentCount": 5,
@@ -4382,12 +4719,12 @@
       "自律vlog",
       "新中式姐姐"
     ],
-    "personaStability": 9.4,
-    "cooperationReputation": 9.5,
-    "commentQuality": 9.1,
-    "contentInnovation": 9.3,
-    "platformIndex": 9.4,
-    "platformRecommendationProb": 0.79,
+    "personaStability": 9.400,
+    "cooperationReputation": 9.500,
+    "commentQuality": 9.100,
+    "contentInnovation": 9.300,
+    "platformIndex": 9.400,
+    "platformRecommendationProb": 0.790,
     "scores": {
       "adaptability_score": 89,
       "influence_score": 91,
@@ -4401,9 +4738,14 @@
       "生活品质高吸引熟龄用户"
     ],
     "priceRange": "中低",
-    "priceMin": 12000,
-    "priceMax": 18000,
+    "priceMin": 12000.00,
+    "priceMax": 18000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "100天人生重启计划vlog系列 – 曝光：预计50w+；互动：5w+"
     ]
@@ -4424,6 +4766,7 @@
     "followersCount": 237279911,
     "avgViews": 1940,
     "engagementRate": 1.33,
+    "completionRate": null,
     "publishFrequency30d": 16,
     "publishFrequency90d": 45,
     "explosiveContentCount": 3,
@@ -4434,12 +4777,12 @@
       "模特气质",
       "户外玩家"
     ],
-    "personaStability": 9.0,
-    "cooperationReputation": 9.2,
-    "commentQuality": 8.8,
-    "contentInnovation": 9.0,
-    "platformIndex": 9.1,
-    "platformRecommendationProb": 0.76,
+    "personaStability": 9.000,
+    "cooperationReputation": 9.200,
+    "commentQuality": 8.800,
+    "contentInnovation": 9.000,
+    "platformIndex": 9.100,
+    "platformRecommendationProb": 0.760,
     "scores": {
       "adaptability_score": 85,
       "influence_score": 87,
@@ -4453,9 +4796,14 @@
       "时尚拍摄质感佳"
     ],
     "priceRange": "中低",
-    "priceMin": 12000,
-    "priceMax": 18000,
+    "priceMin": 12000.00,
+    "priceMax": 18000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "抗时光护肤经验分享系列 – 曝光：预计20w+；互动：2w+"
     ]
@@ -4476,6 +4824,7 @@
     "followersCount": 982965437,
     "avgViews": 83940,
     "engagementRate": 16.40,
+    "completionRate": null,
     "publishFrequency30d": 22,
     "publishFrequency90d": 58,
     "explosiveContentCount": 6,
@@ -4486,12 +4835,12 @@
       "气血美女",
       "抗初老"
     ],
-    "personaStability": 9.3,
-    "cooperationReputation": 9.4,
-    "commentQuality": 9.1,
-    "contentInnovation": 9.2,
-    "platformIndex": 9.3,
-    "platformRecommendationProb": 0.78,
+    "personaStability": 9.300,
+    "cooperationReputation": 9.400,
+    "commentQuality": 9.100,
+    "contentInnovation": 9.200,
+    "platformIndex": 9.300,
+    "platformRecommendationProb": 0.780,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 90,
@@ -4505,9 +4854,14 @@
       "视觉呈现美感强"
     ],
     "priceRange": "中低",
-    "priceMin": 12000,
-    "priceMax": 16000,
+    "priceMin": 12000.00,
+    "priceMax": 16000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "护肤vlog – 曝光：预计45w+；互动：3.8w+"
     ]
@@ -4529,6 +4883,7 @@
     "followersCount": 6721459592,
     "avgViews": 94220,
     "engagementRate": 7.48,
+    "completionRate": null,
     "publishFrequency30d": 23,
     "publishFrequency90d": 60,
     "explosiveContentCount": 7,
@@ -4539,12 +4894,12 @@
       "医美控",
       "健身旅行"
     ],
-    "personaStability": 9.3,
-    "cooperationReputation": 9.5,
-    "commentQuality": 9.1,
-    "contentInnovation": 9.3,
-    "platformIndex": 9.4,
-    "platformRecommendationProb": 0.79,
+    "personaStability": 9.300,
+    "cooperationReputation": 9.500,
+    "commentQuality": 9.100,
+    "contentInnovation": 9.300,
+    "platformIndex": 9.400,
+    "platformRecommendationProb": 0.790,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 91,
@@ -4558,9 +4913,14 @@
       "穿搭内容兼顾时尚性"
     ],
     "priceRange": "中低",
-    "priceMin": 12000,
-    "priceMax": 16000,
+    "priceMin": 12000.00,
+    "priceMax": 16000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "JETOUR捷途合作拍摄 – 曝光：预计90w+；互动：6.5w+"
     ]
@@ -4583,6 +4943,7 @@
     "followersCount": 930928571,
     "avgViews": 282290,
     "engagementRate": 12.47,
+    "completionRate": null,
     "publishFrequency30d": 20,
     "publishFrequency90d": 56,
     "explosiveContentCount": 6,
@@ -4593,12 +4954,12 @@
       "高能量女性",
       "护肤达人"
     ],
-    "personaStability": 9.2,
-    "cooperationReputation": 9.4,
-    "commentQuality": 9.0,
-    "contentInnovation": 9.1,
-    "platformIndex": 9.3,
-    "platformRecommendationProb": 0.78,
+    "personaStability": 9.200,
+    "cooperationReputation": 9.400,
+    "commentQuality": 9.000,
+    "contentInnovation": 9.100,
+    "platformIndex": 9.300,
+    "platformRecommendationProb": 0.780,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 90,
@@ -4612,9 +4973,14 @@
       "三十岁女性成长话题贴近受众"
     ],
     "priceRange": "中低",
-    "priceMin": 12000,
-    "priceMax": 16000,
+    "priceMin": 12000.00,
+    "priceMax": 16000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "户外露营vlog系列 – 曝光：320w+；互动：21w+"
     ]
@@ -4636,6 +5002,7 @@
     "followersCount": 646651248,
     "avgViews": 37410,
     "engagementRate": 10.97,
+    "completionRate": null,
     "publishFrequency30d": 19,
     "publishFrequency90d": 53,
     "explosiveContentCount": 5,
@@ -4646,12 +5013,12 @@
       "辣妈",
       "高颜值vlog"
     ],
-    "personaStability": 9.4,
-    "cooperationReputation": 9.5,
-    "commentQuality": 9.1,
-    "contentInnovation": 9.2,
-    "platformIndex": 9.4,
-    "platformRecommendationProb": 0.79,
+    "personaStability": 9.400,
+    "cooperationReputation": 9.500,
+    "commentQuality": 9.100,
+    "contentInnovation": 9.200,
+    "platformIndex": 9.400,
+    "platformRecommendationProb": 0.790,
     "scores": {
       "adaptability_score": 89,
       "influence_score": 91,
@@ -4665,9 +5032,14 @@
       "镜头表现力强"
     ],
     "priceRange": "中低",
-    "priceMin": 12000,
-    "priceMax": 16000,
+    "priceMin": 12000.00,
+    "priceMax": 16000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "长高运动系列 – 曝光：355w+；互动：35w+"
     ]
@@ -4688,6 +5060,7 @@
     "followersCount": 2830305215,
     "avgViews": 137180,
     "engagementRate": 5.09,
+    "completionRate": null,
     "publishFrequency30d": 22,
     "publishFrequency90d": 58,
     "explosiveContentCount": 6,
@@ -4698,12 +5071,12 @@
       "自律女孩",
       "学业与时尚并行"
     ],
-    "personaStability": 9.3,
-    "cooperationReputation": 9.4,
-    "commentQuality": 9.0,
-    "contentInnovation": 9.2,
-    "platformIndex": 9.3,
-    "platformRecommendationProb": 0.78,
+    "personaStability": 9.300,
+    "cooperationReputation": 9.400,
+    "commentQuality": 9.000,
+    "contentInnovation": 9.200,
+    "platformIndex": 9.300,
+    "platformRecommendationProb": 0.780,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 90,
@@ -4717,9 +5090,14 @@
       "内容调性积极向上"
     ],
     "priceRange": "中低",
-    "priceMin": 12000,
-    "priceMax": 16000,
+    "priceMin": 12000.00,
+    "priceMax": 16000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "高能量研究生日常vlog – 曝光：预计70w+；互动：4.2w+"
     ]
@@ -4741,6 +5119,7 @@
     "followersCount": 820564246,
     "avgViews": 22110,
     "engagementRate": 2.19,
+    "completionRate": null,
     "publishFrequency30d": 16,
     "publishFrequency90d": 44,
     "explosiveContentCount": 4,
@@ -4751,12 +5130,12 @@
       "贵妇护肤",
       "抗老达人"
     ],
-    "personaStability": 9.4,
-    "cooperationReputation": 9.6,
-    "commentQuality": 9.2,
-    "contentInnovation": 9.0,
-    "platformIndex": 9.4,
-    "platformRecommendationProb": 0.79,
+    "personaStability": 9.400,
+    "cooperationReputation": 9.600,
+    "commentQuality": 9.200,
+    "contentInnovation": 9.000,
+    "platformIndex": 9.400,
+    "platformRecommendationProb": 0.790,
     "scores": {
       "adaptability_score": 89,
       "influence_score": 90,
@@ -4770,9 +5149,14 @@
       "视觉呈现精致度高"
     ],
     "priceRange": "中低",
-    "priceMin": 12000,
-    "priceMax": 16000,
+    "priceMin": 12000.00,
+    "priceMax": 16000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "贵妇抗老日常分享 – 曝光：预计35w+；互动：3.2w+"
     ]
@@ -4793,6 +5177,7 @@
     "followersCount": 385074487,
     "avgViews": 159640,
     "engagementRate": 12.93,
+    "completionRate": null,
     "publishFrequency30d": 22,
     "publishFrequency90d": 57,
     "explosiveContentCount": 6,
@@ -4803,12 +5188,12 @@
       "水光肌",
       "时尚感强"
     ],
-    "personaStability": 9.3,
-    "cooperationReputation": 9.4,
-    "commentQuality": 9.0,
-    "contentInnovation": 9.2,
-    "platformIndex": 9.3,
-    "platformRecommendationProb": 0.78,
+    "personaStability": 9.300,
+    "cooperationReputation": 9.400,
+    "commentQuality": 9.000,
+    "contentInnovation": 9.200,
+    "platformIndex": 9.300,
+    "platformRecommendationProb": 0.780,
     "scores": {
       "adaptability_score": 87,
       "influence_score": 90,
@@ -4822,9 +5207,14 @@
       "好物种草转化率高"
     ],
     "priceRange": "中低",
-    "priceMin": 11000,
-    "priceMax": 15000,
+    "priceMin": 11000.00,
+    "priceMax": 15000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "淡颜护肤测评合集 – 曝光：预计65w+；互动：4.9w+"
     ]
@@ -4846,6 +5236,7 @@
     "followersCount": 8220305927,
     "avgViews": 179710,
     "engagementRate": 4.02,
+    "completionRate": null,
     "publishFrequency30d": 21,
     "publishFrequency90d": 56,
     "explosiveContentCount": 6,
@@ -4856,12 +5247,12 @@
       "时尚表现力强",
       "模特干货"
     ],
-    "personaStability": 9.2,
-    "cooperationReputation": 9.4,
-    "commentQuality": 9.0,
-    "contentInnovation": 9.1,
-    "platformIndex": 9.3,
-    "platformRecommendationProb": 0.78,
+    "personaStability": 9.200,
+    "cooperationReputation": 9.400,
+    "commentQuality": 9.000,
+    "contentInnovation": 9.100,
+    "platformIndex": 9.300,
+    "platformRecommendationProb": 0.780,
     "scores": {
       "adaptability_score": 87,
       "influence_score": 89,
@@ -4875,9 +5266,14 @@
       "内容视觉冲击力强"
     ],
     "priceRange": "中低",
-    "priceMin": 11000,
-    "priceMax": 15000,
+    "priceMin": 11000.00,
+    "priceMax": 15000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "模特长高干货 – 曝光：503w+；互动：81w+"
     ]
@@ -4898,6 +5294,7 @@
     "followersCount": 6533557335,
     "avgViews": 214020,
     "engagementRate": 11.36,
+    "completionRate": null,
     "publishFrequency30d": 20,
     "publishFrequency90d": 55,
     "explosiveContentCount": 5,
@@ -4908,12 +5305,12 @@
       "影视调性",
       "生活感vlog"
     ],
-    "personaStability": 9.3,
-    "cooperationReputation": 9.4,
-    "commentQuality": 9.1,
-    "contentInnovation": 9.3,
-    "platformIndex": 9.4,
-    "platformRecommendationProb": 0.79,
+    "personaStability": 9.300,
+    "cooperationReputation": 9.400,
+    "commentQuality": 9.100,
+    "contentInnovation": 9.300,
+    "platformIndex": 9.400,
+    "platformRecommendationProb": 0.790,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 91,
@@ -4927,9 +5324,14 @@
       "适合多场景品牌植入"
     ],
     "priceRange": "中低",
-    "priceMin": 11000,
-    "priceMax": 15000,
+    "priceMin": 11000.00,
+    "priceMax": 15000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "拍照教程 – 曝光：29w+；互动：5w+"
     ]
@@ -4950,6 +5352,7 @@
     "followersCount": 389226872,
     "avgViews": 356240,
     "engagementRate": 28.28,
+    "completionRate": null,
     "publishFrequency30d": 18,
     "publishFrequency90d": 46,
     "explosiveContentCount": 7,
@@ -4960,12 +5363,12 @@
       "抗老专家",
       "科研达人"
     ],
-    "personaStability": 9.7,
-    "cooperationReputation": 9.8,
-    "commentQuality": 9.5,
-    "contentInnovation": 9.4,
-    "platformIndex": 9.8,
-    "platformRecommendationProb": 0.82,
+    "personaStability": 9.700,
+    "cooperationReputation": 9.800,
+    "commentQuality": 9.500,
+    "contentInnovation": 9.400,
+    "platformIndex": 9.800,
+    "platformRecommendationProb": 0.820,
     "scores": {
       "adaptability_score": 94,
       "influence_score": 97,
@@ -4979,9 +5382,14 @@
       "高净值女性用户粘性强"
     ],
     "priceRange": "高端",
-    "priceMin": 88000,
-    "priceMax": 100000,
+    "priceMin": 88000.00,
+    "priceMax": 100000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "健康饮食科普 – 曝光：36w+；互动：1.7k+"
     ]
@@ -5002,6 +5410,7 @@
     "followersCount": 976954965,
     "avgViews": 1239910,
     "engagementRate": 16.07,
+    "completionRate": null,
     "publishFrequency30d": 26,
     "publishFrequency90d": 70,
     "explosiveContentCount": 9,
@@ -5012,12 +5421,12 @@
       "不割韭菜",
       "爆款制造机"
     ],
-    "personaStability": 9.8,
-    "cooperationReputation": 9.9,
-    "commentQuality": 9.6,
-    "contentInnovation": 9.7,
-    "platformIndex": 9.9,
-    "platformRecommendationProb": 0.85,
+    "personaStability": 9.800,
+    "cooperationReputation": 9.900,
+    "commentQuality": 9.600,
+    "contentInnovation": 9.700,
+    "platformIndex": 9.900,
+    "platformRecommendationProb": 0.850,
     "scores": {
       "adaptability_score": 96,
       "influence_score": 98,
@@ -5031,9 +5440,14 @@
       "内容权威性与流量兼具"
     ],
     "priceRange": "高端",
-    "priceMin": 48000,
-    "priceMax": 66000,
+    "priceMin": 48000.00,
+    "priceMax": 66000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "优色林光引精华 – 曝光：349w+；互动：2.4w+",
       "Whoo天气丹Pro – 曝光：843w+；互动：5.2w+"
@@ -5055,6 +5469,7 @@
     "followersCount": 233644603,
     "avgViews": 401610,
     "engagementRate": 88.94,
+    "completionRate": null,
     "publishFrequency30d": 20,
     "publishFrequency90d": 52,
     "explosiveContentCount": 7,
@@ -5065,12 +5480,12 @@
       "美白达人",
       "理性科普派"
     ],
-    "personaStability": 9.6,
-    "cooperationReputation": 9.8,
-    "commentQuality": 9.4,
-    "contentInnovation": 9.5,
-    "platformIndex": 9.7,
-    "platformRecommendationProb": 0.83,
+    "personaStability": 9.600,
+    "cooperationReputation": 9.800,
+    "commentQuality": 9.400,
+    "contentInnovation": 9.500,
+    "platformIndex": 9.700,
+    "platformRecommendationProb": 0.830,
     "scores": {
       "adaptability_score": 92,
       "influence_score": 95,
@@ -5084,9 +5499,14 @@
       "合作品牌覆盖国际高端线"
     ],
     "priceRange": "高端",
-    "priceMin": 28000,
-    "priceMax": 38000,
+    "priceMin": 28000.00,
+    "priceMax": 38000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "防晒干货分享 – 曝光：181w+；互动：10w+",
       "国货种草推荐 – 曝光：32w+；互动：3.5w+"
@@ -5108,6 +5528,7 @@
     "followersCount": 1093761312,
     "avgViews": 305680,
     "engagementRate": 12.31,
+    "completionRate": null,
     "publishFrequency30d": 25,
     "publishFrequency90d": 65,
     "explosiveContentCount": 8,
@@ -5118,12 +5539,12 @@
       "口播达人",
       "成分分析"
     ],
-    "personaStability": 9.4,
-    "cooperationReputation": 9.6,
-    "commentQuality": 9.2,
-    "contentInnovation": 9.3,
-    "platformIndex": 9.5,
-    "platformRecommendationProb": 0.80,
+    "personaStability": 9.400,
+    "cooperationReputation": 9.600,
+    "commentQuality": 9.200,
+    "contentInnovation": 9.300,
+    "platformIndex": 9.500,
+    "platformRecommendationProb": 0.800,
     "scores": {
       "adaptability_score": 90,
       "influence_score": 93,
@@ -5137,9 +5558,14 @@
       "合作品牌转化率高"
     ],
     "priceRange": "中高",
-    "priceMin": 28000,
-    "priceMax": 38000,
+    "priceMin": 28000.00,
+    "priceMax": 38000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "施华蔻自律瓶 – 曝光：98w+；互动：1.7w+",
       "薇婷脱毛膏 – 曝光：83w+；互动：4.7w+"
@@ -5160,6 +5586,7 @@
     "followersCount": 629550075,
     "avgViews": 329760,
     "engagementRate": 37.28,
+    "completionRate": null,
     "publishFrequency30d": 23,
     "publishFrequency90d": 61,
     "explosiveContentCount": 7,
@@ -5170,12 +5597,12 @@
       "工厂实地考察",
       "实测达人"
     ],
-    "personaStability": 9.6,
-    "cooperationReputation": 9.7,
-    "commentQuality": 9.3,
-    "contentInnovation": 9.4,
-    "platformIndex": 9.6,
-    "platformRecommendationProb": 0.81,
+    "personaStability": 9.600,
+    "cooperationReputation": 9.700,
+    "commentQuality": 9.300,
+    "contentInnovation": 9.400,
+    "platformIndex": 9.600,
+    "platformRecommendationProb": 0.810,
     "scores": {
       "adaptability_score": 91,
       "influence_score": 94,
@@ -5189,9 +5616,14 @@
       "合作品牌多为国际线"
     ],
     "priceRange": "中高",
-    "priceMin": 26000,
-    "priceMax": 38000,
+    "priceMin": 26000.00,
+    "priceMax": 38000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "希思黎全能乳液 – 曝光：154w+；互动：4.1w+"
     ]
@@ -5212,6 +5644,7 @@
     "followersCount": 1149233755,
     "avgViews": 218180,
     "engagementRate": 10.58,
+    "completionRate": null,
     "publishFrequency30d": 20,
     "publishFrequency90d": 50,
     "explosiveContentCount": 6,
@@ -5222,12 +5655,12 @@
       "配方师背景",
       "测评达人"
     ],
-    "personaStability": 9.4,
-    "cooperationReputation": 9.6,
-    "commentQuality": 9.2,
-    "contentInnovation": 9.3,
-    "platformIndex": 9.4,
-    "platformRecommendationProb": 0.80,
+    "personaStability": 9.400,
+    "cooperationReputation": 9.600,
+    "commentQuality": 9.200,
+    "contentInnovation": 9.300,
+    "platformIndex": 9.400,
+    "platformRecommendationProb": 0.800,
     "scores": {
       "adaptability_score": 89,
       "influence_score": 92,
@@ -5241,9 +5674,14 @@
       "品牌合作空间广"
     ],
     "priceRange": "中高",
-    "priceMin": 28000,
-    "priceMax": 38000,
+    "priceMin": 28000.00,
+    "priceMax": 38000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "羽西鎏金面霜 – 曝光：127w+；互动：1.2w+",
       "达霏欣米诺地尔 – 曝光：107w+；互动：1.6w+"
@@ -5265,6 +5703,7 @@
     "followersCount": 234375505,
     "avgViews": 615450,
     "engagementRate": 59.78,
+    "completionRate": null,
     "publishFrequency30d": 22,
     "publishFrequency90d": 58,
     "explosiveContentCount": 6,
@@ -5275,12 +5714,12 @@
       "素颜逆龄",
       "专业解读"
     ],
-    "personaStability": 9.5,
-    "cooperationReputation": 9.7,
-    "commentQuality": 9.3,
-    "contentInnovation": 9.4,
-    "platformIndex": 9.6,
-    "platformRecommendationProb": 0.81,
+    "personaStability": 9.500,
+    "cooperationReputation": 9.700,
+    "commentQuality": 9.300,
+    "contentInnovation": 9.400,
+    "platformIndex": 9.600,
+    "platformRecommendationProb": 0.810,
     "scores": {
       "adaptability_score": 91,
       "influence_score": 93,
@@ -5294,9 +5733,14 @@
       "适合国风品牌深度合作"
     ],
     "priceRange": "中高",
-    "priceMin": 25000,
-    "priceMax": 35000,
+    "priceMin": 25000.00,
+    "priceMax": 35000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "博士伦奥澈隐形眼镜 – 曝光：91w+；互动：1.1w+"
     ]
@@ -5317,6 +5761,7 @@
     "followersCount": 1012572888,
     "avgViews": 173440,
     "engagementRate": 7.82,
+    "completionRate": null,
     "publishFrequency30d": 24,
     "publishFrequency90d": 62,
     "explosiveContentCount": 6,
@@ -5327,12 +5772,12 @@
       "宠妻人设",
       "理性避雷"
     ],
-    "personaStability": 9.4,
-    "cooperationReputation": 9.6,
-    "commentQuality": 9.2,
-    "contentInnovation": 9.3,
-    "platformIndex": 9.4,
-    "platformRecommendationProb": 0.79,
+    "personaStability": 9.400,
+    "cooperationReputation": 9.600,
+    "commentQuality": 9.200,
+    "contentInnovation": 9.300,
+    "platformIndex": 9.400,
+    "platformRecommendationProb": 0.790,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 91,
@@ -5346,9 +5791,14 @@
       "适配家庭、护肤及生活品牌"
     ],
     "priceRange": "中",
-    "priceMin": 21000,
-    "priceMax": 30000,
+    "priceMin": 21000.00,
+    "priceMax": 30000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "FILLMED菲欧曼 – 曝光：37w+；互动：1.1w+",
       "希思黎黑玫瑰面霜 – 曝光：88w+；互动：1.1w+"
@@ -5371,6 +5821,7 @@
     "followersCount": 633479035,
     "avgViews": 79590,
     "engagementRate": 8.40,
+    "completionRate": null,
     "publishFrequency30d": 20,
     "publishFrequency90d": 48,
     "explosiveContentCount": 4,
@@ -5381,12 +5832,12 @@
       "芒果台主持人",
       "生活化科普"
     ],
-    "personaStability": 9.3,
-    "cooperationReputation": 9.5,
-    "commentQuality": 9.1,
-    "contentInnovation": 9.2,
-    "platformIndex": 9.4,
-    "platformRecommendationProb": 0.78,
+    "personaStability": 9.300,
+    "cooperationReputation": 9.500,
+    "commentQuality": 9.100,
+    "contentInnovation": 9.200,
+    "platformIndex": 9.400,
+    "platformRecommendationProb": 0.780,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 90,
@@ -5400,9 +5851,14 @@
       "内容易于热点结合"
     ],
     "priceRange": "中",
-    "priceMin": 12000,
-    "priceMax": 18000,
+    "priceMin": 12000.00,
+    "priceMax": 18000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "健康饮料科普 – 曝光：17w+；互动：1.5w+"
     ]
@@ -5423,6 +5879,7 @@
     "followersCount": 1142412386,
     "avgViews": 63950,
     "engagementRate": 4.27,
+    "completionRate": null,
     "publishFrequency30d": 18,
     "publishFrequency90d": 50,
     "explosiveContentCount": 5,
@@ -5433,12 +5890,12 @@
       "自愈系内容",
       "实测分享"
     ],
-    "personaStability": 9.2,
-    "cooperationReputation": 9.4,
-    "commentQuality": 9.0,
-    "contentInnovation": 9.1,
-    "platformIndex": 9.3,
-    "platformRecommendationProb": 0.77,
+    "personaStability": 9.200,
+    "cooperationReputation": 9.400,
+    "commentQuality": 9.000,
+    "contentInnovation": 9.100,
+    "platformIndex": 9.300,
+    "platformRecommendationProb": 0.770,
     "scores": {
       "adaptability_score": 87,
       "influence_score": 89,
@@ -5452,9 +5909,14 @@
       "适合功效型品牌合作"
     ],
     "priceRange": "中",
-    "priceMin": 12000,
-    "priceMax": 18000,
+    "priceMin": 12000.00,
+    "priceMax": 18000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "痘肌护肤 – 曝光：55w+；互动：4.2w+"
     ]
@@ -5475,6 +5937,7 @@
     "followersCount": 271033804,
     "avgViews": 375970,
     "engagementRate": 82.84,
+    "completionRate": null,
     "publishFrequency30d": 24,
     "publishFrequency90d": 66,
     "explosiveContentCount": 6,
@@ -5485,12 +5948,12 @@
       "颜值高专业强",
       "实测派"
     ],
-    "personaStability": 9.7,
-    "cooperationReputation": 9.8,
-    "commentQuality": 9.4,
-    "contentInnovation": 9.5,
-    "platformIndex": 9.8,
-    "platformRecommendationProb": 0.84,
+    "personaStability": 9.700,
+    "cooperationReputation": 9.800,
+    "commentQuality": 9.400,
+    "contentInnovation": 9.500,
+    "platformIndex": 9.800,
+    "platformRecommendationProb": 0.840,
     "scores": {
       "adaptability_score": 94,
       "influence_score": 96,
@@ -5504,9 +5967,14 @@
       "品牌合作空间极广"
     ],
     "priceRange": "高端",
-    "priceMin": 46000,
-    "priceMax": 60000,
+    "priceMin": 46000.00,
+    "priceMax": 60000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "本田测评 – 曝光：181w+；互动：2.4k+",
       "奥迪测试 – 曝光：13w+；互动：2.3k+"
@@ -5527,6 +5995,7 @@
     "followersCount": 482856362,
     "avgViews": 46890,
     "engagementRate": 23.20,
+    "completionRate": null,
     "publishFrequency30d": 22,
     "publishFrequency90d": 57,
     "explosiveContentCount": 5,
@@ -5537,12 +6006,12 @@
       "旅行vlog",
       "文旅结合"
     ],
-    "personaStability": 9.5,
-    "cooperationReputation": 9.6,
-    "commentQuality": 9.2,
-    "contentInnovation": 9.3,
-    "platformIndex": 9.5,
-    "platformRecommendationProb": 0.81,
+    "personaStability": 9.500,
+    "cooperationReputation": 9.600,
+    "commentQuality": 9.200,
+    "contentInnovation": 9.300,
+    "platformIndex": 9.500,
+    "platformRecommendationProb": 0.810,
     "scores": {
       "adaptability_score": 91,
       "influence_score": 92,
@@ -5556,9 +6025,14 @@
       "与新能源车契合度高"
     ],
     "priceRange": "高端",
-    "priceMin": 45000,
-    "priceMax": 58000,
+    "priceMin": 45000.00,
+    "priceMax": 58000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "岚图汽车图文测评 – 曝光：124w+；互动：1.1w+",
       "奥迪测评 – 曝光：41w+；互动：2.5k+"
@@ -5580,6 +6054,7 @@
     "followersCount": 439891388,
     "avgViews": 83750,
     "engagementRate": 27.69,
+    "completionRate": null,
     "publishFrequency30d": 23,
     "publishFrequency90d": 59,
     "explosiveContentCount": 6,
@@ -5590,12 +6065,12 @@
       "试驾达人",
       "帅气车评人"
     ],
-    "personaStability": 9.4,
-    "cooperationReputation": 9.6,
-    "commentQuality": 9.2,
-    "contentInnovation": 9.4,
-    "platformIndex": 9.5,
-    "platformRecommendationProb": 0.80,
+    "personaStability": 9.400,
+    "cooperationReputation": 9.600,
+    "commentQuality": 9.200,
+    "contentInnovation": 9.400,
+    "platformIndex": 9.500,
+    "platformRecommendationProb": 0.800,
     "scores": {
       "adaptability_score": 90,
       "influence_score": 92,
@@ -5609,9 +6084,14 @@
       "具强内容延展性"
     ],
     "priceRange": "高端",
-    "priceMin": 35000,
-    "priceMax": 45000,
+    "priceMin": 35000.00,
+    "priceMax": 45000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "岚图汽车图文测评 – 曝光：52w+；互动：8k+",
       "智界汽车测评 – 曝光：134w+；互动：2.1k+"
@@ -5633,6 +6113,7 @@
     "followersCount": 256506357,
     "avgViews": 655410,
     "engagementRate": 32.15,
+    "completionRate": null,
     "publishFrequency30d": 22,
     "publishFrequency90d": 58,
     "explosiveContentCount": 6,
@@ -5643,12 +6124,12 @@
       "行车安全知识",
       "干货分享"
     ],
-    "personaStability": 9.5,
-    "cooperationReputation": 9.7,
-    "commentQuality": 9.3,
-    "contentInnovation": 9.4,
-    "platformIndex": 9.6,
-    "platformRecommendationProb": 0.82,
+    "personaStability": 9.500,
+    "cooperationReputation": 9.700,
+    "commentQuality": 9.300,
+    "contentInnovation": 9.400,
+    "platformIndex": 9.600,
+    "platformRecommendationProb": 0.820,
     "scores": {
       "adaptability_score": 92,
       "influence_score": 94,
@@ -5662,9 +6143,14 @@
       "新能源汽车赛道热度高"
     ],
     "priceRange": "中高",
-    "priceMin": 32000,
-    "priceMax": 42000,
+    "priceMin": 32000.00,
+    "priceMax": 42000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "汤臣倍健小白管 – 曝光：61w+；互动：1.2w+",
       "艾天然营养素 – 曝光：68w+；互动：1.5w+"
@@ -5686,6 +6172,7 @@
     "followersCount": 490316744,
     "avgViews": 44650,
     "engagementRate": 11.81,
+    "completionRate": null,
     "publishFrequency30d": 24,
     "publishFrequency90d": 61,
     "explosiveContentCount": 6,
@@ -5696,12 +6183,12 @@
       "创意特效",
       "赛博风"
     ],
-    "personaStability": 9.4,
-    "cooperationReputation": 9.6,
-    "commentQuality": 9.1,
-    "contentInnovation": 9.5,
-    "platformIndex": 9.5,
-    "platformRecommendationProb": 0.80,
+    "personaStability": 9.400,
+    "cooperationReputation": 9.600,
+    "commentQuality": 9.100,
+    "contentInnovation": 9.500,
+    "platformIndex": 9.500,
+    "platformRecommendationProb": 0.800,
     "scores": {
       "adaptability_score": 91,
       "influence_score": 92,
@@ -5715,9 +6202,14 @@
       "兼具科技与时尚内容属性"
     ],
     "priceRange": "中高",
-    "priceMin": 28000,
-    "priceMax": 39000,
+    "priceMin": 28000.00,
+    "priceMax": 39000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "新号推荐，期待合作！"
     ]
@@ -5737,6 +6229,7 @@
     "followersCount": 5344346088,
     "avgViews": 36990,
     "engagementRate": 5.33,
+    "completionRate": null,
     "publishFrequency30d": 23,
     "publishFrequency90d": 59,
     "explosiveContentCount": 5,
@@ -5747,12 +6240,12 @@
       "赛车执照",
       "安全教育"
     ],
-    "personaStability": 9.5,
-    "cooperationReputation": 9.7,
-    "commentQuality": 9.2,
-    "contentInnovation": 9.3,
-    "platformIndex": 9.5,
-    "platformRecommendationProb": 0.81,
+    "personaStability": 9.500,
+    "cooperationReputation": 9.700,
+    "commentQuality": 9.200,
+    "contentInnovation": 9.300,
+    "platformIndex": 9.500,
+    "platformRecommendationProb": 0.810,
     "scores": {
       "adaptability_score": 90,
       "influence_score": 92,
@@ -5766,9 +6259,14 @@
       "女性车主视角易引流"
     ],
     "priceRange": "中高",
-    "priceMin": 25000,
-    "priceMax": 36000,
+    "priceMin": 25000.00,
+    "priceMax": 36000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "与交警合作抓改装车 – 曝光：70w+；互动：9.6k+"
     ]
@@ -5789,6 +6287,7 @@
     "followersCount": 6712244898,
     "avgViews": 78860,
     "engagementRate": 7.10,
+    "completionRate": null,
     "publishFrequency30d": 26,
     "publishFrequency90d": 64,
     "explosiveContentCount": 6,
@@ -5799,12 +6298,12 @@
       "越野达人",
       "热点评论"
     ],
-    "personaStability": 9.6,
-    "cooperationReputation": 9.8,
-    "commentQuality": 9.3,
-    "contentInnovation": 9.4,
-    "platformIndex": 9.7,
-    "platformRecommendationProb": 0.82,
+    "personaStability": 9.600,
+    "cooperationReputation": 9.800,
+    "commentQuality": 9.300,
+    "contentInnovation": 9.400,
+    "platformIndex": 9.700,
+    "platformRecommendationProb": 0.820,
     "scores": {
       "adaptability_score": 93,
       "influence_score": 94,
@@ -5818,9 +6317,14 @@
       "话题传播力高"
     ],
     "priceRange": "中高",
-    "priceMin": 25000,
-    "priceMax": 35000,
+    "priceMin": 25000.00,
+    "priceMax": 35000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "热点现象讨论 – 曝光：45w+；互动：1w+"
     ]
@@ -5841,6 +6345,7 @@
     "followersCount": 5395893470,
     "avgViews": 79570,
     "engagementRate": 5.38,
+    "completionRate": null,
     "publishFrequency30d": 24,
     "publishFrequency90d": 62,
     "explosiveContentCount": 6,
@@ -5851,12 +6356,12 @@
       "电动车体验",
       "吐槽风格"
     ],
-    "personaStability": 9.5,
-    "cooperationReputation": 9.6,
-    "commentQuality": 9.2,
-    "contentInnovation": 9.3,
-    "platformIndex": 9.5,
-    "platformRecommendationProb": 0.80,
+    "personaStability": 9.500,
+    "cooperationReputation": 9.600,
+    "commentQuality": 9.200,
+    "contentInnovation": 9.300,
+    "platformIndex": 9.500,
+    "platformRecommendationProb": 0.800,
     "scores": {
       "adaptability_score": 90,
       "influence_score": 92,
@@ -5870,9 +6375,14 @@
       "女性车评视角稳健"
     ],
     "priceRange": "中高",
-    "priceMin": 25000,
-    "priceMax": 35000,
+    "priceMin": 25000.00,
+    "priceMax": 35000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "挚达充电桩 – 曝光：9w+；互动：1.8k+"
     ]
@@ -5894,6 +6404,7 @@
     "followersCount": 312644662,
     "avgViews": 218310,
     "engagementRate": 33.28,
+    "completionRate": null,
     "publishFrequency30d": 22,
     "publishFrequency90d": 59,
     "explosiveContentCount": 7,
@@ -5905,12 +6416,12 @@
       "电车改装",
       "运动型男"
     ],
-    "personaStability": 9.6,
-    "cooperationReputation": 9.8,
-    "commentQuality": 9.3,
-    "contentInnovation": 9.5,
-    "platformIndex": 9.6,
-    "platformRecommendationProb": 0.83,
+    "personaStability": 9.600,
+    "cooperationReputation": 9.800,
+    "commentQuality": 9.300,
+    "contentInnovation": 9.500,
+    "platformIndex": 9.600,
+    "platformRecommendationProb": 0.830,
     "scores": {
       "adaptability_score": 94,
       "influence_score": 95,
@@ -5924,9 +6435,14 @@
       "适配高端汽车品牌合作"
     ],
     "priceRange": "高端",
-    "priceMin": 25000,
-    "priceMax": 35000,
+    "priceMin": 25000.00,
+    "priceMax": 35000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "长安Lumin – 曝光：7w+；互动：2.4k+",
       "体验路人车 – 曝光：118w+；互动：5.2k+"
@@ -5949,6 +6465,7 @@
     "followersCount": 9415662416,
     "avgViews": 322400,
     "engagementRate": 23.12,
+    "completionRate": null,
     "publishFrequency30d": 26,
     "publishFrequency90d": 68,
     "explosiveContentCount": 8,
@@ -5959,12 +6476,12 @@
       "技术流车评",
       "实战经验丰富"
     ],
-    "personaStability": 9.7,
-    "cooperationReputation": 9.8,
-    "commentQuality": 9.4,
-    "contentInnovation": 9.6,
-    "platformIndex": 9.7,
-    "platformRecommendationProb": 0.85,
+    "personaStability": 9.700,
+    "cooperationReputation": 9.800,
+    "commentQuality": 9.400,
+    "contentInnovation": 9.600,
+    "platformIndex": 9.700,
+    "platformRecommendationProb": 0.850,
     "scores": {
       "adaptability_score": 96,
       "influence_score": 97,
@@ -5978,9 +6495,14 @@
       "汽车品牌高度信任度"
     ],
     "priceRange": "高端",
-    "priceMin": 25000,
-    "priceMax": 35000,
+    "priceMin": 25000.00,
+    "priceMax": 35000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "期待合作，共创爆款！"
     ]
@@ -6001,6 +6523,7 @@
     "followersCount": 925446188,
     "avgViews": 63990,
     "engagementRate": 11.75,
+    "completionRate": null,
     "publishFrequency30d": 21,
     "publishFrequency90d": 58,
     "explosiveContentCount": 6,
@@ -6011,12 +6534,12 @@
       "情侣车评",
       "新能源专注"
     ],
-    "personaStability": 9.4,
-    "cooperationReputation": 9.6,
-    "commentQuality": 9.2,
-    "contentInnovation": 9.3,
-    "platformIndex": 9.5,
-    "platformRecommendationProb": 0.81,
+    "personaStability": 9.400,
+    "cooperationReputation": 9.600,
+    "commentQuality": 9.200,
+    "contentInnovation": 9.300,
+    "platformIndex": 9.500,
+    "platformRecommendationProb": 0.810,
     "scores": {
       "adaptability_score": 91,
       "influence_score": 92,
@@ -6030,9 +6553,14 @@
       "选车攻略类转化力强"
     ],
     "priceRange": "中高",
-    "priceMin": 22000,
-    "priceMax": 32000,
+    "priceMin": 22000.00,
+    "priceMax": 32000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "仰望U9试驾 – 曝光：20w+；互动：1.1k+"
     ]
@@ -6053,6 +6581,7 @@
     "followersCount": 538879435,
     "avgViews": 182310,
     "engagementRate": 30.42,
+    "completionRate": null,
     "publishFrequency30d": 23,
     "publishFrequency90d": 60,
     "explosiveContentCount": 6,
@@ -6063,12 +6592,12 @@
       "真实测评",
       "高净值女性"
     ],
-    "personaStability": 9.6,
-    "cooperationReputation": 9.8,
-    "commentQuality": 9.3,
-    "contentInnovation": 9.4,
-    "platformIndex": 9.6,
-    "platformRecommendationProb": 0.82,
+    "personaStability": 9.600,
+    "cooperationReputation": 9.800,
+    "commentQuality": 9.300,
+    "contentInnovation": 9.400,
+    "platformIndex": 9.600,
+    "platformRecommendationProb": 0.820,
     "scores": {
       "adaptability_score": 93,
       "influence_score": 94,
@@ -6082,9 +6611,14 @@
       "品牌合作信任高"
     ],
     "priceRange": "中高",
-    "priceMin": 21000,
-    "priceMax": 30000,
+    "priceMin": 21000.00,
+    "priceMax": 30000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "问界M9体验 – 曝光：62w+；互动：1.2k+"
     ]
@@ -6105,6 +6639,7 @@
     "followersCount": 567364994,
     "avgViews": 24400,
     "engagementRate": 3.97,
+    "completionRate": null,
     "publishFrequency30d": 25,
     "publishFrequency90d": 62,
     "explosiveContentCount": 5,
@@ -6115,12 +6650,12 @@
       "颜值博主",
       "自驾挑战"
     ],
-    "personaStability": 9.3,
-    "cooperationReputation": 9.5,
-    "commentQuality": 9.1,
-    "contentInnovation": 9.3,
-    "platformIndex": 9.4,
-    "platformRecommendationProb": 0.80,
+    "personaStability": 9.300,
+    "cooperationReputation": 9.500,
+    "commentQuality": 9.100,
+    "contentInnovation": 9.300,
+    "platformIndex": 9.400,
+    "platformRecommendationProb": 0.800,
     "scores": {
       "adaptability_score": 89,
       "influence_score": 91,
@@ -6134,9 +6669,14 @@
       "贴近年轻女性车主群体"
     ],
     "priceRange": "中高",
-    "priceMin": 21000,
-    "priceMax": 30000,
+    "priceMin": 21000.00,
+    "priceMax": 30000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "长沙魔鬼闸道挑战 – 曝光：508w+；互动：2.7w+"
     ]
@@ -6157,6 +6697,7 @@
     "followersCount": 9742450035,
     "avgViews": 59000,
     "engagementRate": 2.98,
+    "completionRate": null,
     "publishFrequency30d": 22,
     "publishFrequency90d": 57,
     "explosiveContentCount": 6,
@@ -6167,12 +6708,12 @@
       "汽车知识干货",
       "新能源砖家"
     ],
-    "personaStability": 9.4,
-    "cooperationReputation": 9.6,
-    "commentQuality": 9.2,
-    "contentInnovation": 9.3,
-    "platformIndex": 9.5,
-    "platformRecommendationProb": 0.81,
+    "personaStability": 9.400,
+    "cooperationReputation": 9.600,
+    "commentQuality": 9.200,
+    "contentInnovation": 9.300,
+    "platformIndex": 9.500,
+    "platformRecommendationProb": 0.810,
     "scores": {
       "adaptability_score": 91,
       "influence_score": 92,
@@ -6186,9 +6727,14 @@
       "内容与热点结合度高"
     ],
     "priceRange": "中高",
-    "priceMin": 21000,
-    "priceMax": 30000,
+    "priceMin": 21000.00,
+    "priceMax": 30000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "赔不起的交通设施 – 曝光：615w+；互动：16.9w+",
       "女生开车别戴抓夹 – 曝光：157w+；互动：1.4w+"
@@ -6210,6 +6756,7 @@
     "followersCount": 5348486811,
     "avgViews": 32880,
     "engagementRate": 2.03,
+    "completionRate": null,
     "publishFrequency30d": 23,
     "publishFrequency90d": 61,
     "explosiveContentCount": 5,
@@ -6220,12 +6767,12 @@
       "多风格博主",
       "车展达人"
     ],
-    "personaStability": 9.5,
-    "cooperationReputation": 9.7,
-    "commentQuality": 9.3,
-    "contentInnovation": 9.3,
-    "platformIndex": 9.5,
-    "platformRecommendationProb": 0.80,
+    "personaStability": 9.500,
+    "cooperationReputation": 9.700,
+    "commentQuality": 9.300,
+    "contentInnovation": 9.300,
+    "platformIndex": 9.500,
+    "platformRecommendationProb": 0.800,
     "scores": {
       "adaptability_score": 90,
       "influence_score": 91,
@@ -6239,9 +6786,14 @@
       "内容多样化适配度高"
     ],
     "priceRange": "中高",
-    "priceMin": 21000,
-    "priceMax": 30000,
+    "priceMin": 21000.00,
+    "priceMax": 30000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "期待合作，共创爆款！"
     ]
@@ -6262,6 +6814,7 @@
     "followersCount": 5344557088,
     "avgViews": 10580,
     "engagementRate": 1.50,
+    "completionRate": null,
     "publishFrequency30d": 20,
     "publishFrequency90d": 55,
     "explosiveContentCount": 4,
@@ -6272,12 +6825,12 @@
       "专业口播",
       "车展达人"
     ],
-    "personaStability": 9.3,
-    "cooperationReputation": 9.5,
-    "commentQuality": 9.1,
-    "contentInnovation": 9.2,
-    "platformIndex": 9.3,
-    "platformRecommendationProb": 0.78,
+    "personaStability": 9.300,
+    "cooperationReputation": 9.500,
+    "commentQuality": 9.100,
+    "contentInnovation": 9.200,
+    "platformIndex": 9.300,
+    "platformRecommendationProb": 0.780,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 90,
@@ -6291,9 +6844,14 @@
       "女性温柔风车评稀缺"
     ],
     "priceRange": "中高",
-    "priceMin": 21000,
-    "priceMax": 30000,
+    "priceMin": 21000.00,
+    "priceMax": 30000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "开车不要吃的东西 – 曝光：73w+；互动：6.4w+"
     ]
@@ -6314,6 +6872,7 @@
     "followersCount": 8314624998,
     "avgViews": 19230,
     "engagementRate": 1.25,
+    "completionRate": null,
     "publishFrequency30d": 22,
     "publishFrequency90d": 60,
     "explosiveContentCount": 4,
@@ -6324,12 +6883,12 @@
       "生活vlog",
       "用户视角"
     ],
-    "personaStability": 9.2,
-    "cooperationReputation": 9.5,
-    "commentQuality": 9.0,
-    "contentInnovation": 9.1,
-    "platformIndex": 9.3,
-    "platformRecommendationProb": 0.77,
+    "personaStability": 9.200,
+    "cooperationReputation": 9.500,
+    "commentQuality": 9.000,
+    "contentInnovation": 9.100,
+    "platformIndex": 9.300,
+    "platformRecommendationProb": 0.770,
     "scores": {
       "adaptability_score": 87,
       "influence_score": 89,
@@ -6343,9 +6902,14 @@
       "适配汽车生活方式类品牌"
     ],
     "priceRange": "中高",
-    "priceMin": 21000,
-    "priceMax": 30000,
+    "priceMin": 21000.00,
+    "priceMax": 30000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "高速上安全驾驶 – 曝光：281w+；互动：12.5w+"
     ]
@@ -6366,6 +6930,7 @@
     "followersCount": 710223803,
     "avgViews": 24170,
     "engagementRate": 1.48,
+    "completionRate": null,
     "publishFrequency30d": 20,
     "publishFrequency90d": 58,
     "explosiveContentCount": 5,
@@ -6376,12 +6941,12 @@
       "帅气男博主",
       "香港人设"
     ],
-    "personaStability": 9.3,
-    "cooperationReputation": 9.5,
-    "commentQuality": 9.1,
-    "contentInnovation": 9.3,
-    "platformIndex": 9.4,
-    "platformRecommendationProb": 0.79,
+    "personaStability": 9.300,
+    "cooperationReputation": 9.500,
+    "commentQuality": 9.100,
+    "contentInnovation": 9.300,
+    "platformIndex": 9.400,
+    "platformRecommendationProb": 0.790,
     "scores": {
       "adaptability_score": 89,
       "influence_score": 91,
@@ -6395,9 +6960,14 @@
       "兼具娱乐与干货价值"
     ],
     "priceRange": "中高",
-    "priceMin": 21000,
-    "priceMax": 30000,
+    "priceMin": 21000.00,
+    "priceMax": 30000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "安全指南 – 曝光：32w+；互动：5.5k+"
     ]
@@ -6418,6 +6988,7 @@
     "followersCount": 5267770482,
     "avgViews": 149970,
     "engagementRate": 6.98,
+    "completionRate": null,
     "publishFrequency30d": 25,
     "publishFrequency90d": 62,
     "explosiveContentCount": 6,
@@ -6428,12 +6999,12 @@
       "海外留学背景",
       "买车避坑"
     ],
-    "personaStability": 9.5,
-    "cooperationReputation": 9.7,
-    "commentQuality": 9.3,
-    "contentInnovation": 9.4,
-    "platformIndex": 9.6,
-    "platformRecommendationProb": 0.82,
+    "personaStability": 9.500,
+    "cooperationReputation": 9.700,
+    "commentQuality": 9.300,
+    "contentInnovation": 9.400,
+    "platformIndex": 9.600,
+    "platformRecommendationProb": 0.820,
     "scores": {
       "adaptability_score": 92,
       "influence_score": 94,
@@ -6447,9 +7018,14 @@
       "汽车品牌合作适配高"
     ],
     "priceRange": "中高",
-    "priceMin": 21000,
-    "priceMax": 30000,
+    "priceMin": 21000.00,
+    "priceMax": 30000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "理想车主 – 曝光：9.5w+；互动：1.7k+"
     ]
@@ -6470,6 +7046,7 @@
     "followersCount": 440853646,
     "avgViews": 2780,
     "engagementRate": 1.19,
+    "completionRate": null,
     "publishFrequency30d": 21,
     "publishFrequency90d": 57,
     "explosiveContentCount": 4,
@@ -6480,12 +7057,12 @@
       "拽姐风格",
       "奔驰+特斯拉车主"
     ],
-    "personaStability": 9.4,
-    "cooperationReputation": 9.6,
-    "commentQuality": 9.2,
-    "contentInnovation": 9.3,
-    "platformIndex": 9.5,
-    "platformRecommendationProb": 0.80,
+    "personaStability": 9.400,
+    "cooperationReputation": 9.600,
+    "commentQuality": 9.200,
+    "contentInnovation": 9.300,
+    "platformIndex": 9.500,
+    "platformRecommendationProb": 0.800,
     "scores": {
       "adaptability_score": 90,
       "influence_score": 91,
@@ -6499,9 +7076,14 @@
       "适合中高端汽车合作"
     ],
     "priceRange": "中高",
-    "priceMin": 21000,
-    "priceMax": 30000,
+    "priceMin": 21000.00,
+    "priceMax": 30000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "新车验车 – 曝光：4w+；互动：2.4k+"
     ]
@@ -6522,6 +7104,7 @@
     "followersCount": 374619048,
     "avgViews": 35800,
     "engagementRate": 3.50,
+    "completionRate": null,
     "publishFrequency30d": 22,
     "publishFrequency90d": 60,
     "explosiveContentCount": 5,
@@ -6532,12 +7115,12 @@
       "女性购车顾问",
       "剧情植入"
     ],
-    "personaStability": 9.4,
-    "cooperationReputation": 9.6,
-    "commentQuality": 9.2,
-    "contentInnovation": 9.4,
-    "platformIndex": 9.5,
-    "platformRecommendationProb": 0.81,
+    "personaStability": 9.400,
+    "cooperationReputation": 9.600,
+    "commentQuality": 9.200,
+    "contentInnovation": 9.400,
+    "platformIndex": 9.500,
+    "platformRecommendationProb": 0.810,
     "scores": {
       "adaptability_score": 91,
       "influence_score": 92,
@@ -6551,9 +7134,14 @@
       "吸引男性粉丝群体"
     ],
     "priceRange": "中高",
-    "priceMin": 21000,
-    "priceMax": 30000,
+    "priceMin": 21000.00,
+    "priceMax": 30000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "期待合作，共创爆款！"
     ]
@@ -6574,6 +7162,7 @@
     "followersCount": 979236771,
     "avgViews": 12920,
     "engagementRate": 5.34,
+    "completionRate": null,
     "publishFrequency30d": 23,
     "publishFrequency90d": 59,
     "explosiveContentCount": 6,
@@ -6584,12 +7173,12 @@
       "赛道日嘉宾",
       "智驾达人"
     ],
-    "personaStability": 9.6,
-    "cooperationReputation": 9.7,
-    "commentQuality": 9.3,
-    "contentInnovation": 9.4,
-    "platformIndex": 9.6,
-    "platformRecommendationProb": 0.83,
+    "personaStability": 9.600,
+    "cooperationReputation": 9.700,
+    "commentQuality": 9.300,
+    "contentInnovation": 9.400,
+    "platformIndex": 9.600,
+    "platformRecommendationProb": 0.830,
     "scores": {
       "adaptability_score": 93,
       "influence_score": 94,
@@ -6603,9 +7192,14 @@
       "内容拍摄高级感强"
     ],
     "priceRange": "中高",
-    "priceMin": 21000,
-    "priceMax": 30000,
+    "priceMin": 21000.00,
+    "priceMax": 30000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "期待合作，共创爆款！"
     ]
@@ -6626,6 +7220,7 @@
     "followersCount": 5037870983,
     "avgViews": 45250,
     "engagementRate": 1.39,
+    "completionRate": null,
     "publishFrequency30d": 22,
     "publishFrequency90d": 58,
     "explosiveContentCount": 5,
@@ -6636,12 +7231,12 @@
       "运动型男",
       "创意用车场景"
     ],
-    "personaStability": 9.4,
-    "cooperationReputation": 9.6,
-    "commentQuality": 9.1,
-    "contentInnovation": 9.4,
-    "platformIndex": 9.5,
-    "platformRecommendationProb": 0.81,
+    "personaStability": 9.400,
+    "cooperationReputation": 9.600,
+    "commentQuality": 9.100,
+    "contentInnovation": 9.400,
+    "platformIndex": 9.500,
+    "platformRecommendationProb": 0.810,
     "scores": {
       "adaptability_score": 91,
       "influence_score": 92,
@@ -6655,9 +7250,14 @@
       "用车体验内容真实可信"
     ],
     "priceRange": "中高",
-    "priceMin": 21000,
-    "priceMax": 30000,
+    "priceMin": 21000.00,
+    "priceMax": 30000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "期待合作，共创爆款！"
     ]
@@ -6678,6 +7278,7 @@
     "followersCount": 541897496,
     "avgViews": 252600,
     "engagementRate": 47.65,
+    "completionRate": null,
     "publishFrequency30d": 26,
     "publishFrequency90d": 64,
     "explosiveContentCount": 8,
@@ -6689,12 +7290,12 @@
       "专业团队",
       "干货科普"
     ],
-    "personaStability": 9.7,
-    "cooperationReputation": 9.8,
-    "commentQuality": 9.5,
-    "contentInnovation": 9.6,
-    "platformIndex": 9.7,
-    "platformRecommendationProb": 0.85,
+    "personaStability": 9.700,
+    "cooperationReputation": 9.800,
+    "commentQuality": 9.500,
+    "contentInnovation": 9.600,
+    "platformIndex": 9.700,
+    "platformRecommendationProb": 0.850,
     "scores": {
       "adaptability_score": 95,
       "influence_score": 96,
@@ -6708,9 +7309,14 @@
       "适配高端科技品牌合作"
     ],
     "priceRange": "高端",
-    "priceMin": 22000,
-    "priceMax": 32000,
+    "priceMin": 22000.00,
+    "priceMax": 32000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "智能门锁测评 – 曝光：14w+；互动：6.5k+"
     ]
@@ -6731,6 +7337,7 @@
     "followersCount": 702394488,
     "avgViews": 217750,
     "engagementRate": 12.73,
+    "completionRate": null,
     "publishFrequency30d": 24,
     "publishFrequency90d": 60,
     "explosiveContentCount": 7,
@@ -6741,12 +7348,12 @@
       "装修干货",
       "真实开箱"
     ],
-    "personaStability": 9.6,
-    "cooperationReputation": 9.8,
-    "commentQuality": 9.4,
-    "contentInnovation": 9.4,
-    "platformIndex": 9.6,
-    "platformRecommendationProb": 0.83,
+    "personaStability": 9.600,
+    "cooperationReputation": 9.800,
+    "commentQuality": 9.400,
+    "contentInnovation": 9.400,
+    "platformIndex": 9.600,
+    "platformRecommendationProb": 0.830,
     "scores": {
       "adaptability_score": 93,
       "influence_score": 94,
@@ -6760,9 +7367,14 @@
       "内容信任度极高"
     ],
     "priceRange": "中高",
-    "priceMin": 18000,
-    "priceMax": 25000,
+    "priceMin": 18000.00,
+    "priceMax": 25000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "冰箱选购指南 – 曝光：147w+；互动：3.1w+"
     ]
@@ -6783,6 +7395,7 @@
     "followersCount": 460486174,
     "avgViews": 77620,
     "engagementRate": 4.82,
+    "completionRate": null,
     "publishFrequency30d": 20,
     "publishFrequency90d": 57,
     "explosiveContentCount": 5,
@@ -6793,12 +7406,12 @@
       "全屋智能系统",
       "亲民科普"
     ],
-    "personaStability": 9.5,
-    "cooperationReputation": 9.6,
-    "commentQuality": 9.2,
-    "contentInnovation": 9.3,
-    "platformIndex": 9.4,
-    "platformRecommendationProb": 0.80,
+    "personaStability": 9.500,
+    "cooperationReputation": 9.600,
+    "commentQuality": 9.200,
+    "contentInnovation": 9.300,
+    "platformIndex": 9.400,
+    "platformRecommendationProb": 0.800,
     "scores": {
       "adaptability_score": 90,
       "influence_score": 91,
@@ -6812,9 +7425,14 @@
       "适合中高端品牌内容共创"
     ],
     "priceRange": "中",
-    "priceMin": 12000,
-    "priceMax": 16000,
+    "priceMin": 12000.00,
+    "priceMax": 16000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "期待合作，共创爆款！"
     ]
@@ -6835,6 +7453,7 @@
     "followersCount": 271040686,
     "avgViews": 49200,
     "engagementRate": 9.60,
+    "completionRate": null,
     "publishFrequency30d": 22,
     "publishFrequency90d": 59,
     "explosiveContentCount": 5,
@@ -6845,12 +7464,12 @@
       "家居科技",
       "内容多维"
     ],
-    "personaStability": 9.4,
-    "cooperationReputation": 9.6,
-    "commentQuality": 9.1,
-    "contentInnovation": 9.3,
-    "platformIndex": 9.4,
-    "platformRecommendationProb": 0.79,
+    "personaStability": 9.400,
+    "cooperationReputation": 9.600,
+    "commentQuality": 9.100,
+    "contentInnovation": 9.300,
+    "platformIndex": 9.400,
+    "platformRecommendationProb": 0.790,
     "scores": {
       "adaptability_score": 89,
       "influence_score": 91,
@@ -6864,9 +7483,14 @@
       "性价比高适合新兴品牌合作"
     ],
     "priceRange": "中",
-    "priceMin": 11000,
-    "priceMax": 15000,
+    "priceMin": 11000.00,
+    "priceMax": 15000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "期待合作，共创爆款！"
     ]
@@ -6887,6 +7511,7 @@
     "followersCount": 1031835007,
     "avgViews": 405890,
     "engagementRate": 14.41,
+    "completionRate": null,
     "publishFrequency30d": 27,
     "publishFrequency90d": 65,
     "explosiveContentCount": 9,
@@ -6897,12 +7522,12 @@
       "家庭生活",
       "中高端家居"
     ],
-    "personaStability": 9.8,
-    "cooperationReputation": 9.9,
-    "commentQuality": 9.6,
-    "contentInnovation": 9.7,
-    "platformIndex": 9.8,
-    "platformRecommendationProb": 0.87,
+    "personaStability": 9.800,
+    "cooperationReputation": 9.900,
+    "commentQuality": 9.600,
+    "contentInnovation": 9.700,
+    "platformIndex": 9.800,
+    "platformRecommendationProb": 0.870,
     "scores": {
       "adaptability_score": 96,
       "influence_score": 97,
@@ -6916,9 +7541,14 @@
       "品牌信任度极高"
     ],
     "priceRange": "高端",
-    "priceMin": 30000,
-    "priceMax": 40000,
+    "priceMin": 30000.00,
+    "priceMax": 40000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "舒达智能床 – 曝光：14w+；互动：6.7k+",
       "海尔净水器 – 曝光：14w+；互动：5.1k+"
@@ -6940,6 +7570,7 @@
     "followersCount": 408416923,
     "avgViews": 314900,
     "engagementRate": 17.72,
+    "completionRate": null,
     "publishFrequency30d": 25,
     "publishFrequency90d": 63,
     "explosiveContentCount": 7,
@@ -6950,12 +7581,12 @@
       "干货女神",
       "智性姐姐"
     ],
-    "personaStability": 9.7,
-    "cooperationReputation": 9.8,
-    "commentQuality": 9.6,
-    "contentInnovation": 9.5,
-    "platformIndex": 9.7,
-    "platformRecommendationProb": 0.86,
+    "personaStability": 9.700,
+    "cooperationReputation": 9.800,
+    "commentQuality": 9.600,
+    "contentInnovation": 9.500,
+    "platformIndex": 9.700,
+    "platformRecommendationProb": 0.860,
     "scores": {
       "adaptability_score": 95,
       "influence_score": 96,
@@ -6969,9 +7600,14 @@
       "生活方式展示高级"
     ],
     "priceRange": "高端",
-    "priceMin": 30000,
-    "priceMax": 40000,
+    "priceMin": 30000.00,
+    "priceMax": 40000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "方太F1新月洗碗机 – 曝光：34w+；互动：1.6w+"
     ]
@@ -6992,6 +7628,7 @@
     "followersCount": 154735332,
     "avgViews": 115760,
     "engagementRate": 27.07,
+    "completionRate": null,
     "publishFrequency30d": 24,
     "publishFrequency90d": 61,
     "explosiveContentCount": 6,
@@ -7002,12 +7639,12 @@
       "意式风格",
       "生活方式博主"
     ],
-    "personaStability": 9.8,
-    "cooperationReputation": 9.9,
-    "commentQuality": 9.7,
-    "contentInnovation": 9.7,
-    "platformIndex": 9.8,
-    "platformRecommendationProb": 0.87,
+    "personaStability": 9.800,
+    "cooperationReputation": 9.900,
+    "commentQuality": 9.700,
+    "contentInnovation": 9.700,
+    "platformIndex": 9.800,
+    "platformRecommendationProb": 0.870,
     "scores": {
       "adaptability_score": 96,
       "influence_score": 97,
@@ -7021,9 +7658,14 @@
       "可完美适配高端品牌调性"
     ],
     "priceRange": "高端",
-    "priceMin": 28000,
-    "priceMax": 38000,
+    "priceMin": 28000.00,
+    "priceMax": 38000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "大平层的隐形家务 – 曝光：88w+；互动：6k+"
     ]
@@ -7044,6 +7686,7 @@
     "followersCount": 1013116268,
     "avgViews": 329510,
     "engagementRate": 17.41,
+    "completionRate": null,
     "publishFrequency30d": 26,
     "publishFrequency90d": 64,
     "explosiveContentCount": 7,
@@ -7054,12 +7697,12 @@
       "夫妻档",
       "宠物家庭"
     ],
-    "personaStability": 9.6,
-    "cooperationReputation": 9.8,
-    "commentQuality": 9.5,
-    "contentInnovation": 9.6,
-    "platformIndex": 9.7,
-    "platformRecommendationProb": 0.85,
+    "personaStability": 9.600,
+    "cooperationReputation": 9.800,
+    "commentQuality": 9.500,
+    "contentInnovation": 9.600,
+    "platformIndex": 9.700,
+    "platformRecommendationProb": 0.850,
     "scores": {
       "adaptability_score": 94,
       "influence_score": 95,
@@ -7073,9 +7716,14 @@
       "适合品牌场景化展示"
     ],
     "priceRange": "高端",
-    "priceMin": 21000,
-    "priceMax": 30000,
+    "priceMin": 21000.00,
+    "priceMax": 30000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "【收纳】深柜改抽屉 – 曝光：133w+；互动：8.6w+"
     ]
@@ -7096,6 +7744,7 @@
     "followersCount": 4943200333,
     "avgViews": 313060,
     "engagementRate": 19.83,
+    "completionRate": null,
     "publishFrequency30d": 28,
     "publishFrequency90d": 65,
     "explosiveContentCount": 8,
@@ -7106,12 +7755,12 @@
       "小户型改造",
       "独居少女"
     ],
-    "personaStability": 9.5,
-    "cooperationReputation": 9.7,
-    "commentQuality": 9.4,
-    "contentInnovation": 9.5,
-    "platformIndex": 9.6,
-    "platformRecommendationProb": 0.84,
+    "personaStability": 9.500,
+    "cooperationReputation": 9.700,
+    "commentQuality": 9.400,
+    "contentInnovation": 9.500,
+    "platformIndex": 9.600,
+    "platformRecommendationProb": 0.840,
     "scores": {
       "adaptability_score": 93,
       "influence_score": 94,
@@ -7125,9 +7774,14 @@
       "小空间利用话题热度高"
     ],
     "priceRange": "中高",
-    "priceMin": 20000,
-    "priceMax": 28000,
+    "priceMin": 20000.00,
+    "priceMax": 28000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "期待合作，共创爆款！"
     ]
@@ -7148,6 +7802,7 @@
     "followersCount": 1067006692,
     "avgViews": 251010,
     "engagementRate": 11.51,
+    "completionRate": null,
     "publishFrequency30d": 24,
     "publishFrequency90d": 60,
     "explosiveContentCount": 6,
@@ -7158,12 +7813,12 @@
       "高知父母",
       "三代同堂"
     ],
-    "personaStability": 9.8,
-    "cooperationReputation": 9.9,
-    "commentQuality": 9.7,
-    "contentInnovation": 9.7,
-    "platformIndex": 9.8,
-    "platformRecommendationProb": 0.87,
+    "personaStability": 9.800,
+    "cooperationReputation": 9.900,
+    "commentQuality": 9.700,
+    "contentInnovation": 9.700,
+    "platformIndex": 9.800,
+    "platformRecommendationProb": 0.870,
     "scores": {
       "adaptability_score": 96,
       "influence_score": 97,
@@ -7177,9 +7832,14 @@
       "适合育儿、家居及健康品牌深度合作"
     ],
     "priceRange": "高端",
-    "priceMin": 18000,
-    "priceMax": 25000,
+    "priceMin": 18000.00,
+    "priceMax": 25000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "期待合作，共创爆款！"
     ]
@@ -7200,6 +7860,7 @@
     "followersCount": 970311781,
     "avgViews": 211670,
     "engagementRate": 15.01,
+    "completionRate": null,
     "publishFrequency30d": 23,
     "publishFrequency90d": 59,
     "explosiveContentCount": 6,
@@ -7210,12 +7871,12 @@
       "自装达人",
       "宠物家庭"
     ],
-    "personaStability": 9.5,
-    "cooperationReputation": 9.7,
-    "commentQuality": 9.3,
-    "contentInnovation": 9.4,
-    "platformIndex": 9.5,
-    "platformRecommendationProb": 0.82,
+    "personaStability": 9.500,
+    "cooperationReputation": 9.700,
+    "commentQuality": 9.300,
+    "contentInnovation": 9.400,
+    "platformIndex": 9.500,
+    "platformRecommendationProb": 0.820,
     "scores": {
       "adaptability_score": 91,
       "influence_score": 92,
@@ -7229,9 +7890,14 @@
       "宠物元素增强亲和力"
     ],
     "priceRange": "中高",
-    "priceMin": 18000,
-    "priceMax": 25000,
+    "priceMin": 18000.00,
+    "priceMax": 25000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "期待合作，共创爆款！"
     ]
@@ -7252,6 +7918,7 @@
     "followersCount": 1652211426,
     "avgViews": 85090,
     "engagementRate": 36.69,
+    "completionRate": null,
     "publishFrequency30d": 25,
     "publishFrequency90d": 62,
     "explosiveContentCount": 7,
@@ -7262,12 +7929,12 @@
       "猫奴家庭",
       "互联网大厂背景"
     ],
-    "personaStability": 9.7,
-    "cooperationReputation": 9.8,
-    "commentQuality": 9.6,
-    "contentInnovation": 9.6,
-    "platformIndex": 9.7,
-    "platformRecommendationProb": 0.86,
+    "personaStability": 9.700,
+    "cooperationReputation": 9.800,
+    "commentQuality": 9.600,
+    "contentInnovation": 9.600,
+    "platformIndex": 9.700,
+    "platformRecommendationProb": 0.860,
     "scores": {
       "adaptability_score": 94,
       "influence_score": 95,
@@ -7281,9 +7948,14 @@
       "备婚群体共鸣强"
     ],
     "priceRange": "中高",
-    "priceMin": 18000,
-    "priceMax": 25000,
+    "priceMin": 18000.00,
+    "priceMax": 25000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "期待合作，共创爆款！"
     ]
@@ -7304,6 +7976,7 @@
     "followersCount": 1046939208,
     "avgViews": 165440,
     "engagementRate": 14.01,
+    "completionRate": null,
     "publishFrequency30d": 24,
     "publishFrequency90d": 60,
     "explosiveContentCount": 6,
@@ -7314,12 +7987,12 @@
       "空间改造",
       "DIY达人"
     ],
-    "personaStability": 9.6,
-    "cooperationReputation": 9.7,
-    "commentQuality": 9.4,
-    "contentInnovation": 9.5,
-    "platformIndex": 9.6,
-    "platformRecommendationProb": 0.83,
+    "personaStability": 9.600,
+    "cooperationReputation": 9.700,
+    "commentQuality": 9.400,
+    "contentInnovation": 9.500,
+    "platformIndex": 9.600,
+    "platformRecommendationProb": 0.830,
     "scores": {
       "adaptability_score": 92,
       "influence_score": 93,
@@ -7333,9 +8006,14 @@
       "适配家庭类品牌"
     ],
     "priceRange": "中高",
-    "priceMin": 18000,
-    "priceMax": 25000,
+    "priceMin": 18000.00,
+    "priceMax": 25000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "惠氏奶粉 – 曝光：21w+；互动：3.7k+"
     ]
@@ -7356,6 +8034,7 @@
     "followersCount": 891466210,
     "avgViews": 368400,
     "engagementRate": 22.88,
+    "completionRate": null,
     "publishFrequency30d": 26,
     "publishFrequency90d": 63,
     "explosiveContentCount": 8,
@@ -7366,12 +8045,12 @@
       "智能家居",
       "省时主义"
     ],
-    "personaStability": 9.7,
-    "cooperationReputation": 9.8,
-    "commentQuality": 9.5,
-    "contentInnovation": 9.6,
-    "platformIndex": 9.7,
-    "platformRecommendationProb": 0.86,
+    "personaStability": 9.700,
+    "cooperationReputation": 9.800,
+    "commentQuality": 9.500,
+    "contentInnovation": 9.600,
+    "platformIndex": 9.700,
+    "platformRecommendationProb": 0.860,
     "scores": {
       "adaptability_score": 94,
       "influence_score": 95,
@@ -7385,9 +8064,14 @@
       "内容兼具实用与温度"
     ],
     "priceRange": "中高",
-    "priceMin": 18000,
-    "priceMax": 25000,
+    "priceMin": 18000.00,
+    "priceMax": 25000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "期待合作，共创爆款！"
     ]
@@ -7408,6 +8092,7 @@
     "followersCount": 538599618,
     "avgViews": 162760,
     "engagementRate": 17.38,
+    "completionRate": null,
     "publishFrequency30d": 22,
     "publishFrequency90d": 60,
     "explosiveContentCount": 6,
@@ -7418,12 +8103,12 @@
       "美学讲解",
       "高端生活"
     ],
-    "personaStability": 9.8,
-    "cooperationReputation": 9.9,
-    "commentQuality": 9.6,
-    "contentInnovation": 9.6,
-    "platformIndex": 9.8,
-    "platformRecommendationProb": 0.87,
+    "personaStability": 9.800,
+    "cooperationReputation": 9.900,
+    "commentQuality": 9.600,
+    "contentInnovation": 9.600,
+    "platformIndex": 9.800,
+    "platformRecommendationProb": 0.870,
     "scores": {
       "adaptability_score": 95,
       "influence_score": 96,
@@ -7437,9 +8122,14 @@
       "与高端品牌契合度高"
     ],
     "priceRange": "中高",
-    "priceMin": 15000,
-    "priceMax": 22000,
+    "priceMin": 15000.00,
+    "priceMax": 22000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "期待合作，共创爆款！"
     ]
@@ -7460,6 +8150,7 @@
     "followersCount": 6149905278,
     "avgViews": 186000,
     "engagementRate": 9.17,
+    "completionRate": null,
     "publishFrequency30d": 23,
     "publishFrequency90d": 59,
     "explosiveContentCount": 6,
@@ -7470,12 +8161,12 @@
       "智能家居",
       "现代审美"
     ],
-    "personaStability": 9.6,
-    "cooperationReputation": 9.7,
-    "commentQuality": 9.4,
-    "contentInnovation": 9.6,
-    "platformIndex": 9.6,
-    "platformRecommendationProb": 0.83,
+    "personaStability": 9.600,
+    "cooperationReputation": 9.700,
+    "commentQuality": 9.400,
+    "contentInnovation": 9.600,
+    "platformIndex": 9.600,
+    "platformRecommendationProb": 0.830,
     "scores": {
       "adaptability_score": 92,
       "influence_score": 93,
@@ -7489,9 +8180,14 @@
       "内容实用兼具美感"
     ],
     "priceRange": "中高",
-    "priceMin": 15000,
-    "priceMax": 22000,
+    "priceMin": 15000.00,
+    "priceMax": 22000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "装修干货 – 曝光：353w+；互动：18w+"
     ]
@@ -7512,6 +8208,7 @@
     "followersCount": 271090110,
     "avgViews": 80280,
     "engagementRate": 10.86,
+    "completionRate": null,
     "publishFrequency30d": 21,
     "publishFrequency90d": 58,
     "explosiveContentCount": 5,
@@ -7522,12 +8219,12 @@
       "高品质懒人生活",
       "轻奢家居"
     ],
-    "personaStability": 9.5,
-    "cooperationReputation": 9.7,
-    "commentQuality": 9.3,
-    "contentInnovation": 9.5,
-    "platformIndex": 9.6,
-    "platformRecommendationProb": 0.84,
+    "personaStability": 9.500,
+    "cooperationReputation": 9.700,
+    "commentQuality": 9.300,
+    "contentInnovation": 9.500,
+    "platformIndex": 9.600,
+    "platformRecommendationProb": 0.840,
     "scores": {
       "adaptability_score": 91,
       "influence_score": 92,
@@ -7541,9 +8238,14 @@
       "合作表现稳定"
     ],
     "priceRange": "中高",
-    "priceMin": 15000,
-    "priceMax": 22000,
+    "priceMin": 15000.00,
+    "priceMax": 22000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "开学第一印象 – 曝光：35w+；互动：84w+"
     ]
@@ -7564,6 +8266,7 @@
     "followersCount": 256532340,
     "avgViews": 20930,
     "engagementRate": 1.06,
+    "completionRate": null,
     "publishFrequency30d": 18,
     "publishFrequency90d": 54,
     "explosiveContentCount": 4,
@@ -7574,12 +8277,12 @@
       "高颜值博主",
       "生活美学"
     ],
-    "personaStability": 9.4,
-    "cooperationReputation": 9.6,
-    "commentQuality": 9.2,
-    "contentInnovation": 9.3,
-    "platformIndex": 9.5,
-    "platformRecommendationProb": 0.81,
+    "personaStability": 9.400,
+    "cooperationReputation": 9.600,
+    "commentQuality": 9.200,
+    "contentInnovation": 9.300,
+    "platformIndex": 9.500,
+    "platformRecommendationProb": 0.810,
     "scores": {
       "adaptability_score": 89,
       "influence_score": 91,
@@ -7593,9 +8296,14 @@
       "合作适配度广"
     ],
     "priceRange": "中高",
-    "priceMin": 15000,
-    "priceMax": 20000,
+    "priceMin": 15000.00,
+    "priceMax": 20000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "腻子验收 – 曝光：32w+；互动：4.9w+"
     ]
@@ -7616,6 +8324,7 @@
     "followersCount": 1184610737,
     "avgViews": 176270,
     "engagementRate": 15.67,
+    "completionRate": null,
     "publishFrequency30d": 24,
     "publishFrequency90d": 60,
     "explosiveContentCount": 6,
@@ -7626,12 +8335,12 @@
       "智能家居",
       "幸福家庭"
     ],
-    "personaStability": 9.7,
-    "cooperationReputation": 9.8,
-    "commentQuality": 9.6,
-    "contentInnovation": 9.6,
-    "platformIndex": 9.7,
-    "platformRecommendationProb": 0.85,
+    "personaStability": 9.700,
+    "cooperationReputation": 9.800,
+    "commentQuality": 9.600,
+    "contentInnovation": 9.600,
+    "platformIndex": 9.700,
+    "platformRecommendationProb": 0.850,
     "scores": {
       "adaptability_score": 94,
       "influence_score": 95,
@@ -7645,9 +8354,14 @@
       "品牌合作灵活度高"
     ],
     "priceRange": "中高",
-    "priceMin": 15000,
-    "priceMax": 20000,
+    "priceMin": 15000.00,
+    "priceMax": 20000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "智能家居 – 曝光：33w+；互动：3w+"
     ]
@@ -7668,6 +8382,7 @@
     "followersCount": 891913038,
     "avgViews": 23990,
     "engagementRate": 2.69,
+    "completionRate": null,
     "publishFrequency30d": 20,
     "publishFrequency90d": 58,
     "explosiveContentCount": 4,
@@ -7678,12 +8393,12 @@
       "智能家居",
       "极简收纳"
     ],
-    "personaStability": 9.7,
-    "cooperationReputation": 9.8,
-    "commentQuality": 9.6,
-    "contentInnovation": 9.7,
-    "platformIndex": 9.8,
-    "platformRecommendationProb": 0.86,
+    "personaStability": 9.700,
+    "cooperationReputation": 9.800,
+    "commentQuality": 9.600,
+    "contentInnovation": 9.700,
+    "platformIndex": 9.800,
+    "platformRecommendationProb": 0.860,
     "scores": {
       "adaptability_score": 94,
       "influence_score": 96,
@@ -7697,9 +8412,14 @@
       "适合国际品牌合作"
     ],
     "priceRange": "中高",
-    "priceMin": 15000,
-    "priceMax": 20000,
+    "priceMin": 15000.00,
+    "priceMax": 20000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "期待合作，共创爆款！"
     ]
@@ -7720,6 +8440,7 @@
     "followersCount": 1199524148,
     "avgViews": 160320,
     "engagementRate": 6.78,
+    "completionRate": null,
     "publishFrequency30d": 23,
     "publishFrequency90d": 60,
     "explosiveContentCount": 6,
@@ -7730,12 +8451,12 @@
       "电竞房装修",
       "家庭幸福感"
     ],
-    "personaStability": 9.6,
-    "cooperationReputation": 9.8,
-    "commentQuality": 9.4,
-    "contentInnovation": 9.5,
-    "platformIndex": 9.6,
-    "platformRecommendationProb": 0.84,
+    "personaStability": 9.600,
+    "cooperationReputation": 9.800,
+    "commentQuality": 9.400,
+    "contentInnovation": 9.500,
+    "platformIndex": 9.600,
+    "platformRecommendationProb": 0.840,
     "scores": {
       "adaptability_score": 93,
       "influence_score": 94,
@@ -7749,9 +8470,14 @@
       "场景丰富适合品牌植入"
     ],
     "priceRange": "中高",
-    "priceMin": 15000,
-    "priceMax": 20000,
+    "priceMin": 15000.00,
+    "priceMax": 20000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "期待合作，共创爆款！"
     ]
@@ -7772,6 +8498,7 @@
     "followersCount": 666000000,
     "avgViews": 44090,
     "engagementRate": 11.24,
+    "completionRate": null,
     "publishFrequency30d": 25,
     "publishFrequency90d": 61,
     "explosiveContentCount": 5,
@@ -7782,12 +8509,12 @@
       "包豪斯金奖",
       "实用装修内容"
     ],
-    "personaStability": 9.7,
-    "cooperationReputation": 9.8,
-    "commentQuality": 9.6,
-    "contentInnovation": 9.6,
-    "platformIndex": 9.7,
-    "platformRecommendationProb": 0.85,
+    "personaStability": 9.700,
+    "cooperationReputation": 9.800,
+    "commentQuality": 9.600,
+    "contentInnovation": 9.600,
+    "platformIndex": 9.700,
+    "platformRecommendationProb": 0.850,
     "scores": {
       "adaptability_score": 94,
       "influence_score": 95,
@@ -7801,9 +8528,14 @@
       "适配智能家居及家装品牌"
     ],
     "priceRange": "中高",
-    "priceMin": 12000,
-    "priceMax": 18000,
+    "priceMin": 12000.00,
+    "priceMax": 18000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "装修避坑 – 曝光：78w+；互动：9w+"
     ]
@@ -7823,6 +8555,7 @@
     "followersCount": 156471912,
     "avgViews": 32790,
     "engagementRate": 4.36,
+    "completionRate": null,
     "publishFrequency30d": 18,
     "publishFrequency90d": 52,
     "explosiveContentCount": 6,
@@ -7833,12 +8566,12 @@
       "正能量爱情",
       "治愈系风格"
     ],
-    "personaStability": 9.8,
-    "cooperationReputation": 9.9,
-    "commentQuality": 9.7,
-    "contentInnovation": 9.8,
-    "platformIndex": 9.8,
-    "platformRecommendationProb": 0.88,
+    "personaStability": 9.800,
+    "cooperationReputation": 9.900,
+    "commentQuality": 9.700,
+    "contentInnovation": 9.800,
+    "platformIndex": 9.800,
+    "platformRecommendationProb": 0.880,
     "scores": {
       "adaptability_score": 96,
       "influence_score": 97,
@@ -7852,9 +8585,14 @@
       "粉丝情感粘性极高"
     ],
     "priceRange": "高端",
-    "priceMin": 40000,
-    "priceMax": 58000,
+    "priceMin": 40000.00,
+    "priceMax": 58000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "剧情短片 – 曝光：473w+；互动：8.1w+"
     ]
@@ -7874,6 +8612,7 @@
     "followersCount": 551633158,
     "avgViews": 49360,
     "engagementRate": 8.35,
+    "completionRate": null,
     "publishFrequency30d": 21,
     "publishFrequency90d": 57,
     "explosiveContentCount": 7,
@@ -7884,12 +8623,12 @@
       "甜虐交织",
       "女性粉丝粘性高"
     ],
-    "personaStability": 9.7,
-    "cooperationReputation": 9.8,
-    "commentQuality": 9.6,
-    "contentInnovation": 9.7,
-    "platformIndex": 9.8,
-    "platformRecommendationProb": 0.86,
+    "personaStability": 9.700,
+    "cooperationReputation": 9.800,
+    "commentQuality": 9.600,
+    "contentInnovation": 9.700,
+    "platformIndex": 9.800,
+    "platformRecommendationProb": 0.860,
     "scores": {
       "adaptability_score": 94,
       "influence_score": 95,
@@ -7903,9 +8642,14 @@
       "品牌联动潜力高"
     ],
     "priceRange": "中高",
-    "priceMin": 25000,
-    "priceMax": 35000,
+    "priceMin": 25000.00,
+    "priceMax": 35000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "剧情短片 – 曝光：59w+；互动：1.2w+"
     ]
@@ -7926,6 +8670,7 @@
     "followersCount": 60735053000,
     "avgViews": 373310,
     "engagementRate": 19.48,
+    "completionRate": null,
     "publishFrequency30d": 26,
     "publishFrequency90d": 65,
     "explosiveContentCount": 8,
@@ -7936,12 +8681,12 @@
       "野性御姐",
       "运动穿搭"
     ],
-    "personaStability": 9.7,
-    "cooperationReputation": 9.8,
-    "commentQuality": 9.6,
-    "contentInnovation": 9.7,
-    "platformIndex": 9.8,
-    "platformRecommendationProb": 0.87,
+    "personaStability": 9.700,
+    "cooperationReputation": 9.800,
+    "commentQuality": 9.600,
+    "contentInnovation": 9.700,
+    "platformIndex": 9.800,
+    "platformRecommendationProb": 0.870,
     "scores": {
       "adaptability_score": 95,
       "influence_score": 96,
@@ -7955,9 +8700,14 @@
       "品牌适配度广（运动/旅行/汽车）"
     ],
     "priceRange": "中高",
-    "priceMin": 15000,
-    "priceMax": 20000,
+    "priceMin": 15000.00,
+    "priceMax": 20000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "期待合作，共创爆款！"
     ]
@@ -7978,6 +8728,7 @@
     "followersCount": 232054328,
     "avgViews": 225030,
     "engagementRate": 13.74,
+    "completionRate": null,
     "publishFrequency30d": 28,
     "publishFrequency90d": 66,
     "explosiveContentCount": 7,
@@ -7988,12 +8739,12 @@
       "ENFP高能量",
       "户外极限运动"
     ],
-    "personaStability": 9.7,
-    "cooperationReputation": 9.8,
-    "commentQuality": 9.6,
-    "contentInnovation": 9.7,
-    "platformIndex": 9.8,
-    "platformRecommendationProb": 0.87,
+    "personaStability": 9.700,
+    "cooperationReputation": 9.800,
+    "commentQuality": 9.600,
+    "contentInnovation": 9.700,
+    "platformIndex": 9.800,
+    "platformRecommendationProb": 0.870,
     "scores": {
       "adaptability_score": 95,
       "influence_score": 96,
@@ -8007,9 +8758,14 @@
       "能量感强带动传播"
     ],
     "priceRange": "中高",
-    "priceMin": 15000,
-    "priceMax": 20000,
+    "priceMin": 15000.00,
+    "priceMax": 20000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "期待合作，共创爆款！"
     ]
@@ -8030,6 +8786,7 @@
     "followersCount": 130000000,
     "avgViews": 95750,
     "engagementRate": 12.55,
+    "completionRate": null,
     "publishFrequency30d": 25,
     "publishFrequency90d": 62,
     "explosiveContentCount": 6,
@@ -8040,12 +8797,12 @@
       "减重成功",
       "阳光运动感"
     ],
-    "personaStability": 9.6,
-    "cooperationReputation": 9.7,
-    "commentQuality": 9.4,
-    "contentInnovation": 9.5,
-    "platformIndex": 9.6,
-    "platformRecommendationProb": 0.84,
+    "personaStability": 9.600,
+    "cooperationReputation": 9.700,
+    "commentQuality": 9.400,
+    "contentInnovation": 9.500,
+    "platformIndex": 9.600,
+    "platformRecommendationProb": 0.840,
     "scores": {
       "adaptability_score": 92,
       "influence_score": 93,
@@ -8059,9 +8816,14 @@
       "粉丝互动热烈"
     ],
     "priceRange": "中高",
-    "priceMin": 13000,
-    "priceMax": 18800,
+    "priceMin": 13000.00,
+    "priceMax": 18800.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "期待合作，共创爆款！"
     ]
@@ -8082,6 +8844,7 @@
     "followersCount": 113900000,
     "avgViews": 131890,
     "engagementRate": 11.39,
+    "completionRate": null,
     "publishFrequency30d": 26,
     "publishFrequency90d": 63,
     "explosiveContentCount": 7,
@@ -8092,12 +8855,12 @@
       "阳光活力",
       "女性价值观输出"
     ],
-    "personaStability": 9.7,
-    "cooperationReputation": 9.8,
-    "commentQuality": 9.6,
-    "contentInnovation": 9.6,
-    "platformIndex": 9.7,
-    "platformRecommendationProb": 0.85,
+    "personaStability": 9.700,
+    "cooperationReputation": 9.800,
+    "commentQuality": 9.600,
+    "contentInnovation": 9.600,
+    "platformIndex": 9.700,
+    "platformRecommendationProb": 0.850,
     "scores": {
       "adaptability_score": 94,
       "influence_score": 94,
@@ -8111,9 +8874,14 @@
       "品牌传播契合度强"
     ],
     "priceRange": "中高",
-    "priceMin": 12000,
-    "priceMax": 18000,
+    "priceMin": 12000.00,
+    "priceMax": 18000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "期待合作，共创爆款！"
     ]
@@ -8134,6 +8902,7 @@
     "followersCount": 4216320891,
     "avgViews": 102690,
     "engagementRate": 7.93,
+    "completionRate": null,
     "publishFrequency30d": 22,
     "publishFrequency90d": 59,
     "explosiveContentCount": 5,
@@ -8144,12 +8913,12 @@
       "运动时尚",
       "男生变帅技巧"
     ],
-    "personaStability": 9.7,
-    "cooperationReputation": 9.8,
-    "commentQuality": 9.5,
-    "contentInnovation": 9.6,
-    "platformIndex": 9.7,
-    "platformRecommendationProb": 0.86,
+    "personaStability": 9.700,
+    "cooperationReputation": 9.800,
+    "commentQuality": 9.500,
+    "contentInnovation": 9.600,
+    "platformIndex": 9.700,
+    "platformRecommendationProb": 0.860,
     "scores": {
       "adaptability_score": 93,
       "influence_score": 94,
@@ -8163,9 +8932,14 @@
       "适合时尚与运动品牌联动"
     ],
     "priceRange": "中高",
-    "priceMin": 12000,
-    "priceMax": 18000,
+    "priceMin": 12000.00,
+    "priceMax": 18000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "期待合作，共创爆款！"
     ]
@@ -8186,6 +8960,7 @@
     "followersCount": 682017929,
     "avgViews": 72690,
     "engagementRate": 6.89,
+    "completionRate": null,
     "publishFrequency30d": 23,
     "publishFrequency90d": 61,
     "explosiveContentCount": 6,
@@ -8196,12 +8971,12 @@
       "00后社牛",
       "职场喜剧风"
     ],
-    "personaStability": 9.6,
-    "cooperationReputation": 9.7,
-    "commentQuality": 9.5,
-    "contentInnovation": 9.7,
-    "platformIndex": 9.8,
-    "platformRecommendationProb": 0.88,
+    "personaStability": 9.600,
+    "cooperationReputation": 9.700,
+    "commentQuality": 9.500,
+    "contentInnovation": 9.700,
+    "platformIndex": 9.800,
+    "platformRecommendationProb": 0.880,
     "scores": {
       "adaptability_score": 95,
       "influence_score": 95,
@@ -8215,9 +8990,14 @@
       "适配多品类品牌广告"
     ],
     "priceRange": "中高",
-    "priceMin": 12000,
-    "priceMax": 18000,
+    "priceMin": 12000.00,
+    "priceMax": 18000.00,
     "verified": true,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
     "recentWorks": [
       "期待合作，共创爆款！"
     ]
