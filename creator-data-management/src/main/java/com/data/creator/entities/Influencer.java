@@ -20,9 +20,10 @@ import java.util.List;
 public class Influencer {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false, length = 64)
     @Comment("达人ID")
-    private String id;
+    private Long id;
 
     @Column(name = "name", nullable = false, length = 128)
     @Comment("达人名称")
@@ -38,7 +39,7 @@ public class Influencer {
 
     @Column(name = "category", length = 64)
     @Comment("达人分类，如美妆、旅游等")
-    private String category;
+    private List<String> category;
 
     @Column(name = "gender", length = 8)
     @Comment("性别")
@@ -84,38 +85,32 @@ public class Influencer {
     @Comment("粉丝增长趋势")
     private String fansGrowthTrend;
 
-    @ElementCollection
-    @CollectionTable(name = "sys_influencer_style_tags", joinColumns = @JoinColumn(name = "influencer_id"))
-    @Column(name = "tag", length = 64)
+    @JdbcTypeCode(SqlTypes.JSON)
+    @Column(name = "tag", length = 64, columnDefinition = "jsonb")
     @Comment("风格标签")
     private List<String> styleTags;
 
-    @Column(name = "persona_stability", precision = 4, scale = 2)
+    @Column(name = "persona_stability", precision = 6, scale = 3)
     @Comment("人设稳定性")
     private BigDecimal personaStability;
 
-    @Column(name = "cooperation_reputation", precision = 4, scale = 2)
+    @Column(name = "cooperation_reputation", precision = 6, scale = 3)
     @Comment("合作口碑")
     private BigDecimal cooperationReputation;
 
-    @JdbcTypeCode(SqlTypes.JSON)
-    @Column(name = "fans_profile", columnDefinition = "jsonb")
-    @Comment("粉丝画像")
-    private FansProfile fansProfile;
-
-    @Column(name = "comment_quality", precision = 4, scale = 2)
+    @Column(name = "comment_quality", precision = 6, scale = 3)
     @Comment("评论质量")
     private BigDecimal commentQuality;
 
-    @Column(name = "content_innovation", precision = 4, scale = 2)
+    @Column(name = "content_innovation", precision = 6, scale = 3)
     @Comment("内容创新度")
     private BigDecimal contentInnovation;
 
-    @Column(name = "platform_index", precision = 4, scale = 2)
+    @Column(name = "platform_index", precision = 6, scale = 3)
     @Comment("平台指数")
     private BigDecimal platformIndex;
 
-    @Column(name = "platform_recommendation_prob", precision = 4, scale = 2)
+    @Column(name = "platform_recommendation_prob", precision = 6, scale = 3)
     @Comment("平台推荐概率")
     private BigDecimal platformRecommendationProb;
 
@@ -128,9 +123,8 @@ public class Influencer {
     @Comment("潜力等级")
     private String potentialLevel;
 
-    @ElementCollection
-    @CollectionTable(name = "sys_influencer_prediction_reasons", joinColumns = @JoinColumn(name = "influencer_id"))
-    @Column(name = "reason", length = 256)
+    @JdbcTypeCode(SqlTypes.JSON)
+    @Column(name = "prediction_reasons", columnDefinition = "jsonb")
     @Comment("潜力预测原因")
     private List<String> predictionReasons;
 
@@ -138,21 +132,17 @@ public class Influencer {
     @Comment("报价区间（低、中、高）")
     private String priceRange;
 
-    @Column(name = "price_min")
+    @Column(name = "price_min", precision = 12, scale = 2)
     @Comment("最低报价")
     private BigDecimal priceMin;
 
-    @Column(name = "price_max")
+    @Column(name = "price_max", precision = 12, scale = 2)
     @Comment("最高报价")
     private BigDecimal priceMax;
 
     @Column(name = "verified")
     @Comment("是否已认证")
     private Boolean verified;
-
-    @Column(name = "mcn", length = 128)
-    @Comment("所属MCN机构")
-    private String mcn;
 
     @JdbcTypeCode(SqlTypes.JSON)
     @Column(name = "contact", columnDefinition = "jsonb")
@@ -162,17 +152,7 @@ public class Influencer {
     @JdbcTypeCode(SqlTypes.JSON)
     @Column(name = "recent_works", columnDefinition = "jsonb")
     @Comment("近期作品")
-    private List<Object> recentWorks;
-
-    @JdbcTypeCode(SqlTypes.JSON)
-    @Column(name = "cooperation_history", columnDefinition = "jsonb")
-    @Comment("合作历史")
-    private List<Object> cooperationHistory;
-
-    @JdbcTypeCode(SqlTypes.JSON)
-    @Column(name = "tags", columnDefinition = "jsonb")
-    @Comment("其他标签")
-    private List<Object> tags;
+    private List<String> recentWorks;
 
     @Column(name = "created_at", columnDefinition = "timestamp with time zone")
     @Comment("创建时间")
@@ -183,17 +163,6 @@ public class Influencer {
     private OffsetDateTime updatedAt;
 
     // ---------- 子类 ----------
-
-    @Data
-    @NoArgsConstructor
-    @AllArgsConstructor
-    public static class FansProfile {
-        private Integer age_18_24;
-        private Integer age_25_34;
-        private Integer gender_female;
-        private Integer cities_tier1;
-        private Integer cities_tier2;
-    }
 
     @Data
     @NoArgsConstructor
