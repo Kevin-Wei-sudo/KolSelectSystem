@@ -27,16 +27,21 @@ const InfluencerCard = ({ influencer, selected, onSelectChange }) => {
 
   const getTagsToShow = () => {
     const tags = [];
-    if (influencer.tags.includes('高爆款潜力')) {
+
+    // 确保influencer.tags存在，如果不存在则使用空数组
+    const influencerTags = influencer.tags || [];
+
+    // 使用influencerTags而不是直接使用influencer.tags
+    if (influencerTags.includes('高爆款潜力')) {
       tags.push({ text: '高爆款潜力', className: 'tag-hot' });
     }
-    if (influencer.tags.includes('近期爆款')) {
+    if (influencerTags.includes('近期爆款')) {
       tags.push({ text: '近期爆款', className: 'tag-rising' });
     }
-    if (influencer.tags.includes('高性价比')) {
+    if (influencerTags.includes('高性价比')) {
       tags.push({ text: '高性价比', className: 'tag-cost-effective' });
     }
-    if (influencer.tags.includes('商单口碑优')) {
+    if (influencerTags.includes('商单口碑优')) {
       tags.push({ text: '商单口碑优', className: 'tag-reputation' });
     }
     return tags;
