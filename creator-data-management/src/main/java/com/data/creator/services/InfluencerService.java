@@ -17,6 +17,7 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 public class InfluencerService {
     private final InfluencerRepository influencerRepository;
+    private final EmbeddingService embeddingService;
 
     public void saveInfluencers(List<InfluencerDTO> influencers) {
         List<Influencer> newInfluencers = new ArrayList<>();
@@ -29,11 +30,11 @@ public class InfluencerService {
 
     public List<InfluencerDTO> findAll() {
         return influencerRepository.findAll(Sort.by(Sort.Direction.ASC, "id")).stream()
-                .map(InfluencerService::influencerToDTO)
+                .map(this::influencerToDTO)
                 .collect(Collectors.toList());
     }
 
-    private static Influencer influencerDTOtoInfluencer(InfluencerDTO influencerDTO) {
+    private Influencer influencerDTOtoInfluencer(InfluencerDTO influencerDTO) {
         Influencer influencer = new Influencer();
         influencer.setName(influencerDTO.getName());
         influencer.setAvatar(influencerDTO.getAvatar());
@@ -57,19 +58,29 @@ public class InfluencerService {
         influencer.setContentInnovation(influencerDTO.getContentInnovation());
         influencer.setPlatformIndex(influencerDTO.getPlatformIndex());
         influencer.setPlatformRecommendationProb(influencerDTO.getPlatformRecommendationProb());
-        influencer.setScores(influencerDTO.getScores());
+        influencer.setScores(new Influencer.Scores(
+                influencerDTO.getScores().getInfluence_score(),
+                influencerDTO.getScores().getStickiness_score(),
+                influencerDTO.getScores().getPotential_score()
+        ));
         influencer.setPotentialLevel(influencerDTO.getPotentialLevel());
         influencer.setPredictionReasons(influencerDTO.getPredictionReasons());
         influencer.setPriceRange(influencerDTO.getPriceRange());
         influencer.setPriceMin(influencerDTO.getPriceMin());
         influencer.setPriceMax(influencerDTO.getPriceMax());
         influencer.setVerified(influencerDTO.getVerified());
-        influencer.setContact(influencerDTO.getContact());
+        InfluencerDTO.Contact contactDTO = influencerDTO.getContact();
+        influencer.setContact(new Influencer.Contact(
+                contactDTO != null && Boolean.TRUE.equals(contactDTO.getWechat()),
+                contactDTO != null && Boolean.TRUE.equals(contactDTO.getEmail()),
+                contactDTO != null && Boolean.TRUE.equals(contactDTO.getPhone())
+        ));
         influencer.setRecentWorks(influencerDTO.getRecentWorks());
+        influencer.setEmbedding(embeddingService.generateEmbedding(buildSemanticText(influencerDTO)));
         return influencer;
     }
 
-    private static InfluencerDTO influencerToDTO(Influencer influencer) {
+    private InfluencerDTO influencerToDTO(Influencer influencer) {
         InfluencerDTO influencerDTO = new InfluencerDTO();
         influencerDTO.setName(influencer.getName());
         influencerDTO.setAvatar(influencer.getAvatar());
@@ -93,16 +104,35 @@ public class InfluencerService {
         influencerDTO.setContentInnovation(influencer.getContentInnovation());
         influencerDTO.setPlatformIndex(influencer.getPlatformIndex());
         influencerDTO.setPlatformRecommendationProb(influencer.getPlatformRecommendationProb());
-        influencerDTO.setScores(influencer.getScores());
+        influencerDTO.setScores(new InfluencerDTO.Scores(
+                influencer.getScores().getInfluence_score(),
+                influencer.getScores().getStickiness_score(),
+                influencer.getScores().getPotential_score()
+        ));
         influencerDTO.setPotentialLevel(influencer.getPotentialLevel());
         influencerDTO.setPredictionReasons(influencer.getPredictionReasons());
         influencerDTO.setPriceRange(influencer.getPriceRange());
         influencerDTO.setPriceMin(influencer.getPriceMin());
         influencerDTO.setPriceMax(influencer.getPriceMax());
         influencerDTO.setVerified(influencer.getVerified());
-        influencerDTO.setContact(influencer.getContact());
+        influencer.setContact(new Influencer.Contact(
+                influencer.getContact().getWechat(),
+                influencer.getContact().getEmail(),
+                influencer.getContact().getPhone()
+        ));
         influencerDTO.setRecentWorks(influencer.getRecentWorks());
         return influencerDTO;
     }
 
+    private String buildSemanticText(InfluencerDTO dto) {
+        StringBuilder sb = new StringBuilder();
+        if (dto.getName() != null) sb.append(dto.getName()).append("，");
+        if (dto.getCategory() != null) sb.append("分类：").append(dto.getCategory()).append("，");
+        if (dto.getStyleTags() != null) sb.append("风格标签：").append(String.join("、", dto.getStyleTags())).append("，");
+        if (dto.getPredictionReasons() != null) sb.append("潜力理由：").append(String.join("、", dto.getPredictionReasons())).append("，");
+        if (dto.getRecentWorks() != null) sb.append("近期作品：").append(String.join("；", dto.getRecentWorks()));
+        if (dto.getPredictionReasons() != null) sb.append("潜力预测原因：").append(String.join("、", dto.getPredictionReasons())).append("，");
+        return sb.toString().trim();
+    }
+    
 }

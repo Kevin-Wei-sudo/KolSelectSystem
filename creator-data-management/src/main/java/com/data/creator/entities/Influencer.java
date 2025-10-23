@@ -162,15 +162,23 @@ public class Influencer {
     @Comment("更新时间")
     private OffsetDateTime updatedAt;
 
+    @Column(name = "embedding")
+    @Comment("达人语义向量")
+    private List<Float> embedding;
+
     // ---------- 子类 ----------
 
     @Data
     @NoArgsConstructor
     @AllArgsConstructor
     public static class Scores {
-        private Integer adaptability_score;
+        //适配度
+        //private Integer adaptability_score;
+        //影响力
         private Integer influence_score;
+        //粉丝粘性
         private Integer stickiness_score;
+        //爆款潜力
         private Integer potential_score;
     }
 

@@ -34,13 +34,43 @@ public class InfluencerDTO {
     private BigDecimal contentInnovation;
     private BigDecimal platformIndex;
     private BigDecimal platformRecommendationProb;
-    private Influencer.Scores scores;
+    private Scores scores;
     private String potentialLevel;
     private List<String> predictionReasons;
     private String priceRange;
     private BigDecimal priceMin;
     private BigDecimal priceMax;
     private Boolean verified;
-    private Influencer.Contact contact;
+    private Contact contact;
     private List<String> recentWorks;
+
+
+    @Data
+    @NoArgsConstructor
+    @AllArgsConstructor
+    public static class Scores {
+        //适配度
+        private Integer adaptability_score;
+        //影响力
+        private Integer influence_score;
+        //粉丝粘性
+        private Integer stickiness_score;
+        //爆款潜力
+        private Integer potential_score;
+
+        public Scores(Integer influenceScore, Integer stickinessScore, Integer potentialScore) {
+            this.influence_score = influenceScore;
+            this.stickiness_score = stickinessScore;
+            this.potential_score = potentialScore;
+        }
+    }
+
+    @Data
+    @NoArgsConstructor
+    @AllArgsConstructor
+    public static class Contact {
+        private Boolean wechat;
+        private Boolean email;
+        private Boolean phone;
+    }
 }
