@@ -28,6 +28,8 @@ const CrawlerPage = () => {
   const [isPolling, setIsPolling] = useState(false);
   const pollingRef = useRef(null);
   const logsEndRef = useRef(null);
+  // 防止请求堆叠的锁
+  const isFetchingRef = useRef(false);
   
   // 定时任务相关
   const [scheduleConfig, setScheduleConfig] = useState(null);
@@ -97,13 +99,16 @@ const CrawlerPage = () => {
     // 立即获取一次状态
     fetchStatus();
 
-    // 每500ms轮询一次状态
+    // 每1000ms轮询一次状态，并避免请求堆叠
     pollingRef.current = setInterval(async () => {
+      if (isFetchingRef.current) return;
       await fetchStatus();
-    }, 500);
+    }, 1000);
   };
 
   const fetchStatus = async () => {
+    if (isFetchingRef.current) return;
+    isFetchingRef.current = true;
     try {
       const response = await axios.get('/api/crawler/status');
       if (response.data.success) {
@@ -120,6 +125,8 @@ const CrawlerPage = () => {
       }
     } catch (error) {
       console.error('获取状态失败:', error);
+    } finally {
+      isFetchingRef.current = false;
     }
   };
 
@@ -196,6 +203,8 @@ const CrawlerPage = () => {
         return <ExclamationCircleOutlined style={{ color: '#faad14' }} />;
       case 'error':
         return <ExclamationCircleOutlined style={{ color: '#f5222d' }} />;
+      case 'info':
+        return <ClockCircleOutlined style={{ color: '#1890ff' }} />;
       default:
         return <LoadingOutlined style={{ color: '#1890ff' }} />;
     }
