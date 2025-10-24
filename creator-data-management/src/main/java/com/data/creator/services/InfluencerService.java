@@ -7,6 +7,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
+import java.math.BigDecimal;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -21,23 +22,74 @@ public class InfluencerService {
         List<Influencer> list = new ArrayList<>();
         influencerRepository.findAll().forEach(list::add);
 
-        // 过滤
+// 过滤
         list = list.stream()
-                .filter(i -> req.getPlatforms() == null || req.getPlatforms().isEmpty() || (i.getPlatform() != null && req.getPlatforms().contains(i.getPlatform())))
-                .filter(i -> req.getCategories() == null || req.getCategories().isEmpty() || (i.getCategory() != null && req.getCategories().contains(i.getCategory())))
-                .filter(i -> req.getStyleTags() == null || req.getStyleTags().isEmpty() || (i.getStyleTags() != null && !Collections.disjoint(new HashSet<>(req.getStyleTags()), i.getStyleTags())))
-                .filter(i -> req.getGenders() == null || req.getGenders().isEmpty() || (i.getGender() != null && req.getGenders().contains(i.getGender())))
-                .filter(i -> req.getPotentialLevels() == null || req.getPotentialLevels().isEmpty() || (i.getPotentialLevel() != null && req.getPotentialLevels().contains(i.getPotentialLevel())))
-                .filter(i -> req.getGrowthTrends() == null || req.getGrowthTrends().isEmpty() || (i.getFansGrowthTrend() != null && req.getGrowthTrends().contains(i.getFansGrowthTrend())))
-                .filter(i -> req.getFollowersMin() == null || (i.getFollowersCount() != null && i.getFollowersCount() >= req.getFollowersMin()))
-                .filter(i -> req.getFollowersMax() == null || (i.getFollowersCount() != null && i.getFollowersCount() <= req.getFollowersMax()))
-                .filter(i -> req.getEngagementRateMin() == null || (i.getEngagementRate() != null && i.getEngagementRate().doubleValue() >= req.getEngagementRateMin()))
-                .filter(i -> req.getCompletionRateMin() == null || (i.getCompletionRate() != null && i.getCompletionRate().doubleValue() >= req.getCompletionRateMin()))
-                // 新增：四维评分过滤
-                .filter(i -> req.getAdaptabilityScoreMin() == null || i.getScores() == null || i.getScores().getAdaptability_score() == null || i.getScores().getAdaptability_score() >= req.getAdaptabilityScoreMin())
-                .filter(i -> req.getInfluenceScoreMin() == null || i.getScores() == null || i.getScores().getInfluence_score() == null || i.getScores().getInfluence_score() >= req.getInfluenceScoreMin())
-                .filter(i -> req.getStickinessScoreMin() == null || i.getScores() == null || i.getScores().getStickiness_score() == null || i.getScores().getStickiness_score() >= req.getStickinessScoreMin())
-                .filter(i -> req.getPotentialScoreMin() == null || i.getScores() == null || i.getScores().getPotential_score() == null || i.getScores().getPotential_score() >= req.getPotentialScoreMin())
+                // 平台
+                .filter(i -> req.getPlatform() == null || req.getPlatform().isEmpty()
+                        || (i.getPlatform() != null && req.getPlatform().contains(i.getPlatform())))
+
+                // 分类
+                .filter(i -> req.getCategory() == null || req.getCategory().isEmpty()
+                        || (i.getCategory() != null && req.getCategory().contains(i.getCategory())))
+
+                // 风格标签（求交集）
+                .filter(i -> req.getStyleTag() == null || req.getStyleTag().isEmpty()
+                        || (i.getStyleTags() != null && !Collections.disjoint(new HashSet<>(req.getStyleTag()), i.getStyleTags())))
+
+                // 性别
+                .filter(i -> req.getGender() == null || req.getGender().isEmpty()
+                        || (i.getGender() != null && req.getGender().contains(i.getGender())))
+
+                // 潜力等级
+                .filter(i -> req.getPotentialLevel() == null || req.getPotentialLevel().isEmpty()
+                        || (i.getPotentialLevel() != null && req.getPotentialLevel().contains(i.getPotentialLevel())))
+
+                // 粉丝增长趋势
+                .filter(i -> req.getFansGrowthTrend() == null || req.getFansGrowthTrend().isEmpty()
+                        || (i.getFansGrowthTrend() != null && req.getFansGrowthTrend().contains(i.getFansGrowthTrend())))
+
+                // 粉丝数量范围
+                .filter(i -> req.getFollowersMin() == null
+                        || (i.getFollowersCount() != null && i.getFollowersCount() >= req.getFollowersMin()))
+                .filter(i -> req.getFollowersMax() == null
+                        || (i.getFollowersCount() != null && i.getFollowersCount() <= req.getFollowersMax()))
+                // 互动率
+                .filter(i -> {
+                    if (req.getEngagementRateMin() == null) return true;
+                    if (i.getEngagementRate() == null) return false;
+                    return i.getEngagementRate().compareTo(BigDecimal.valueOf(req.getEngagementRateMin())) >= 0;
+                })
+                // 完播率
+                .filter(i -> {
+                    if (req.getCompletionRateMin() == null) return true;
+                    if (i.getCompletionRate() == null) return false;
+                    return i.getCompletionRate().compareTo(BigDecimal.valueOf(req.getCompletionRateMin())) >= 0;
+                })
+                // 四维评分过滤（仅当 scores 不为 null 时才判断）
+                .filter(i -> {
+                    if (i.getScores() == null) return true;
+                    return req.getAdaptabilityScoreMin() == null
+                            || (i.getScores().getAdaptability_score() != null
+                            && i.getScores().getAdaptability_score() >= req.getAdaptabilityScoreMin());
+                })
+                .filter(i -> {
+                    if (i.getScores() == null) return true;
+                    return req.getInfluenceScoreMin() == null
+                            || (i.getScores().getInfluence_score() != null
+                            && i.getScores().getInfluence_score() >= req.getInfluenceScoreMin());
+                })
+                .filter(i -> {
+                    if (i.getScores() == null) return true;
+                    return req.getStickinessScoreMin() == null
+                            || (i.getScores().getStickiness_score() != null
+                            && i.getScores().getStickiness_score() >= req.getStickinessScoreMin());
+                })
+                .filter(i -> {
+                    if (i.getScores() == null) return true;
+                    return req.getPotentialScoreMin() == null
+                            || (i.getScores().getPotential_score() != null
+                            && i.getScores().getPotential_score() >= req.getPotentialScoreMin());
+                })
                 .collect(Collectors.toList());
 
         // 排序
@@ -78,27 +130,80 @@ public class InfluencerService {
     }
 
     public long filteredCount(SearchRequest req) {
-        List<Influencer> list = new ArrayList<>();
-        influencerRepository.findAll().forEach(list::add);
-        long c = list.stream()
-                .filter(i -> req.getPlatforms() == null || req.getPlatforms().isEmpty() || (i.getPlatform() != null && req.getPlatforms().contains(i.getPlatform())))
-                .filter(i -> req.getCategories() == null || req.getCategories().isEmpty() || (i.getCategory() != null && req.getCategories().contains(i.getCategory())))
-                .filter(i -> req.getStyleTags() == null || req.getStyleTags().isEmpty() || (i.getStyleTags() != null && !Collections.disjoint(new HashSet<>(req.getStyleTags()), i.getStyleTags())))
-                .filter(i -> req.getGenders() == null || req.getGenders().isEmpty() || (i.getGender() != null && req.getGenders().contains(i.getGender())))
-                .filter(i -> req.getPotentialLevels() == null || req.getPotentialLevels().isEmpty() || (i.getPotentialLevel() != null && req.getPotentialLevels().contains(i.getPotentialLevel())))
-                .filter(i -> req.getGrowthTrends() == null || req.getGrowthTrends().isEmpty() || (i.getFansGrowthTrend() != null && req.getGrowthTrends().contains(i.getFansGrowthTrend())))
-                .filter(i -> req.getFollowersMin() == null || (i.getFollowersCount() != null && i.getFollowersCount() >= req.getFollowersMin()))
-                .filter(i -> req.getFollowersMax() == null || (i.getFollowersCount() != null && i.getFollowersCount() <= req.getFollowersMax()))
-                .filter(i -> req.getEngagementRateMin() == null || (i.getEngagementRate() != null && i.getEngagementRate().doubleValue() >= req.getEngagementRateMin()))
-                .filter(i -> req.getCompletionRateMin() == null || (i.getCompletionRate() != null && i.getCompletionRate().doubleValue() >= req.getCompletionRateMin()))
-                // 新增：四维评分过滤
-                .filter(i -> req.getAdaptabilityScoreMin() == null || i.getScores() == null || i.getScores().getAdaptability_score() == null || i.getScores().getAdaptability_score() >= req.getAdaptabilityScoreMin())
-                .filter(i -> req.getInfluenceScoreMin() == null || i.getScores() == null || i.getScores().getInfluence_score() == null || i.getScores().getInfluence_score() >= req.getInfluenceScoreMin())
-                .filter(i -> req.getStickinessScoreMin() == null || i.getScores() == null || i.getScores().getStickiness_score() == null || i.getScores().getStickiness_score() >= req.getStickinessScoreMin())
-                .filter(i -> req.getPotentialScoreMin() == null || i.getScores() == null || i.getScores().getPotential_score() == null || i.getScores().getPotential_score() >= req.getPotentialScoreMin())
+        // 拉取所有达人数据（如是 Demo，可接受；生产建议用 Specification 查询）
+        List<Influencer> list = influencerRepository.findAll();
+
+        return list.stream()
+                // 平台筛选
+                .filter(i -> req.getPlatform() == null || req.getPlatform().isEmpty()
+                        || (i.getPlatform() != null && req.getPlatform().contains(i.getPlatform())))
+
+                // 分类筛选
+                .filter(i -> req.getCategory() == null || req.getCategory().isEmpty()
+                        || (i.getCategory() != null && req.getCategory().contains(i.getCategory())))
+
+                // 风格标签筛选（求交集）
+                .filter(i -> req.getStyleTag() == null || req.getStyleTag().isEmpty()
+                        || (i.getStyleTags() != null && !Collections.disjoint(new HashSet<>(req.getStyleTag()), i.getStyleTags())))
+
+                // 性别筛选
+                .filter(i -> req.getGender() == null || req.getGender().isEmpty()
+                        || (i.getGender() != null && req.getGender().contains(i.getGender())))
+
+                // 潜力等级筛选
+                .filter(i -> req.getPotentialLevel() == null || req.getPotentialLevel().isEmpty()
+                        || (i.getPotentialLevel() != null && req.getPotentialLevel().contains(i.getPotentialLevel())))
+
+                // 粉丝增长趋势
+                .filter(i -> req.getFansGrowthTrend() == null || req.getFansGrowthTrend().isEmpty()
+                        || (i.getFansGrowthTrend() != null && req.getFansGrowthTrend().contains(i.getFansGrowthTrend())))
+
+                // 粉丝区间
+                .filter(i -> req.getFollowersMin() == null
+                        || (i.getFollowersCount() != null && i.getFollowersCount() >= req.getFollowersMin()))
+                .filter(i -> req.getFollowersMax() == null
+                        || (i.getFollowersCount() != null && i.getFollowersCount() <= req.getFollowersMax()))
+                // 互动率
+                .filter(i -> {
+                    if (req.getEngagementRateMin() == null) return true;
+                    if (i.getEngagementRate() == null) return false;
+                    return i.getEngagementRate().compareTo(BigDecimal.valueOf(req.getEngagementRateMin())) >= 0;
+                })
+                // 完播率
+                .filter(i -> {
+                    if (req.getCompletionRateMin() == null) return true;
+                    if (i.getCompletionRate() == null) return false;
+                    return i.getCompletionRate().compareTo(BigDecimal.valueOf(req.getCompletionRateMin())) >= 0;
+                })
+                // 四维评分过滤（防止空指针 + 条件正确）
+                .filter(i -> {
+                    if (req.getAdaptabilityScoreMin() == null) return true;
+                    return i.getScores() != null
+                            && i.getScores().getAdaptability_score() != null
+                            && i.getScores().getAdaptability_score() >= req.getAdaptabilityScoreMin();
+                })
+                .filter(i -> {
+                    if (req.getInfluenceScoreMin() == null) return true;
+                    return i.getScores() != null
+                            && i.getScores().getInfluence_score() != null
+                            && i.getScores().getInfluence_score() >= req.getInfluenceScoreMin();
+                })
+                .filter(i -> {
+                    if (req.getStickinessScoreMin() == null) return true;
+                    return i.getScores() != null
+                            && i.getScores().getStickiness_score() != null
+                            && i.getScores().getStickiness_score() >= req.getStickinessScoreMin();
+                })
+                .filter(i -> {
+                    if (req.getPotentialScoreMin() == null) return true;
+                    return i.getScores() != null
+                            && i.getScores().getPotential_score() != null
+                            && i.getScores().getPotential_score() >= req.getPotentialScoreMin();
+                })
+
                 .count();
-        return c;
     }
+
 
     // 详情：返回合并后的 Map，包含趋势数据
     public Map<String, Object> getDetail(String id) {
@@ -155,8 +260,11 @@ public class InfluencerService {
             double cr = i.getCompletionRate() == null ? 0.0 : i.getCompletionRate().doubleValue();
             List<String> strengths = new ArrayList<>();
             List<String> weaknesses = new ArrayList<>();
-            if (er >= 70) strengths.add("互动率优秀"); else if (er > 0) strengths.add("互动率良好"); else weaknesses.add("互动率缺失");
-            if (cr >= 60) strengths.add("完播率较高"); else weaknesses.add("完播率偏低");
+            if (er >= 70) strengths.add("互动率优秀");
+            else if (er > 0) strengths.add("互动率良好");
+            else weaknesses.add("互动率缺失");
+            if (cr >= 60) strengths.add("完播率较高");
+            else weaknesses.add("完播率偏低");
             String rec = er >= 70 ? "适合新品预热与爆款打造" : "适合常规推广与口碑建立";
             Map<String, Object> a = new LinkedHashMap<>();
             a.put("influencer_name", i.getName());

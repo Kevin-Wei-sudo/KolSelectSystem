@@ -1,7 +1,7 @@
 [
   {
     "name": "靓太陈小姐",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5dbacee00000000001008735?xhsshare=CopyLink&appuid=5dbacee00000001008735&apptime=1597989999",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/161.jpg",
     "platform": "小红书",
     "category": [
       "母婴",
@@ -25,12 +25,12 @@
       "育儿专家",
       "母婴好物推荐"
     ],
-    "personaStability": 8.750,
-    "cooperationReputation": 9.200,
-    "commentQuality": 8.900,
-    "contentInnovation": 8.500,
-    "platformIndex": 9.100,
-    "platformRecommendationProb": 0.720,
+    "personaStability": 8.75,
+    "cooperationReputation": 9.2,
+    "commentQuality": 8.9,
+    "contentInnovation": 8.5,
+    "platformIndex": 9.1,
+    "platformRecommendationProb": 0.72,
     "scores": {
       "adaptability_score": 85,
       "influence_score": 92,
@@ -44,8 +44,8 @@
       "母婴种草效果强"
     ],
     "priceRange": "高",
-    "priceMin": 45000.00,
-    "priceMax": 65000.00,
+    "priceMin": 45000,
+    "priceMax": 65000,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -59,7 +59,7 @@
   },
   {
     "name": "辣妈艾小鑫",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5b0cfdf211be1018a3f4903c?xhsshare=CopyLink&appuid=5b0cfdf211be1018a3f4903c&apptime=1597989858",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/21.jpg",
     "platform": "小红书",
     "category": [
       "母婴",
@@ -82,12 +82,12 @@
       "家居装修测评",
       "育儿观念分享"
     ],
-    "personaStability": 8.200,
-    "cooperationReputation": 8.800,
-    "commentQuality": 8.600,
-    "contentInnovation": 8.300,
-    "platformIndex": 8.900,
-    "platformRecommendationProb": 0.650,
+    "personaStability": 8.2,
+    "cooperationReputation": 8.8,
+    "commentQuality": 8.6,
+    "contentInnovation": 8.3,
+    "platformIndex": 8.9,
+    "platformRecommendationProb": 0.65,
     "scores": {
       "adaptability_score": 80,
       "influence_score": 87,
@@ -101,8 +101,8 @@
       "家居装修延伸领域"
     ],
     "priceRange": "中高",
-    "priceMin": 40000.00,
-    "priceMax": 58000.00,
+    "priceMin": 40000,
+    "priceMax": 58000,
     "verified": false,
     "contact": {
       "wechat": false,
@@ -116,7 +116,7 @@
   },
   {
     "name": "兔兔宝贝贝",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5b0cf6ff11be100cdaccbb37?xhsshare=CopyLink&appuid=5b0cf6ff11be100cdaccbb37&apptime=1597990984",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/92.jpg",
     "platform": "小红书",
     "category": [
       "母婴",
@@ -140,12 +140,12 @@
       "亲子旅行",
       "宠妻账号"
     ],
-    "personaStability": 8.300,
-    "cooperationReputation": 8.800,
-    "commentQuality": 8.500,
-    "contentInnovation": 8.200,
-    "platformIndex": 8.700,
-    "platformRecommendationProb": 0.660,
+    "personaStability": 8.3,
+    "cooperationReputation": 8.8,
+    "commentQuality": 8.5,
+    "contentInnovation": 8.2,
+    "platformIndex": 8.7,
+    "platformRecommendationProb": 0.66,
     "scores": {
       "adaptability_score": 82,
       "influence_score": 86,
@@ -159,8 +159,8 @@
       "多品牌深度合作"
     ],
     "priceRange": "中高",
-    "priceMin": 38000.00,
-    "priceMax": 55000.00,
+    "priceMin": 38000,
+    "priceMax": 55000,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -174,7 +174,7 @@
   },
   {
     "name": "元宝妈的测评库",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5b3370a2e8ac2b4fa86d5e41?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1600835968",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/37.jpg",
     "platform": "小红书",
     "category": [
       "母婴",
@@ -197,12 +197,12 @@
       "国际选品",
       "松弛感育儿"
     ],
-    "personaStability": 8.900,
-    "cooperationReputation": 9.100,
-    "commentQuality": 8.700,
-    "contentInnovation": 8.600,
-    "platformIndex": 9.000,
-    "platformRecommendationProb": 0.720,
+    "personaStability": 8.9,
+    "cooperationReputation": 9.1,
+    "commentQuality": 8.7,
+    "contentInnovation": 8.6,
+    "platformIndex": 9,
+    "platformRecommendationProb": 0.72,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 91,
@@ -216,8 +216,8 @@
       "深度品牌合作"
     ],
     "priceRange": "中高",
-    "priceMin": 36000.00,
-    "priceMax": 52000.00,
+    "priceMin": 36000,
+    "priceMax": 52000,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -231,7 +231,7 @@
   },
   {
     "name": "桐子妈咪ciny",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5bc02a219c86030001a3817d?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1705897849",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/127.jpg",
     "platform": "小红书",
     "category": [
       "母婴",
@@ -254,12 +254,12 @@
       "美妆母婴结合",
       "生活感账号"
     ],
-    "personaStability": 8.100,
-    "cooperationReputation": 8.900,
-    "commentQuality": 8.400,
-    "contentInnovation": 8.800,
-    "platformIndex": 9.200,
-    "platformRecommendationProb": 0.780,
+    "personaStability": 8.1,
+    "cooperationReputation": 8.9,
+    "commentQuality": 8.4,
+    "contentInnovation": 8.8,
+    "platformIndex": 9.2,
+    "platformRecommendationProb": 0.78,
     "scores": {
       "adaptability_score": 85,
       "influence_score": 93,
@@ -273,8 +273,8 @@
       "高互动爆款频出"
     ],
     "priceRange": "中高",
-    "priceMin": 35000.00,
-    "priceMax": 48000.00,
+    "priceMin": 35000,
+    "priceMax": 48000,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -288,7 +288,7 @@
   },
   {
     "name": "育婴师辣妈Ellalle",
-    "avatar": "https://www.xiaohongshu.com/user/profile/6145673e0000000002021104?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1647944485",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/121.jpg",
     "platform": "小红书",
     "category": [
       "母婴",
@@ -312,12 +312,12 @@
       "产后恢复",
       "高知家庭"
     ],
-    "personaStability": 8.900,
-    "cooperationReputation": 9.300,
-    "commentQuality": 8.800,
-    "contentInnovation": 8.600,
-    "platformIndex": 9.000,
-    "platformRecommendationProb": 0.750,
+    "personaStability": 8.9,
+    "cooperationReputation": 9.3,
+    "commentQuality": 8.8,
+    "contentInnovation": 8.6,
+    "platformIndex": 9,
+    "platformRecommendationProb": 0.75,
     "scores": {
       "adaptability_score": 87,
       "influence_score": 90,
@@ -331,8 +331,8 @@
       "产后恢复垂类爆款"
     ],
     "priceRange": "中高",
-    "priceMin": 32000.00,
-    "priceMax": 46000.00,
+    "priceMin": 32000,
+    "priceMax": 46000,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -346,7 +346,7 @@
   },
   {
     "name": "锦鲤的十安宝宝",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5b9880d694fc3900015d4eee?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1715869753",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/298.jpg",
     "platform": "小红书",
     "category": [
       "母婴",
@@ -370,12 +370,12 @@
       "家庭幸福感",
       "旅行育儿"
     ],
-    "personaStability": 8.600,
-    "cooperationReputation": 9.100,
-    "commentQuality": 8.700,
-    "contentInnovation": 8.900,
-    "platformIndex": 9.300,
-    "platformRecommendationProb": 0.800,
+    "personaStability": 8.6,
+    "cooperationReputation": 9.1,
+    "commentQuality": 8.7,
+    "contentInnovation": 8.9,
+    "platformIndex": 9.3,
+    "platformRecommendationProb": 0.8,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 94,
@@ -389,8 +389,8 @@
       "家庭场景内容丰富"
     ],
     "priceRange": "中高",
-    "priceMin": 32000.00,
-    "priceMax": 46000.00,
+    "priceMin": 32000,
+    "priceMax": 46000,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -403,7 +403,7 @@
   },
   {
     "name": "育婴师竹子妈咪",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5c11e1b6000000000700b33a?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1616580286",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/183.jpg",
     "platform": "小红书",
     "category": [
       "母婴",
@@ -426,12 +426,12 @@
       "家居买手",
       "母婴干货输出"
     ],
-    "personaStability": 9.100,
-    "cooperationReputation": 9.000,
-    "commentQuality": 8.800,
-    "contentInnovation": 8.900,
-    "platformIndex": 9.200,
-    "platformRecommendationProb": 0.780,
+    "personaStability": 9.1,
+    "cooperationReputation": 9,
+    "commentQuality": 8.8,
+    "contentInnovation": 8.9,
+    "platformIndex": 9.2,
+    "platformRecommendationProb": 0.78,
     "scores": {
       "adaptability_score": 89,
       "influence_score": 90,
@@ -445,8 +445,8 @@
       "专业母婴测评内容"
     ],
     "priceRange": "中高",
-    "priceMin": 32000.00,
-    "priceMax": 45000.00,
+    "priceMin": 32000,
+    "priceMax": 45000,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -460,7 +460,7 @@
   },
   {
     "name": "陈佳子JoJo",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5be509946a9d040001b5a42b?xhsshare=CopyLink&appuid=5be509946a9d040001b5a42b&apptime=1597989804",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/226.jpg",
     "platform": "小红书",
     "category": [
       "母婴",
@@ -484,12 +484,12 @@
       "家庭氛围感",
       "中式保养"
     ],
-    "personaStability": 9.300,
-    "cooperationReputation": 9.200,
-    "commentQuality": 8.900,
-    "contentInnovation": 8.700,
-    "platformIndex": 9.000,
-    "platformRecommendationProb": 0.700,
+    "personaStability": 9.3,
+    "cooperationReputation": 9.2,
+    "commentQuality": 8.9,
+    "contentInnovation": 8.7,
+    "platformIndex": 9,
+    "platformRecommendationProb": 0.7,
     "scores": {
       "adaptability_score": 86,
       "influence_score": 91,
@@ -503,8 +503,8 @@
       "稳定的家庭育儿场景"
     ],
     "priceRange": "中高",
-    "priceMin": 32000.00,
-    "priceMax": 45000.00,
+    "priceMin": 32000,
+    "priceMax": 45000,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -518,7 +518,7 @@
   },
   {
     "name": "夏太（测评版）",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5eba1cdf00000000010074c2?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1637666812",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/242.jpg",
     "platform": "小红书",
     "category": [
       "母婴",
@@ -541,12 +541,12 @@
       "学习用品测评",
       "生活干货"
     ],
-    "personaStability": 8.400,
-    "cooperationReputation": 8.700,
-    "commentQuality": 8.500,
-    "contentInnovation": 8.200,
-    "platformIndex": 8.800,
-    "platformRecommendationProb": 0.630,
+    "personaStability": 8.4,
+    "cooperationReputation": 8.7,
+    "commentQuality": 8.5,
+    "contentInnovation": 8.2,
+    "platformIndex": 8.8,
+    "platformRecommendationProb": 0.63,
     "scores": {
       "adaptability_score": 82,
       "influence_score": 85,
@@ -560,8 +560,8 @@
       "内容持续稳定更新"
     ],
     "priceRange": "中",
-    "priceMin": 28000.00,
-    "priceMax": 40000.00,
+    "priceMin": 28000,
+    "priceMax": 40000,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -575,7 +575,7 @@
   },
   {
     "name": "运动营养师辣妈zz",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5db94ab8000000000100be3b?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1637666163",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/19.jpg",
     "platform": "小红书",
     "category": [
       "母婴",
@@ -587,7 +587,7 @@
     "location": "广州",
     "followersCount": 925453431,
     "avgViews": 676580,
-    "engagementRate": 63.20,
+    "engagementRate": 63.2,
     "completionRate": null,
     "publishFrequency30d": 20,
     "publishFrequency90d": 60,
@@ -599,12 +599,12 @@
       "减脂变美",
       "家庭生活"
     ],
-    "personaStability": 8.700,
-    "cooperationReputation": 9.000,
-    "commentQuality": 8.800,
-    "contentInnovation": 8.600,
-    "platformIndex": 9.100,
-    "platformRecommendationProb": 0.720,
+    "personaStability": 8.7,
+    "cooperationReputation": 9,
+    "commentQuality": 8.8,
+    "contentInnovation": 8.6,
+    "platformIndex": 9.1,
+    "platformRecommendationProb": 0.72,
     "scores": {
       "adaptability_score": 85,
       "influence_score": 90,
@@ -618,8 +618,8 @@
       "家庭互动高"
     ],
     "priceRange": "中高",
-    "priceMin": 26000.00,
-    "priceMax": 38000.00,
+    "priceMin": 26000,
+    "priceMax": 38000,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -633,7 +633,7 @@
   },
   {
     "name": "小蝌蚪妈妈（海归版）",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5bd17e1805704b00011e4a14?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1715869473",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/61.jpg",
     "platform": "小红书",
     "category": [
       "母婴",
@@ -657,12 +657,12 @@
       "职场女性",
       "家庭成长"
     ],
-    "personaStability": 8.500,
-    "cooperationReputation": 8.900,
-    "commentQuality": 8.600,
-    "contentInnovation": 8.300,
-    "platformIndex": 8.700,
-    "platformRecommendationProb": 0.680,
+    "personaStability": 8.5,
+    "cooperationReputation": 8.9,
+    "commentQuality": 8.6,
+    "contentInnovation": 8.3,
+    "platformIndex": 8.7,
+    "platformRecommendationProb": 0.68,
     "scores": {
       "adaptability_score": 82,
       "influence_score": 86,
@@ -676,8 +676,8 @@
       "育儿观点深度化"
     ],
     "priceRange": "中",
-    "priceMin": 26000.00,
-    "priceMax": 38000.00,
+    "priceMin": 26000,
+    "priceMax": 38000,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -690,7 +690,7 @@
   },
   {
     "name": "辣妈陈小乖",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5ea2778a000000000100bd3a?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1647945097",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/224.jpg",
     "platform": "小红书",
     "category": [
       "母婴",
@@ -714,12 +714,12 @@
       "四口之家",
       "自然养育"
     ],
-    "personaStability": 8.900,
-    "cooperationReputation": 9.100,
-    "commentQuality": 8.700,
-    "contentInnovation": 8.600,
-    "platformIndex": 9.000,
-    "platformRecommendationProb": 0.700,
+    "personaStability": 8.9,
+    "cooperationReputation": 9.1,
+    "commentQuality": 8.7,
+    "contentInnovation": 8.6,
+    "platformIndex": 9,
+    "platformRecommendationProb": 0.7,
     "scores": {
       "adaptability_score": 86,
       "influence_score": 88,
@@ -733,8 +733,8 @@
       "全家可出镜表现力强"
     ],
     "priceRange": "中",
-    "priceMin": 26000.00,
-    "priceMax": 38000.00,
+    "priceMin": 26000,
+    "priceMax": 38000,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -748,7 +748,7 @@
   },
   {
     "name": "莹子（清华学习ing）",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5bc8502e49aa640001262b75?xhsshare=CopyLink&appuid=5a90e588e8ac2b52b3665cc9&apptime=1597990161",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/236.jpg",
     "platform": "小红书",
     "category": [
       "母婴",
@@ -772,12 +772,12 @@
       "清华进修",
       "孕产干货"
     ],
-    "personaStability": 8.600,
-    "cooperationReputation": 8.900,
-    "commentQuality": 8.500,
-    "contentInnovation": 8.400,
-    "platformIndex": 8.800,
-    "platformRecommendationProb": 0.650,
+    "personaStability": 8.6,
+    "cooperationReputation": 8.9,
+    "commentQuality": 8.5,
+    "contentInnovation": 8.4,
+    "platformIndex": 8.8,
+    "platformRecommendationProb": 0.65,
     "scores": {
       "adaptability_score": 83,
       "influence_score": 87,
@@ -791,8 +791,8 @@
       "孕产垂类输出稳定"
     ],
     "priceRange": "中",
-    "priceMin": 26000.00,
-    "priceMax": 38000.00,
+    "priceMin": 26000,
+    "priceMax": 38000,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -805,7 +805,7 @@
   },
   {
     "name": "Coy的两只幼幼崽",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5dd4e3eb00000000010016df?xhsshare=CopyLink&appuid=5dd4e3eb00000000010016df&apptime=1597991014",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/202.jpg",
     "platform": "小红书",
     "category": [
       "母婴",
@@ -829,12 +829,12 @@
       "精致生活",
       "自然探索"
     ],
-    "personaStability": 9.200,
-    "cooperationReputation": 9.300,
-    "commentQuality": 8.900,
-    "contentInnovation": 9.100,
-    "platformIndex": 9.400,
-    "platformRecommendationProb": 0.820,
+    "personaStability": 9.2,
+    "cooperationReputation": 9.3,
+    "commentQuality": 8.9,
+    "contentInnovation": 9.1,
+    "platformIndex": 9.4,
+    "platformRecommendationProb": 0.82,
     "scores": {
       "adaptability_score": 90,
       "influence_score": 94,
@@ -848,8 +848,8 @@
       "高颜值家庭号表现强"
     ],
     "priceRange": "中高",
-    "priceMin": 26000.00,
-    "priceMax": 38000.00,
+    "priceMin": 26000,
+    "priceMax": 38000,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -863,7 +863,7 @@
   },
   {
     "name": "精致生活艾米妈",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5ea2a81c000000000100997e?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1616580378",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/31.jpg",
     "platform": "小红书",
     "category": [
       "母婴",
@@ -875,7 +875,7 @@
     "location": "南京",
     "followersCount": 256995904,
     "avgViews": 325440,
-    "engagementRate": 21.80,
+    "engagementRate": 21.8,
     "completionRate": null,
     "publishFrequency30d": 18,
     "publishFrequency90d": 46,
@@ -887,12 +887,12 @@
       "居家好物",
       "体验式育儿"
     ],
-    "personaStability": 8.800,
-    "cooperationReputation": 9.100,
-    "commentQuality": 8.500,
-    "contentInnovation": 8.400,
-    "platformIndex": 8.900,
-    "platformRecommendationProb": 0.680,
+    "personaStability": 8.8,
+    "cooperationReputation": 9.1,
+    "commentQuality": 8.5,
+    "contentInnovation": 8.4,
+    "platformIndex": 8.9,
+    "platformRecommendationProb": 0.68,
     "scores": {
       "adaptability_score": 84,
       "influence_score": 88,
@@ -906,8 +906,8 @@
       "测评系列化持续输出"
     ],
     "priceRange": "中",
-    "priceMin": 26000.00,
-    "priceMax": 36800.00,
+    "priceMin": 26000,
+    "priceMax": 36800,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -921,7 +921,7 @@
   },
   {
     "name": "二胎Dan妈懂成分",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5bc1c712b891c30001b16d28?xhsshare=CopyLink&appuid=5bc02a219c86030001a3817d&apptime=1597990227",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/60.jpg",
     "platform": "小红书",
     "category": [
       "母婴",
@@ -945,12 +945,12 @@
       "职场辣妈",
       "选品专业"
     ],
-    "personaStability": 8.700,
-    "cooperationReputation": 9.000,
-    "commentQuality": 8.800,
-    "contentInnovation": 8.600,
-    "platformIndex": 9.000,
-    "platformRecommendationProb": 0.720,
+    "personaStability": 8.7,
+    "cooperationReputation": 9,
+    "commentQuality": 8.8,
+    "contentInnovation": 8.6,
+    "platformIndex": 9,
+    "platformRecommendationProb": 0.72,
     "scores": {
       "adaptability_score": 85,
       "influence_score": 89,
@@ -964,8 +964,8 @@
       "选品内容转化率高"
     ],
     "priceRange": "中",
-    "priceMin": 25000.00,
-    "priceMax": 35000.00,
+    "priceMin": 25000,
+    "priceMax": 35000,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -978,7 +978,7 @@
   },
   {
     "name": "营养师辣妈徐徐",
-    "avatar": "https://www.xiaohongshu.com/user/profile/608907c60000000001002cda?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1647945290",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/75.jpg",
     "platform": "小红书",
     "category": [
       "母婴",
@@ -1002,12 +1002,12 @@
       "选品专家",
       "混合喂养"
     ],
-    "personaStability": 8.900,
-    "cooperationReputation": 9.200,
-    "commentQuality": 8.700,
-    "contentInnovation": 8.800,
-    "platformIndex": 9.100,
-    "platformRecommendationProb": 0.740,
+    "personaStability": 8.9,
+    "cooperationReputation": 9.2,
+    "commentQuality": 8.7,
+    "contentInnovation": 8.8,
+    "platformIndex": 9.1,
+    "platformRecommendationProb": 0.74,
     "scores": {
       "adaptability_score": 87,
       "influence_score": 90,
@@ -1021,8 +1021,8 @@
       "广告拍摄场景丰富"
     ],
     "priceRange": "中",
-    "priceMin": 25000.00,
-    "priceMax": 35000.00,
+    "priceMin": 25000,
+    "priceMax": 35000,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -1036,7 +1036,7 @@
   },
   {
     "name": "龙凤胎方方妈",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5ef95b1b000000000100574a?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1640232202",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/184.jpg",
     "platform": "小红书",
     "category": [
       "母婴",
@@ -1060,12 +1060,12 @@
       "高效生活",
       "零食日常"
     ],
-    "personaStability": 8.800,
-    "cooperationReputation": 9.000,
-    "commentQuality": 8.600,
-    "contentInnovation": 8.500,
-    "platformIndex": 8.900,
-    "platformRecommendationProb": 0.690,
+    "personaStability": 8.8,
+    "cooperationReputation": 9,
+    "commentQuality": 8.6,
+    "contentInnovation": 8.5,
+    "platformIndex": 8.9,
+    "platformRecommendationProb": 0.69,
     "scores": {
       "adaptability_score": 84,
       "influence_score": 87,
@@ -1079,8 +1079,8 @@
       "母婴与生活兼容性强"
     ],
     "priceRange": "中",
-    "priceMin": 21000.00,
-    "priceMax": 30000.00,
+    "priceMin": 21000,
+    "priceMax": 30000,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -1093,7 +1093,7 @@
   },
   {
     "name": "小葵花妈妈",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5ec15f790000000001005da1?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1616671870",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/193.jpg",
     "platform": "小红书",
     "category": [
       "母婴",
@@ -1117,12 +1117,12 @@
       "亲子互动",
       "学习好物"
     ],
-    "personaStability": 8.900,
-    "cooperationReputation": 9.100,
-    "commentQuality": 8.600,
-    "contentInnovation": 8.700,
-    "platformIndex": 9.000,
-    "platformRecommendationProb": 0.700,
+    "personaStability": 8.9,
+    "cooperationReputation": 9.1,
+    "commentQuality": 8.6,
+    "contentInnovation": 8.7,
+    "platformIndex": 9,
+    "platformRecommendationProb": 0.7,
     "scores": {
       "adaptability_score": 85,
       "influence_score": 88,
@@ -1136,8 +1136,8 @@
       "户外旅游素材丰富"
     ],
     "priceRange": "中",
-    "priceMin": 21000.00,
-    "priceMax": 30000.00,
+    "priceMin": 21000,
+    "priceMax": 30000,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -1151,7 +1151,7 @@
   },
   {
     "name": "Max妈妈（混血宝宝）",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5f2151ea0000000001000841?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1703161744",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/254.jpg",
     "platform": "小红书",
     "category": [
       "母婴",
@@ -1175,12 +1175,12 @@
       "海归妈妈",
       "宠妻日常"
     ],
-    "personaStability": 8.500,
-    "cooperationReputation": 9.000,
-    "commentQuality": 8.700,
-    "contentInnovation": 8.600,
-    "platformIndex": 8.900,
-    "platformRecommendationProb": 0.690,
+    "personaStability": 8.5,
+    "cooperationReputation": 9,
+    "commentQuality": 8.7,
+    "contentInnovation": 8.6,
+    "platformIndex": 8.9,
+    "platformRecommendationProb": 0.69,
     "scores": {
       "adaptability_score": 84,
       "influence_score": 87,
@@ -1194,8 +1194,8 @@
       "混血宝宝高话题性"
     ],
     "priceRange": "中",
-    "priceMin": 22000.00,
-    "priceMax": 30000.00,
+    "priceMin": 22000,
+    "priceMax": 30000,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -1208,7 +1208,7 @@
   },
   {
     "name": "育婴师樱妈&博士周爸",
-    "avatar": "https://www.xiaohongshu.com/user/profile/600541200000000001006eed?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1637666050",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/125.jpg",
     "platform": "小红书",
     "category": [
       "母婴",
@@ -1232,12 +1232,12 @@
       "高知家庭",
       "育婴师妈妈"
     ],
-    "personaStability": 9.100,
-    "cooperationReputation": 9.300,
-    "commentQuality": 8.900,
-    "contentInnovation": 8.700,
-    "platformIndex": 9.200,
-    "platformRecommendationProb": 0.760,
+    "personaStability": 9.1,
+    "cooperationReputation": 9.3,
+    "commentQuality": 8.9,
+    "contentInnovation": 8.7,
+    "platformIndex": 9.2,
+    "platformRecommendationProb": 0.76,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 92,
@@ -1251,8 +1251,8 @@
       "家庭场景丰富"
     ],
     "priceRange": "中",
-    "priceMin": 20000.00,
-    "priceMax": 28000.00,
+    "priceMin": 20000,
+    "priceMax": 28000,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -1266,7 +1266,7 @@
   },
   {
     "name": "璐璐lemon（哺乳期）",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5e91845b0000000001008f1f?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1708785073",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/4.jpg",
     "platform": "小红书",
     "category": [
       "母婴",
@@ -1290,12 +1290,12 @@
       "产后变美",
       "育婴师家庭"
     ],
-    "personaStability": 8.400,
-    "cooperationReputation": 8.800,
-    "commentQuality": 8.500,
-    "contentInnovation": 8.300,
-    "platformIndex": 8.600,
-    "platformRecommendationProb": 0.630,
+    "personaStability": 8.4,
+    "cooperationReputation": 8.8,
+    "commentQuality": 8.5,
+    "contentInnovation": 8.3,
+    "platformIndex": 8.6,
+    "platformRecommendationProb": 0.63,
     "scores": {
       "adaptability_score": 80,
       "influence_score": 84,
@@ -1309,8 +1309,8 @@
       "家庭出镜自然"
     ],
     "priceRange": "中",
-    "priceMin": 22000.00,
-    "priceMax": 28000.00,
+    "priceMin": 22000,
+    "priceMax": 28000,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -1323,7 +1323,7 @@
   },
   {
     "name": "Evi泡芙妈咪（月子期）",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5bc80ec665c1e80001fdadb5?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1666431706",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/138.jpg",
     "platform": "小红书",
     "category": [
       "母婴",
@@ -1347,12 +1347,12 @@
       "AI高效带娃",
       "家装干货"
     ],
-    "personaStability": 8.900,
-    "cooperationReputation": 9.000,
-    "commentQuality": 8.600,
-    "contentInnovation": 8.800,
-    "platformIndex": 9.000,
-    "platformRecommendationProb": 0.710,
+    "personaStability": 8.9,
+    "cooperationReputation": 9,
+    "commentQuality": 8.6,
+    "contentInnovation": 8.8,
+    "platformIndex": 9,
+    "platformRecommendationProb": 0.71,
     "scores": {
       "adaptability_score": 86,
       "influence_score": 88,
@@ -1366,8 +1366,8 @@
       "家装与母婴融合内容独特"
     ],
     "priceRange": "中低",
-    "priceMin": 18000.00,
-    "priceMax": 25000.00,
+    "priceMin": 18000,
+    "priceMax": 25000,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -1380,7 +1380,7 @@
   },
   {
     "name": "小葡萄妈妈",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5fa6251a000000000101e39a?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1616580724",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/277.jpg",
     "platform": "小红书",
     "category": [
       "母婴",
@@ -1404,12 +1404,12 @@
       "女性健康",
       "富养家庭"
     ],
-    "personaStability": 8.800,
-    "cooperationReputation": 9.100,
-    "commentQuality": 8.700,
-    "contentInnovation": 8.900,
-    "platformIndex": 9.200,
-    "platformRecommendationProb": 0.770,
+    "personaStability": 8.8,
+    "cooperationReputation": 9.1,
+    "commentQuality": 8.7,
+    "contentInnovation": 8.9,
+    "platformIndex": 9.2,
+    "platformRecommendationProb": 0.77,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 91,
@@ -1423,8 +1423,8 @@
       "视觉内容精致"
     ],
     "priceRange": "中低",
-    "priceMin": 16000.00,
-    "priceMax": 23000.00,
+    "priceMin": 16000,
+    "priceMax": 23000,
     "verified": true,
     "contact": {
       "wechat": true,
@@ -1438,7 +1438,7 @@
   },
   {
     "name": "李昕怡Rene",
-    "avatar": "https://www.xiaohongshu.com/user/profile/608a8142000000000101efdc?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1703510773",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/35.jpg",
     "platform": "小红书",
     "category": [
       "母婴",
@@ -1462,12 +1462,12 @@
       "产后恢复",
       "科学育儿"
     ],
-    "personaStability": 8.300,
-    "cooperationReputation": 8.700,
-    "commentQuality": 8.500,
-    "contentInnovation": 8.400,
-    "platformIndex": 8.600,
-    "platformRecommendationProb": 0.620,
+    "personaStability": 8.3,
+    "cooperationReputation": 8.7,
+    "commentQuality": 8.5,
+    "contentInnovation": 8.4,
+    "platformIndex": 8.6,
+    "platformRecommendationProb": 0.62,
     "scores": {
       "adaptability_score": 80,
       "influence_score": 83,
@@ -1481,8 +1481,8 @@
       "产后恢复类品牌高度契合"
     ],
     "priceRange": "中低",
-    "priceMin": 16000.00,
-    "priceMax": 22000.00,
+    "priceMin": 16000,
+    "priceMax": 22000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -1495,7 +1495,7 @@
   },
   {
     "name": "菌菌mama（哺乳期）",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5e9d839f0000000001001e39?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1669280285",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/91.jpg",
     "platform": "小红书",
     "category": [
       "母婴",
@@ -1519,12 +1519,12 @@
       "幸福家庭",
       "夫妻陪产"
     ],
-    "personaStability": 8.600,
-    "cooperationReputation": 8.900,
-    "commentQuality": 8.600,
-    "contentInnovation": 8.500,
-    "platformIndex": 8.800,
-    "platformRecommendationProb": 0.680,
+    "personaStability": 8.6,
+    "cooperationReputation": 8.9,
+    "commentQuality": 8.6,
+    "contentInnovation": 8.5,
+    "platformIndex": 8.8,
+    "platformRecommendationProb": 0.68,
     "scores": {
       "adaptability_score": 83,
       "influence_score": 86,
@@ -1538,8 +1538,8 @@
       "家庭陪产系列话题热度高"
     ],
     "priceRange": "中低",
-    "priceMin": 15000.00,
-    "priceMax": 20000.00,
+    "priceMin": 15000,
+    "priceMax": 20000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -1552,7 +1552,7 @@
   },
   {
     "name": "是可爱的利宝（月子中）",
-    "avatar": "https://www.xiaohongshu.com/user/profile/647ef75200000000100348d0?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1724665241&share_id=cf650695eab0433f86dabc1414806196",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/279.jpg",
     "platform": "小红书",
     "category": [
       "母婴",
@@ -1577,12 +1577,12 @@
       "月嫂团队",
       "高品质生活"
     ],
-    "personaStability": 8.900,
-    "cooperationReputation": 9.100,
-    "commentQuality": 8.800,
-    "contentInnovation": 8.700,
-    "platformIndex": 9.100,
-    "platformRecommendationProb": 0.740,
+    "personaStability": 8.9,
+    "cooperationReputation": 9.1,
+    "commentQuality": 8.8,
+    "contentInnovation": 8.7,
+    "platformIndex": 9.1,
+    "platformRecommendationProb": 0.74,
     "scores": {
       "adaptability_score": 87,
       "influence_score": 90,
@@ -1596,8 +1596,8 @@
       "月子期垂类匹配度高"
     ],
     "priceRange": "中低",
-    "priceMin": 15000.00,
-    "priceMax": 20000.00,
+    "priceMin": 15000,
+    "priceMax": 20000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -1610,7 +1610,7 @@
   },
   {
     "name": "大王ICY（月子中）",
-    "avatar": "https://www.xiaohongshu.com/user/profile/55dd09b562a60c6e9fb9db16?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1730793156&share_id=d805048582f04b19bbd11c2e3d71d1e3",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/8.jpg",
     "platform": "小红书",
     "category": [
       "母婴",
@@ -1634,12 +1634,12 @@
       "晚婚妈妈",
       "幸福主义"
     ],
-    "personaStability": 9.000,
-    "cooperationReputation": 9.200,
-    "commentQuality": 8.900,
-    "contentInnovation": 8.700,
-    "platformIndex": 9.100,
-    "platformRecommendationProb": 0.730,
+    "personaStability": 9,
+    "cooperationReputation": 9.2,
+    "commentQuality": 8.9,
+    "contentInnovation": 8.7,
+    "platformIndex": 9.1,
+    "platformRecommendationProb": 0.73,
     "scores": {
       "adaptability_score": 87,
       "influence_score": 91,
@@ -1653,8 +1653,8 @@
       "内容情绪价值高"
     ],
     "priceRange": "中低",
-    "priceMin": 15000.00,
-    "priceMax": 20000.00,
+    "priceMin": 15000,
+    "priceMax": 20000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -1667,7 +1667,7 @@
   },
   {
     "name": "龙妈一零（孕晚期）",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5b0cfc7f4eacab226d0d84e9?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1732526095&share_id=64e7ff4aada2475d8ac585835898eb92",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/245.jpg",
     "platform": "小红书",
     "category": [
       "母婴",
@@ -1691,12 +1691,12 @@
       "幼师背景",
       "松弛育儿"
     ],
-    "personaStability": 8.700,
-    "cooperationReputation": 9.000,
-    "commentQuality": 8.600,
-    "contentInnovation": 8.500,
-    "platformIndex": 8.800,
-    "platformRecommendationProb": 0.690,
+    "personaStability": 8.7,
+    "cooperationReputation": 9,
+    "commentQuality": 8.6,
+    "contentInnovation": 8.5,
+    "platformIndex": 8.8,
+    "platformRecommendationProb": 0.69,
     "scores": {
       "adaptability_score": 83,
       "influence_score": 86,
@@ -1710,8 +1710,8 @@
       "孕晚期群体匹配度高"
     ],
     "priceRange": "中低",
-    "priceMin": 15000.00,
-    "priceMax": 20000.00,
+    "priceMin": 15000,
+    "priceMax": 20000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -1724,7 +1724,7 @@
   },
   {
     "name": "莓子哥哥",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5b0ce96811be107aa7fdaf5d?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1600835887",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/100.jpg",
     "platform": "小红书",
     "category": [
       "美妆",
@@ -1736,7 +1736,7 @@
     "location": "上海",
     "followersCount": 271083969,
     "avgViews": 1074920,
-    "engagementRate": 51.20,
+    "engagementRate": 51.2,
     "completionRate": null,
     "publishFrequency30d": 22,
     "publishFrequency90d": 63,
@@ -1748,12 +1748,12 @@
       "户外玩家",
       "高净值消费群体"
     ],
-    "personaStability": 9.000,
-    "cooperationReputation": 9.300,
-    "commentQuality": 8.800,
-    "contentInnovation": 9.000,
-    "platformIndex": 9.300,
-    "platformRecommendationProb": 0.780,
+    "personaStability": 9,
+    "cooperationReputation": 9.3,
+    "commentQuality": 8.8,
+    "contentInnovation": 9,
+    "platformIndex": 9.3,
+    "platformRecommendationProb": 0.78,
     "scores": {
       "adaptability_score": 89,
       "influence_score": 92,
@@ -1767,8 +1767,8 @@
       "品牌调性高度契合"
     ],
     "priceRange": "高",
-    "priceMin": 50000.00,
-    "priceMax": 68000.00,
+    "priceMin": 50000,
+    "priceMax": 68000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -1782,7 +1782,7 @@
   },
   {
     "name": "陈小幸子",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5bac90bbfd29d80001d8ee7e?xhsshare=CopyLink&appuid=5b0cf6ff11be100cdaccbb37&apptime=1597990787",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/211.jpg",
     "platform": "小红书",
     "category": [
       "美妆",
@@ -1806,12 +1806,12 @@
       "生活方式",
       "护发达人"
     ],
-    "personaStability": 9.200,
-    "cooperationReputation": 9.400,
-    "commentQuality": 9.000,
-    "contentInnovation": 9.100,
-    "platformIndex": 9.400,
-    "platformRecommendationProb": 0.810,
+    "personaStability": 9.2,
+    "cooperationReputation": 9.4,
+    "commentQuality": 9,
+    "contentInnovation": 9.1,
+    "platformIndex": 9.4,
+    "platformRecommendationProb": 0.81,
     "scores": {
       "adaptability_score": 91,
       "influence_score": 95,
@@ -1825,8 +1825,8 @@
       "适配高端护肤品牌"
     ],
     "priceRange": "高",
-    "priceMin": 48000.00,
-    "priceMax": 65000.00,
+    "priceMin": 48000,
+    "priceMax": 65000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -1840,7 +1840,7 @@
   },
   {
     "name": "Nico靓靓",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5b2c91db11be10031b2d5fd8?xhsshare=CopyLink&appuid=55dfce86e4b1cf36d56f801c&apptime=1597990858",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/240.jpg",
     "platform": "小红书",
     "category": [
       "美妆",
@@ -1864,12 +1864,12 @@
       "时尚达人",
       "高奢合作"
     ],
-    "personaStability": 9.100,
-    "cooperationReputation": 9.300,
-    "commentQuality": 8.900,
-    "contentInnovation": 8.800,
-    "platformIndex": 9.200,
-    "platformRecommendationProb": 0.750,
+    "personaStability": 9.1,
+    "cooperationReputation": 9.3,
+    "commentQuality": 8.9,
+    "contentInnovation": 8.8,
+    "platformIndex": 9.2,
+    "platformRecommendationProb": 0.75,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 91,
@@ -1883,8 +1883,8 @@
       "品牌契合度高"
     ],
     "priceRange": "高",
-    "priceMin": 42000.00,
-    "priceMax": 60000.00,
+    "priceMin": 42000,
+    "priceMax": 60000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -1897,7 +1897,7 @@
   },
   {
     "name": "美七_Chloe",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5b0cf041e8ac2b2f2d58afb6?xhsshare=CopyLink&appuid=5b0cf041e8ac2b2f2d58afb6&apptime=1597989910",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/127.jpg",
     "platform": "小红书",
     "category": [
       "美妆",
@@ -1921,12 +1921,12 @@
       "海外生活",
       "美妆测评"
     ],
-    "personaStability": 9.300,
-    "cooperationReputation": 9.400,
-    "commentQuality": 9.000,
-    "contentInnovation": 9.200,
-    "platformIndex": 9.400,
-    "platformRecommendationProb": 0.790,
+    "personaStability": 9.3,
+    "cooperationReputation": 9.4,
+    "commentQuality": 9,
+    "contentInnovation": 9.2,
+    "platformIndex": 9.4,
+    "platformRecommendationProb": 0.79,
     "scores": {
       "adaptability_score": 90,
       "influence_score": 94,
@@ -1940,8 +1940,8 @@
       "抗老干货具说服力"
     ],
     "priceRange": "高",
-    "priceMin": 45000.00,
-    "priceMax": 60000.00,
+    "priceMin": 45000,
+    "priceMax": 60000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -1955,7 +1955,7 @@
   },
   {
     "name": "医学生周周",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5bd3f1cc465ee3000175eead?xhsshare=CopyLink&appuid=5bd3f1cc465ee3000175eead&apptime=1597989776",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/139.jpg",
     "platform": "小红书",
     "category": [
       "美妆",
@@ -1979,12 +1979,12 @@
       "医美实测",
       "素颜养成"
     ],
-    "personaStability": 9.200,
-    "cooperationReputation": 9.500,
-    "commentQuality": 9.100,
-    "contentInnovation": 9.300,
-    "platformIndex": 9.500,
-    "platformRecommendationProb": 0.830,
+    "personaStability": 9.2,
+    "cooperationReputation": 9.5,
+    "commentQuality": 9.1,
+    "contentInnovation": 9.3,
+    "platformIndex": 9.5,
+    "platformRecommendationProb": 0.83,
     "scores": {
       "adaptability_score": 92,
       "influence_score": 96,
@@ -1998,8 +1998,8 @@
       "适配高端医美护肤品牌"
     ],
     "priceRange": "高",
-    "priceMin": 42000.00,
-    "priceMax": 58000.00,
+    "priceMin": 42000,
+    "priceMax": 58000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -2013,7 +2013,7 @@
   },
   {
     "name": "氛围美女张张",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5bad980652cf460001c7a51b?xhsshare=CopyLink&appuid=55dfce86e4b1cf36d56f801c&apptime=1597990941",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/229.jpg",
     "platform": "小红书",
     "category": [
       "美妆",
@@ -2037,12 +2037,12 @@
       "普女逆袭",
       "时尚驾驭"
     ],
-    "personaStability": 9.000,
-    "cooperationReputation": 9.300,
-    "commentQuality": 8.800,
-    "contentInnovation": 9.000,
-    "platformIndex": 9.200,
-    "platformRecommendationProb": 0.760,
+    "personaStability": 9,
+    "cooperationReputation": 9.3,
+    "commentQuality": 8.8,
+    "contentInnovation": 9,
+    "platformIndex": 9.2,
+    "platformRecommendationProb": 0.76,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 91,
@@ -2056,8 +2056,8 @@
       "大牌合作稳定复投"
     ],
     "priceRange": "高",
-    "priceMin": 48000.00,
-    "priceMax": 58000.00,
+    "priceMin": 48000,
+    "priceMax": 58000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -2071,7 +2071,7 @@
   },
   {
     "name": "李沐子sisi",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5bc6dbf787104d0001f4cb51?xhsshare=CopyLink&appuid=5cbdb6cf000000001603b714&apptime=1598345288",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/187.jpg",
     "platform": "小红书",
     "category": [
       "美妆",
@@ -2095,12 +2095,12 @@
       "创意彩妆",
       "爆款制造机"
     ],
-    "personaStability": 9.100,
-    "cooperationReputation": 9.400,
-    "commentQuality": 9.000,
-    "contentInnovation": 9.500,
-    "platformIndex": 9.500,
-    "platformRecommendationProb": 0.840,
+    "personaStability": 9.1,
+    "cooperationReputation": 9.4,
+    "commentQuality": 9,
+    "contentInnovation": 9.5,
+    "platformIndex": 9.5,
+    "platformRecommendationProb": 0.84,
     "scores": {
       "adaptability_score": 93,
       "influence_score": 96,
@@ -2114,8 +2114,8 @@
       "品牌曝光转化率高"
     ],
     "priceRange": "高",
-    "priceMin": 42000.00,
-    "priceMax": 58000.00,
+    "priceMin": 42000,
+    "priceMax": 58000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -2129,7 +2129,7 @@
   },
   {
     "name": "谭施文",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5dd38fb9000000000100a57c?xhsshare=CopyLink&appuid=5dd38fb9000000000100a57c&apptime=1597989717",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/164.jpg",
     "platform": "小红书",
     "category": [
       "美妆",
@@ -2153,12 +2153,12 @@
       "形体管理",
       "大气高级感"
     ],
-    "personaStability": 9.200,
-    "cooperationReputation": 9.400,
-    "commentQuality": 9.000,
-    "contentInnovation": 8.900,
-    "platformIndex": 9.300,
-    "platformRecommendationProb": 0.780,
+    "personaStability": 9.2,
+    "cooperationReputation": 9.4,
+    "commentQuality": 9,
+    "contentInnovation": 8.9,
+    "platformIndex": 9.3,
+    "platformRecommendationProb": 0.78,
     "scores": {
       "adaptability_score": 90,
       "influence_score": 92,
@@ -2172,8 +2172,8 @@
       "护发垂类表现出色"
     ],
     "priceRange": "高",
-    "priceMin": 38000.00,
-    "priceMax": 52000.00,
+    "priceMin": 38000,
+    "priceMax": 52000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -2187,7 +2187,7 @@
   },
   {
     "name": "吴晓晓呀",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5b7bee3abb7d58000125c0a8?xhsshare=CopyLink&appuid=5bad951db089bd00014dc06e&apptime=1597990274",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/151.jpg",
     "platform": "小红书",
     "category": [
       "美妆",
@@ -2211,12 +2211,12 @@
       "do脸圈",
       "生活方式"
     ],
-    "personaStability": 9.100,
-    "cooperationReputation": 9.500,
-    "commentQuality": 9.100,
-    "contentInnovation": 8.800,
-    "platformIndex": 9.300,
-    "platformRecommendationProb": 0.770,
+    "personaStability": 9.1,
+    "cooperationReputation": 9.5,
+    "commentQuality": 9.1,
+    "contentInnovation": 8.8,
+    "platformIndex": 9.3,
+    "platformRecommendationProb": 0.77,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 90,
@@ -2230,8 +2230,8 @@
       "高端品牌合作占比大"
     ],
     "priceRange": "中高",
-    "priceMin": 38000.00,
-    "priceMax": 50000.00,
+    "priceMin": 38000,
+    "priceMax": 50000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -2245,7 +2245,7 @@
   },
   {
     "name": "咕咚er（备婚中）",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5bbf54304e86bf0001e148a7?xhsshare=CopyLink&appuid=5bbf54304e86bf0001e148a7&apptime=1597989723",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/77.jpg",
     "platform": "小红书",
     "category": [
       "美妆",
@@ -2269,12 +2269,12 @@
       "祛痘达人",
       "美妆实用派"
     ],
-    "personaStability": 9.000,
-    "cooperationReputation": 9.300,
-    "commentQuality": 8.900,
-    "contentInnovation": 9.000,
-    "platformIndex": 9.200,
-    "platformRecommendationProb": 0.790,
+    "personaStability": 9,
+    "cooperationReputation": 9.3,
+    "commentQuality": 8.9,
+    "contentInnovation": 9,
+    "platformIndex": 9.2,
+    "platformRecommendationProb": 0.79,
     "scores": {
       "adaptability_score": 89,
       "influence_score": 92,
@@ -2288,8 +2288,8 @@
       "粉丝粘性强互动率高"
     ],
     "priceRange": "中高",
-    "priceMin": 38000.00,
-    "priceMax": 48000.00,
+    "priceMin": 38000,
+    "priceMax": 48000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -2303,7 +2303,7 @@
   },
   {
     "name": "钱颂亿kiki",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5fc75ca90000000001001070?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1637669094",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/43.jpg",
     "platform": "小红书",
     "category": [
       "美妆",
@@ -2328,12 +2328,12 @@
       "生活方式",
       "精致姐姐"
     ],
-    "personaStability": 9.100,
-    "cooperationReputation": 9.400,
-    "commentQuality": 8.900,
-    "contentInnovation": 8.900,
-    "platformIndex": 9.300,
-    "platformRecommendationProb": 0.780,
+    "personaStability": 9.1,
+    "cooperationReputation": 9.4,
+    "commentQuality": 8.9,
+    "contentInnovation": 8.9,
+    "platformIndex": 9.3,
+    "platformRecommendationProb": 0.78,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 92,
@@ -2347,8 +2347,8 @@
       "适配高端护肤医美品牌"
     ],
     "priceRange": "中高",
-    "priceMin": 35000.00,
-    "priceMax": 48000.00,
+    "priceMin": 35000,
+    "priceMax": 48000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -2362,7 +2362,7 @@
   },
   {
     "name": "辣味chili",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5bbc4ab7c5bcdf0001ee3193?xhsshare=CopyLink&appuid=5bbc4ab7c5bcdf0001ee3193&apptime=1597989744",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/263.jpg",
     "platform": "小红书",
     "category": [
       "美妆",
@@ -2386,12 +2386,12 @@
       "海岛旅行",
       "运动女孩"
     ],
-    "personaStability": 8.900,
-    "cooperationReputation": 9.200,
-    "commentQuality": 8.800,
-    "contentInnovation": 9.100,
-    "platformIndex": 9.000,
-    "platformRecommendationProb": 0.740,
+    "personaStability": 8.9,
+    "cooperationReputation": 9.2,
+    "commentQuality": 8.8,
+    "contentInnovation": 9.1,
+    "platformIndex": 9,
+    "platformRecommendationProb": 0.74,
     "scores": {
       "adaptability_score": 86,
       "influence_score": 89,
@@ -2405,8 +2405,8 @@
       "多品类合作潜力强"
     ],
     "priceRange": "中高",
-    "priceMin": 35000.00,
-    "priceMax": 45000.00,
+    "priceMin": 35000,
+    "priceMax": 45000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -2419,7 +2419,7 @@
   },
   {
     "name": "Vera希文",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5bbc8a90ef3da5000128c703?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1600836121",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/213.jpg",
     "platform": "小红书",
     "category": [
       "美妆",
@@ -2444,12 +2444,12 @@
       "抗衰护理",
       "夫妻档内容"
     ],
-    "personaStability": 9.300,
-    "cooperationReputation": 9.500,
-    "commentQuality": 9.100,
-    "contentInnovation": 9.000,
-    "platformIndex": 9.400,
-    "platformRecommendationProb": 0.800,
+    "personaStability": 9.3,
+    "cooperationReputation": 9.5,
+    "commentQuality": 9.1,
+    "contentInnovation": 9,
+    "platformIndex": 9.4,
+    "platformRecommendationProb": 0.8,
     "scores": {
       "adaptability_score": 89,
       "influence_score": 93,
@@ -2463,8 +2463,8 @@
       "抗衰护理类契合高"
     ],
     "priceRange": "中高",
-    "priceMin": 32000.00,
-    "priceMax": 45000.00,
+    "priceMin": 32000,
+    "priceMax": 45000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -2478,7 +2478,7 @@
   },
   {
     "name": "三岁sam",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5bf631dc1b157b0001a57b4f?xhsshare=CopyLink&appuid=5bf631dc1b157b0001a57b4f&apptime=1597990810",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/4.jpg",
     "platform": "小红书",
     "category": [
       "美妆",
@@ -2490,7 +2490,7 @@
     "location": "重庆",
     "followersCount": 384054610,
     "avgViews": 554120,
-    "engagementRate": 91.70,
+    "engagementRate": 91.7,
     "completionRate": null,
     "publishFrequency30d": 20,
     "publishFrequency90d": 60,
@@ -2502,12 +2502,12 @@
       "高专业度",
       "测评达人"
     ],
-    "personaStability": 9.200,
-    "cooperationReputation": 9.300,
-    "commentQuality": 9.000,
-    "contentInnovation": 8.900,
-    "platformIndex": 9.200,
-    "platformRecommendationProb": 0.770,
+    "personaStability": 9.2,
+    "cooperationReputation": 9.3,
+    "commentQuality": 9,
+    "contentInnovation": 8.9,
+    "platformIndex": 9.2,
+    "platformRecommendationProb": 0.77,
     "scores": {
       "adaptability_score": 87,
       "influence_score": 91,
@@ -2521,8 +2521,8 @@
       "口碑与互动率优异"
     ],
     "priceRange": "中高",
-    "priceMin": 32000.00,
-    "priceMax": 45000.00,
+    "priceMin": 32000,
+    "priceMax": 45000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -2535,7 +2535,7 @@
   },
   {
     "name": "奶栋Ryan",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5bbc89a28526dd0001e50b84?xhsshare=CopyLink&appuid=55dfce86e4b1cf36d56f801c&apptime=1597990965",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/81.jpg",
     "platform": "小红书",
     "category": [
       "生活vlog",
@@ -2560,12 +2560,12 @@
       "户外旅行",
       "阳光帅气"
     ],
-    "personaStability": 8.800,
-    "cooperationReputation": 9.000,
-    "commentQuality": 8.700,
-    "contentInnovation": 8.800,
-    "platformIndex": 8.900,
-    "platformRecommendationProb": 0.730,
+    "personaStability": 8.8,
+    "cooperationReputation": 9,
+    "commentQuality": 8.7,
+    "contentInnovation": 8.8,
+    "platformIndex": 8.9,
+    "platformRecommendationProb": 0.73,
     "scores": {
       "adaptability_score": 85,
       "influence_score": 88,
@@ -2579,8 +2579,8 @@
       "品牌调性年轻化"
     ],
     "priceRange": "中高",
-    "priceMin": 35000.00,
-    "priceMax": 45000.00,
+    "priceMin": 35000,
+    "priceMax": 45000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -2593,7 +2593,7 @@
   },
   {
     "name": "丫丫_Yabby",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5bcd8d3b1193dc0001a22faf?xhsshare=CopyLink&appuid=5dd38fb9000000000100a57c&apptime=1597990031",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/194.jpg",
     "platform": "小红书",
     "category": [
       "美妆",
@@ -2617,12 +2617,12 @@
       "正畸经验",
       "拍照达人"
     ],
-    "personaStability": 9.000,
-    "cooperationReputation": 9.200,
-    "commentQuality": 8.900,
-    "contentInnovation": 8.800,
-    "platformIndex": 9.100,
-    "platformRecommendationProb": 0.740,
+    "personaStability": 9,
+    "cooperationReputation": 9.2,
+    "commentQuality": 8.9,
+    "contentInnovation": 8.8,
+    "platformIndex": 9.1,
+    "platformRecommendationProb": 0.74,
     "scores": {
       "adaptability_score": 86,
       "influence_score": 89,
@@ -2636,8 +2636,8 @@
       "合作口碑良好"
     ],
     "priceRange": "中高",
-    "priceMin": 35000.00,
-    "priceMax": 45000.00,
+    "priceMin": 35000,
+    "priceMax": 45000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -2651,7 +2651,7 @@
   },
   {
     "name": "微辣阿弯",
-    "avatar": "https://www.xiaohongshu.com/user/profile/60cb08ee0000000001004bb3?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1647945903",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/137.jpg",
     "platform": "小红书",
     "category": [
       "美妆",
@@ -2664,7 +2664,7 @@
     "location": "杭州",
     "followersCount": 4297777524,
     "avgViews": 498390,
-    "engagementRate": 16.80,
+    "engagementRate": 16.8,
     "completionRate": null,
     "publishFrequency30d": 21,
     "publishFrequency90d": 60,
@@ -2676,12 +2676,12 @@
       "东田化妆师",
       "爆款制造机"
     ],
-    "personaStability": 9.100,
-    "cooperationReputation": 9.400,
-    "commentQuality": 9.000,
-    "contentInnovation": 9.100,
-    "platformIndex": 9.300,
-    "platformRecommendationProb": 0.780,
+    "personaStability": 9.1,
+    "cooperationReputation": 9.4,
+    "commentQuality": 9,
+    "contentInnovation": 9.1,
+    "platformIndex": 9.3,
+    "platformRecommendationProb": 0.78,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 91,
@@ -2695,8 +2695,8 @@
       "观众粘性强"
     ],
     "priceRange": "中高",
-    "priceMin": 32000.00,
-    "priceMax": 42000.00,
+    "priceMin": 32000,
+    "priceMax": 42000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -2710,7 +2710,7 @@
   },
   {
     "name": "杨璐儿",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5e9fcc6d000000000100bf52?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1621917582",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/65.jpg",
     "platform": "小红书",
     "category": [
       "护肤",
@@ -2734,12 +2734,12 @@
       "主持人背景",
       "韩系熟龄风"
     ],
-    "personaStability": 9.300,
-    "cooperationReputation": 9.400,
-    "commentQuality": 9.000,
-    "contentInnovation": 8.800,
-    "platformIndex": 9.200,
-    "platformRecommendationProb": 0.760,
+    "personaStability": 9.3,
+    "cooperationReputation": 9.4,
+    "commentQuality": 9,
+    "contentInnovation": 8.8,
+    "platformIndex": 9.2,
+    "platformRecommendationProb": 0.76,
     "scores": {
       "adaptability_score": 87,
       "influence_score": 90,
@@ -2753,8 +2753,8 @@
       "生活品质高调性契合"
     ],
     "priceRange": "中高",
-    "priceMin": 32000.00,
-    "priceMax": 42000.00,
+    "priceMin": 32000,
+    "priceMax": 42000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -2768,7 +2768,7 @@
   },
   {
     "name": "蓉姐成分育儿",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5bed36c771a614000158e14e?xhsshare=CopyLink&appuid=5cbdb6cf000000001603b714&apptime=1598345430",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/283.jpg",
     "platform": "小红书",
     "category": [
       "母婴",
@@ -2792,12 +2792,12 @@
       "40+妈妈",
       "学霸育儿"
     ],
-    "personaStability": 9.400,
-    "cooperationReputation": 9.500,
-    "commentQuality": 9.100,
-    "contentInnovation": 9.000,
-    "platformIndex": 9.400,
-    "platformRecommendationProb": 0.800,
+    "personaStability": 9.4,
+    "cooperationReputation": 9.5,
+    "commentQuality": 9.1,
+    "contentInnovation": 9,
+    "platformIndex": 9.4,
+    "platformRecommendationProb": 0.8,
     "scores": {
       "adaptability_score": 89,
       "influence_score": 93,
@@ -2811,8 +2811,8 @@
       "多品牌合作场景广"
     ],
     "priceRange": "中高",
-    "priceMin": 26000.00,
-    "priceMax": 38000.00,
+    "priceMin": 26000,
+    "priceMax": 38000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -2825,7 +2825,7 @@
   },
   {
     "name": "就是叫大宝！",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5bbc7a09ba9df10001d14355?xhsshare=CopyLink&appuid=5dd38fb9000000000100a57c&apptime=1597989897",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/279.jpg",
     "platform": "小红书",
     "category": [
       "美妆",
@@ -2849,12 +2849,12 @@
       "生活方式",
       "气质姐姐"
     ],
-    "personaStability": 9.200,
-    "cooperationReputation": 9.400,
-    "commentQuality": 9.000,
-    "contentInnovation": 8.900,
-    "platformIndex": 9.200,
-    "platformRecommendationProb": 0.770,
+    "personaStability": 9.2,
+    "cooperationReputation": 9.4,
+    "commentQuality": 9,
+    "contentInnovation": 8.9,
+    "platformIndex": 9.2,
+    "platformRecommendationProb": 0.77,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 90,
@@ -2868,8 +2868,8 @@
       "大牌合作频繁"
     ],
     "priceRange": "中高",
-    "priceMin": 28000.00,
-    "priceMax": 38000.00,
+    "priceMin": 28000,
+    "priceMax": 38000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -2883,7 +2883,7 @@
   },
   {
     "name": "姚浅浅kami",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5fc73b32000000000101e178?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1621916881",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/28.jpg",
     "platform": "小红书",
     "category": [
       "护肤",
@@ -2908,12 +2908,12 @@
       "高尔夫达人",
       "防晒美白"
     ],
-    "personaStability": 9.200,
-    "cooperationReputation": 9.400,
-    "commentQuality": 9.100,
-    "contentInnovation": 8.900,
-    "platformIndex": 9.300,
-    "platformRecommendationProb": 0.780,
+    "personaStability": 9.2,
+    "cooperationReputation": 9.4,
+    "commentQuality": 9.1,
+    "contentInnovation": 8.9,
+    "platformIndex": 9.3,
+    "platformRecommendationProb": 0.78,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 90,
@@ -2927,8 +2927,8 @@
       "内容调性稳定且生活品质感强"
     ],
     "priceRange": "中高",
-    "priceMin": 28000.00,
-    "priceMax": 38000.00,
+    "priceMin": 28000,
+    "priceMax": 38000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -2942,7 +2942,7 @@
   },
   {
     "name": "原野枚子",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5b3371d511be1026a2942eb8?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1664171111",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/274.jpg",
     "platform": "小红书",
     "category": [
       "运动",
@@ -2966,12 +2966,12 @@
       "翘臀训练",
       "高能量女性"
     ],
-    "personaStability": 9.300,
-    "cooperationReputation": 9.400,
-    "commentQuality": 9.000,
-    "contentInnovation": 9.100,
-    "platformIndex": 9.300,
-    "platformRecommendationProb": 0.760,
+    "personaStability": 9.3,
+    "cooperationReputation": 9.4,
+    "commentQuality": 9,
+    "contentInnovation": 9.1,
+    "platformIndex": 9.3,
+    "platformRecommendationProb": 0.76,
     "scores": {
       "adaptability_score": 87,
       "influence_score": 90,
@@ -2985,8 +2985,8 @@
       "品牌匹配度强"
     ],
     "priceRange": "中高",
-    "priceMin": 26000.00,
-    "priceMax": 36000.00,
+    "priceMin": 26000,
+    "priceMax": 36000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -3000,7 +3000,7 @@
   },
   {
     "name": "芭比赵",
-    "avatar": "https://www.xiaohongshu.com/user/profile/636deb73000000001f01eec1?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1679731497",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/124.jpg",
     "platform": "小红书",
     "category": [
       "美妆",
@@ -3025,12 +3025,12 @@
       "女性力量",
       "真实自然"
     ],
-    "personaStability": 9.100,
-    "cooperationReputation": 9.300,
-    "commentQuality": 9.000,
-    "contentInnovation": 9.200,
-    "platformIndex": 9.400,
-    "platformRecommendationProb": 0.820,
+    "personaStability": 9.1,
+    "cooperationReputation": 9.3,
+    "commentQuality": 9,
+    "contentInnovation": 9.2,
+    "platformIndex": 9.4,
+    "platformRecommendationProb": 0.82,
     "scores": {
       "adaptability_score": 90,
       "influence_score": 92,
@@ -3044,8 +3044,8 @@
       "年轻化受众粘性强"
     ],
     "priceRange": "中",
-    "priceMin": 25000.00,
-    "priceMax": 35000.00,
+    "priceMin": 25000,
+    "priceMax": 35000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -3059,7 +3059,7 @@
   },
   {
     "name": "园子不圆",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5f51f9b400000000010007c9?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1624614250",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/254.jpg",
     "platform": "小红书",
     "category": [
       "护发",
@@ -3083,12 +3083,12 @@
       "旅行生活",
       "医美爱好者"
     ],
-    "personaStability": 9.100,
-    "cooperationReputation": 9.400,
-    "commentQuality": 9.000,
-    "contentInnovation": 8.900,
-    "platformIndex": 9.200,
-    "platformRecommendationProb": 0.750,
+    "personaStability": 9.1,
+    "cooperationReputation": 9.4,
+    "commentQuality": 9,
+    "contentInnovation": 8.9,
+    "platformIndex": 9.2,
+    "platformRecommendationProb": 0.75,
     "scores": {
       "adaptability_score": 87,
       "influence_score": 90,
@@ -3102,8 +3102,8 @@
       "外出旅行素材丰富"
     ],
     "priceRange": "中",
-    "priceMin": 25000.00,
-    "priceMax": 35000.00,
+    "priceMin": 25000,
+    "priceMax": 35000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -3116,7 +3116,7 @@
   },
   {
     "name": "狍子仙女",
-    "avatar": "https://www.xiaohongshu.com/user/profile/62e0ce92000000001e01c51b?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1666434237",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/171.jpg",
     "platform": "小红书",
     "category": [
       "美妆",
@@ -3141,12 +3141,12 @@
       "护发达人",
       "韩系妆感"
     ],
-    "personaStability": 9.200,
-    "cooperationReputation": 9.500,
-    "commentQuality": 9.100,
-    "contentInnovation": 9.000,
-    "platformIndex": 9.400,
-    "platformRecommendationProb": 0.800,
+    "personaStability": 9.2,
+    "cooperationReputation": 9.5,
+    "commentQuality": 9.1,
+    "contentInnovation": 9,
+    "platformIndex": 9.4,
+    "platformRecommendationProb": 0.8,
     "scores": {
       "adaptability_score": 89,
       "influence_score": 93,
@@ -3160,8 +3160,8 @@
       "医美养护类品牌匹配度强"
     ],
     "priceRange": "中",
-    "priceMin": 25000.00,
-    "priceMax": 35000.00,
+    "priceMin": 25000,
+    "priceMax": 35000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -3175,7 +3175,7 @@
   },
   {
     "name": "纱纱sasha",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5d2846e3000000001201e5d0?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1616671959",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/106.jpg",
     "platform": "小红书",
     "category": [
       "护肤",
@@ -3200,12 +3200,12 @@
       "小资生活",
       "运动达人"
     ],
-    "personaStability": 9.200,
-    "cooperationReputation": 9.500,
-    "commentQuality": 9.100,
-    "contentInnovation": 8.900,
-    "platformIndex": 9.300,
-    "platformRecommendationProb": 0.790,
+    "personaStability": 9.2,
+    "cooperationReputation": 9.5,
+    "commentQuality": 9.1,
+    "contentInnovation": 8.9,
+    "platformIndex": 9.3,
+    "platformRecommendationProb": 0.79,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 91,
@@ -3219,8 +3219,8 @@
       "女性成长内容粘性强"
     ],
     "priceRange": "中高",
-    "priceMin": 25000.00,
-    "priceMax": 35000.00,
+    "priceMin": 25000,
+    "priceMax": 35000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -3233,7 +3233,7 @@
   },
   {
     "name": "一汀YITING",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5cd3eb6b000000001102537e?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1713959813",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/209.jpg",
     "platform": "小红书",
     "category": [
       "高端护肤",
@@ -3245,7 +3245,7 @@
     "location": "上海",
     "followersCount": 514269751,
     "avgViews": 257800,
-    "engagementRate": 12.40,
+    "engagementRate": 12.4,
     "completionRate": null,
     "publishFrequency30d": 16,
     "publishFrequency90d": 44,
@@ -3257,12 +3257,12 @@
       "名媛圈层",
       "主持人气质"
     ],
-    "personaStability": 9.400,
-    "cooperationReputation": 9.600,
-    "commentQuality": 9.000,
-    "contentInnovation": 8.700,
-    "platformIndex": 9.200,
-    "platformRecommendationProb": 0.750,
+    "personaStability": 9.4,
+    "cooperationReputation": 9.6,
+    "commentQuality": 9,
+    "contentInnovation": 8.7,
+    "platformIndex": 9.2,
+    "platformRecommendationProb": 0.75,
     "scores": {
       "adaptability_score": 86,
       "influence_score": 89,
@@ -3276,8 +3276,8 @@
       "抗衰类内容专业权威"
     ],
     "priceRange": "中高",
-    "priceMin": 25000.00,
-    "priceMax": 35000.00,
+    "priceMin": 25000,
+    "priceMax": 35000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -3290,7 +3290,7 @@
   },
   {
     "name": "妮妮猫",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5bbedc70478b630001b5c639?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1716431225",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/146.jpg",
     "platform": "小红书",
     "category": [
       "校园生活",
@@ -3315,12 +3315,12 @@
       "学习自律",
       "健身女孩"
     ],
-    "personaStability": 9.000,
-    "cooperationReputation": 9.200,
-    "commentQuality": 8.900,
-    "contentInnovation": 9.100,
-    "platformIndex": 9.300,
-    "platformRecommendationProb": 0.780,
+    "personaStability": 9,
+    "cooperationReputation": 9.2,
+    "commentQuality": 8.9,
+    "contentInnovation": 9.1,
+    "platformIndex": 9.3,
+    "platformRecommendationProb": 0.78,
     "scores": {
       "adaptability_score": 87,
       "influence_score": 89,
@@ -3334,8 +3334,8 @@
       "品牌年轻化方向契合"
     ],
     "priceRange": "中",
-    "priceMin": 28000.00,
-    "priceMax": 35000.00,
+    "priceMin": 28000,
+    "priceMax": 35000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -3348,7 +3348,7 @@
   },
   {
     "name": "辣姐Sasa（氛围美女养成中）",
-    "avatar": "https://www.xiaohongshu.com/user/profile/61543e7000000000020224a4?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1647946017",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/187.jpg",
     "platform": "小红书",
     "category": [
       "彩妆",
@@ -3373,12 +3373,12 @@
       "黑眼圈改善",
       "发质养护"
     ],
-    "personaStability": 9.100,
-    "cooperationReputation": 9.300,
-    "commentQuality": 8.900,
-    "contentInnovation": 8.800,
-    "platformIndex": 9.100,
-    "platformRecommendationProb": 0.770,
+    "personaStability": 9.1,
+    "cooperationReputation": 9.3,
+    "commentQuality": 8.9,
+    "contentInnovation": 8.8,
+    "platformIndex": 9.1,
+    "platformRecommendationProb": 0.77,
     "scores": {
       "adaptability_score": 86,
       "influence_score": 88,
@@ -3392,8 +3392,8 @@
       "适配多个消费品类"
     ],
     "priceRange": "中",
-    "priceMin": 22000.00,
-    "priceMax": 32000.00,
+    "priceMin": 22000,
+    "priceMax": 32000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -3407,7 +3407,7 @@
   },
   {
     "name": "欧七七-",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5b9b3b2f4a303d00018b5813?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1703162795",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/138.jpg",
     "platform": "小红书",
     "category": [
       "抗老护肤",
@@ -3431,12 +3431,12 @@
       "大气温柔风",
       "养生美人"
     ],
-    "personaStability": 9.300,
-    "cooperationReputation": 9.400,
-    "commentQuality": 9.100,
-    "contentInnovation": 8.900,
-    "platformIndex": 9.300,
-    "platformRecommendationProb": 0.780,
+    "personaStability": 9.3,
+    "cooperationReputation": 9.4,
+    "commentQuality": 9.1,
+    "contentInnovation": 8.9,
+    "platformIndex": 9.3,
+    "platformRecommendationProb": 0.78,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 91,
@@ -3450,8 +3450,8 @@
       "观众画像精准稳定"
     ],
     "priceRange": "中",
-    "priceMin": 22000.00,
-    "priceMax": 32000.00,
+    "priceMin": 22000,
+    "priceMax": 32000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -3464,7 +3464,7 @@
   },
   {
     "name": "孙若桐儿",
-    "avatar": "https://www.xiaohongshu.com/user/profile/60cc328e00000000010021e2?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1637666411",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/171.jpg",
     "platform": "小红书",
     "category": [
       "美妆",
@@ -3489,12 +3489,12 @@
       "发量富婆",
       "精致独立女性"
     ],
-    "personaStability": 9.300,
-    "cooperationReputation": 9.500,
-    "commentQuality": 9.100,
-    "contentInnovation": 8.900,
-    "platformIndex": 9.400,
-    "platformRecommendationProb": 0.790,
+    "personaStability": 9.3,
+    "cooperationReputation": 9.5,
+    "commentQuality": 9.1,
+    "contentInnovation": 8.9,
+    "platformIndex": 9.4,
+    "platformRecommendationProb": 0.79,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 92,
@@ -3508,8 +3508,8 @@
       "多品牌复投合作良好"
     ],
     "priceRange": "中高",
-    "priceMin": 21000.00,
-    "priceMax": 30000.00,
+    "priceMin": 21000,
+    "priceMax": 30000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -3523,7 +3523,7 @@
   },
   {
     "name": "惠惠子CARRIE",
-    "avatar": "https://www.xiaohongshu.com/user/profile/60a124d9000000000100afa7?xhsshare=CopyLink&appuid=59f7000d11be1012d1b75044&apptime=1666338661",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/130.jpg",
     "platform": "小红书",
     "category": [
       "美妆",
@@ -3548,12 +3548,12 @@
       "户外玩家",
       "自律女性"
     ],
-    "personaStability": 9.000,
-    "cooperationReputation": 9.200,
-    "commentQuality": 8.800,
-    "contentInnovation": 9.200,
-    "platformIndex": 9.300,
-    "platformRecommendationProb": 0.770,
+    "personaStability": 9,
+    "cooperationReputation": 9.2,
+    "commentQuality": 8.8,
+    "contentInnovation": 9.2,
+    "platformIndex": 9.3,
+    "platformRecommendationProb": 0.77,
     "scores": {
       "adaptability_score": 86,
       "influence_score": 88,
@@ -3567,8 +3567,8 @@
       "年轻女性粉丝粘性高"
     ],
     "priceRange": "中",
-    "priceMin": 21000.00,
-    "priceMax": 30000.00,
+    "priceMin": 21000,
+    "priceMax": 30000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -3581,7 +3581,7 @@
   },
   {
     "name": "黄亿白",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5bbd7cfc0b359a0001527347?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1616671503",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/130.jpg",
     "platform": "小红书",
     "category": [
       "护肤",
@@ -3606,12 +3606,12 @@
       "成分党",
       "场景测评"
     ],
-    "personaStability": 9.400,
-    "cooperationReputation": 9.500,
-    "commentQuality": 9.200,
-    "contentInnovation": 9.100,
-    "platformIndex": 9.400,
-    "platformRecommendationProb": 0.800,
+    "personaStability": 9.4,
+    "cooperationReputation": 9.5,
+    "commentQuality": 9.2,
+    "contentInnovation": 9.1,
+    "platformIndex": 9.4,
+    "platformRecommendationProb": 0.8,
     "scores": {
       "adaptability_score": 89,
       "influence_score": 92,
@@ -3625,8 +3625,8 @@
       "内容结构完整垂直"
     ],
     "priceRange": "中高",
-    "priceMin": 21000.00,
-    "priceMax": 30000.00,
+    "priceMin": 21000,
+    "priceMax": 30000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -3640,7 +3640,7 @@
   },
   {
     "name": "叶子Zoey",
-    "avatar": "https://www.xiaohongshu.com/user/profile/635e1bea000000001802c01a?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1669113615",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/101.jpg",
     "platform": "小红书",
     "category": [
       "美妆",
@@ -3665,12 +3665,12 @@
       "白瘦美",
       "氛围博主"
     ],
-    "personaStability": 9.200,
-    "cooperationReputation": 9.400,
-    "commentQuality": 9.000,
-    "contentInnovation": 9.100,
-    "platformIndex": 9.300,
-    "platformRecommendationProb": 0.790,
+    "personaStability": 9.2,
+    "cooperationReputation": 9.4,
+    "commentQuality": 9,
+    "contentInnovation": 9.1,
+    "platformIndex": 9.3,
+    "platformRecommendationProb": 0.79,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 91,
@@ -3684,8 +3684,8 @@
       "多品牌合作表现出色"
     ],
     "priceRange": "中",
-    "priceMin": 20000.00,
-    "priceMax": 28000.00,
+    "priceMin": 20000,
+    "priceMax": 28000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -3699,7 +3699,7 @@
   },
   {
     "name": "护肤教主昱七七",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5bc16ffbe61afa0001d342a2?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1616581093",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/267.jpg",
     "platform": "小红书",
     "category": [
       "抗衰",
@@ -3724,12 +3724,12 @@
       "高颜值情侣",
       "中式养生"
     ],
-    "personaStability": 9.300,
-    "cooperationReputation": 9.500,
-    "commentQuality": 9.100,
-    "contentInnovation": 9.000,
-    "platformIndex": 9.300,
-    "platformRecommendationProb": 0.780,
+    "personaStability": 9.3,
+    "cooperationReputation": 9.5,
+    "commentQuality": 9.1,
+    "contentInnovation": 9,
+    "platformIndex": 9.3,
+    "platformRecommendationProb": 0.78,
     "scores": {
       "adaptability_score": 87,
       "influence_score": 90,
@@ -3743,8 +3743,8 @@
       "粉丝黏性强"
     ],
     "priceRange": "中",
-    "priceMin": 22000.00,
-    "priceMax": 28000.00,
+    "priceMin": 22000,
+    "priceMax": 28000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -3758,7 +3758,7 @@
   },
   {
     "name": "楠姐Nancy",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5bdc1d2f8694f90001454b51?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1600835930",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/3.jpg",
     "platform": "小红书",
     "category": [
       "护肤",
@@ -3783,12 +3783,12 @@
       "贵妇护肤",
       "敏肌上岸"
     ],
-    "personaStability": 9.400,
-    "cooperationReputation": 9.600,
-    "commentQuality": 9.300,
-    "contentInnovation": 9.100,
-    "platformIndex": 9.400,
-    "platformRecommendationProb": 0.800,
+    "personaStability": 9.4,
+    "cooperationReputation": 9.6,
+    "commentQuality": 9.3,
+    "contentInnovation": 9.1,
+    "platformIndex": 9.4,
+    "platformRecommendationProb": 0.8,
     "scores": {
       "adaptability_score": 89,
       "influence_score": 92,
@@ -3802,8 +3802,8 @@
       "品牌合作复投率高"
     ],
     "priceRange": "中高",
-    "priceMin": 22000.00,
-    "priceMax": 28000.00,
+    "priceMin": 22000,
+    "priceMax": 28000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -3816,7 +3816,7 @@
   },
   {
     "name": "赵佳琪AB_（备婚中）",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5dcf7f240000000001001bdf?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1724665655",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/213.jpg",
     "platform": "小红书",
     "category": [
       "模特",
@@ -3842,12 +3842,12 @@
       "备婚变美",
       "婚纱模特"
     ],
-    "personaStability": 9.200,
-    "cooperationReputation": 9.300,
-    "commentQuality": 8.900,
-    "contentInnovation": 8.800,
-    "platformIndex": 9.100,
-    "platformRecommendationProb": 0.750,
+    "personaStability": 9.2,
+    "cooperationReputation": 9.3,
+    "commentQuality": 8.9,
+    "contentInnovation": 8.8,
+    "platformIndex": 9.1,
+    "platformRecommendationProb": 0.75,
     "scores": {
       "adaptability_score": 86,
       "influence_score": 89,
@@ -3861,8 +3861,8 @@
       "旅游生活类合作潜力大"
     ],
     "priceRange": "中",
-    "priceMin": 22000.00,
-    "priceMax": 28000.00,
+    "priceMin": 22000,
+    "priceMax": 28000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -3875,7 +3875,7 @@
   },
   {
     "name": "Good奈奈",
-    "avatar": "https://www.xiaohongshu.com/user/profile/6321a85e000000002303f134?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1676456439",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/287.jpg",
     "platform": "小红书",
     "category": [
       "护发",
@@ -3900,12 +3900,12 @@
       "瑕疵皮改善",
       "极限测评"
     ],
-    "personaStability": 9.100,
-    "cooperationReputation": 9.300,
-    "commentQuality": 8.800,
-    "contentInnovation": 9.200,
-    "platformIndex": 9.200,
-    "platformRecommendationProb": 0.780,
+    "personaStability": 9.1,
+    "cooperationReputation": 9.3,
+    "commentQuality": 8.8,
+    "contentInnovation": 9.2,
+    "platformIndex": 9.2,
+    "platformRecommendationProb": 0.78,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 90,
@@ -3919,8 +3919,8 @@
       "广告转化效果优异"
     ],
     "priceRange": "中",
-    "priceMin": 18000.00,
-    "priceMax": 26000.00,
+    "priceMin": 18000,
+    "priceMax": 26000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -3934,7 +3934,7 @@
   },
   {
     "name": "珊珊shine",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5bab2f197bd8df00019f8167?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1647942539",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/117.jpg",
     "platform": "小红书",
     "category": [
       "美妆",
@@ -3959,12 +3959,12 @@
       "短剧女主",
       "E人强输出"
     ],
-    "personaStability": 9.300,
-    "cooperationReputation": 9.400,
-    "commentQuality": 9.000,
-    "contentInnovation": 9.200,
-    "platformIndex": 9.400,
-    "platformRecommendationProb": 0.790,
+    "personaStability": 9.3,
+    "cooperationReputation": 9.4,
+    "commentQuality": 9,
+    "contentInnovation": 9.2,
+    "platformIndex": 9.4,
+    "platformRecommendationProb": 0.79,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 91,
@@ -3978,8 +3978,8 @@
       "互动率高爆文频出"
     ],
     "priceRange": "中",
-    "priceMin": 18000.00,
-    "priceMax": 26000.00,
+    "priceMin": 18000,
+    "priceMax": 26000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -3992,7 +3992,7 @@
   },
   {
     "name": "郝哇塞（挖宝版）",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5fc4b7e80000000001004dc5?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1650610404",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/84.jpg",
     "platform": "小红书",
     "category": [
       "美妆",
@@ -4017,12 +4017,12 @@
       "真实测评",
       "百元好物"
     ],
-    "personaStability": 9.100,
-    "cooperationReputation": 9.400,
-    "commentQuality": 9.000,
-    "contentInnovation": 9.300,
-    "platformIndex": 9.300,
-    "platformRecommendationProb": 0.800,
+    "personaStability": 9.1,
+    "cooperationReputation": 9.4,
+    "commentQuality": 9,
+    "contentInnovation": 9.3,
+    "platformIndex": 9.3,
+    "platformRecommendationProb": 0.8,
     "scores": {
       "adaptability_score": 89,
       "influence_score": 92,
@@ -4036,8 +4036,8 @@
       "品牌合作多维度拓展"
     ],
     "priceRange": "中",
-    "priceMin": 18000.00,
-    "priceMax": 25000.00,
+    "priceMin": 18000,
+    "priceMax": 25000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -4051,7 +4051,7 @@
   },
   {
     "name": "洋子洋（狂测版）",
-    "avatar": "https://www.xiaohongshu.com/user/profile/600fbd7000000000010051fa?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1621917421",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/19.jpg",
     "platform": "小红书",
     "category": [
       "美妆",
@@ -4076,12 +4076,12 @@
       "冷白皮",
       "抗老优等生"
     ],
-    "personaStability": 9.400,
-    "cooperationReputation": 9.600,
-    "commentQuality": 9.200,
-    "contentInnovation": 9.100,
-    "platformIndex": 9.400,
-    "platformRecommendationProb": 0.800,
+    "personaStability": 9.4,
+    "cooperationReputation": 9.6,
+    "commentQuality": 9.2,
+    "contentInnovation": 9.1,
+    "platformIndex": 9.4,
+    "platformRecommendationProb": 0.8,
     "scores": {
       "adaptability_score": 89,
       "influence_score": 92,
@@ -4095,8 +4095,8 @@
       "品牌合作稳定"
     ],
     "priceRange": "中",
-    "priceMin": 18000.00,
-    "priceMax": 25000.00,
+    "priceMin": 18000,
+    "priceMax": 25000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -4109,7 +4109,7 @@
   },
   {
     "name": "高子璇",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5be333efef3557000199741d?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1705895075",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/231.jpg",
     "platform": "小红书",
     "category": [
       "模特",
@@ -4134,12 +4134,12 @@
       "身材管理",
       "果茶控"
     ],
-    "personaStability": 9.300,
-    "cooperationReputation": 9.500,
-    "commentQuality": 9.100,
-    "contentInnovation": 9.200,
-    "platformIndex": 9.300,
-    "platformRecommendationProb": 0.790,
+    "personaStability": 9.3,
+    "cooperationReputation": 9.5,
+    "commentQuality": 9.1,
+    "contentInnovation": 9.2,
+    "platformIndex": 9.3,
+    "platformRecommendationProb": 0.79,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 91,
@@ -4153,8 +4153,8 @@
       "视觉表达能力强"
     ],
     "priceRange": "中",
-    "priceMin": 20000.00,
-    "priceMax": 25000.00,
+    "priceMin": 20000,
+    "priceMax": 25000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -4168,7 +4168,7 @@
   },
   {
     "name": "陈.LANLAN",
-    "avatar": "https://www.xiaohongshu.com/user/profile/6594dec10000000022004894?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1721362621",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/180.jpg",
     "platform": "小红书",
     "category": [
       "美妆",
@@ -4193,12 +4193,12 @@
       "舞蹈健身",
       "编导背景"
     ],
-    "personaStability": 9.000,
-    "cooperationReputation": 9.200,
-    "commentQuality": 8.800,
-    "contentInnovation": 9.100,
-    "platformIndex": 9.200,
-    "platformRecommendationProb": 0.770,
+    "personaStability": 9,
+    "cooperationReputation": 9.2,
+    "commentQuality": 8.8,
+    "contentInnovation": 9.1,
+    "platformIndex": 9.2,
+    "platformRecommendationProb": 0.77,
     "scores": {
       "adaptability_score": 86,
       "influence_score": 88,
@@ -4212,8 +4212,8 @@
       "内容调性亲和真实"
     ],
     "priceRange": "中低",
-    "priceMin": 15000.00,
-    "priceMax": 22000.00,
+    "priceMin": 15000,
+    "priceMax": 22000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -4226,7 +4226,7 @@
   },
   {
     "name": "鱼闪闪（备婚中）",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5c9eede00000000016020e70?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1723193023",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/35.jpg",
     "platform": "小红书",
     "category": [
       "备婚",
@@ -4251,12 +4251,12 @@
       "内服达人",
       "素颜养成"
     ],
-    "personaStability": 9.300,
-    "cooperationReputation": 9.400,
-    "commentQuality": 9.000,
-    "contentInnovation": 9.000,
-    "platformIndex": 9.300,
-    "platformRecommendationProb": 0.780,
+    "personaStability": 9.3,
+    "cooperationReputation": 9.4,
+    "commentQuality": 9,
+    "contentInnovation": 9,
+    "platformIndex": 9.3,
+    "platformRecommendationProb": 0.78,
     "scores": {
       "adaptability_score": 87,
       "influence_score": 90,
@@ -4270,8 +4270,8 @@
       "产品转化自然可信"
     ],
     "priceRange": "中低",
-    "priceMin": 15000.00,
-    "priceMax": 22000.00,
+    "priceMin": 15000,
+    "priceMax": 22000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -4284,7 +4284,7 @@
   },
   {
     "name": "小五Kara",
-    "avatar": "https://www.xiaohongshu.com/user/profile/60cddc6e0000000001007878?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1637666508",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/176.jpg",
     "platform": "小红书",
     "category": [
       "美妆",
@@ -4309,12 +4309,12 @@
       "电子闺蜜",
       "奇葩测评"
     ],
-    "personaStability": 9.200,
-    "cooperationReputation": 9.300,
-    "commentQuality": 8.900,
-    "contentInnovation": 9.300,
-    "platformIndex": 9.300,
-    "platformRecommendationProb": 0.780,
+    "personaStability": 9.2,
+    "cooperationReputation": 9.3,
+    "commentQuality": 8.9,
+    "contentInnovation": 9.3,
+    "platformIndex": 9.3,
+    "platformRecommendationProb": 0.78,
     "scores": {
       "adaptability_score": 87,
       "influence_score": 90,
@@ -4328,8 +4328,8 @@
       "多品类合作能力强"
     ],
     "priceRange": "中低",
-    "priceMin": 15000.00,
-    "priceMax": 20000.00,
+    "priceMin": 15000,
+    "priceMax": 20000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -4342,7 +4342,7 @@
   },
   {
     "name": "Jerry阿雨",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5caed2af000000001700a493?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1663942225",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/65.jpg",
     "platform": "小红书",
     "category": [
       "美妆",
@@ -4356,7 +4356,7 @@
     "location": "长沙",
     "followersCount": 685549085,
     "avgViews": 78170,
-    "engagementRate": 4.00,
+    "engagementRate": 4,
     "completionRate": null,
     "publishFrequency30d": 20,
     "publishFrequency90d": 55,
@@ -4368,12 +4368,12 @@
       "自律女孩",
       "旅游玩家"
     ],
-    "personaStability": 9.200,
-    "cooperationReputation": 9.300,
-    "commentQuality": 8.900,
-    "contentInnovation": 9.100,
-    "platformIndex": 9.200,
-    "platformRecommendationProb": 0.770,
+    "personaStability": 9.2,
+    "cooperationReputation": 9.3,
+    "commentQuality": 8.9,
+    "contentInnovation": 9.1,
+    "platformIndex": 9.2,
+    "platformRecommendationProb": 0.77,
     "scores": {
       "adaptability_score": 87,
       "influence_score": 89,
@@ -4387,8 +4387,8 @@
       "旅游题材拓宽合作领域"
     ],
     "priceRange": "中低",
-    "priceMin": 15000.00,
-    "priceMax": 20000.00,
+    "priceMin": 15000,
+    "priceMax": 20000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -4401,7 +4401,7 @@
   },
   {
     "name": "张格格iry",
-    "avatar": "https://www.xiaohongshu.com/user/profile/60cbde6c0000000001009cb1?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1735122566",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/138.jpg",
     "platform": "小红书",
     "category": [
       "美妆",
@@ -4426,12 +4426,12 @@
       "彩妆脸",
       "生活精致vlog"
     ],
-    "personaStability": 9.300,
-    "cooperationReputation": 9.400,
-    "commentQuality": 9.000,
-    "contentInnovation": 9.200,
-    "platformIndex": 9.400,
-    "platformRecommendationProb": 0.790,
+    "personaStability": 9.3,
+    "cooperationReputation": 9.4,
+    "commentQuality": 9,
+    "contentInnovation": 9.2,
+    "platformIndex": 9.4,
+    "platformRecommendationProb": 0.79,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 91,
@@ -4445,8 +4445,8 @@
       "粉丝互动强"
     ],
     "priceRange": "中低",
-    "priceMin": 12000.00,
-    "priceMax": 18000.00,
+    "priceMin": 12000,
+    "priceMax": 18000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -4459,7 +4459,7 @@
   },
   {
     "name": "一粒莎白",
-    "avatar": "https://www.xiaohongshu.com/user/profile/6539335e000000000d0042f4?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1734941822",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/105.jpg",
     "platform": "小红书",
     "category": [
       "美妆",
@@ -4473,7 +4473,7 @@
     "location": "杭州",
     "followersCount": 8723161418,
     "avgViews": 87200,
-    "engagementRate": 21.90,
+    "engagementRate": 21.9,
     "completionRate": null,
     "publishFrequency30d": 22,
     "publishFrequency90d": 59,
@@ -4485,12 +4485,12 @@
       "设计师奖得主",
       "原创妆容"
     ],
-    "personaStability": 9.200,
-    "cooperationReputation": 9.400,
-    "commentQuality": 9.000,
-    "contentInnovation": 9.300,
-    "platformIndex": 9.300,
-    "platformRecommendationProb": 0.780,
+    "personaStability": 9.2,
+    "cooperationReputation": 9.4,
+    "commentQuality": 9,
+    "contentInnovation": 9.3,
+    "platformIndex": 9.3,
+    "platformRecommendationProb": 0.78,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 91,
@@ -4504,8 +4504,8 @@
       "设计师背景强化审美壁垒"
     ],
     "priceRange": "中低",
-    "priceMin": 12000.00,
-    "priceMax": 18000.00,
+    "priceMin": 12000,
+    "priceMax": 18000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -4518,7 +4518,7 @@
   },
   {
     "name": "蒙娜_na",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5e9935d500000000010080fe?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1729592604",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/171.jpg",
     "platform": "小红书",
     "category": [
       "熟龄护肤",
@@ -4543,12 +4543,12 @@
       "熟龄肌",
       "体态达人"
     ],
-    "personaStability": 9.400,
-    "cooperationReputation": 9.500,
-    "commentQuality": 9.100,
-    "contentInnovation": 9.100,
-    "platformIndex": 9.400,
-    "platformRecommendationProb": 0.790,
+    "personaStability": 9.4,
+    "cooperationReputation": 9.5,
+    "commentQuality": 9.1,
+    "contentInnovation": 9.1,
+    "platformIndex": 9.4,
+    "platformRecommendationProb": 0.79,
     "scores": {
       "adaptability_score": 89,
       "influence_score": 91,
@@ -4562,8 +4562,8 @@
       "合作品牌多样化"
     ],
     "priceRange": "中低",
-    "priceMin": 12000.00,
-    "priceMax": 18000.00,
+    "priceMin": 12000,
+    "priceMax": 18000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -4576,7 +4576,7 @@
   },
   {
     "name": "孙初九Jenn",
-    "avatar": "https://www.xiaohongshu.com/user/profile/64abc2400000000025036b8c?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1735136837",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/143.jpg",
     "platform": "小红书",
     "category": [
       "时尚穿搭",
@@ -4601,12 +4601,12 @@
       "舞蹈模特",
       "街拍控"
     ],
-    "personaStability": 9.300,
-    "cooperationReputation": 9.400,
-    "commentQuality": 9.100,
-    "contentInnovation": 9.200,
-    "platformIndex": 9.300,
-    "platformRecommendationProb": 0.780,
+    "personaStability": 9.3,
+    "cooperationReputation": 9.4,
+    "commentQuality": 9.1,
+    "contentInnovation": 9.2,
+    "platformIndex": 9.3,
+    "platformRecommendationProb": 0.78,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 90,
@@ -4620,8 +4620,8 @@
       "可承接多品类合作"
     ],
     "priceRange": "中低",
-    "priceMin": 12000.00,
-    "priceMax": 18000.00,
+    "priceMin": 12000,
+    "priceMax": 18000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -4634,7 +4634,7 @@
   },
   {
     "name": "肖仟_",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5f41001b000000000100285d?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1616671801",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/93.jpg",
     "platform": "小红书",
     "category": [
       "护肤",
@@ -4660,12 +4660,12 @@
       "护发达人",
       "生活感强"
     ],
-    "personaStability": 9.100,
-    "cooperationReputation": 9.300,
-    "commentQuality": 9.000,
-    "contentInnovation": 9.200,
-    "platformIndex": 9.300,
-    "platformRecommendationProb": 0.780,
+    "personaStability": 9.1,
+    "cooperationReputation": 9.3,
+    "commentQuality": 9,
+    "contentInnovation": 9.2,
+    "platformIndex": 9.3,
+    "platformRecommendationProb": 0.78,
     "scores": {
       "adaptability_score": 87,
       "influence_score": 90,
@@ -4679,8 +4679,8 @@
       "品牌接受度高"
     ],
     "priceRange": "中低",
-    "priceMin": 12000.00,
-    "priceMax": 18000.00,
+    "priceMin": 12000,
+    "priceMax": 18000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -4693,7 +4693,7 @@
   },
   {
     "name": "林一灵shine",
-    "avatar": "https://www.xiaohongshu.com/user/profile/63b70628000000002601202e?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1735264316",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/11.jpg",
     "platform": "小红书",
     "category": [
       "护肤",
@@ -4719,12 +4719,12 @@
       "自律vlog",
       "新中式姐姐"
     ],
-    "personaStability": 9.400,
-    "cooperationReputation": 9.500,
-    "commentQuality": 9.100,
-    "contentInnovation": 9.300,
-    "platformIndex": 9.400,
-    "platformRecommendationProb": 0.790,
+    "personaStability": 9.4,
+    "cooperationReputation": 9.5,
+    "commentQuality": 9.1,
+    "contentInnovation": 9.3,
+    "platformIndex": 9.4,
+    "platformRecommendationProb": 0.79,
     "scores": {
       "adaptability_score": 89,
       "influence_score": 91,
@@ -4738,8 +4738,8 @@
       "生活品质高吸引熟龄用户"
     ],
     "priceRange": "中低",
-    "priceMin": 12000.00,
-    "priceMax": 18000.00,
+    "priceMin": 12000,
+    "priceMax": 18000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -4752,7 +4752,7 @@
   },
   {
     "name": "赵赵Babe_",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5dc92ea90000000001002903?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1704167009",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/34.jpg",
     "platform": "小红书",
     "category": [
       "护肤",
@@ -4777,12 +4777,12 @@
       "模特气质",
       "户外玩家"
     ],
-    "personaStability": 9.000,
-    "cooperationReputation": 9.200,
-    "commentQuality": 8.800,
-    "contentInnovation": 9.000,
-    "platformIndex": 9.100,
-    "platformRecommendationProb": 0.760,
+    "personaStability": 9,
+    "cooperationReputation": 9.2,
+    "commentQuality": 8.8,
+    "contentInnovation": 9,
+    "platformIndex": 9.1,
+    "platformRecommendationProb": 0.76,
     "scores": {
       "adaptability_score": 85,
       "influence_score": 87,
@@ -4796,8 +4796,8 @@
       "时尚拍摄质感佳"
     ],
     "priceRange": "中低",
-    "priceMin": 12000.00,
-    "priceMax": 18000.00,
+    "priceMin": 12000,
+    "priceMax": 18000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -4810,7 +4810,7 @@
   },
   {
     "name": "妍菲cici",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5db90727000000000100aac5?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1715869191",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/251.jpg",
     "platform": "小红书",
     "category": [
       "护肤",
@@ -4823,7 +4823,7 @@
     "location": "杭州",
     "followersCount": 982965437,
     "avgViews": 83940,
-    "engagementRate": 16.40,
+    "engagementRate": 16.4,
     "completionRate": null,
     "publishFrequency30d": 22,
     "publishFrequency90d": 58,
@@ -4835,12 +4835,12 @@
       "气血美女",
       "抗初老"
     ],
-    "personaStability": 9.300,
-    "cooperationReputation": 9.400,
-    "commentQuality": 9.100,
-    "contentInnovation": 9.200,
-    "platformIndex": 9.300,
-    "platformRecommendationProb": 0.780,
+    "personaStability": 9.3,
+    "cooperationReputation": 9.4,
+    "commentQuality": 9.1,
+    "contentInnovation": 9.2,
+    "platformIndex": 9.3,
+    "platformRecommendationProb": 0.78,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 90,
@@ -4854,8 +4854,8 @@
       "视觉呈现美感强"
     ],
     "priceRange": "中低",
-    "priceMin": 12000.00,
-    "priceMax": 16000.00,
+    "priceMin": 12000,
+    "priceMax": 16000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -4868,7 +4868,7 @@
   },
   {
     "name": "苏七suki",
-    "avatar": "https://www.xiaohongshu.com/user/profile/62e4b44a000000001f007154?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1669109927",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/80.jpg",
     "platform": "小红书",
     "category": [
       "护肤",
@@ -4894,12 +4894,12 @@
       "医美控",
       "健身旅行"
     ],
-    "personaStability": 9.300,
-    "cooperationReputation": 9.500,
-    "commentQuality": 9.100,
-    "contentInnovation": 9.300,
-    "platformIndex": 9.400,
-    "platformRecommendationProb": 0.790,
+    "personaStability": 9.3,
+    "cooperationReputation": 9.5,
+    "commentQuality": 9.1,
+    "contentInnovation": 9.3,
+    "platformIndex": 9.4,
+    "platformRecommendationProb": 0.79,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 91,
@@ -4913,8 +4913,8 @@
       "穿搭内容兼顾时尚性"
     ],
     "priceRange": "中低",
-    "priceMin": 12000.00,
-    "priceMax": 16000.00,
+    "priceMin": 12000,
+    "priceMax": 16000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -4927,7 +4927,7 @@
   },
   {
     "name": "贺伊依Molly",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5d00767e00000000100325f2?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1729610990",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/95.jpg",
     "platform": "小红书",
     "category": [
       "护肤",
@@ -4954,12 +4954,12 @@
       "高能量女性",
       "护肤达人"
     ],
-    "personaStability": 9.200,
-    "cooperationReputation": 9.400,
-    "commentQuality": 9.000,
-    "contentInnovation": 9.100,
-    "platformIndex": 9.300,
-    "platformRecommendationProb": 0.780,
+    "personaStability": 9.2,
+    "cooperationReputation": 9.4,
+    "commentQuality": 9,
+    "contentInnovation": 9.1,
+    "platformIndex": 9.3,
+    "platformRecommendationProb": 0.78,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 90,
@@ -4973,8 +4973,8 @@
       "三十岁女性成长话题贴近受众"
     ],
     "priceRange": "中低",
-    "priceMin": 12000.00,
-    "priceMax": 16000.00,
+    "priceMin": 12000,
+    "priceMax": 16000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -4987,7 +4987,7 @@
   },
   {
     "name": "章章ViViAn",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5d14a637000000001101a368?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1724833709",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/36.jpg",
     "platform": "小红书",
     "category": [
       "美妆",
@@ -5013,12 +5013,12 @@
       "辣妈",
       "高颜值vlog"
     ],
-    "personaStability": 9.400,
-    "cooperationReputation": 9.500,
-    "commentQuality": 9.100,
-    "contentInnovation": 9.200,
-    "platformIndex": 9.400,
-    "platformRecommendationProb": 0.790,
+    "personaStability": 9.4,
+    "cooperationReputation": 9.5,
+    "commentQuality": 9.1,
+    "contentInnovation": 9.2,
+    "platformIndex": 9.4,
+    "platformRecommendationProb": 0.79,
     "scores": {
       "adaptability_score": 89,
       "influence_score": 91,
@@ -5032,8 +5032,8 @@
       "镜头表现力强"
     ],
     "priceRange": "中低",
-    "priceMin": 12000.00,
-    "priceMax": 16000.00,
+    "priceMin": 12000,
+    "priceMax": 16000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -5046,7 +5046,7 @@
   },
   {
     "name": "万万power",
-    "avatar": "https://www.xiaohongshu.com/user/profile/617f8a52000000001f03cf5e?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1737451253",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/108.jpg",
     "platform": "小红书",
     "category": [
       "美妆",
@@ -5071,12 +5071,12 @@
       "自律女孩",
       "学业与时尚并行"
     ],
-    "personaStability": 9.300,
-    "cooperationReputation": 9.400,
-    "commentQuality": 9.000,
-    "contentInnovation": 9.200,
-    "platformIndex": 9.300,
-    "platformRecommendationProb": 0.780,
+    "personaStability": 9.3,
+    "cooperationReputation": 9.4,
+    "commentQuality": 9,
+    "contentInnovation": 9.2,
+    "platformIndex": 9.3,
+    "platformRecommendationProb": 0.78,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 90,
@@ -5090,8 +5090,8 @@
       "内容调性积极向上"
     ],
     "priceRange": "中低",
-    "priceMin": 12000.00,
-    "priceMax": 16000.00,
+    "priceMin": 12000,
+    "priceMax": 16000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -5104,7 +5104,7 @@
   },
   {
     "name": "陈盈er",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5ebb7302000000000101dfdc?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1734937215",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/10.jpg",
     "platform": "小红书",
     "category": [
       "美妆",
@@ -5130,12 +5130,12 @@
       "贵妇护肤",
       "抗老达人"
     ],
-    "personaStability": 9.400,
-    "cooperationReputation": 9.600,
-    "commentQuality": 9.200,
-    "contentInnovation": 9.000,
-    "platformIndex": 9.400,
-    "platformRecommendationProb": 0.790,
+    "personaStability": 9.4,
+    "cooperationReputation": 9.6,
+    "commentQuality": 9.2,
+    "contentInnovation": 9,
+    "platformIndex": 9.4,
+    "platformRecommendationProb": 0.79,
     "scores": {
       "adaptability_score": 89,
       "influence_score": 90,
@@ -5149,8 +5149,8 @@
       "视觉呈现精致度高"
     ],
     "priceRange": "中低",
-    "priceMin": 12000.00,
-    "priceMax": 16000.00,
+    "priceMin": 12000,
+    "priceMax": 16000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -5163,7 +5163,7 @@
   },
   {
     "name": "Jamie_锦铭",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5c271038000000000700132f?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1716539475",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/138.jpg",
     "platform": "小红书",
     "category": [
       "美妆",
@@ -5188,12 +5188,12 @@
       "水光肌",
       "时尚感强"
     ],
-    "personaStability": 9.300,
-    "cooperationReputation": 9.400,
-    "commentQuality": 9.000,
-    "contentInnovation": 9.200,
-    "platformIndex": 9.300,
-    "platformRecommendationProb": 0.780,
+    "personaStability": 9.3,
+    "cooperationReputation": 9.4,
+    "commentQuality": 9,
+    "contentInnovation": 9.2,
+    "platformIndex": 9.3,
+    "platformRecommendationProb": 0.78,
     "scores": {
       "adaptability_score": 87,
       "influence_score": 90,
@@ -5207,8 +5207,8 @@
       "好物种草转化率高"
     ],
     "priceRange": "中低",
-    "priceMin": 11000.00,
-    "priceMax": 15000.00,
+    "priceMin": 11000,
+    "priceMax": 15000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -5221,7 +5221,7 @@
   },
   {
     "name": "Alin林",
-    "avatar": "https://www.xiaohongshu.com/user/profile/65aa27be000000000d01c500?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1721290908",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/69.jpg",
     "platform": "小红书",
     "category": [
       "模特",
@@ -5247,12 +5247,12 @@
       "时尚表现力强",
       "模特干货"
     ],
-    "personaStability": 9.200,
-    "cooperationReputation": 9.400,
-    "commentQuality": 9.000,
-    "contentInnovation": 9.100,
-    "platformIndex": 9.300,
-    "platformRecommendationProb": 0.780,
+    "personaStability": 9.2,
+    "cooperationReputation": 9.4,
+    "commentQuality": 9,
+    "contentInnovation": 9.1,
+    "platformIndex": 9.3,
+    "platformRecommendationProb": 0.78,
     "scores": {
       "adaptability_score": 87,
       "influence_score": 89,
@@ -5266,8 +5266,8 @@
       "内容视觉冲击力强"
     ],
     "priceRange": "中低",
-    "priceMin": 11000.00,
-    "priceMax": 15000.00,
+    "priceMin": 11000,
+    "priceMax": 15000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -5280,7 +5280,7 @@
   },
   {
     "name": "椰子江江",
-    "avatar": "https://www.xiaohongshu.com/user/profile/61f1070f0000000010008041?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1713861252",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/229.jpg",
     "platform": "小红书",
     "category": [
       "演员",
@@ -5305,12 +5305,12 @@
       "影视调性",
       "生活感vlog"
     ],
-    "personaStability": 9.300,
-    "cooperationReputation": 9.400,
-    "commentQuality": 9.100,
-    "contentInnovation": 9.300,
-    "platformIndex": 9.400,
-    "platformRecommendationProb": 0.790,
+    "personaStability": 9.3,
+    "cooperationReputation": 9.4,
+    "commentQuality": 9.1,
+    "contentInnovation": 9.3,
+    "platformIndex": 9.4,
+    "platformRecommendationProb": 0.79,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 91,
@@ -5324,8 +5324,8 @@
       "适合多场景品牌植入"
     ],
     "priceRange": "中低",
-    "priceMin": 11000.00,
-    "priceMax": 15000.00,
+    "priceMin": 11000,
+    "priceMax": 15000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -5338,7 +5338,7 @@
   },
   {
     "name": "博士后倩sur",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5bcaa2016834190001660f21?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1708679007",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/183.jpg",
     "platform": "小红书",
     "category": [
       "成分党",
@@ -5363,12 +5363,12 @@
       "抗老专家",
       "科研达人"
     ],
-    "personaStability": 9.700,
-    "cooperationReputation": 9.800,
-    "commentQuality": 9.500,
-    "contentInnovation": 9.400,
-    "platformIndex": 9.800,
-    "platformRecommendationProb": 0.820,
+    "personaStability": 9.7,
+    "cooperationReputation": 9.8,
+    "commentQuality": 9.5,
+    "contentInnovation": 9.4,
+    "platformIndex": 9.8,
+    "platformRecommendationProb": 0.82,
     "scores": {
       "adaptability_score": 94,
       "influence_score": 97,
@@ -5382,8 +5382,8 @@
       "高净值女性用户粘性强"
     ],
     "priceRange": "高端",
-    "priceMin": 88000.00,
-    "priceMax": 100000.00,
+    "priceMin": 88000,
+    "priceMax": 100000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -5396,7 +5396,7 @@
   },
   {
     "name": "川的成分测评",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5caace7400000000160178d0?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1597989845",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/193.jpg",
     "platform": "小红书",
     "category": [
       "成分党",
@@ -5421,12 +5421,12 @@
       "不割韭菜",
       "爆款制造机"
     ],
-    "personaStability": 9.800,
-    "cooperationReputation": 9.900,
-    "commentQuality": 9.600,
-    "contentInnovation": 9.700,
-    "platformIndex": 9.900,
-    "platformRecommendationProb": 0.850,
+    "personaStability": 9.8,
+    "cooperationReputation": 9.9,
+    "commentQuality": 9.6,
+    "contentInnovation": 9.7,
+    "platformIndex": 9.9,
+    "platformRecommendationProb": 0.85,
     "scores": {
       "adaptability_score": 96,
       "influence_score": 98,
@@ -5440,8 +5440,8 @@
       "内容权威性与流量兼具"
     ],
     "priceRange": "高端",
-    "priceMin": 48000.00,
-    "priceMax": 66000.00,
+    "priceMin": 48000,
+    "priceMax": 66000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -5455,7 +5455,7 @@
   },
   {
     "name": "余博士Noemy",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5dbd30050000000001008a6f?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1708786439",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/217.jpg",
     "platform": "小红书",
     "category": [
       "成分党",
@@ -5480,12 +5480,12 @@
       "美白达人",
       "理性科普派"
     ],
-    "personaStability": 9.600,
-    "cooperationReputation": 9.800,
-    "commentQuality": 9.400,
-    "contentInnovation": 9.500,
-    "platformIndex": 9.700,
-    "platformRecommendationProb": 0.830,
+    "personaStability": 9.6,
+    "cooperationReputation": 9.8,
+    "commentQuality": 9.4,
+    "contentInnovation": 9.5,
+    "platformIndex": 9.7,
+    "platformRecommendationProb": 0.83,
     "scores": {
       "adaptability_score": 92,
       "influence_score": 95,
@@ -5499,8 +5499,8 @@
       "合作品牌覆盖国际高端线"
     ],
     "priceRange": "高端",
-    "priceMin": 28000.00,
-    "priceMax": 38000.00,
+    "priceMin": 28000,
+    "priceMax": 38000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -5514,7 +5514,7 @@
   },
   {
     "name": "子轩说成分",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5fbb7ad100000000010036b5?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1647942440",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/21.jpg",
     "platform": "小红书",
     "category": [
       "成分党",
@@ -5539,12 +5539,12 @@
       "口播达人",
       "成分分析"
     ],
-    "personaStability": 9.400,
-    "cooperationReputation": 9.600,
-    "commentQuality": 9.200,
-    "contentInnovation": 9.300,
-    "platformIndex": 9.500,
-    "platformRecommendationProb": 0.800,
+    "personaStability": 9.4,
+    "cooperationReputation": 9.6,
+    "commentQuality": 9.2,
+    "contentInnovation": 9.3,
+    "platformIndex": 9.5,
+    "platformRecommendationProb": 0.8,
     "scores": {
       "adaptability_score": 90,
       "influence_score": 93,
@@ -5558,8 +5558,8 @@
       "合作品牌转化率高"
     ],
     "priceRange": "中高",
-    "priceMin": 28000.00,
-    "priceMax": 38000.00,
+    "priceMin": 28000,
+    "priceMax": 38000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -5573,7 +5573,7 @@
   },
   {
     "name": "老张的成分表",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5bad963869d7c600018dd20a?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1597989981",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/77.jpg",
     "platform": "小红书",
     "category": [
       "成分党",
@@ -5597,12 +5597,12 @@
       "工厂实地考察",
       "实测达人"
     ],
-    "personaStability": 9.600,
-    "cooperationReputation": 9.700,
-    "commentQuality": 9.300,
-    "contentInnovation": 9.400,
-    "platformIndex": 9.600,
-    "platformRecommendationProb": 0.810,
+    "personaStability": 9.6,
+    "cooperationReputation": 9.7,
+    "commentQuality": 9.3,
+    "contentInnovation": 9.4,
+    "platformIndex": 9.6,
+    "platformRecommendationProb": 0.81,
     "scores": {
       "adaptability_score": 91,
       "influence_score": 94,
@@ -5616,8 +5616,8 @@
       "合作品牌多为国际线"
     ],
     "priceRange": "中高",
-    "priceMin": 26000.00,
-    "priceMax": 38000.00,
+    "priceMin": 26000,
+    "priceMax": 38000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -5630,7 +5630,7 @@
   },
   {
     "name": "懂成分的瑞姐",
-    "avatar": "https://www.xiaohongshu.com/user/profile/6049d487000000000100b3ee?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1647942256",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/272.jpg",
     "platform": "小红书",
     "category": [
       "成分党",
@@ -5655,12 +5655,12 @@
       "配方师背景",
       "测评达人"
     ],
-    "personaStability": 9.400,
-    "cooperationReputation": 9.600,
-    "commentQuality": 9.200,
-    "contentInnovation": 9.300,
-    "platformIndex": 9.400,
-    "platformRecommendationProb": 0.800,
+    "personaStability": 9.4,
+    "cooperationReputation": 9.6,
+    "commentQuality": 9.2,
+    "contentInnovation": 9.3,
+    "platformIndex": 9.4,
+    "platformRecommendationProb": 0.8,
     "scores": {
       "adaptability_score": 89,
       "influence_score": 92,
@@ -5674,8 +5674,8 @@
       "品牌合作空间广"
     ],
     "priceRange": "中高",
-    "priceMin": 28000.00,
-    "priceMax": 38000.00,
+    "priceMin": 28000,
+    "priceMax": 38000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -5689,7 +5689,7 @@
   },
   {
     "name": "成分研究员梓柒",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5dbab53d000000000100b7b7?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1597990724",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/90.jpg",
     "platform": "小红书",
     "category": [
       "成分党",
@@ -5714,12 +5714,12 @@
       "素颜逆龄",
       "专业解读"
     ],
-    "personaStability": 9.500,
-    "cooperationReputation": 9.700,
-    "commentQuality": 9.300,
-    "contentInnovation": 9.400,
-    "platformIndex": 9.600,
-    "platformRecommendationProb": 0.810,
+    "personaStability": 9.5,
+    "cooperationReputation": 9.7,
+    "commentQuality": 9.3,
+    "contentInnovation": 9.4,
+    "platformIndex": 9.6,
+    "platformRecommendationProb": 0.81,
     "scores": {
       "adaptability_score": 91,
       "influence_score": 93,
@@ -5733,8 +5733,8 @@
       "适合国风品牌深度合作"
     ],
     "priceRange": "中高",
-    "priceMin": 25000.00,
-    "priceMax": 35000.00,
+    "priceMin": 25000,
+    "priceMax": 35000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -5747,7 +5747,7 @@
   },
   {
     "name": "洋叔de测评",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5fd093050000000001005721?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1647942328",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/58.jpg",
     "platform": "小红书",
     "category": [
       "成分党",
@@ -5772,12 +5772,12 @@
       "宠妻人设",
       "理性避雷"
     ],
-    "personaStability": 9.400,
-    "cooperationReputation": 9.600,
-    "commentQuality": 9.200,
-    "contentInnovation": 9.300,
-    "platformIndex": 9.400,
-    "platformRecommendationProb": 0.790,
+    "personaStability": 9.4,
+    "cooperationReputation": 9.6,
+    "commentQuality": 9.2,
+    "contentInnovation": 9.3,
+    "platformIndex": 9.4,
+    "platformRecommendationProb": 0.79,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 91,
@@ -5791,8 +5791,8 @@
       "适配家庭、护肤及生活品牌"
     ],
     "priceRange": "中",
-    "priceMin": 21000.00,
-    "priceMax": 30000.00,
+    "priceMin": 21000,
+    "priceMax": 30000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -5806,7 +5806,7 @@
   },
   {
     "name": "成分测评阿瑞",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5b3370c14eacab379c7054df?xhsshare=CopyLink&appuid=5b0cfc7f4eacab226d0d84e9&apptime=1597989684",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/95.jpg",
     "platform": "小红书",
     "category": [
       "成分党",
@@ -5820,7 +5820,7 @@
     "location": "长沙",
     "followersCount": 633479035,
     "avgViews": 79590,
-    "engagementRate": 8.40,
+    "engagementRate": 8.4,
     "completionRate": null,
     "publishFrequency30d": 20,
     "publishFrequency90d": 48,
@@ -5832,12 +5832,12 @@
       "芒果台主持人",
       "生活化科普"
     ],
-    "personaStability": 9.300,
-    "cooperationReputation": 9.500,
-    "commentQuality": 9.100,
-    "contentInnovation": 9.200,
-    "platformIndex": 9.400,
-    "platformRecommendationProb": 0.780,
+    "personaStability": 9.3,
+    "cooperationReputation": 9.5,
+    "commentQuality": 9.1,
+    "contentInnovation": 9.2,
+    "platformIndex": 9.4,
+    "platformRecommendationProb": 0.78,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 90,
@@ -5851,8 +5851,8 @@
       "内容易于热点结合"
     ],
     "priceRange": "中",
-    "priceMin": 12000.00,
-    "priceMax": 18000.00,
+    "priceMin": 12000,
+    "priceMax": 18000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -5865,7 +5865,7 @@
   },
   {
     "name": "金的成分研究所",
-    "avatar": "https://www.xiaohongshu.com/user/profile/604c7299000000000100a82d?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1663942110",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/66.jpg",
     "platform": "小红书",
     "category": [
       "成分党",
@@ -5890,12 +5890,12 @@
       "自愈系内容",
       "实测分享"
     ],
-    "personaStability": 9.200,
-    "cooperationReputation": 9.400,
-    "commentQuality": 9.000,
-    "contentInnovation": 9.100,
-    "platformIndex": 9.300,
-    "platformRecommendationProb": 0.770,
+    "personaStability": 9.2,
+    "cooperationReputation": 9.4,
+    "commentQuality": 9,
+    "contentInnovation": 9.1,
+    "platformIndex": 9.3,
+    "platformRecommendationProb": 0.77,
     "scores": {
       "adaptability_score": 87,
       "influence_score": 89,
@@ -5909,8 +5909,8 @@
       "适合功效型品牌合作"
     ],
     "priceRange": "中",
-    "priceMin": 12000.00,
-    "priceMax": 18000.00,
+    "priceMin": 12000,
+    "priceMax": 18000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -5923,7 +5923,7 @@
   },
   {
     "name": "纱姐说车",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5b0ced64e8ac2b2b141f7616?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1616580026",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/1.jpg",
     "platform": "小红书",
     "category": [
       "汽车博主",
@@ -5948,12 +5948,12 @@
       "颜值高专业强",
       "实测派"
     ],
-    "personaStability": 9.700,
-    "cooperationReputation": 9.800,
-    "commentQuality": 9.400,
-    "contentInnovation": 9.500,
-    "platformIndex": 9.800,
-    "platformRecommendationProb": 0.840,
+    "personaStability": 9.7,
+    "cooperationReputation": 9.8,
+    "commentQuality": 9.4,
+    "contentInnovation": 9.5,
+    "platformIndex": 9.8,
+    "platformRecommendationProb": 0.84,
     "scores": {
       "adaptability_score": 94,
       "influence_score": 96,
@@ -5967,8 +5967,8 @@
       "品牌合作空间极广"
     ],
     "priceRange": "高端",
-    "priceMin": 46000.00,
-    "priceMax": 60000.00,
+    "priceMin": 46000,
+    "priceMax": 60000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -5982,7 +5982,7 @@
   },
   {
     "name": "车探三岁",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5e4fa7c8000000000100113d?xhsshare=CopyLink&appuid=5a90e588e8ac2b52b3665cc9&apptime=1597990039",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/84.jpg",
     "platform": "小红书",
     "category": [
       "汽车测评",
@@ -5994,7 +5994,7 @@
     "location": "北京",
     "followersCount": 482856362,
     "avgViews": 46890,
-    "engagementRate": 23.20,
+    "engagementRate": 23.2,
     "completionRate": null,
     "publishFrequency30d": 22,
     "publishFrequency90d": 57,
@@ -6006,12 +6006,12 @@
       "旅行vlog",
       "文旅结合"
     ],
-    "personaStability": 9.500,
-    "cooperationReputation": 9.600,
-    "commentQuality": 9.200,
-    "contentInnovation": 9.300,
-    "platformIndex": 9.500,
-    "platformRecommendationProb": 0.810,
+    "personaStability": 9.5,
+    "cooperationReputation": 9.6,
+    "commentQuality": 9.2,
+    "contentInnovation": 9.3,
+    "platformIndex": 9.5,
+    "platformRecommendationProb": 0.81,
     "scores": {
       "adaptability_score": 91,
       "influence_score": 92,
@@ -6025,8 +6025,8 @@
       "与新能源车契合度高"
     ],
     "priceRange": "高端",
-    "priceMin": 45000.00,
-    "priceMax": 58000.00,
+    "priceMin": 45000,
+    "priceMax": 58000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -6040,7 +6040,7 @@
   },
   {
     "name": "川哥车评",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5cb1ab820000000011017f42?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1690017992",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/287.jpg",
     "platform": "小红书",
     "category": [
       "汽车博主",
@@ -6065,12 +6065,12 @@
       "试驾达人",
       "帅气车评人"
     ],
-    "personaStability": 9.400,
-    "cooperationReputation": 9.600,
-    "commentQuality": 9.200,
-    "contentInnovation": 9.400,
-    "platformIndex": 9.500,
-    "platformRecommendationProb": 0.800,
+    "personaStability": 9.4,
+    "cooperationReputation": 9.6,
+    "commentQuality": 9.2,
+    "contentInnovation": 9.4,
+    "platformIndex": 9.5,
+    "platformRecommendationProb": 0.8,
     "scores": {
       "adaptability_score": 90,
       "influence_score": 92,
@@ -6084,8 +6084,8 @@
       "具强内容延展性"
     ],
     "priceRange": "高端",
-    "priceMin": 35000.00,
-    "priceMax": 45000.00,
+    "priceMin": 35000,
+    "priceMax": 45000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -6099,7 +6099,7 @@
   },
   {
     "name": "Migo侃车",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5ea288e8000000000100874e?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1647945196",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/125.jpg",
     "platform": "小红书",
     "category": [
       "汽车博主",
@@ -6124,12 +6124,12 @@
       "行车安全知识",
       "干货分享"
     ],
-    "personaStability": 9.500,
-    "cooperationReputation": 9.700,
-    "commentQuality": 9.300,
-    "contentInnovation": 9.400,
-    "platformIndex": 9.600,
-    "platformRecommendationProb": 0.820,
+    "personaStability": 9.5,
+    "cooperationReputation": 9.7,
+    "commentQuality": 9.3,
+    "contentInnovation": 9.4,
+    "platformIndex": 9.6,
+    "platformRecommendationProb": 0.82,
     "scores": {
       "adaptability_score": 92,
       "influence_score": 94,
@@ -6143,8 +6143,8 @@
       "新能源汽车赛道热度高"
     ],
     "priceRange": "中高",
-    "priceMin": 32000.00,
-    "priceMax": 42000.00,
+    "priceMin": 32000,
+    "priceMax": 42000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -6158,7 +6158,7 @@
   },
   {
     "name": "极速双姬",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5b0be7414eacab2025da29af?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1653383651",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/289.jpg",
     "platform": "小红书",
     "category": [
       "汽车博主",
@@ -6183,12 +6183,12 @@
       "创意特效",
       "赛博风"
     ],
-    "personaStability": 9.400,
-    "cooperationReputation": 9.600,
-    "commentQuality": 9.100,
-    "contentInnovation": 9.500,
-    "platformIndex": 9.500,
-    "platformRecommendationProb": 0.800,
+    "personaStability": 9.4,
+    "cooperationReputation": 9.6,
+    "commentQuality": 9.1,
+    "contentInnovation": 9.5,
+    "platformIndex": 9.5,
+    "platformRecommendationProb": 0.8,
     "scores": {
       "adaptability_score": 91,
       "influence_score": 92,
@@ -6202,8 +6202,8 @@
       "兼具科技与时尚内容属性"
     ],
     "priceRange": "中高",
-    "priceMin": 28000.00,
-    "priceMax": 39000.00,
+    "priceMin": 28000,
+    "priceMax": 39000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -6216,7 +6216,7 @@
   },
   {
     "name": "甜芯车评",
-    "avatar": "https://www.xiaohongshu.com/user/profile/635a4d13000000001901d98b?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1673950790",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/119.jpg",
     "platform": "小红书",
     "category": [
       "汽车博主",
@@ -6240,12 +6240,12 @@
       "赛车执照",
       "安全教育"
     ],
-    "personaStability": 9.500,
-    "cooperationReputation": 9.700,
-    "commentQuality": 9.200,
-    "contentInnovation": 9.300,
-    "platformIndex": 9.500,
-    "platformRecommendationProb": 0.810,
+    "personaStability": 9.5,
+    "cooperationReputation": 9.7,
+    "commentQuality": 9.2,
+    "contentInnovation": 9.3,
+    "platformIndex": 9.5,
+    "platformRecommendationProb": 0.81,
     "scores": {
       "adaptability_score": 90,
       "influence_score": 92,
@@ -6259,8 +6259,8 @@
       "女性车主视角易引流"
     ],
     "priceRange": "中高",
-    "priceMin": 25000.00,
-    "priceMax": 36000.00,
+    "priceMin": 25000,
+    "priceMax": 36000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -6273,7 +6273,7 @@
   },
   {
     "name": "车圈仙儿",
-    "avatar": "https://www.xiaohongshu.com/user/profile/635a53d9000000001802fc56?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1690018058",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/87.jpg",
     "platform": "小红书",
     "category": [
       "汽车博主",
@@ -6286,7 +6286,7 @@
     "location": "武汉",
     "followersCount": 6712244898,
     "avgViews": 78860,
-    "engagementRate": 7.10,
+    "engagementRate": 7.1,
     "completionRate": null,
     "publishFrequency30d": 26,
     "publishFrequency90d": 64,
@@ -6298,12 +6298,12 @@
       "越野达人",
       "热点评论"
     ],
-    "personaStability": 9.600,
-    "cooperationReputation": 9.800,
-    "commentQuality": 9.300,
-    "contentInnovation": 9.400,
-    "platformIndex": 9.700,
-    "platformRecommendationProb": 0.820,
+    "personaStability": 9.6,
+    "cooperationReputation": 9.8,
+    "commentQuality": 9.3,
+    "contentInnovation": 9.4,
+    "platformIndex": 9.7,
+    "platformRecommendationProb": 0.82,
     "scores": {
       "adaptability_score": 93,
       "influence_score": 94,
@@ -6317,8 +6317,8 @@
       "话题传播力高"
     ],
     "priceRange": "中高",
-    "priceMin": 25000.00,
-    "priceMax": 35000.00,
+    "priceMin": 25000,
+    "priceMax": 35000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -6331,7 +6331,7 @@
   },
   {
     "name": "说车的小茜",
-    "avatar": "https://www.xiaohongshu.com/user/profile/637e138e000000001f01b92f?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1673950964",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/160.jpg",
     "platform": "小红书",
     "category": [
       "汽车博主",
@@ -6356,12 +6356,12 @@
       "电动车体验",
       "吐槽风格"
     ],
-    "personaStability": 9.500,
-    "cooperationReputation": 9.600,
-    "commentQuality": 9.200,
-    "contentInnovation": 9.300,
-    "platformIndex": 9.500,
-    "platformRecommendationProb": 0.800,
+    "personaStability": 9.5,
+    "cooperationReputation": 9.6,
+    "commentQuality": 9.2,
+    "contentInnovation": 9.3,
+    "platformIndex": 9.5,
+    "platformRecommendationProb": 0.8,
     "scores": {
       "adaptability_score": 90,
       "influence_score": 92,
@@ -6375,8 +6375,8 @@
       "女性车评视角稳健"
     ],
     "priceRange": "中高",
-    "priceMin": 25000.00,
-    "priceMax": 35000.00,
+    "priceMin": 25000,
+    "priceMax": 35000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -6389,7 +6389,7 @@
   },
   {
     "name": "小韩总玩车",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5f59fae5000000000101cc07?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1616671705",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/238.jpg",
     "platform": "小红书",
     "category": [
       "汽车博主",
@@ -6416,12 +6416,12 @@
       "电车改装",
       "运动型男"
     ],
-    "personaStability": 9.600,
-    "cooperationReputation": 9.800,
-    "commentQuality": 9.300,
-    "contentInnovation": 9.500,
-    "platformIndex": 9.600,
-    "platformRecommendationProb": 0.830,
+    "personaStability": 9.6,
+    "cooperationReputation": 9.8,
+    "commentQuality": 9.3,
+    "contentInnovation": 9.5,
+    "platformIndex": 9.6,
+    "platformRecommendationProb": 0.83,
     "scores": {
       "adaptability_score": 94,
       "influence_score": 95,
@@ -6435,8 +6435,8 @@
       "适配高端汽车品牌合作"
     ],
     "priceRange": "高端",
-    "priceMin": 25000.00,
-    "priceMax": 35000.00,
+    "priceMin": 25000,
+    "priceMax": 35000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -6450,7 +6450,7 @@
   },
   {
     "name": "赛车手杨桓",
-    "avatar": "https://www.xiaohongshu.com/user/profile/60c0b1670000000001009123?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1716392652",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/106.jpg",
     "platform": "小红书",
     "category": [
       "汽车博主",
@@ -6476,12 +6476,12 @@
       "技术流车评",
       "实战经验丰富"
     ],
-    "personaStability": 9.700,
-    "cooperationReputation": 9.800,
-    "commentQuality": 9.400,
-    "contentInnovation": 9.600,
-    "platformIndex": 9.700,
-    "platformRecommendationProb": 0.850,
+    "personaStability": 9.7,
+    "cooperationReputation": 9.8,
+    "commentQuality": 9.4,
+    "contentInnovation": 9.6,
+    "platformIndex": 9.7,
+    "platformRecommendationProb": 0.85,
     "scores": {
       "adaptability_score": 96,
       "influence_score": 97,
@@ -6495,8 +6495,8 @@
       "汽车品牌高度信任度"
     ],
     "priceRange": "高端",
-    "priceMin": 25000.00,
-    "priceMax": 35000.00,
+    "priceMin": 25000,
+    "priceMax": 35000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -6509,7 +6509,7 @@
   },
   {
     "name": "十四驾道",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5db979b9000000000100191a?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1706024812",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/121.jpg",
     "platform": "小红书",
     "category": [
       "汽车测评",
@@ -6534,12 +6534,12 @@
       "情侣车评",
       "新能源专注"
     ],
-    "personaStability": 9.400,
-    "cooperationReputation": 9.600,
-    "commentQuality": 9.200,
-    "contentInnovation": 9.300,
-    "platformIndex": 9.500,
-    "platformRecommendationProb": 0.810,
+    "personaStability": 9.4,
+    "cooperationReputation": 9.6,
+    "commentQuality": 9.2,
+    "contentInnovation": 9.3,
+    "platformIndex": 9.5,
+    "platformRecommendationProb": 0.81,
     "scores": {
       "adaptability_score": 91,
       "influence_score": 92,
@@ -6553,8 +6553,8 @@
       "选车攻略类转化力强"
     ],
     "priceRange": "中高",
-    "priceMin": 22000.00,
-    "priceMax": 32000.00,
+    "priceMin": 22000,
+    "priceMax": 32000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -6567,7 +6567,7 @@
   },
   {
     "name": "涵姐的车库",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5bbc842569ca12000117e950?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1597989946",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/152.jpg",
     "platform": "小红书",
     "category": [
       "汽车博主",
@@ -6592,12 +6592,12 @@
       "真实测评",
       "高净值女性"
     ],
-    "personaStability": 9.600,
-    "cooperationReputation": 9.800,
-    "commentQuality": 9.300,
-    "contentInnovation": 9.400,
-    "platformIndex": 9.600,
-    "platformRecommendationProb": 0.820,
+    "personaStability": 9.6,
+    "cooperationReputation": 9.8,
+    "commentQuality": 9.3,
+    "contentInnovation": 9.4,
+    "platformIndex": 9.6,
+    "platformRecommendationProb": 0.82,
     "scores": {
       "adaptability_score": 93,
       "influence_score": 94,
@@ -6611,8 +6611,8 @@
       "品牌合作信任高"
     ],
     "priceRange": "中高",
-    "priceMin": 21000.00,
-    "priceMax": 30000.00,
+    "priceMin": 21000,
+    "priceMax": 30000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -6625,7 +6625,7 @@
   },
   {
     "name": "丫丫爱车日记",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5bbc7b2918d7e30001be7722?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1716540250",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/179.jpg",
     "platform": "小红书",
     "category": [
       "汽车博主",
@@ -6650,12 +6650,12 @@
       "颜值博主",
       "自驾挑战"
     ],
-    "personaStability": 9.300,
-    "cooperationReputation": 9.500,
-    "commentQuality": 9.100,
-    "contentInnovation": 9.300,
-    "platformIndex": 9.400,
-    "platformRecommendationProb": 0.800,
+    "personaStability": 9.3,
+    "cooperationReputation": 9.5,
+    "commentQuality": 9.1,
+    "contentInnovation": 9.3,
+    "platformIndex": 9.4,
+    "platformRecommendationProb": 0.8,
     "scores": {
       "adaptability_score": 89,
       "influence_score": 91,
@@ -6669,8 +6669,8 @@
       "贴近年轻女性车主群体"
     ],
     "priceRange": "中高",
-    "priceMin": 21000.00,
-    "priceMax": 30000.00,
+    "priceMin": 21000,
+    "priceMax": 30000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -6683,7 +6683,7 @@
   },
   {
     "name": "宝姐的车",
-    "avatar": "https://www.xiaohongshu.com/user/profile/6460727e000000001f032a09?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1716540628",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/205.jpg",
     "platform": "小红书",
     "category": [
       "汽车博主",
@@ -6708,12 +6708,12 @@
       "汽车知识干货",
       "新能源砖家"
     ],
-    "personaStability": 9.400,
-    "cooperationReputation": 9.600,
-    "commentQuality": 9.200,
-    "contentInnovation": 9.300,
-    "platformIndex": 9.500,
-    "platformRecommendationProb": 0.810,
+    "personaStability": 9.4,
+    "cooperationReputation": 9.6,
+    "commentQuality": 9.2,
+    "contentInnovation": 9.3,
+    "platformIndex": 9.5,
+    "platformRecommendationProb": 0.81,
     "scores": {
       "adaptability_score": 91,
       "influence_score": 92,
@@ -6727,8 +6727,8 @@
       "内容与热点结合度高"
     ],
     "priceRange": "中高",
-    "priceMin": 21000.00,
-    "priceMax": 30000.00,
+    "priceMin": 21000,
+    "priceMax": 30000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -6742,7 +6742,7 @@
   },
   {
     "name": "车坛樱子",
-    "avatar": "https://www.xiaohongshu.com/user/profile/635baf64000000001802a2a3?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1716541076",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/164.jpg",
     "platform": "小红书",
     "category": [
       "汽车博主",
@@ -6767,12 +6767,12 @@
       "多风格博主",
       "车展达人"
     ],
-    "personaStability": 9.500,
-    "cooperationReputation": 9.700,
-    "commentQuality": 9.300,
-    "contentInnovation": 9.300,
-    "platformIndex": 9.500,
-    "platformRecommendationProb": 0.800,
+    "personaStability": 9.5,
+    "cooperationReputation": 9.7,
+    "commentQuality": 9.3,
+    "contentInnovation": 9.3,
+    "platformIndex": 9.5,
+    "platformRecommendationProb": 0.8,
     "scores": {
       "adaptability_score": 90,
       "influence_score": 91,
@@ -6786,8 +6786,8 @@
       "内容多样化适配度高"
     ],
     "priceRange": "中高",
-    "priceMin": 21000.00,
-    "priceMax": 30000.00,
+    "priceMin": 21000,
+    "priceMax": 30000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -6800,7 +6800,7 @@
   },
   {
     "name": "玩车研究所",
-    "avatar": "https://www.xiaohongshu.com/user/profile/635b99d0000000001802d5af?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1716541242",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/5.jpg",
     "platform": "小红书",
     "category": [
       "汽车博主",
@@ -6813,7 +6813,7 @@
     "location": "深圳",
     "followersCount": 5344557088,
     "avgViews": 10580,
-    "engagementRate": 1.50,
+    "engagementRate": 1.5,
     "completionRate": null,
     "publishFrequency30d": 20,
     "publishFrequency90d": 55,
@@ -6825,12 +6825,12 @@
       "专业口播",
       "车展达人"
     ],
-    "personaStability": 9.300,
-    "cooperationReputation": 9.500,
-    "commentQuality": 9.100,
-    "contentInnovation": 9.200,
-    "platformIndex": 9.300,
-    "platformRecommendationProb": 0.780,
+    "personaStability": 9.3,
+    "cooperationReputation": 9.5,
+    "commentQuality": 9.1,
+    "contentInnovation": 9.2,
+    "platformIndex": 9.3,
+    "platformRecommendationProb": 0.78,
     "scores": {
       "adaptability_score": 88,
       "influence_score": 90,
@@ -6844,8 +6844,8 @@
       "女性温柔风车评稀缺"
     ],
     "priceRange": "中高",
-    "priceMin": 21000.00,
-    "priceMax": 30000.00,
+    "priceMin": 21000,
+    "priceMax": 30000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -6858,7 +6858,7 @@
   },
   {
     "name": "Barbie车讯",
-    "avatar": "https://www.xiaohongshu.com/user/profile/65892ee5000000001c0296c2?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1716541435",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/271.jpg",
     "platform": "小红书",
     "category": [
       "汽车博主",
@@ -6883,12 +6883,12 @@
       "生活vlog",
       "用户视角"
     ],
-    "personaStability": 9.200,
-    "cooperationReputation": 9.500,
-    "commentQuality": 9.000,
-    "contentInnovation": 9.100,
-    "platformIndex": 9.300,
-    "platformRecommendationProb": 0.770,
+    "personaStability": 9.2,
+    "cooperationReputation": 9.5,
+    "commentQuality": 9,
+    "contentInnovation": 9.1,
+    "platformIndex": 9.3,
+    "platformRecommendationProb": 0.77,
     "scores": {
       "adaptability_score": 87,
       "influence_score": 89,
@@ -6902,8 +6902,8 @@
       "适配汽车生活方式类品牌"
     ],
     "priceRange": "中高",
-    "priceMin": 21000.00,
-    "priceMax": 30000.00,
+    "priceMin": 21000,
+    "priceMax": 30000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -6916,7 +6916,7 @@
   },
   {
     "name": "极速国霖",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5e7d7ed0000000000100b2a7?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1663941894",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/236.jpg",
     "platform": "小红书",
     "category": [
       "汽车博主",
@@ -6941,12 +6941,12 @@
       "帅气男博主",
       "香港人设"
     ],
-    "personaStability": 9.300,
-    "cooperationReputation": 9.500,
-    "commentQuality": 9.100,
-    "contentInnovation": 9.300,
-    "platformIndex": 9.400,
-    "platformRecommendationProb": 0.790,
+    "personaStability": 9.3,
+    "cooperationReputation": 9.5,
+    "commentQuality": 9.1,
+    "contentInnovation": 9.3,
+    "platformIndex": 9.4,
+    "platformRecommendationProb": 0.79,
     "scores": {
       "adaptability_score": 89,
       "influence_score": 91,
@@ -6960,8 +6960,8 @@
       "兼具娱乐与干货价值"
     ],
     "priceRange": "中高",
-    "priceMin": 21000.00,
-    "priceMax": 30000.00,
+    "priceMin": 21000,
+    "priceMax": 30000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -6974,7 +6974,7 @@
   },
   {
     "name": "vivi车语",
-    "avatar": "https://www.xiaohongshu.com/user/profile/61b46369000000001000d57c?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1658491266",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/300.jpg",
     "platform": "小红书",
     "category": [
       "汽车博主",
@@ -6999,12 +6999,12 @@
       "海外留学背景",
       "买车避坑"
     ],
-    "personaStability": 9.500,
-    "cooperationReputation": 9.700,
-    "commentQuality": 9.300,
-    "contentInnovation": 9.400,
-    "platformIndex": 9.600,
-    "platformRecommendationProb": 0.820,
+    "personaStability": 9.5,
+    "cooperationReputation": 9.7,
+    "commentQuality": 9.3,
+    "contentInnovation": 9.4,
+    "platformIndex": 9.6,
+    "platformRecommendationProb": 0.82,
     "scores": {
       "adaptability_score": 92,
       "influence_score": 94,
@@ -7018,8 +7018,8 @@
       "汽车品牌合作适配高"
     ],
     "priceRange": "中高",
-    "priceMin": 21000.00,
-    "priceMax": 30000.00,
+    "priceMin": 21000,
+    "priceMax": 30000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -7032,7 +7032,7 @@
   },
   {
     "name": "茜子在路上",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5e5cdcb0000000000100034f?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1703508326",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/181.jpg",
     "platform": "小红书",
     "category": [
       "汽车博主",
@@ -7057,12 +7057,12 @@
       "拽姐风格",
       "奔驰+特斯拉车主"
     ],
-    "personaStability": 9.400,
-    "cooperationReputation": 9.600,
-    "commentQuality": 9.200,
-    "contentInnovation": 9.300,
-    "platformIndex": 9.500,
-    "platformRecommendationProb": 0.800,
+    "personaStability": 9.4,
+    "cooperationReputation": 9.6,
+    "commentQuality": 9.2,
+    "contentInnovation": 9.3,
+    "platformIndex": 9.5,
+    "platformRecommendationProb": 0.8,
     "scores": {
       "adaptability_score": 90,
       "influence_score": 91,
@@ -7076,8 +7076,8 @@
       "适合中高端汽车合作"
     ],
     "priceRange": "中高",
-    "priceMin": 21000.00,
-    "priceMax": 30000.00,
+    "priceMin": 21000,
+    "priceMax": 30000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -7090,7 +7090,7 @@
   },
   {
     "name": "Yuki踩油门",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5f40b3c90000000001008670?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1703166844",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/141.jpg",
     "platform": "小红书",
     "category": [
       "汽车博主",
@@ -7103,7 +7103,7 @@
     "location": "上海",
     "followersCount": 374619048,
     "avgViews": 35800,
-    "engagementRate": 3.50,
+    "engagementRate": 3.5,
     "completionRate": null,
     "publishFrequency30d": 22,
     "publishFrequency90d": 60,
@@ -7115,12 +7115,12 @@
       "女性购车顾问",
       "剧情植入"
     ],
-    "personaStability": 9.400,
-    "cooperationReputation": 9.600,
-    "commentQuality": 9.200,
-    "contentInnovation": 9.400,
-    "platformIndex": 9.500,
-    "platformRecommendationProb": 0.810,
+    "personaStability": 9.4,
+    "cooperationReputation": 9.6,
+    "commentQuality": 9.2,
+    "contentInnovation": 9.4,
+    "platformIndex": 9.5,
+    "platformRecommendationProb": 0.81,
     "scores": {
       "adaptability_score": 91,
       "influence_score": 92,
@@ -7134,8 +7134,8 @@
       "吸引男性粉丝群体"
     ],
     "priceRange": "中高",
-    "priceMin": 21000.00,
-    "priceMax": 30000.00,
+    "priceMin": 21000,
+    "priceMax": 30000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -7148,7 +7148,7 @@
   },
   {
     "name": "车神盖茨比",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5c8a2c140000000012015107?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1669363586",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/18.jpg",
     "platform": "小红书",
     "category": [
       "汽车博主",
@@ -7173,12 +7173,12 @@
       "赛道日嘉宾",
       "智驾达人"
     ],
-    "personaStability": 9.600,
-    "cooperationReputation": 9.700,
-    "commentQuality": 9.300,
-    "contentInnovation": 9.400,
-    "platformIndex": 9.600,
-    "platformRecommendationProb": 0.830,
+    "personaStability": 9.6,
+    "cooperationReputation": 9.7,
+    "commentQuality": 9.3,
+    "contentInnovation": 9.4,
+    "platformIndex": 9.6,
+    "platformRecommendationProb": 0.83,
     "scores": {
       "adaptability_score": 93,
       "influence_score": 94,
@@ -7192,8 +7192,8 @@
       "内容拍摄高级感强"
     ],
     "priceRange": "中高",
-    "priceMin": 21000.00,
-    "priceMax": 30000.00,
+    "priceMin": 21000,
+    "priceMax": 30000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -7206,7 +7206,7 @@
   },
   {
     "name": "车神肯七",
-    "avatar": "https://www.xiaohongshu.com/user/profile/63e60686000000002702b50b?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1705895979",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/286.jpg",
     "platform": "小红书",
     "category": [
       "汽车博主",
@@ -7231,12 +7231,12 @@
       "运动型男",
       "创意用车场景"
     ],
-    "personaStability": 9.400,
-    "cooperationReputation": 9.600,
-    "commentQuality": 9.100,
-    "contentInnovation": 9.400,
-    "platformIndex": 9.500,
-    "platformRecommendationProb": 0.810,
+    "personaStability": 9.4,
+    "cooperationReputation": 9.6,
+    "commentQuality": 9.1,
+    "contentInnovation": 9.4,
+    "platformIndex": 9.5,
+    "platformRecommendationProb": 0.81,
     "scores": {
       "adaptability_score": 91,
       "influence_score": 92,
@@ -7250,8 +7250,8 @@
       "用车体验内容真实可信"
     ],
     "priceRange": "中高",
-    "priceMin": 21000.00,
-    "priceMax": 30000.00,
+    "priceMin": 21000,
+    "priceMax": 30000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -7264,7 +7264,7 @@
   },
   {
     "name": "张教主测评",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5bad97f15eceda00010e50a6?xhsshare=CopyLink&appuid=5bad97f15eceda00010e50a6&apptime=1597990641",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/248.jpg",
     "platform": "小红书",
     "category": [
       "科技数码博主",
@@ -7290,12 +7290,12 @@
       "专业团队",
       "干货科普"
     ],
-    "personaStability": 9.700,
-    "cooperationReputation": 9.800,
-    "commentQuality": 9.500,
-    "contentInnovation": 9.600,
-    "platformIndex": 9.700,
-    "platformRecommendationProb": 0.850,
+    "personaStability": 9.7,
+    "cooperationReputation": 9.8,
+    "commentQuality": 9.5,
+    "contentInnovation": 9.6,
+    "platformIndex": 9.7,
+    "platformRecommendationProb": 0.85,
     "scores": {
       "adaptability_score": 95,
       "influence_score": 96,
@@ -7309,8 +7309,8 @@
       "适配高端科技品牌合作"
     ],
     "priceRange": "高端",
-    "priceMin": 22000.00,
-    "priceMax": 32000.00,
+    "priceMin": 22000,
+    "priceMax": 32000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -7323,7 +7323,7 @@
   },
   {
     "name": "老张科技测评",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5dd4e5550000000001001ef6?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1724666265",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/43.jpg",
     "platform": "小红书",
     "category": [
       "科技数码博主",
@@ -7348,12 +7348,12 @@
       "装修干货",
       "真实开箱"
     ],
-    "personaStability": 9.600,
-    "cooperationReputation": 9.800,
-    "commentQuality": 9.400,
-    "contentInnovation": 9.400,
-    "platformIndex": 9.600,
-    "platformRecommendationProb": 0.830,
+    "personaStability": 9.6,
+    "cooperationReputation": 9.8,
+    "commentQuality": 9.4,
+    "contentInnovation": 9.4,
+    "platformIndex": 9.6,
+    "platformRecommendationProb": 0.83,
     "scores": {
       "adaptability_score": 93,
       "influence_score": 94,
@@ -7367,8 +7367,8 @@
       "内容信任度极高"
     ],
     "priceRange": "中高",
-    "priceMin": 18000.00,
-    "priceMax": 25000.00,
+    "priceMin": 18000,
+    "priceMax": 25000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -7381,7 +7381,7 @@
   },
   {
     "name": "家有老周",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5ea0285f000000000100890d?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1732778395",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/242.jpg",
     "platform": "小红书",
     "category": [
       "科技数码博主",
@@ -7406,12 +7406,12 @@
       "全屋智能系统",
       "亲民科普"
     ],
-    "personaStability": 9.500,
-    "cooperationReputation": 9.600,
-    "commentQuality": 9.200,
-    "contentInnovation": 9.300,
-    "platformIndex": 9.400,
-    "platformRecommendationProb": 0.800,
+    "personaStability": 9.5,
+    "cooperationReputation": 9.6,
+    "commentQuality": 9.2,
+    "contentInnovation": 9.3,
+    "platformIndex": 9.4,
+    "platformRecommendationProb": 0.8,
     "scores": {
       "adaptability_score": 90,
       "influence_score": 91,
@@ -7425,8 +7425,8 @@
       "适合中高端品牌内容共创"
     ],
     "priceRange": "中",
-    "priceMin": 12000.00,
-    "priceMax": 16000.00,
+    "priceMin": 12000,
+    "priceMax": 16000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -7439,7 +7439,7 @@
   },
   {
     "name": "科技阿瑞",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5b0cf58ae8ac2b2f2d58b25a?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1723192831",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/250.jpg",
     "platform": "小红书",
     "category": [
       "科技数码博主",
@@ -7452,7 +7452,7 @@
     "location": "广州",
     "followersCount": 271040686,
     "avgViews": 49200,
-    "engagementRate": 9.60,
+    "engagementRate": 9.6,
     "completionRate": null,
     "publishFrequency30d": 22,
     "publishFrequency90d": 59,
@@ -7464,12 +7464,12 @@
       "家居科技",
       "内容多维"
     ],
-    "personaStability": 9.400,
-    "cooperationReputation": 9.600,
-    "commentQuality": 9.100,
-    "contentInnovation": 9.300,
-    "platformIndex": 9.400,
-    "platformRecommendationProb": 0.790,
+    "personaStability": 9.4,
+    "cooperationReputation": 9.6,
+    "commentQuality": 9.1,
+    "contentInnovation": 9.3,
+    "platformIndex": 9.4,
+    "platformRecommendationProb": 0.79,
     "scores": {
       "adaptability_score": 89,
       "influence_score": 91,
@@ -7483,8 +7483,8 @@
       "性价比高适合新兴品牌合作"
     ],
     "priceRange": "中",
-    "priceMin": 11000.00,
-    "priceMax": 15000.00,
+    "priceMin": 11000,
+    "priceMax": 15000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -7497,7 +7497,7 @@
   },
   {
     "name": "禹大小姐（复式装修中）",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5fdee2a000000000010057c2?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1682321916",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/15.jpg",
     "platform": "小红书",
     "category": [
       "家居博主",
@@ -7522,12 +7522,12 @@
       "家庭生活",
       "中高端家居"
     ],
-    "personaStability": 9.800,
-    "cooperationReputation": 9.900,
-    "commentQuality": 9.600,
-    "contentInnovation": 9.700,
-    "platformIndex": 9.800,
-    "platformRecommendationProb": 0.870,
+    "personaStability": 9.8,
+    "cooperationReputation": 9.9,
+    "commentQuality": 9.6,
+    "contentInnovation": 9.7,
+    "platformIndex": 9.8,
+    "platformRecommendationProb": 0.87,
     "scores": {
       "adaptability_score": 96,
       "influence_score": 97,
@@ -7541,8 +7541,8 @@
       "品牌信任度极高"
     ],
     "priceRange": "高端",
-    "priceMin": 30000.00,
-    "priceMax": 40000.00,
+    "priceMin": 30000,
+    "priceMax": 40000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -7556,7 +7556,7 @@
   },
   {
     "name": "鱼琛琛",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5f102393000000000101f0df?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1679729711",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/174.jpg",
     "platform": "小红书",
     "category": [
       "家居博主",
@@ -7581,12 +7581,12 @@
       "干货女神",
       "智性姐姐"
     ],
-    "personaStability": 9.700,
-    "cooperationReputation": 9.800,
-    "commentQuality": 9.600,
-    "contentInnovation": 9.500,
-    "platformIndex": 9.700,
-    "platformRecommendationProb": 0.860,
+    "personaStability": 9.7,
+    "cooperationReputation": 9.8,
+    "commentQuality": 9.6,
+    "contentInnovation": 9.5,
+    "platformIndex": 9.7,
+    "platformRecommendationProb": 0.86,
     "scores": {
       "adaptability_score": 95,
       "influence_score": 96,
@@ -7600,8 +7600,8 @@
       "生活方式展示高级"
     ],
     "priceRange": "高端",
-    "priceMin": 30000.00,
-    "priceMax": 40000.00,
+    "priceMin": 30000,
+    "priceMax": 40000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -7614,7 +7614,7 @@
   },
   {
     "name": "大帆小菁的家（设计师夫妇）",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5bb07d2e414ee700010669c5?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1713927646",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/20.jpg",
     "platform": "小红书",
     "category": [
       "家居博主",
@@ -7639,12 +7639,12 @@
       "意式风格",
       "生活方式博主"
     ],
-    "personaStability": 9.800,
-    "cooperationReputation": 9.900,
-    "commentQuality": 9.700,
-    "contentInnovation": 9.700,
-    "platformIndex": 9.800,
-    "platformRecommendationProb": 0.870,
+    "personaStability": 9.8,
+    "cooperationReputation": 9.9,
+    "commentQuality": 9.7,
+    "contentInnovation": 9.7,
+    "platformIndex": 9.8,
+    "platformRecommendationProb": 0.87,
     "scores": {
       "adaptability_score": 96,
       "influence_score": 97,
@@ -7658,8 +7658,8 @@
       "可完美适配高端品牌调性"
     ],
     "priceRange": "高端",
-    "priceMin": 28000.00,
-    "priceMax": 38000.00,
+    "priceMin": 28000,
+    "priceMax": 38000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -7672,7 +7672,7 @@
   },
   {
     "name": "繁子的智能家",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5f980af7000000000101d9b3?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1714462258",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/238.jpg",
     "platform": "小红书",
     "category": [
       "家居博主",
@@ -7697,12 +7697,12 @@
       "夫妻档",
       "宠物家庭"
     ],
-    "personaStability": 9.600,
-    "cooperationReputation": 9.800,
-    "commentQuality": 9.500,
-    "contentInnovation": 9.600,
-    "platformIndex": 9.700,
-    "platformRecommendationProb": 0.850,
+    "personaStability": 9.6,
+    "cooperationReputation": 9.8,
+    "commentQuality": 9.5,
+    "contentInnovation": 9.6,
+    "platformIndex": 9.7,
+    "platformRecommendationProb": 0.85,
     "scores": {
       "adaptability_score": 94,
       "influence_score": 95,
@@ -7716,8 +7716,8 @@
       "适合品牌场景化展示"
     ],
     "priceRange": "高端",
-    "priceMin": 21000.00,
-    "priceMax": 30000.00,
+    "priceMin": 21000,
+    "priceMax": 30000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -7730,7 +7730,7 @@
   },
   {
     "name": "小地瓜智能家",
-    "avatar": "https://www.xiaohongshu.com/user/profile/6010e54f000000000100787c?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1705898429",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/254.jpg",
     "platform": "小红书",
     "category": [
       "家居博主",
@@ -7755,12 +7755,12 @@
       "小户型改造",
       "独居少女"
     ],
-    "personaStability": 9.500,
-    "cooperationReputation": 9.700,
-    "commentQuality": 9.400,
-    "contentInnovation": 9.500,
-    "platformIndex": 9.600,
-    "platformRecommendationProb": 0.840,
+    "personaStability": 9.5,
+    "cooperationReputation": 9.7,
+    "commentQuality": 9.4,
+    "contentInnovation": 9.5,
+    "platformIndex": 9.6,
+    "platformRecommendationProb": 0.84,
     "scores": {
       "adaptability_score": 93,
       "influence_score": 94,
@@ -7774,8 +7774,8 @@
       "小空间利用话题热度高"
     ],
     "priceRange": "中高",
-    "priceMin": 20000.00,
-    "priceMax": 28000.00,
+    "priceMin": 20000,
+    "priceMax": 28000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -7788,7 +7788,7 @@
   },
   {
     "name": "莎奇玛夫妇",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5fa22217000000000101f61e?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1708787056",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/49.jpg",
     "platform": "小红书",
     "category": [
       "家居博主",
@@ -7813,12 +7813,12 @@
       "高知父母",
       "三代同堂"
     ],
-    "personaStability": 9.800,
-    "cooperationReputation": 9.900,
-    "commentQuality": 9.700,
-    "contentInnovation": 9.700,
-    "platformIndex": 9.800,
-    "platformRecommendationProb": 0.870,
+    "personaStability": 9.8,
+    "cooperationReputation": 9.9,
+    "commentQuality": 9.7,
+    "contentInnovation": 9.7,
+    "platformIndex": 9.8,
+    "platformRecommendationProb": 0.87,
     "scores": {
       "adaptability_score": 96,
       "influence_score": 97,
@@ -7832,8 +7832,8 @@
       "适合育儿、家居及健康品牌深度合作"
     ],
     "priceRange": "高端",
-    "priceMin": 18000.00,
-    "priceMax": 25000.00,
+    "priceMin": 18000,
+    "priceMax": 25000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -7846,7 +7846,7 @@
   },
   {
     "name": "枚烦恼的家",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5c8530b300000000110387ac?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1616580936",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/47.jpg",
     "platform": "小红书",
     "category": [
       "家居博主",
@@ -7871,12 +7871,12 @@
       "自装达人",
       "宠物家庭"
     ],
-    "personaStability": 9.500,
-    "cooperationReputation": 9.700,
-    "commentQuality": 9.300,
-    "contentInnovation": 9.400,
-    "platformIndex": 9.500,
-    "platformRecommendationProb": 0.820,
+    "personaStability": 9.5,
+    "cooperationReputation": 9.7,
+    "commentQuality": 9.3,
+    "contentInnovation": 9.4,
+    "platformIndex": 9.5,
+    "platformRecommendationProb": 0.82,
     "scores": {
       "adaptability_score": 91,
       "influence_score": 92,
@@ -7890,8 +7890,8 @@
       "宠物元素增强亲和力"
     ],
     "priceRange": "中高",
-    "priceMin": 18000.00,
-    "priceMax": 25000.00,
+    "priceMin": 18000,
+    "priceMax": 25000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -7904,7 +7904,7 @@
   },
   {
     "name": "子茗Room",
-    "avatar": "https://www.xiaohongshu.com/user/profile/61cb2ac100000000100046e5?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1726821591",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/139.jpg",
     "platform": "小红书",
     "category": [
       "家居博主",
@@ -7929,12 +7929,12 @@
       "猫奴家庭",
       "互联网大厂背景"
     ],
-    "personaStability": 9.700,
-    "cooperationReputation": 9.800,
-    "commentQuality": 9.600,
-    "contentInnovation": 9.600,
-    "platformIndex": 9.700,
-    "platformRecommendationProb": 0.860,
+    "personaStability": 9.7,
+    "cooperationReputation": 9.8,
+    "commentQuality": 9.6,
+    "contentInnovation": 9.6,
+    "platformIndex": 9.7,
+    "platformRecommendationProb": 0.86,
     "scores": {
       "adaptability_score": 94,
       "influence_score": 95,
@@ -7948,8 +7948,8 @@
       "备婚群体共鸣强"
     ],
     "priceRange": "中高",
-    "priceMin": 18000.00,
-    "priceMax": 25000.00,
+    "priceMin": 18000,
+    "priceMax": 25000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -7962,7 +7962,7 @@
   },
   {
     "name": "Siya的理想家",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5fd4af52000000000100a0ae?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1637669031",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/43.jpg",
     "platform": "小红书",
     "category": [
       "家居博主",
@@ -7987,12 +7987,12 @@
       "空间改造",
       "DIY达人"
     ],
-    "personaStability": 9.600,
-    "cooperationReputation": 9.700,
-    "commentQuality": 9.400,
-    "contentInnovation": 9.500,
-    "platformIndex": 9.600,
-    "platformRecommendationProb": 0.830,
+    "personaStability": 9.6,
+    "cooperationReputation": 9.7,
+    "commentQuality": 9.4,
+    "contentInnovation": 9.5,
+    "platformIndex": 9.6,
+    "platformRecommendationProb": 0.83,
     "scores": {
       "adaptability_score": 92,
       "influence_score": 93,
@@ -8006,8 +8006,8 @@
       "适配家庭类品牌"
     ],
     "priceRange": "中高",
-    "priceMin": 18000.00,
-    "priceMax": 25000.00,
+    "priceMin": 18000,
+    "priceMax": 25000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -8020,7 +8020,7 @@
   },
   {
     "name": "洋芋夫妇的家",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5c86294500000000160010de?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1727172019",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/36.jpg",
     "platform": "小红书",
     "category": [
       "家居博主",
@@ -8045,12 +8045,12 @@
       "智能家居",
       "省时主义"
     ],
-    "personaStability": 9.700,
-    "cooperationReputation": 9.800,
-    "commentQuality": 9.500,
-    "contentInnovation": 9.600,
-    "platformIndex": 9.700,
-    "platformRecommendationProb": 0.860,
+    "personaStability": 9.7,
+    "cooperationReputation": 9.8,
+    "commentQuality": 9.5,
+    "contentInnovation": 9.6,
+    "platformIndex": 9.7,
+    "platformRecommendationProb": 0.86,
     "scores": {
       "adaptability_score": 94,
       "influence_score": 95,
@@ -8064,8 +8064,8 @@
       "内容兼具实用与温度"
     ],
     "priceRange": "中高",
-    "priceMin": 18000.00,
-    "priceMax": 25000.00,
+    "priceMin": 18000,
+    "priceMax": 25000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -8078,7 +8078,7 @@
   },
   {
     "name": "利多Leedor",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5bbc7c6e918acb00014f7c0f?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1716392836",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/42.jpg",
     "platform": "小红书",
     "category": [
       "家居博主",
@@ -8103,12 +8103,12 @@
       "美学讲解",
       "高端生活"
     ],
-    "personaStability": 9.800,
-    "cooperationReputation": 9.900,
-    "commentQuality": 9.600,
-    "contentInnovation": 9.600,
-    "platformIndex": 9.800,
-    "platformRecommendationProb": 0.870,
+    "personaStability": 9.8,
+    "cooperationReputation": 9.9,
+    "commentQuality": 9.6,
+    "contentInnovation": 9.6,
+    "platformIndex": 9.8,
+    "platformRecommendationProb": 0.87,
     "scores": {
       "adaptability_score": 95,
       "influence_score": 96,
@@ -8122,8 +8122,8 @@
       "与高端品牌契合度高"
     ],
     "priceRange": "中高",
-    "priceMin": 15000.00,
-    "priceMax": 22000.00,
+    "priceMin": 15000,
+    "priceMax": 22000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -8136,7 +8136,7 @@
   },
   {
     "name": "设计师松子",
-    "avatar": "https://www.xiaohongshu.com/user/profile/6415760d00000000120129ee?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1682320777",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/161.jpg",
     "platform": "小红书",
     "category": [
       "家居博主",
@@ -8161,12 +8161,12 @@
       "智能家居",
       "现代审美"
     ],
-    "personaStability": 9.600,
-    "cooperationReputation": 9.700,
-    "commentQuality": 9.400,
-    "contentInnovation": 9.600,
-    "platformIndex": 9.600,
-    "platformRecommendationProb": 0.830,
+    "personaStability": 9.6,
+    "cooperationReputation": 9.7,
+    "commentQuality": 9.4,
+    "contentInnovation": 9.6,
+    "platformIndex": 9.6,
+    "platformRecommendationProb": 0.83,
     "scores": {
       "adaptability_score": 92,
       "influence_score": 93,
@@ -8180,8 +8180,8 @@
       "内容实用兼具美感"
     ],
     "priceRange": "中高",
-    "priceMin": 15000.00,
-    "priceMax": 22000.00,
+    "priceMin": 15000,
+    "priceMax": 22000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -8194,7 +8194,7 @@
   },
   {
     "name": "七七的理想家",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5b0cea11e8ac2b22b6fff353?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1616581193",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/14.jpg",
     "platform": "小红书",
     "category": [
       "家居博主",
@@ -8219,12 +8219,12 @@
       "高品质懒人生活",
       "轻奢家居"
     ],
-    "personaStability": 9.500,
-    "cooperationReputation": 9.700,
-    "commentQuality": 9.300,
-    "contentInnovation": 9.500,
-    "platformIndex": 9.600,
-    "platformRecommendationProb": 0.840,
+    "personaStability": 9.5,
+    "cooperationReputation": 9.7,
+    "commentQuality": 9.3,
+    "contentInnovation": 9.5,
+    "platformIndex": 9.6,
+    "platformRecommendationProb": 0.84,
     "scores": {
       "adaptability_score": 91,
       "influence_score": 92,
@@ -8238,8 +8238,8 @@
       "合作表现稳定"
     ],
     "priceRange": "中高",
-    "priceMin": 15000.00,
-    "priceMax": 22000.00,
+    "priceMin": 15000,
+    "priceMax": 22000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -8252,7 +8252,7 @@
   },
   {
     "name": "吴竺晓",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5ea287970000000001007fc6?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1682320478",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/205.jpg",
     "platform": "小红书",
     "category": [
       "家居博主",
@@ -8277,12 +8277,12 @@
       "高颜值博主",
       "生活美学"
     ],
-    "personaStability": 9.400,
-    "cooperationReputation": 9.600,
-    "commentQuality": 9.200,
-    "contentInnovation": 9.300,
-    "platformIndex": 9.500,
-    "platformRecommendationProb": 0.810,
+    "personaStability": 9.4,
+    "cooperationReputation": 9.6,
+    "commentQuality": 9.2,
+    "contentInnovation": 9.3,
+    "platformIndex": 9.5,
+    "platformRecommendationProb": 0.81,
     "scores": {
       "adaptability_score": 89,
       "influence_score": 91,
@@ -8296,8 +8296,8 @@
       "合作适配度广"
     ],
     "priceRange": "中高",
-    "priceMin": 15000.00,
-    "priceMax": 20000.00,
+    "priceMin": 15000,
+    "priceMax": 20000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -8310,7 +8310,7 @@
   },
   {
     "name": "杨小姐的智能家",
-    "avatar": "https://www.xiaohongshu.com/user/profile/601ea340000000000101f4fc?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1647942608",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/133.jpg",
     "platform": "小红书",
     "category": [
       "家居博主",
@@ -8335,12 +8335,12 @@
       "智能家居",
       "幸福家庭"
     ],
-    "personaStability": 9.700,
-    "cooperationReputation": 9.800,
-    "commentQuality": 9.600,
-    "contentInnovation": 9.600,
-    "platformIndex": 9.700,
-    "platformRecommendationProb": 0.850,
+    "personaStability": 9.7,
+    "cooperationReputation": 9.8,
+    "commentQuality": 9.6,
+    "contentInnovation": 9.6,
+    "platformIndex": 9.7,
+    "platformRecommendationProb": 0.85,
     "scores": {
       "adaptability_score": 94,
       "influence_score": 95,
@@ -8354,8 +8354,8 @@
       "品牌合作灵活度高"
     ],
     "priceRange": "中高",
-    "priceMin": 15000.00,
-    "priceMax": 20000.00,
+    "priceMin": 15000,
+    "priceMax": 20000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -8368,7 +8368,7 @@
   },
   {
     "name": "艾斯混血夫妇",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5c8e28740000000012030938?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1724666686",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/81.jpg",
     "platform": "小红书",
     "category": [
       "家居博主",
@@ -8393,12 +8393,12 @@
       "智能家居",
       "极简收纳"
     ],
-    "personaStability": 9.700,
-    "cooperationReputation": 9.800,
-    "commentQuality": 9.600,
-    "contentInnovation": 9.700,
-    "platformIndex": 9.800,
-    "platformRecommendationProb": 0.860,
+    "personaStability": 9.7,
+    "cooperationReputation": 9.8,
+    "commentQuality": 9.6,
+    "contentInnovation": 9.7,
+    "platformIndex": 9.8,
+    "platformRecommendationProb": 0.86,
     "scores": {
       "adaptability_score": 94,
       "influence_score": 96,
@@ -8412,8 +8412,8 @@
       "适合国际品牌合作"
     ],
     "priceRange": "中高",
-    "priceMin": 15000.00,
-    "priceMax": 20000.00,
+    "priceMin": 15000,
+    "priceMax": 20000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -8426,7 +8426,7 @@
   },
   {
     "name": "柯先生的小家",
-    "avatar": "https://www.xiaohongshu.com/user/profile/61864d4c000000001000c481?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1708785997",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/223.jpg",
     "platform": "小红书",
     "category": [
       "家居博主",
@@ -8451,12 +8451,12 @@
       "电竞房装修",
       "家庭幸福感"
     ],
-    "personaStability": 9.600,
-    "cooperationReputation": 9.800,
-    "commentQuality": 9.400,
-    "contentInnovation": 9.500,
-    "platformIndex": 9.600,
-    "platformRecommendationProb": 0.840,
+    "personaStability": 9.6,
+    "cooperationReputation": 9.8,
+    "commentQuality": 9.4,
+    "contentInnovation": 9.5,
+    "platformIndex": 9.6,
+    "platformRecommendationProb": 0.84,
     "scores": {
       "adaptability_score": 93,
       "influence_score": 94,
@@ -8470,8 +8470,8 @@
       "场景丰富适合品牌植入"
     ],
     "priceRange": "中高",
-    "priceMin": 15000.00,
-    "priceMax": 20000.00,
+    "priceMin": 15000,
+    "priceMax": 20000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -8484,7 +8484,7 @@
   },
   {
     "name": "设计师一哲",
-    "avatar": "https://www.xiaohongshu.com/user/profile/666ba4c300000000070072ec?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1724666490",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/140.jpg",
     "platform": "小红书",
     "category": [
       "家居博主",
@@ -8509,12 +8509,12 @@
       "包豪斯金奖",
       "实用装修内容"
     ],
-    "personaStability": 9.700,
-    "cooperationReputation": 9.800,
-    "commentQuality": 9.600,
-    "contentInnovation": 9.600,
-    "platformIndex": 9.700,
-    "platformRecommendationProb": 0.850,
+    "personaStability": 9.7,
+    "cooperationReputation": 9.8,
+    "commentQuality": 9.6,
+    "contentInnovation": 9.6,
+    "platformIndex": 9.7,
+    "platformRecommendationProb": 0.85,
     "scores": {
       "adaptability_score": 94,
       "influence_score": 95,
@@ -8528,8 +8528,8 @@
       "适配智能家居及家装品牌"
     ],
     "priceRange": "中高",
-    "priceMin": 12000.00,
-    "priceMax": 18000.00,
+    "priceMin": 12000,
+    "priceMax": 18000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -8542,7 +8542,7 @@
   },
   {
     "name": "这是我们的故事",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5bb44bf959b9bf0001b53965?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1669108093",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/5.jpg",
     "platform": "小红书",
     "category": [
       "剧情短剧",
@@ -8566,12 +8566,12 @@
       "正能量爱情",
       "治愈系风格"
     ],
-    "personaStability": 9.800,
-    "cooperationReputation": 9.900,
-    "commentQuality": 9.700,
-    "contentInnovation": 9.800,
-    "platformIndex": 9.800,
-    "platformRecommendationProb": 0.880,
+    "personaStability": 9.8,
+    "cooperationReputation": 9.9,
+    "commentQuality": 9.7,
+    "contentInnovation": 9.8,
+    "platformIndex": 9.8,
+    "platformRecommendationProb": 0.88,
     "scores": {
       "adaptability_score": 96,
       "influence_score": 97,
@@ -8585,8 +8585,8 @@
       "粉丝情感粘性极高"
     ],
     "priceRange": "高端",
-    "priceMin": 40000.00,
-    "priceMax": 58000.00,
+    "priceMin": 40000,
+    "priceMax": 58000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -8599,7 +8599,7 @@
   },
   {
     "name": "0707",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5c726e26000000001103962b?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1665994427",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/90.jpg",
     "platform": "小红书",
     "category": [
       "剧情短剧",
@@ -8623,12 +8623,12 @@
       "甜虐交织",
       "女性粉丝粘性高"
     ],
-    "personaStability": 9.700,
-    "cooperationReputation": 9.800,
-    "commentQuality": 9.600,
-    "contentInnovation": 9.700,
-    "platformIndex": 9.800,
-    "platformRecommendationProb": 0.860,
+    "personaStability": 9.7,
+    "cooperationReputation": 9.8,
+    "commentQuality": 9.6,
+    "contentInnovation": 9.7,
+    "platformIndex": 9.8,
+    "platformRecommendationProb": 0.86,
     "scores": {
       "adaptability_score": 94,
       "influence_score": 95,
@@ -8642,8 +8642,8 @@
       "品牌联动潜力高"
     ],
     "priceRange": "中高",
-    "priceMin": 25000.00,
-    "priceMax": 35000.00,
+    "priceMin": 25000,
+    "priceMax": 35000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -8656,7 +8656,7 @@
   },
   {
     "name": "谢小雨rain",
-    "avatar": "https://www.xiaohongshu.com/user/profile/6073f0b50000000001005305?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1724666947",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/187.jpg",
     "platform": "小红书",
     "category": [
       "运动博主",
@@ -8681,12 +8681,12 @@
       "野性御姐",
       "运动穿搭"
     ],
-    "personaStability": 9.700,
-    "cooperationReputation": 9.800,
-    "commentQuality": 9.600,
-    "contentInnovation": 9.700,
-    "platformIndex": 9.800,
-    "platformRecommendationProb": 0.870,
+    "personaStability": 9.7,
+    "cooperationReputation": 9.8,
+    "commentQuality": 9.6,
+    "contentInnovation": 9.7,
+    "platformIndex": 9.8,
+    "platformRecommendationProb": 0.87,
     "scores": {
       "adaptability_score": 95,
       "influence_score": 96,
@@ -8700,8 +8700,8 @@
       "品牌适配度广（运动/旅行/汽车）"
     ],
     "priceRange": "中高",
-    "priceMin": 15000.00,
-    "priceMax": 20000.00,
+    "priceMin": 15000,
+    "priceMax": 20000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -8714,7 +8714,7 @@
   },
   {
     "name": "吉吉wen（运动版）",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5dc9087600000000010032b9?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1732255636",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/10.jpg",
     "platform": "小红书",
     "category": [
       "运动健身博主",
@@ -8739,12 +8739,12 @@
       "ENFP高能量",
       "户外极限运动"
     ],
-    "personaStability": 9.700,
-    "cooperationReputation": 9.800,
-    "commentQuality": 9.600,
-    "contentInnovation": 9.700,
-    "platformIndex": 9.800,
-    "platformRecommendationProb": 0.870,
+    "personaStability": 9.7,
+    "cooperationReputation": 9.8,
+    "commentQuality": 9.6,
+    "contentInnovation": 9.7,
+    "platformIndex": 9.8,
+    "platformRecommendationProb": 0.87,
     "scores": {
       "adaptability_score": 95,
       "influence_score": 96,
@@ -8758,8 +8758,8 @@
       "能量感强带动传播"
     ],
     "priceRange": "中高",
-    "priceMin": 15000.00,
-    "priceMax": 20000.00,
+    "priceMin": 15000,
+    "priceMax": 20000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -8772,7 +8772,7 @@
   },
   {
     "name": "金玲咔咔骑",
-    "avatar": "https://www.xiaohongshu.com/user/profile/6038bcc2000000000100475e?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1722400257",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/109.jpg",
     "platform": "小红书",
     "category": [
       "运动健身博主",
@@ -8797,12 +8797,12 @@
       "减重成功",
       "阳光运动感"
     ],
-    "personaStability": 9.600,
-    "cooperationReputation": 9.700,
-    "commentQuality": 9.400,
-    "contentInnovation": 9.500,
-    "platformIndex": 9.600,
-    "platformRecommendationProb": 0.840,
+    "personaStability": 9.6,
+    "cooperationReputation": 9.7,
+    "commentQuality": 9.4,
+    "contentInnovation": 9.5,
+    "platformIndex": 9.6,
+    "platformRecommendationProb": 0.84,
     "scores": {
       "adaptability_score": 92,
       "influence_score": 93,
@@ -8816,8 +8816,8 @@
       "粉丝互动热烈"
     ],
     "priceRange": "中高",
-    "priceMin": 13000.00,
-    "priceMax": 18800.00,
+    "priceMin": 13000,
+    "priceMax": 18800,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -8830,7 +8830,7 @@
   },
   {
     "name": "是珍珠呀（运动版）",
-    "avatar": "https://www.xiaohongshu.com/user/profile/6451b4ca0000000014012e78?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1722400108",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/86.jpg",
     "platform": "小红书",
     "category": [
       "运动健身博主",
@@ -8855,12 +8855,12 @@
       "阳光活力",
       "女性价值观输出"
     ],
-    "personaStability": 9.700,
-    "cooperationReputation": 9.800,
-    "commentQuality": 9.600,
-    "contentInnovation": 9.600,
-    "platformIndex": 9.700,
-    "platformRecommendationProb": 0.850,
+    "personaStability": 9.7,
+    "cooperationReputation": 9.8,
+    "commentQuality": 9.6,
+    "contentInnovation": 9.6,
+    "platformIndex": 9.7,
+    "platformRecommendationProb": 0.85,
     "scores": {
       "adaptability_score": 94,
       "influence_score": 94,
@@ -8874,8 +8874,8 @@
       "品牌传播契合度强"
     ],
     "priceRange": "中高",
-    "priceMin": 12000.00,
-    "priceMax": 18000.00,
+    "priceMin": 12000,
+    "priceMax": 18000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -8888,7 +8888,7 @@
   },
   {
     "name": "彭鱼宴",
-    "avatar": "https://www.xiaohongshu.com/user/profile/604efbd60000000001006b2f?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1726822257",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/210.jpg",
     "platform": "小红书",
     "category": [
       "运动健身博主",
@@ -8913,12 +8913,12 @@
       "运动时尚",
       "男生变帅技巧"
     ],
-    "personaStability": 9.700,
-    "cooperationReputation": 9.800,
-    "commentQuality": 9.500,
-    "contentInnovation": 9.600,
-    "platformIndex": 9.700,
-    "platformRecommendationProb": 0.860,
+    "personaStability": 9.7,
+    "cooperationReputation": 9.8,
+    "commentQuality": 9.5,
+    "contentInnovation": 9.6,
+    "platformIndex": 9.7,
+    "platformRecommendationProb": 0.86,
     "scores": {
       "adaptability_score": 93,
       "influence_score": 94,
@@ -8932,8 +8932,8 @@
       "适合时尚与运动品牌联动"
     ],
     "priceRange": "中高",
-    "priceMin": 12000.00,
-    "priceMax": 18000.00,
+    "priceMin": 12000,
+    "priceMax": 18000,
     "verified": true,
     "contact": {
       "wechat": false,
@@ -8946,7 +8946,7 @@
   },
   {
     "name": "再打工就发疯",
-    "avatar": "https://www.xiaohongshu.com/user/profile/5c9c63d10000000011017502?xhsshare=CopyLink&appuid=59d9cfe0b1da14584490ea0b&apptime=1729067813",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/260.jpg",
     "platform": "小红书",
     "category": [
       "职场趣事",
@@ -8971,12 +8971,12 @@
       "00后社牛",
       "职场喜剧风"
     ],
-    "personaStability": 9.600,
-    "cooperationReputation": 9.700,
-    "commentQuality": 9.500,
-    "contentInnovation": 9.700,
-    "platformIndex": 9.800,
-    "platformRecommendationProb": 0.880,
+    "personaStability": 9.6,
+    "cooperationReputation": 9.7,
+    "commentQuality": 9.5,
+    "contentInnovation": 9.7,
+    "platformIndex": 9.8,
+    "platformRecommendationProb": 0.88,
     "scores": {
       "adaptability_score": 95,
       "influence_score": 95,
@@ -8990,8 +8990,8 @@
       "适配多品类品牌广告"
     ],
     "priceRange": "中高",
-    "priceMin": 12000.00,
-    "priceMax": 18000.00,
+    "priceMin": 12000,
+    "priceMax": 18000,
     "verified": true,
     "contact": {
       "wechat": false,
