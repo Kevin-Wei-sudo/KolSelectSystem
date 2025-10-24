@@ -56,6 +56,18 @@ export const influencerAPI = {
   getOverviewStats: () => {
     return api.get('/influencers/stats/overview');
   },
+
+  // 获取预设语句（Java 后端）
+  getPresetPhrases: () => {
+    return api.get('/influencers/options/preset-phrases');
+  },
+
+  // 按预设语句搜索（Java 后端，GET + query params）
+  searchByPreset: ({ phrase, page = 1, pageSize = 20 }) => {
+    return api.get('/influencers/search/preset', {
+      params: { phrase, page, pageSize },
+    });
+  },
 };
 
 // 数据管理API
