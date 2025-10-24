@@ -9,6 +9,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.io.InputStream;
 import java.math.BigDecimal;
@@ -22,9 +23,18 @@ public class DataImportService {
 
     private final InfluencerRepository influencerRepository;
 
+    @Transactional
     public int reloadFromResources() {
-        // 清空旧数据
-        influencerRepository.deleteAll();
+        return reloadFromResources(true);
+    }
+
+    @Transactional
+    public int reloadFromResources(boolean clearFirst) {
+        if (clearFirst) {
+            // 清空旧数据
+            influencerRepository.deleteAll();
+            log.info("Cleared existing influencer data");
+        }
         int total = 0;
         total += importFile("static/data/mock-data-douyin.json");
         total += importFile("static/data/mock-data-xiaohongshu.json");

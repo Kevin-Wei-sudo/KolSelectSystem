@@ -68,7 +68,7 @@ public class CrawlerService {
         savedXhs = 0;
         phase = Phase.CONNECT_DOUYIN;
         currentPlatform = "抖音";
-        addLog("info", "crawler started");
+        addLog("info", "开始爬取");
         // 每次启动：清空并重新导入同一批数据
         try {
             int imported = dataImportService.reloadFromResources();
@@ -209,7 +209,7 @@ public class CrawlerService {
             runner.cancel(false);
             runner = null;
         }
-        addLog("info", userInitiated ? "crawler stopped" : "crawler stopped(auto)");
+        addLog("info", userInitiated ? "crawler stopped" : "爬虫已停止(auto)");
         if (userInitiated) {
             updateConfigOnStopped();
         }

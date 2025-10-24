@@ -84,8 +84,6 @@ public class Influencer {
     @Comment("粉丝增长趋势")
     private String fansGrowthTrend;
 
-    @ElementCollection
-    @CollectionTable(name = "sys_influencer_style_tags", joinColumns = @JoinColumn(name = "influencer_id"))
     @Column(name = "tag", length = 64)
     @Comment("风格标签")
     private List<String> styleTags;
@@ -128,8 +126,6 @@ public class Influencer {
     @Comment("潜力等级")
     private String potentialLevel;
 
-    @ElementCollection
-    @CollectionTable(name = "sys_influencer_prediction_reasons", joinColumns = @JoinColumn(name = "influencer_id"))
     @Column(name = "reason", length = 256)
     @Comment("潜力预测原因")
     private List<String> predictionReasons;

@@ -58,5 +58,18 @@ export const influencerAPI = {
   },
 };
 
+// 数据管理API
+export const dataAPI = {
+  // 重置Demo数据
+  resetDemo: () => {
+    return api.post('/data/reset-demo');
+  },
+  
+  // 测试数据库连接
+  testDatabase: () => {
+    return api.get('/data/test-db');
+  },
+};
+
 export default api;
 
