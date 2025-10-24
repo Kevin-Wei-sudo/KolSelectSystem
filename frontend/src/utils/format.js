@@ -13,7 +13,7 @@ export const formatNumberShort = (num) => {
   if (num === undefined || num === null) return '0';
   
   if (num >= 100000000) {
-    return (num / 100000000).toFixed(2) + '亿';
+    return (num / 100000000).toFixed(2) + '万';
   } else if (num >= 10000) {
     return (num / 10000).toFixed(2) + '万';
   } else {

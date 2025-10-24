@@ -116,7 +116,13 @@ const ComparePage = () => {
       key: '2',
       metric: '类目',
       ...influencers.reduce((acc, inf, index) => {
-        acc[`inf${index}`] = inf.category;
+        acc[`inf${index}`] = (
+          <Space wrap size={4}>
+            {Array.isArray(inf.category)
+              ? inf.category.map((cat) => <Tag key={cat}>{cat}</Tag>)
+              : inf.category && <Tag>{inf.category}</Tag>}
+          </Space>
+        );
         return acc;
       }, {}),
     },
@@ -290,7 +296,9 @@ const ComparePage = () => {
             </Space>
             <div className="influencer-tags">
               <Tag color="blue">{inf.platform}</Tag>
-              <Tag>{inf.category}</Tag>
+              {Array.isArray(inf.category)
+                ? inf.category.map((cat) => <Tag key={cat}>{cat}</Tag>)
+                : inf.category && <Tag>{inf.category}</Tag>}
             </div>
           </div>
         </div>

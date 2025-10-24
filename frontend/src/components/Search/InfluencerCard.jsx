@@ -75,7 +75,13 @@ const InfluencerCard = ({ influencer, selected, onSelectChange }) => {
               </Space>
               <Space size={8} wrap>
                 <Tag color="blue">{influencer.platform}</Tag>
-                <Tag>{influencer.category}</Tag>
+                {Array.isArray(influencer.category) ? (
+                  influencer.category.map((cat) => (
+                    <Tag key={cat}>{cat}</Tag>
+                  ))
+                ) : (
+                  influencer.category && <Tag>{influencer.category}</Tag>
+                )}
                 <Tag>{influencer.gender}</Tag>
               </Space>
               {influencer.mcn && (

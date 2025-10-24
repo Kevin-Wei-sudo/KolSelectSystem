@@ -39,7 +39,7 @@ export const exportToExcel = async (influencers, filename = '达人列表') => {
       id: inf.id,
       name: inf.name,
       platform: inf.platform,
-      category: inf.category,
+      category: Array.isArray(inf.category) ? inf.category.join('、') : inf.category,
       gender: inf.gender,
       followers_count: inf.followers_count,
       avg_views: inf.avg_views,
@@ -91,7 +91,7 @@ export const exportComparisonToExcel = async (comparison, filename = '达人对�
     ws1.addRow({
       name: inf.name,
       platform: inf.platform,
-      category: inf.category,
+      category: Array.isArray(inf.category) ? inf.category.join('、') : inf.category,
       followers_count: inf.followers_count,
       avg_views: inf.avg_views,
       engagement_rate: (inf.engagement_rate * 100).toFixed(2) + '%',

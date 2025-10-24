@@ -1,4 +1,4 @@
-package com.data.creator.config;
+package com.data.creator.configs;
 
 import com.data.creator.repositories.InfluencerRepository;
 import com.data.creator.services.DataImportService;

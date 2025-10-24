@@ -36,9 +36,10 @@ public class Influencer {
     @Comment("所属平台，如抖音、快手")
     private String platform;
 
-    @Column(name = "category", length = 64)
+    @JdbcTypeCode(SqlTypes.JSON)
+    @Column(name = "category", columnDefinition = "jsonb")
     @Comment("达人分类，如美妆、旅游等")
-    private String category;
+    private List<String> category;
 
     @Column(name = "gender", length = 8)
     @Comment("性别")

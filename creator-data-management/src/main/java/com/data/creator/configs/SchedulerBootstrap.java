@@ -1,4 +1,4 @@
-package com.data.creator.config;
+package com.data.creator.configs;
 
 import com.data.creator.entities.SchedulerConfig;
 import com.data.creator.repositories.SchedulerConfigRepository;

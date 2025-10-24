@@ -147,7 +147,13 @@ const DetailPage = () => {
                 </Space>
                 <div className="profile-tags">
                   <Tag color="blue" style={{ fontSize: 14 }}>{influencer.platform}</Tag>
-                  <Tag style={{ fontSize: 14 }}>{influencer.category}</Tag>
+                  {Array.isArray(influencer.category) ? (
+                    influencer.category.map((cat) => (
+                      <Tag key={cat} style={{ fontSize: 14 }}>{cat}</Tag>
+                    ))
+                  ) : (
+                    influencer.category && <Tag style={{ fontSize: 14 }}>{influencer.category}</Tag>
+                  )}
                   <Tag style={{ fontSize: 14 }}>{influencer.gender}</Tag>
                   <Tag style={{ fontSize: 14 }}>{influencer.age_range}岁</Tag>
                   <Tag style={{ fontSize: 14 }}>{influencer.location}</Tag>

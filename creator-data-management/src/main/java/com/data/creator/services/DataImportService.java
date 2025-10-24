@@ -72,9 +72,11 @@ public class DataImportService {
         inf.setName(raw.name);
         inf.setAvatar(raw.avatar);
         inf.setPlatform(raw.platform);
-        // category: 取第一个或拼接
+        // category: 原样保存为列表
         if (raw.category != null && !raw.category.isEmpty()) {
-            inf.setCategory(raw.category.get(0));
+            inf.setCategory(raw.category);
+        } else {
+            inf.setCategory(null);
         }
         inf.setGender(raw.gender);
         inf.setAgeRange(raw.ageRange);
