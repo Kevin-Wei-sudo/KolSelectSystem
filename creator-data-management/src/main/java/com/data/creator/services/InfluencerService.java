@@ -2,7 +2,7 @@ package com.data.creator.services;
 
 import com.data.creator.dtos.InfluencerDTO;
 import com.data.creator.entities.Influencer;
-import com.data.creator.repositories.InfluencerRepository;
+import com.data.creator.repositories.*;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Sort;
@@ -11,6 +11,9 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
+
+import java.util.Map;
+import java.util.LinkedHashMap;
 
 @Slf4j
 @Service
@@ -115,10 +118,10 @@ public class InfluencerService {
         influencerDTO.setPriceMin(influencer.getPriceMin());
         influencerDTO.setPriceMax(influencer.getPriceMax());
         influencerDTO.setVerified(influencer.getVerified());
-        influencer.setContact(new Influencer.Contact(
-                influencer.getContact().getWechat(),
-                influencer.getContact().getEmail(),
-                influencer.getContact().getPhone()
+        influencerDTO.setContact(new InfluencerDTO.Contact(
+                influencer.getContact() != null && Boolean.TRUE.equals(influencer.getContact().getWechat()),
+                influencer.getContact() != null && Boolean.TRUE.equals(influencer.getContact().getEmail()),
+                influencer.getContact() != null && Boolean.TRUE.equals(influencer.getContact().getPhone())
         ));
         influencerDTO.setRecentWorks(influencer.getRecentWorks());
         return influencerDTO;
@@ -134,5 +137,55 @@ public class InfluencerService {
         if (dto.getPredictionReasons() != null) sb.append("潜力预测原因：").append(String.join("、", dto.getPredictionReasons())).append("，");
         return sb.toString().trim();
     }
-    
+
+
+    // --------------- 预设语句常量 ---------------
+    public static final List<String> PRESET_PHRASES = List.of(
+            "帮我找10个小红书美妆类的女性达人，粉丝在10-50万，互动率要高",
+            "找一些抖音美食类的达人，爆款潜力高，粉丝在上升期",
+            "推荐几个B站数码类的达人，专业风格，粉丝50万以上",
+            "找快手搞笑类达人，性价比高，口碑好",
+            "小红书时尚类达人，粉丝20-100万，完播率高",
+            "抖音旅游类达人，爆款潜力S级或A级，女性",
+            "找一些母婴类达人，亲民风格，商单口碑好",
+            "运动健身类达人，男性，粉丝在增长中"
+    );
+
+
+    public List<InfluencerDTO> searchByPresetPhrase(String phrase) {
+        List<Influencer> filtered = switch (phrase.trim()) {
+            case "帮我找10个小红书美妆类的女性达人，粉丝在10-50万，互动率要高" ->
+                    influencerRepository.queryXhsBeautyFemaleHighEngagementTop10();
+            case "找一些抖音美食类的达人，爆款潜力高，粉丝在上升期" ->
+                    influencerRepository.queryDouyinFoodHighPotentialRisingTop20();
+            case "推荐几个B站数码类的达人，专业风格，粉丝50万以上" ->
+                    influencerRepository.queryBiliDigitalProfessionalFollowersOver500KTop5();
+            case "找快手搞笑类达人，性价比高，口碑好" ->
+                    influencerRepository.queryKuaishouComedyCostEffectiveGoodReputationTop20();
+            case "小红书时尚类达人，粉丝20-100万，完播率高" ->
+                    influencerRepository.queryXhsFashionFansRangeHighCompletionTop20();
+            case "抖音旅游类达人，爆款潜力S级或A级，女性" ->
+                    influencerRepository.queryDouyinTravelPotentialSAFemaleTop20();
+            case "找一些母婴类达人，亲民风格，商单口碑好" ->
+                    influencerRepository.queryMotherBabyFriendlyStyleGoodReputationTop20();
+            case "运动健身类达人，男性，粉丝在增长中" ->
+                    influencerRepository.querySportsFitnessMaleGrowthIncreasingTop20();
+            default -> List.of();
+        };
+        return filtered.stream().map(this::influencerToDTO).toList();
+    }
+
+    public Map<String, Object> getStatsSummary() {
+        long total = influencerRepository.count();
+        long highPotential = influencerRepository.countHighPotentialLevelSA();
+        Long avgFollowers = influencerRepository.avgFollowersCountAsLong();
+        long distinctPlatforms = influencerRepository.countDistinctPlatforms();
+
+        Map<String, Object> result = new LinkedHashMap<>();
+        result.put("totalInfluencers", total);
+        result.put("highPotentialCount", highPotential);
+        result.put("averageFollowersCount", avgFollowers == null ? 0L : avgFollowers);
+        result.put("platformCount", distinctPlatforms);
+        return result;
+    }
 }
