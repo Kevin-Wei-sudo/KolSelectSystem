@@ -10,6 +10,10 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+
 import java.time.OffsetDateTime;
 import java.util.*;
 
@@ -85,5 +89,28 @@ public class InfluencerController {
         data.put("platformStats", platformStats);
         data.put("lastUpdate", lastUpdate != null ? lastUpdate : OffsetDateTime.now());
         return ApiResponse.ok(data);
+    }
+
+    // === 新增：预设语句查询接口 ===
+    @GetMapping("/search/preset")
+    public ApiResponse<List<Influencer>> searchByPreset(
+            @RequestParam("phrase") String phrase,
+            @RequestParam(value = "page", defaultValue = "1") int page,
+            @RequestParam(value = "pageSize", defaultValue = "20") int pageSize
+    ) {
+        if (phrase == null || phrase.trim().isEmpty()) {
+            return ApiResponse.fail("请输入预设语句");
+        }
+        int p = Math.max(page - 1, 0);
+        Pageable pageable = PageRequest.of(p, pageSize);
+        Page<Influencer> resultPage = influencerService.searchByPresetPhrase(phrase, pageable);
+        return ApiResponse.ok(resultPage.getContent(), resultPage.getTotalElements());
+    }
+
+    // === 新增：返回预设语句列表（用于前端下拉选择） ===
+    @GetMapping("/options/preset-phrases")
+    public ApiResponse<List<String>> presetPhrases() {
+        List<String> phrases = influencerService.getPresetPhrases();
+        return ApiResponse.ok(phrases);
     }
 }
