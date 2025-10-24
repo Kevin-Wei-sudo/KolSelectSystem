@@ -76,7 +76,7 @@ public class CrawlerService {
             douyinTotal = countFromResource("static/data/mock-data-douyin.json");
             xhsTotal = countFromResource("static/data/mock-data-xiaohongshu.json");
             datasetTotal = imported;
-            addLog("success", "database cleared & reloaded: " + imported + " influencers");
+            addLog("success", "正在加载数据");
         } catch (Exception e) {
             addLog("error", "reload failed: " + e.getMessage());
             updateConfigOnError(e.getMessage());

@@ -1,4 +1,4 @@
-package com.data.creator.config;
+package com.data.creator.configs;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

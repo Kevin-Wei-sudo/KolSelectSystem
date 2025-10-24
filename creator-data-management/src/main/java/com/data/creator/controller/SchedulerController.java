@@ -1,4 +1,4 @@
-package com.data.creator.api;
+package com.data.creator.controller;
 
 import com.data.creator.dto.ApiResponse;
 import com.data.creator.services.SchedulerService;

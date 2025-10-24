@@ -1,4 +1,4 @@
-package com.data.creator.api;
+package com.data.creator.controller;
 
 import com.data.creator.dto.ApiResponse;
 import com.data.creator.services.CrawlerService;
@@ -19,13 +19,13 @@ public class CrawlerController {
     @PostMapping("/start")
     public ApiResponse<Map<String, Object>> start() {
         crawlerService.start();
-        return ApiResponse.ok(Map.of("message", "crawler started"));
+        return ApiResponse.ok(Map.of("message", "爬虫已启动"));
     }
 
     @PostMapping("/stop")
     public ApiResponse<Map<String, Object>> stop() {
         crawlerService.stop();
-        return ApiResponse.ok(Map.of("message", "crawler stopped"));
+        return ApiResponse.ok(Map.of("message", "爬虫已完成"));
     }
 
     @PostMapping("/reset")
