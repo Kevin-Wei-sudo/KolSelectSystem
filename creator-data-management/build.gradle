@@ -30,6 +30,7 @@ ext {
 	set('springAiVersion', "1.0.3")
 	set('postgresqlVersion', "42.7.8")
 	set('hutoolVersion', "5.8.24")
+	set('huaweicloudVersion', "3.25.5")
 }
 
 dependencies {
@@ -42,6 +43,7 @@ dependencies {
 	annotationProcessor 'org.projectlombok:lombok'
 	runtimeOnly "org.postgresql:postgresql:${postgresqlVersion}"
 	implementation "cn.hutool:hutool-core:${hutoolVersion}"
+	implementation "com.huaweicloud:esdk-obs-java-bundle:${huaweicloudVersion}"
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }

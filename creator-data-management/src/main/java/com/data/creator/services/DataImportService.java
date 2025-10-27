@@ -6,6 +6,7 @@ import com.data.creator.douyin.DouyinGetUserVideoService;
 import com.data.creator.dto.RawInfluencer;
 import com.data.creator.entities.Influencer;
 import com.data.creator.repositories.InfluencerRepository;
+import com.data.creator.storage.ObsFileStorage;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -33,6 +34,8 @@ public class DataImportService {
     private final ResourceLoader resourceLoader;
 
     private final Snowflake snowflake;
+    
+    private final ObsFileStorage obsFileStorage;
 
     @Transactional
     public void importFile() {
@@ -83,11 +86,18 @@ public class DataImportService {
                 Integer explosiveContentCount = 0;
                 JsonNode jsonNode = douyinGetUserVideoService.getUserVideo(secUserIds.get(i), 1).get(0);
                 for (JsonNode video : jsonNode.get("aweme_list")) {
+                    // 视频ID
+                    String awemeId = video.get("aweme_id").asText("");
                     // 视频链接
                     String videoUrl = video.get("video").get("play_addr").get("url_list").get(2).asText("");
                     // 视频封面
                     String cover = video.get("video").get("cover").get("url_list").get(0).asText("");
-                    recentWorks.add(new Influencer.Works(videoUrl, cover));
+                    if (recentWorks.size() < 3) {
+                        recentWorks.add(new Influencer.Works(
+                                obsFileStorage.uploadFileByUrlStream(String.format("%s/%s/%s.mp4", uniqueId, awemeId, awemeId), videoUrl),
+                                obsFileStorage.uploadFileByUrlStream(String.format("%s/%s/%s.jpg", uniqueId, awemeId, awemeId), cover))
+                        );
+                    }
                     // 视频点赞数
                     long diggCount = video.get("statistics").get("digg_count").asLong();
                 }
