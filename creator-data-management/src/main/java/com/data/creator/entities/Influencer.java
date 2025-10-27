@@ -7,9 +7,11 @@ import lombok.AllArgsConstructor;
 import org.hibernate.annotations.Comment;
 import org.hibernate.annotations.JdbcTypeCode;
 import org.hibernate.type.SqlTypes;
+import org.springframework.data.annotation.CreatedDate;
+import org.springframework.data.annotation.LastModifiedDate;
+import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import java.math.BigDecimal;
-import java.time.OffsetDateTime;
 import java.util.List;
 
 @Data
@@ -17,12 +19,13 @@ import java.util.List;
 @AllArgsConstructor
 @Entity
 @Table(name = "sys_influencer")
+@EntityListeners(AuditingEntityListener.class)
 public class Influencer {
 
     @Id
     @Column(name = "id", nullable = false, length = 64)
     @Comment("达人ID")
-    private String id;
+    private Long id;
 
     @Column(name = "name", nullable = false, length = 128)
     @Comment("达人名称")
@@ -55,11 +58,11 @@ public class Influencer {
 
     @Column(name = "followers_count")
     @Comment("粉丝数")
-    private Long followersCount;
+    private Integer followersCount;
 
     @Column(name = "avg_views")
     @Comment("平均播放量")
-    private Long avgViews;
+    private Integer avgViews;
 
     @Column(name = "engagement_rate", precision = 4, scale = 2)
     @Comment("互动率")
@@ -159,25 +162,27 @@ public class Influencer {
     @JdbcTypeCode(SqlTypes.JSON)
     @Column(name = "recent_works", columnDefinition = "jsonb")
     @Comment("近期作品")
-    private List<Object> recentWorks;
+    private List<Works> recentWorks;
 
-    @JdbcTypeCode(SqlTypes.JSON)
-    @Column(name = "cooperation_history", columnDefinition = "jsonb")
-    @Comment("合作历史")
-    private List<Object> cooperationHistory;
+//    @JdbcTypeCode(SqlTypes.JSON)
+//    @Column(name = "cooperation_history", columnDefinition = "jsonb")
+//    @Comment("合作历史")
+//    private List<Object> cooperationHistory;
 
     @JdbcTypeCode(SqlTypes.JSON)
     @Column(name = "tags", columnDefinition = "jsonb")
     @Comment("其他标签")
-    private List<Object> tags;
+    private List<String> tags;
 
-    @Column(name = "created_at", columnDefinition = "timestamp with time zone")
+    @CreatedDate
+    @Column(name = "created_at", nullable = false, updatable = false)
     @Comment("创建时间")
-    private OffsetDateTime createdAt;
+    private Long createdAt;
 
-    @Column(name = "updated_at", columnDefinition = "timestamp with time zone")
+    @LastModifiedDate
+    @Column(name = "updated_at", nullable = false)
     @Comment("更新时间")
-    private OffsetDateTime updatedAt;
+    private Long updatedAt;
 
     // ---------- 子类 ----------
 
@@ -209,5 +214,13 @@ public class Influencer {
         private Boolean wechat;
         private Boolean email;
         private Boolean phone;
+    }
+
+    @Data
+    @NoArgsConstructor
+    @AllArgsConstructor
+    public static class Works {
+        private String videoUrl;
+        private String cover;
     }
 }

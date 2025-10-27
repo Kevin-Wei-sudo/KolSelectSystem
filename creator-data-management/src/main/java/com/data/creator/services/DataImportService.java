@@ -1,226 +1,154 @@
 package com.data.creator.services;
 
+import cn.hutool.core.lang.Snowflake;
+import com.data.creator.douyin.DouyinGetUserInfoService;
+import com.data.creator.douyin.DouyinGetUserVideoService;
+import com.data.creator.dto.RawInfluencer;
 import com.data.creator.entities.Influencer;
 import com.data.creator.repositories.InfluencerRepository;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.databind.DeserializationFeature;
+import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.ResourceLoader;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
-import java.io.InputStream;
-import java.math.BigDecimal;
-import java.time.OffsetDateTime;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Stream;
 
 @Slf4j
 @Service
 @RequiredArgsConstructor
 public class DataImportService {
 
+    private final DouyinGetUserInfoService douyinGetUserInfoService;
+
+    private final DouyinGetUserVideoService douyinGetUserVideoService;
+
     private final InfluencerRepository influencerRepository;
 
-    @Transactional
-    public int reloadFromResources() {
-        return reloadFromResources(true);
-    }
+    private final ResourceLoader resourceLoader;
+
+    private final Snowflake snowflake;
 
     @Transactional
-    public int reloadFromResources(boolean clearFirst) {
-        if (clearFirst) {
-            // 清空旧数据
-            influencerRepository.deleteAll();
-            log.info("Cleared existing influencer data");
-        }
-        int total = 0;
-        total += importFile("static/data/mock-data-douyin.json");
-        total += importFile("static/data/mock-data-xiaohongshu.json");
-        log.info("Imported {} influencers from JSON resources.", total);
-        return total;
-    }
-
-    private int importFile(String classpathLocation) {
+    public void importFile() {
+        String location = "classpath:static/data/mock-data-douyin.json";
         try {
-            ClassPathResource resource = new ClassPathResource(classpathLocation);
-            try (InputStream is = resource.getInputStream()) {
-                ObjectMapper mapper = new ObjectMapper();
-                mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
-                RawInfluencer[] raws = mapper.readValue(is, RawInfluencer[].class);
-                OffsetDateTime now = OffsetDateTime.now();
-                int count = 0;
-                for (RawInfluencer raw : raws) {
-                    Influencer inf = mapToEntity(raw);
-                    inf.setId(UUID.randomUUID().toString());
-                    inf.setCreatedAt(now);
-                    inf.setUpdatedAt(now);
-                    influencerRepository.save(inf);
-                    count++;
+            ObjectMapper mapper = new ObjectMapper().configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+            RawInfluencer[] rawInfluencers = mapper.readValue(resourceLoader.getResource(location).getInputStream(), RawInfluencer[].class);
+            List<String> secUserIds = Stream.of(
+                    "https://www.douyin.com/user/MS4wLjABAAAAYnUYHpnrwrt_1s-I8mtc8fmvHOLKlTqfY7IjCGHhMq4",
+                    "https://www.douyin.com/user/MS4wLjABAAAA8Haxmu5UNyVfhgwOqIVGITenwtaSUNKl-2oepzOuxHA",
+                    "https://www.douyin.com/user/MS4wLjABAAAAGmeaBCD1FkF877GTbVOsakBHC27xuNf1PkFXY7nPzp4",
+                    "https://www.douyin.com/user/MS4wLjABAAAA4BHCJRx6s1nOOQm2adN4ZnNdAW1DhprmsOsr-jUb3LQ",
+                    "https://www.douyin.com/user/MS4wLjABAAAAhNHi-d7yfRBRmP2mxHV3tAmTH5fxVpriuDwyqmTV-F0",
+                    "https://www.douyin.com/user/MS4wLjABAAAAc3kFtkn5Dr4uyaOWBBVGPgb1JWUhKDEWuc65P6orE2Q",
+                    "https://www.douyin.com/user/MS4wLjABAAAAmfFyOF0keQDKqAJHHcEPjiuEXCWgAnHo6zxg6ytNOFI",
+                    "https://www.douyin.com/user/MS4wLjABAAAA-BZu75pCWeF-l-41Wy68jncroFyLQjtwIJ3dNulj_Uk",
+                    "https://www.douyin.com/user/MS4wLjABAAAA-VZVLq2y-GfS4XYThbc8xq8GGPonJnEK741TlGrRJzI",
+                    "https://www.douyin.com/user/MS4wLjABAAAA9qJS8rXNZfYELnSnZE-PypNPLJ-GimGPZ4rvv6sl3OU",
+                    "https://www.douyin.com/user/MS4wLjABAAAAte4Lowzp8ZUz0lvlZ9_GvwJqC8XjtB9zVG4sPSmfFF8",
+                    "https://www.douyin.com/user/MS4wLjABAAAAt1k_sKG3NRwtEFmhj_afRUt4ol2zDXIEOEDv5lVzm1w",
+                    "https://www.douyin.com/user/MS4wLjABAAAAdCYHqu1vcchOjHhi7Ccu4Ykkr-E_j1r8iIfb7z78p9E",
+                    "https://www.douyin.com/user/MS4wLjABAAAAy8OvHm4Iek7Ytz8gFG46JfST45hgNXCS-9vF1c4DTa0",
+                    "https://www.douyin.com/user/MS4wLjABAAAAjS2F8CKjcvueCO4-x5VM7ChK1Do1VAtlgXe-nEMCcls",
+                    "https://www.douyin.com/user/MS4wLjABAAAAfrRoM9Rzmns3gYn2NZEH2veXDlJgQvPgwhpKnuquWkk",
+                    "https://www.douyin.com/user/MS4wLjABAAAAzOa9kOdV0B93nJK72U3KgrDm1C9lL7smuFDZ6AdDI9c",
+                    "https://www.douyin.com/user/MS4wLjABAAAApnigEC0Mn8xPNHn3p3nswOSskKaVYWXt3P0ocxmVuU4",
+                    "https://www.douyin.com/user/MS4wLjABAAAAf_bEXQQScSwI5cfzk10Pjv5J1RYRHg2AFNUm_5WozzE",
+                    "https://www.douyin.com/user/MS4wLjABAAAAdmz1bNtWbyXx4dzNvNp_6pW8SBEt6f7uJmcFciswMdc"
+            ).map(s -> s.replaceFirst(".*/user/", "")).toList();
+
+            for (int i = 0; i < 1; i++) {
+                RawInfluencer dto = rawInfluencers[i];
+                JsonNode userInfo = douyinGetUserInfoService.getUserInfo(secUserIds.get(i));
+                // 抖音Id
+                String uniqueId = userInfo.get("user").get("unique_id").asText("");
+                // 抖音昵称
+                String nickname  = userInfo.get("user").get("nickname").asText("");
+                // 抖音关注数
+                long followingCount   = userInfo.get("user").get("following_count").asLong();
+                // 抖音粉丝数
+                long followerCount   = userInfo.get("user").get("follower_count").asLong();
+                // 抖音获赞数
+                long totalFavorited = userInfo.get("user").get("total_favorited").asLong();
+                // 抖音头像
+                String avatar = userInfo.get("user").get("avatar_larger").get("url_list").get(0).asText("");
+
+                List<Influencer.Works> recentWorks = new ArrayList<>();
+                Integer explosiveContentCount = 0;
+                JsonNode jsonNode = douyinGetUserVideoService.getUserVideo(secUserIds.get(i), 1).get(0);
+                for (JsonNode video : jsonNode.get("aweme_list")) {
+                    // 视频链接
+                    String videoUrl = video.get("video").get("play_addr").get("url_list").get(2).asText("");
+                    // 视频封面
+                    String cover = video.get("video").get("cover").get("url_list").get(0).asText("");
+                    recentWorks.add(new Influencer.Works(videoUrl, cover));
+                    // 视频点赞数
+                    long diggCount = video.get("statistics").get("digg_count").asLong();
                 }
-                return count;
+
+                Influencer influencer = new Influencer();
+                influencer.setId(snowflake.nextId());
+                influencer.setName(nickname);
+                influencer.setAvatar(avatar);
+                influencer.setPlatform(dto.getPlatform());
+                influencer.setCategory(dto.getCategory());
+                influencer.setGender(dto.getGender());
+                influencer.setAgeRange(dto.getAgeRange());
+                influencer.setLocation(dto.getLocation());
+                influencer.setFollowersCount((int) followerCount);
+                influencer.setAvgViews((int)totalFavorited);
+                influencer.setEngagementRate(dto.getEngagementRate());
+                influencer.setCompletionRate(dto.getCompletionRate());
+                influencer.setPublishFrequency30d(dto.getPublishFrequency30d());
+                influencer.setPublishFrequency90d(dto.getPublishFrequency90d());
+                influencer.setExplosiveContentCount(explosiveContentCount);
+                influencer.setFansGrowthTrend(dto.getFansGrowthTrend());
+                influencer.setStyleTags(dto.getStyleTags());
+                influencer.setPersonaStability(dto.getPersonaStability());
+                influencer.setCooperationReputation(dto.getCooperationReputation());
+                influencer.setFansProfile(new Influencer.FansProfile(
+                        dto.getFansProfile().getAge_18_24(),
+                        dto.getFansProfile().getAge_25_34(),
+                        dto.getFansProfile().getGender_female(),
+                        dto.getFansProfile().getCities_tier1(),
+                        dto.getFansProfile().getCities_tier2()
+                ));
+                influencer.setCommentQuality(dto.getCommentQuality());
+                influencer.setContentInnovation(dto.getContentInnovation());
+                influencer.setPlatformIndex(dto.getPlatformIndex());
+                influencer.setPlatformRecommendationProb(dto.getPlatformRecommendationProb());
+                influencer.setScores(new Influencer.Scores(
+                        dto.getScores().getAdaptability_score(),
+                        dto.getScores().getInfluence_score(),
+                        dto.getScores().getStickiness_score(),
+                        dto.getScores().getPotential_score()
+                ));
+                influencer.setPotentialLevel(dto.getPotentialLevel());
+                influencer.setPredictionReasons(dto.getPredictionReasons());
+                influencer.setPriceRange(dto.getPriceRange());
+                influencer.setPriceMin(dto.getPriceMin());
+                influencer.setPriceMax(dto.getPriceMax());
+                influencer.setVerified(dto.getVerified());
+                influencer.setMcn(dto.getMcn());
+                influencer.setContact(new Influencer.Contact(
+                        dto.getContact().getWechat(),
+                        dto.getContact().getEmail(),
+                        dto.getContact().getPhone()
+                ));
+                influencer.setRecentWorks(recentWorks);
+                influencer.setTags(dto.getTags());
+
+                influencerRepository.save(influencer);
             }
         } catch (Exception e) {
-            log.error("Failed to import file {}: {}", classpathLocation, e.getMessage(), e);
-            return 0;
-        }
-    }
-
-    private Influencer mapToEntity(RawInfluencer raw) {
-        Influencer inf = new Influencer();
-        inf.setName(raw.name);
-        inf.setAvatar(raw.avatar);
-        inf.setPlatform(raw.platform);
-        // category: 原样保存为列表
-        if (raw.category != null && !raw.category.isEmpty()) {
-            inf.setCategory(raw.category);
-        } else {
-            inf.setCategory(null);
-        }
-        inf.setGender(raw.gender);
-        inf.setAgeRange(raw.ageRange);
-        inf.setLocation(raw.location);
-        inf.setFollowersCount(optLong(raw.followersCount));
-        inf.setAvgViews(optLong(raw.avgViews));
-        inf.setEngagementRate(optBigDecimal(raw.engagementRate));
-        inf.setCompletionRate(optBigDecimal(raw.completionRate));
-        inf.setPublishFrequency30d(raw.publishFrequency30d);
-        inf.setPublishFrequency90d(raw.publishFrequency90d);
-        inf.setExplosiveContentCount(raw.explosiveContentCount);
-        inf.setFansGrowthTrend(raw.fansGrowthTrend);
-        inf.setStyleTags(raw.styleTags);
-        inf.setPersonaStability(optBigDecimal(raw.personaStability));
-        inf.setCooperationReputation(optBigDecimal(raw.cooperationReputation));
-        inf.setCommentQuality(optBigDecimal(raw.commentQuality));
-        inf.setContentInnovation(optBigDecimal(raw.contentInnovation));
-        inf.setPlatformIndex(optBigDecimal(raw.platformIndex));
-        inf.setPlatformRecommendationProb(optBigDecimal(raw.platformRecommendationProb));
-        // scores
-        if (raw.scores != null) {
-            Influencer.Scores s = new Influencer.Scores(
-                    raw.scores.adaptability_score,
-                    raw.scores.influence_score,
-                    raw.scores.stickiness_score,
-                    raw.scores.potential_score
-            );
-            inf.setScores(s);
-        }
-        inf.setPotentialLevel(raw.potentialLevel);
-        inf.setPredictionReasons(raw.predictionReasons);
-        inf.setPriceRange(raw.priceRange);
-        inf.setPriceMin(optBigDecimal(raw.priceMin));
-        inf.setPriceMax(optBigDecimal(raw.priceMax));
-        inf.setVerified(raw.verified);
-        // contact
-        if (raw.contact != null) {
-            Influencer.Contact c = new Influencer.Contact(
-                    raw.contact.wechat,
-                    raw.contact.email,
-                    raw.contact.phone
-            );
-            inf.setContact(c);
-        }
-        // recent works
-        if (raw.recentWorks != null) {
-            inf.setRecentWorks(new ArrayList<>(raw.recentWorks));
-        }
-        // tags：保留 styleTags 可作为 tags（附加）
-        if (raw.styleTags != null) {
-            inf.setTags(new ArrayList<>(raw.styleTags));
-        }
-        // fans_profile：按性别/年龄/城市生成简版画像
-        inf.setFansProfile(generateFansProfile(raw));
-        return inf;
-    }
-
-    private Influencer.FansProfile generateFansProfile(RawInfluencer raw) {
-        int age18_24 = 30;
-        int age25_34 = 40;
-        if (raw.ageRange != null) {
-            if (raw.ageRange.contains("20") || raw.ageRange.contains("25")) {
-                age18_24 = 45;
-                age25_34 = 35;
-            } else if (raw.ageRange.contains("28") || raw.ageRange.contains("30")) {
-                age18_24 = 25;
-                age25_34 = 45;
-            }
-        }
-        int female = "女".equals(raw.gender) ? 65 : 45;
-        int tier1 = 30;
-        int tier2 = 40;
-        if (raw.location != null) {
-            if (raw.location.contains("上海") || raw.location.contains("北京") || raw.location.contains("广州") || raw.location.contains("深圳")) {
-                tier1 = 40;
-                tier2 = 35;
-            } else {
-                tier1 = 20;
-                tier2 = 45;
-            }
-        }
-        return new Influencer.FansProfile(age18_24, age25_34, female, tier1, tier2);
-    }
-
-    private Long optLong(Number n) {
-        return n == null ? null : n.longValue();
-    }
-
-    private BigDecimal optBigDecimal(Number n) {
-        return n == null ? null : (n instanceof BigDecimal ? (BigDecimal) n : BigDecimal.valueOf(n.doubleValue()));
-    }
-
-    // -------- 原始 JSON DTO --------
-
-    @JsonIgnoreProperties(ignoreUnknown = true)
-    static class RawInfluencer {
-        public String name;
-        public String avatar;
-        public String platform;
-        public List<String> category;
-        public String gender;
-        public String ageRange;
-        public String location;
-        public Number followersCount;
-        public Number avgViews;
-        public Number engagementRate;
-        public Number completionRate;
-        public Integer publishFrequency30d;
-        public Integer publishFrequency90d;
-        public Integer explosiveContentCount;
-        public String fansGrowthTrend;
-        public List<String> styleTags;
-        public Number personaStability;
-        public Number cooperationReputation;
-        public Number commentQuality;
-        public Number contentInnovation;
-        public Number platformIndex;
-        public Number platformRecommendationProb;
-        public Scores scores;
-        public String potentialLevel;
-        public List<String> predictionReasons;
-        public String priceRange;
-        public Number priceMin;
-        public Number priceMax;
-        public Boolean verified;
-        public Contact contact;
-        public List<Object> recentWorks;
-        // 可选字段
-        public String mcn;
-        public List<Object> cooperationHistory;
-
-        @JsonIgnoreProperties(ignoreUnknown = true)
-        static class Scores {
-            public Integer adaptability_score;
-            public Integer influence_score;
-            public Integer stickiness_score;
-            public Integer potential_score;
-        }
-
-        @JsonIgnoreProperties(ignoreUnknown = true)
-        static class Contact {
-            public Boolean wechat;
-            public Boolean email;
-            public Boolean phone;
+            log.error("Failed to import file {}: {}", location, e.getMessage(), e);
+            // 发生异常时回滚事务（由 @Transactional 处理）
         }
     }
 }

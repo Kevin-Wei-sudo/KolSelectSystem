@@ -1,11 +1,14 @@
 package com.data.creator.controller;
 
 import com.data.creator.dto.ApiResponse;
+import com.data.creator.entities.Influencer;
+import com.data.creator.repositories.InfluencerRepository;
 import com.data.creator.services.CrawlerService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 import java.util.Map;
 
 @Slf4j
@@ -15,11 +18,13 @@ import java.util.Map;
 public class CrawlerController {
 
     private final CrawlerService crawlerService;
+    private final InfluencerRepository influencerRepository;
 
     @PostMapping("/start")
-    public ApiResponse<Map<String, Object>> start() {
-        crawlerService.start();
-        return ApiResponse.ok(Map.of("message", "爬虫已启动"));
+    public ApiResponse<?> start() {
+//        crawlerService.start();
+        List<Influencer> all = influencerRepository.findAll();
+        return ApiResponse.ok(all);
     }
 
     @PostMapping("/stop")

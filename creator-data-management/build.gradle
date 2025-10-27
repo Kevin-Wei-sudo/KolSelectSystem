@@ -29,6 +29,7 @@ ext {
 	set('commonsLangVersion', "3.18.0")
 	set('springAiVersion', "1.0.3")
 	set('postgresqlVersion', "42.7.8")
+	set('hutoolVersion', "5.8.24")
 }
 
 dependencies {
@@ -40,6 +41,7 @@ dependencies {
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 	runtimeOnly "org.postgresql:postgresql:${postgresqlVersion}"
+	implementation "cn.hutool:hutool-core:${hutoolVersion}"
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
