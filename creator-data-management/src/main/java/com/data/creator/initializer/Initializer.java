@@ -18,7 +18,7 @@ public class Initializer {
 
 //        String secUserId = "MS4wLjABAAAA9WHC-IWbX7r5EEI1dbIYIaDqWisiG1kfYxuSC4OaiwLyxEYOYhiGaL77M0pVRRN8";
         String secUserId = "MS4wLjABAAAA8kiQb6tVZpjVEQ6MfXMcGrhrDM-SRYfvkJiOToiJhxu8fvnooz0F3EK0e6dPQFMK";
-        
+
         return args -> {
             JsonNode userInfo = douyinGetUserInfoService.getUserInfo(secUserId);
             // 抖音Id
@@ -34,7 +34,7 @@ public class Initializer {
             // 抖音头像
             String avatar = userInfo.get("user").get("avatar_larger").get("url_list").get(0).asText("");
 
-            // sout 打印
+            // IO.println 打印
             IO.println("===== Douyin User =====");
             IO.println("抖音号(unique_id):     " + uniqueId);
             IO.println("昵称(nickname):        " + nickname);
@@ -43,8 +43,33 @@ public class Initializer {
             IO.println("获赞数(totalFavorited):" + totalFavorited);
             IO.println("头像(avatar):          " + avatar);
             IO.println("=======================");
-            
-             douyinGetUserVideoService.getUserVideo(secUserId);
+
+            JsonNode jsonNode = douyinGetUserVideoService.getUserVideo(secUserId, 1);
+            JsonNode userVideo = jsonNode.get(0);
+            IO.println("===== Douyin User Videos =====");
+            for (JsonNode video : userVideo.get("aweme_list")) {
+                // 视频ID
+                String awemeId = video.get("aweme_id").asText("");
+                // 视频链接
+                String videoUrl = video.get("video").get("play_addr").get("url_list").get(2).asText("");
+                // 视频封面
+                String cover = video.get("video").get("cover").get("url_list").get(0).asText("");
+                // 视频评论数
+                long commentCount = video.get("statistics").get("comment_count").asLong();
+                // 视频播放数
+                long playCount = video.get("statistics").get("play_count").asLong();
+                // 视频点赞数
+                long diggCount = video.get("statistics").get("digg_count").asLong();
+                // IO.println 打印
+                IO.println("视频ID(awemeId): " + awemeId);
+                IO.println("视频链接(videoUrl): " + videoUrl);
+                IO.println("视频封面(cover): " + cover);
+                IO.println("视频评论数(commentCount): " + commentCount);
+                IO.println("视频播放数(playCount): " + playCount);
+                IO.println("视频点赞数(diggCount): " + diggCount);
+                IO.println("------------------------------");
+            }
+            IO.println("================================");
         };
     }
 }
