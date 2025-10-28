@@ -46,12 +46,12 @@ const FilterPanel = ({ onFilterChange, loading }) => {
 
     // 互动率
     if (values.engagementRate !== undefined) {
-      filters.engagementRateMin = values.engagementRate / 100;
+      filters.engagementRateMin = values.engagementRate;
     }
 
     // 完播率
     if (values.completionRate !== undefined) {
-      filters.completionRateMin = values.completionRate / 100;
+      filters.completionRateMin = values.completionRate;
     }
 
     // 评分筛选
@@ -175,9 +175,9 @@ const FilterPanel = ({ onFilterChange, loading }) => {
 
         <Divider>粉丝粘性筛选</Divider>
 
-        {/* 互动率 */}
+        {/* 互动率（范围改为 0-100） */}
         <Form.Item label={`互动率 ≥ (当前: ${form.getFieldValue('engagementRate') || 0}%)`} name="engagementRate">
-          <Slider min={0} max={15} step={0.5} marks={{ 0: '0%', 5: '5%', 10: '10%', 15: '15%' }} />
+          <Slider min={0} max={100} step={1} marks={{ 0: '0%', 20: '20%', 50: '50%', 100: '100%' }} />
         </Form.Item>
 
         {/* 完播率 */}
