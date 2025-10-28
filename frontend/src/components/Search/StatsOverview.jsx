@@ -13,10 +13,10 @@ const StatsOverview = ({ stats, onReload }) => {
 
   const loadDataStats = async () => {
     try {
-      const response = await axios.get('/api/data/stats');
-      if (response.data.success) {
-        setDataStats(response.data.data);
-      }
+      // const response = await axios.get('/api/data/stats');
+      // if (response.data.success) {
+      //   setDataStats(response.data.data);
+      // }
     } catch (error) {
       console.error('加载数据统计失败:', error);
     }

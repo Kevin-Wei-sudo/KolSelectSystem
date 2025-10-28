@@ -1,5 +1,7 @@
 package com.data.creator.entities;
 
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.fasterxml.jackson.databind.ser.std.ToStringSerializer;
 import jakarta.persistence.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -25,6 +27,7 @@ public class Influencer {
     @Id
     @Column(name = "id", nullable = false, length = 64)
     @Comment("达人ID")
+    @JsonSerialize(using = ToStringSerializer.class)
     private Long id;
 
     @Column(name = "name", nullable = false, length = 128)
@@ -164,10 +167,10 @@ public class Influencer {
     @Comment("近期作品")
     private List<Works> recentWorks;
 
-//    @JdbcTypeCode(SqlTypes.JSON)
-//    @Column(name = "cooperation_history", columnDefinition = "jsonb")
-//    @Comment("合作历史")
-//    private List<Object> cooperationHistory;
+    @JdbcTypeCode(SqlTypes.JSON)
+    @Column(name = "cooperation_history", columnDefinition = "jsonb")
+    @Comment("合作历史")
+    private List<String> cooperationHistory;
 
     @JdbcTypeCode(SqlTypes.JSON)
     @Column(name = "tags", columnDefinition = "jsonb")

@@ -66,7 +66,7 @@ public class DataImportService {
                     "https://www.douyin.com/user/MS4wLjABAAAAdmz1bNtWbyXx4dzNvNp_6pW8SBEt6f7uJmcFciswMdc"
             ).map(s -> s.replaceFirst(".*/user/", "")).toList();
 
-            for (int i = 0; i < 1; i++) {
+            for (int i = 0; i < 2; i++) {
                 RawInfluencer dto = rawInfluencers[i];
                 JsonNode userInfo = douyinGetUserInfoService.getUserInfo(secUserIds.get(i));
                 // 抖音Id
@@ -94,9 +94,11 @@ public class DataImportService {
                     String cover = video.get("video").get("cover").get("url_list").get(0).asText("");
                     if (recentWorks.size() < 3) {
                         recentWorks.add(new Influencer.Works(
-                                obsFileStorage.uploadFileByUrlStream(String.format("%s/%s/%s.mp4", uniqueId, awemeId, awemeId), videoUrl),
-                                obsFileStorage.uploadFileByUrlStream(String.format("%s/%s/%s.jpg", uniqueId, awemeId, awemeId), cover))
-                        );
+                                //obsFileStorage.uploadFileByUrlStream(String.format("%s/%s/%s.mp4", uniqueId, awemeId, awemeId), videoUrl),
+                                //obsFileStorage.uploadFileByUrlStream(String.format("%s/%s/%s.jpg", uniqueId, awemeId, awemeId), cover))
+                                videoUrl,
+                                cover
+                        ));
                     }
                     // 视频点赞数
                     long diggCount = video.get("statistics").get("digg_count").asLong();
