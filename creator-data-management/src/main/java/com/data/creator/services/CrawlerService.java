@@ -1,5 +1,6 @@
 package com.data.creator.services;
 
+import com.data.creator.constants.DouyinConstants;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -25,7 +26,7 @@ public class CrawlerService {
 
     private static final String[] PLATFORMS = {"抖音"};
     private static final int TOTAL_PLATFORMS = PLATFORMS.length;
-    private static final int TOTAL_INFLUENCERS = 20; // 总共要爬取的达人数量
+    private static final int TOTAL_INFLUENCERS = DouyinConstants.SEC_USER_IDS.size(); // 总共要爬取的达人数量
 
 
     public synchronized CompletableFuture<Void> start() {

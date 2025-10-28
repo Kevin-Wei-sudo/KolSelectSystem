@@ -1,6 +1,7 @@
 package com.data.creator.services;
 
 import cn.hutool.core.lang.Snowflake;
+import com.data.creator.constants.DouyinConstants;
 import com.data.creator.douyin.DouyinGetUserInfoService;
 import com.data.creator.douyin.DouyinGetUserVideoService;
 import com.data.creator.dto.RawInfluencer;
@@ -18,7 +19,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Stream;
 
 @Slf4j
 @Service
@@ -53,37 +53,15 @@ public class DataImportService {
         try {
             ObjectMapper mapper = new ObjectMapper().configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
             RawInfluencer[] rawInfluencers = mapper.readValue(resourceLoader.getResource(location).getInputStream(), RawInfluencer[].class);
-            List<String> secUserIds = Stream.of(
-                    "https://www.douyin.com/user/MS4wLjABAAAAYnUYHpnrwrt_1s-I8mtc8fmvHOLKlTqfY7IjCGHhMq4",
-                    "https://www.douyin.com/user/MS4wLjABAAAA8Haxmu5UNyVfhgwOqIVGITenwtaSUNKl-2oepzOuxHA",
-                    "https://www.douyin.com/user/MS4wLjABAAAAGmeaBCD1FkF877GTbVOsakBHC27xuNf1PkFXY7nPzp4",
-                    "https://www.douyin.com/user/MS4wLjABAAAA4BHCJRx6s1nOOQm2adN4ZnNdAW1DhprmsOsr-jUb3LQ",
-                    "https://www.douyin.com/user/MS4wLjABAAAAhNHi-d7yfRBRmP2mxHV3tAmTH5fxVpriuDwyqmTV-F0",
-                    "https://www.douyin.com/user/MS4wLjABAAAAc3kFtkn5Dr4uyaOWBBVGPgb1JWUhKDEWuc65P6orE2Q",
-                    "https://www.douyin.com/user/MS4wLjABAAAAmfFyOF0keQDKqAJHHcEPjiuEXCWgAnHo6zxg6ytNOFI",
-                    "https://www.douyin.com/user/MS4wLjABAAAA-BZu75pCWeF-l-41Wy68jncroFyLQjtwIJ3dNulj_Uk",
-                    "https://www.douyin.com/user/MS4wLjABAAAA-VZVLq2y-GfS4XYThbc8xq8GGPonJnEK741TlGrRJzI",
-                    "https://www.douyin.com/user/MS4wLjABAAAA9qJS8rXNZfYELnSnZE-PypNPLJ-GimGPZ4rvv6sl3OU",
-                    "https://www.douyin.com/user/MS4wLjABAAAAte4Lowzp8ZUz0lvlZ9_GvwJqC8XjtB9zVG4sPSmfFF8",
-                    "https://www.douyin.com/user/MS4wLjABAAAAt1k_sKG3NRwtEFmhj_afRUt4ol2zDXIEOEDv5lVzm1w",
-                    "https://www.douyin.com/user/MS4wLjABAAAAdCYHqu1vcchOjHhi7Ccu4Ykkr-E_j1r8iIfb7z78p9E",
-                    "https://www.douyin.com/user/MS4wLjABAAAAy8OvHm4Iek7Ytz8gFG46JfST45hgNXCS-9vF1c4DTa0",
-                    "https://www.douyin.com/user/MS4wLjABAAAAjS2F8CKjcvueCO4-x5VM7ChK1Do1VAtlgXe-nEMCcls",
-                    "https://www.douyin.com/user/MS4wLjABAAAAfrRoM9Rzmns3gYn2NZEH2veXDlJgQvPgwhpKnuquWkk",
-                    "https://www.douyin.com/user/MS4wLjABAAAAzOa9kOdV0B93nJK72U3KgrDm1C9lL7smuFDZ6AdDI9c",
-                    "https://www.douyin.com/user/MS4wLjABAAAApnigEC0Mn8xPNHn3p3nswOSskKaVYWXt3P0ocxmVuU4",
-                    "https://www.douyin.com/user/MS4wLjABAAAAf_bEXQQScSwI5cfzk10Pjv5J1RYRHg2AFNUm_5WozzE",
-                    "https://www.douyin.com/user/MS4wLjABAAAAdmz1bNtWbyXx4dzNvNp_6pW8SBEt6f7uJmcFciswMdc"
-            ).map(s -> s.replaceFirst(".*/user/", "")).toList();
 
-            for (int i = 0; i < 20; i++) {
+            for (int i = 0; i < DouyinConstants.SEC_USER_IDS.size(); i++) {
                 RawInfluencer dto = rawInfluencers[i];
                 
                 if (callback != null) {
                     callback.onProgress("正在获取第 " + (i + 1) + " 个达人信息...", i);
                 }
                 
-                JsonNode userInfo = douyinGetUserInfoService.getUserInfo(secUserIds.get(i));
+                JsonNode userInfo = douyinGetUserInfoService.getUserInfo(DouyinConstants.SEC_USER_IDS.get(i));
                 // 抖音Id
                 String uniqueId = userInfo.get("user").get("unique_id").asText("");
                 // 抖音昵称
@@ -99,21 +77,27 @@ public class DataImportService {
 
                 List<Influencer.Works> recentWorks = new ArrayList<>();
                 Integer explosiveContentCount = 0;
-                JsonNode jsonNode = douyinGetUserVideoService.getUserVideo(secUserIds.get(i), 1).get(0);
+                JsonNode jsonNode = douyinGetUserVideoService.getUserVideo(DouyinConstants.SEC_USER_IDS.get(i), 1).get(0);
                 for (JsonNode video : jsonNode.get("aweme_list")) {
-                    // 视频ID
-                    String awemeId = video.get("aweme_id").asText("");
-                    // 视频链接
-                    String videoUrl = video.get("video").get("play_addr").get("url_list").get(0).asText("");
-                    // 视频封面
-                    String cover = video.get("video").get("cover").get("url_list").get(0).asText("");
                     if (recentWorks.size() < 3) {
-                        recentWorks.add(new Influencer.Works(
-                                //obsFileStorage.uploadFileByUrlStream(String.format("%s/%s/%s.mp4", uniqueId, awemeId, awemeId), videoUrl),
-                                //obsFileStorage.uploadFileByUrlStream(String.format("%s/%s/%s.jpg", uniqueId, awemeId, awemeId), cover))
-                                videoUrl,
-                                cover
-                        ));
+                        try {
+                            // 视频ID
+                            String awemeId = video.get("aweme_id").asText("");
+                            // 视频链接
+                            String videoUrl = video.get("video").get("play_addr").get("url_list").get(2).asText("");
+                            // 视频封面
+                            String cover = video.get("video").get("cover").get("url_list").get(0).asText("");
+                            recentWorks.add(new Influencer.Works(
+                                    //obsFileStorage.uploadFileByUrlStream(String.format("%s/%s/%s.mp4", uniqueId, awemeId, awemeId), videoUrl),
+                                    //obsFileStorage.uploadFileByUrlStream(String.format("%s/%s/%s.jpg", uniqueId, awemeId, awemeId), cover))
+                                    videoUrl,
+                                    cover
+                            ));
+                        }catch (Exception e) {
+                            log.warn("这一条不是视频");
+                        }
+                    } else {
+                        break;
                     }
                     // 视频点赞数
                     long diggCount = video.get("statistics").get("digg_count").asLong();
@@ -181,7 +165,7 @@ public class DataImportService {
             
             log.info("数据导入完成");
             if (callback != null) {
-                callback.onProgress("数据导入完成", 2);
+                callback.onProgress("数据导入完成", DouyinConstants.SEC_USER_IDS.size());
             }
         } catch (Exception e) {
             log.error("Failed to import file {}: {}", location, e.getMessage(), e);
