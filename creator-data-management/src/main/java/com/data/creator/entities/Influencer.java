@@ -225,5 +225,19 @@ public class Influencer {
     public static class Works {
         private String videoUrl;
         private String cover;
+        private Statistics statistics;
+
+        @Data
+        @NoArgsConstructor
+        @AllArgsConstructor
+        public static class Statistics {
+            private Integer recommend_count;
+            private Integer comment_count;
+            private Integer digg_count;
+            private Integer admire_count;
+            private Integer play_count;
+            private Integer share_count;
+            private Integer collect_count;
+        }
     }
 }

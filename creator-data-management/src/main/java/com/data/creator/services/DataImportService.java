@@ -87,11 +87,34 @@ public class DataImportService {
                             String videoUrl = video.get("video").get("play_addr").get("url_list").get(2).asText("");
                             // 视频封面
                             String cover = video.get("video").get("cover").get("url_list").get(0).asText("");
+                            // 推荐/曝光相关计数（平台内部用法，可能为 0）
+                            Integer recommendCount = video.get("statistics").get("recommend_count").asInt();
+                            // 评论数
+                            Integer commentCount = video.get("statistics").get("comment_count").asInt();
+                            // 点赞数
+                            Integer diggCount = video.get("statistics").get("digg_count").asInt();
+                            // 赞赏/打赏次数（业务可选字段，常见为 0）
+                            Integer admireCount = video.get("statistics").get("admire_count").asInt();
+                            // 播放量（部分抓取口可能返回 0 或受去重策略影响）
+                            Integer playCount = video.get("statistics").get("play_count").asInt();
+                            // 转发/分享次数
+                            Integer shareCount = video.get("statistics").get("share_count").asInt();
+                            // 收藏次数
+                            Integer collectCount = video.get("statistics").get("collect_count").asInt();
                             recentWorks.add(new Influencer.Works(
                                     //obsFileStorage.uploadFileByUrlStream(String.format("%s/%s/%s.mp4", uniqueId, awemeId, awemeId), videoUrl),
                                     //obsFileStorage.uploadFileByUrlStream(String.format("%s/%s/%s.jpg", uniqueId, awemeId, awemeId), cover))
                                     videoUrl,
-                                    cover
+                                    cover,
+                                    new Influencer.Works.Statistics(
+                                            recommendCount,
+                                            commentCount,
+                                            diggCount,
+                                            admireCount,
+                                            playCount,
+                                            shareCount,
+                                            collectCount
+                                    )
                             ));
                         }catch (Exception e) {
                             log.warn("这一条不是视频");
