@@ -5,6 +5,13 @@ import { formatNumberShort, formatRelativeTime } from '../../utils/format';
 import './WorksGallery.css';
 
 const WorksGallery = ({ works }) => {
+  const sanitizeUrl = (url) => {
+    if (!url) return '';
+    const s = String(url).trim();
+    // 去掉首尾可能出现的反引号或引号
+    return s.replace(/^`+|`+$/g, '').replace(/^"+|"+$/g, '').replace(/^'+|'+$/g, '');
+  };
+
   return (
     <Row gutter={[16, 16]}>
       {works.map((work) => (
@@ -14,7 +21,15 @@ const WorksGallery = ({ works }) => {
             className="work-card"
             cover={
               <div className="work-cover">
-                <img alt={work.title} src={work.cover} />
+                {/* 点击封面跳转到视频链接（新窗口） */}
+                <a
+                  href={sanitizeUrl(work.video_url)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ display: 'block' }}
+                >
+                  <img alt={work.title || '作品封面'} src={sanitizeUrl(work.cover)} style={{ cursor: 'pointer' }} />
+                </a>
                 {work.is_explosive && (
                   <div className="explosive-badge">
                     <FireFilled /> 爆款
