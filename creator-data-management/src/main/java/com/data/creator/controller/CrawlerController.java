@@ -1,15 +1,10 @@
 package com.data.creator.controller;
 
 import com.data.creator.dto.ApiResponse;
-import com.data.creator.entities.Influencer;
-import com.data.creator.repositories.InfluencerRepository;
 import com.data.creator.services.CrawlerService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
-import java.util.Map;
 
 @Slf4j
 @RestController
@@ -18,29 +13,48 @@ import java.util.Map;
 public class CrawlerController {
 
     private final CrawlerService crawlerService;
-    private final InfluencerRepository influencerRepository;
 
     @PostMapping("/start")
     public ApiResponse<?> start() {
-//        crawlerService.start();
-        List<Influencer> all = influencerRepository.findAll();
-        return ApiResponse.ok(all);
+        try {
+            crawlerService.start();
+            return ApiResponse.ok("爬虫启动成功");
+        } catch (Exception e) {
+            log.error("启动爬虫失败", e);
+            return ApiResponse.fail("启动失败: " + e.getMessage());
+        }
     }
 
     @PostMapping("/stop")
-    public ApiResponse<Map<String, Object>> stop() {
-        crawlerService.stop();
-        return ApiResponse.ok(Map.of("message", "爬虫已完成"));
+    public ApiResponse<?> stop() {
+        try {
+            crawlerService.stop();
+            return ApiResponse.ok("爬虫停止成功");
+        } catch (Exception e) {
+            log.error("停止爬虫失败", e);
+            return ApiResponse.fail("停止失败: " + e.getMessage());
+        }
     }
 
     @PostMapping("/reset")
-    public ApiResponse<Map<String, Object>> reset() {
-        crawlerService.reset();
-        return ApiResponse.ok(Map.of("message", "crawler reset"));
+    public ApiResponse<?> reset() {
+        try {
+            crawlerService.reset();
+            return ApiResponse.ok("爬虫重置成功");
+        } catch (Exception e) {
+            log.error("重置爬虫失败", e);
+            return ApiResponse.fail("重置失败: " + e.getMessage());
+        }
     }
 
     @GetMapping("/status")
-    public ApiResponse<Map<String, Object>> status() {
-        return ApiResponse.ok(crawlerService.status());
+    public ApiResponse<CrawlerService.CrawlerStatus> getStatus() {
+        try {
+            CrawlerService.CrawlerStatus status = crawlerService.getStatus();
+            return ApiResponse.ok(status);
+        } catch (Exception e) {
+            log.error("获取爬虫状态失败", e);
+            return ApiResponse.fail("获取状态失败: " + e.getMessage());
+        }
     }
 }

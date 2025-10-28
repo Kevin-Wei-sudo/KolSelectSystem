@@ -37,8 +37,18 @@ public class DataImportService {
     
     private final ObsFileStorage obsFileStorage;
 
+    @FunctionalInterface
+    public interface ProgressCallback {
+        void onProgress(String message, int currentCount);
+    }
+
     @Transactional
     public void importFile() {
+        importFile(null);
+    }
+
+    @Transactional
+    public void importFile(ProgressCallback callback) {
         String location = "classpath:static/data/mock-data-douyin.json";
         try {
             ObjectMapper mapper = new ObjectMapper().configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
@@ -66,8 +76,13 @@ public class DataImportService {
                     "https://www.douyin.com/user/MS4wLjABAAAAdmz1bNtWbyXx4dzNvNp_6pW8SBEt6f7uJmcFciswMdc"
             ).map(s -> s.replaceFirst(".*/user/", "")).toList();
 
-            for (int i = 0; i < 2; i++) {
+            for (int i = 0; i < 20; i++) {
                 RawInfluencer dto = rawInfluencers[i];
+                
+                if (callback != null) {
+                    callback.onProgress("正在获取第 " + (i + 1) + " 个达人信息...", i);
+                }
+                
                 JsonNode userInfo = douyinGetUserInfoService.getUserInfo(secUserIds.get(i));
                 // 抖音Id
                 String uniqueId = userInfo.get("user").get("unique_id").asText("");
@@ -89,7 +104,7 @@ public class DataImportService {
                     // 视频ID
                     String awemeId = video.get("aweme_id").asText("");
                     // 视频链接
-                    String videoUrl = video.get("video").get("play_addr").get("url_list").get(2).asText("");
+                    String videoUrl = video.get("video").get("play_addr").get("url_list").get(0).asText("");
                     // 视频封面
                     String cover = video.get("video").get("cover").get("url_list").get(0).asText("");
                     if (recentWorks.size() < 3) {
@@ -157,6 +172,16 @@ public class DataImportService {
                 influencer.setTags(dto.getTags());
 
                 influencerRepository.save(influencer);
+                log.info("成功保存达人数据: {} (ID: {})", nickname, influencer.getId());
+                
+                if (callback != null) {
+                    callback.onProgress("成功保存达人: " + nickname, i + 1);
+                }
+            }
+            
+            log.info("数据导入完成");
+            if (callback != null) {
+                callback.onProgress("数据导入完成", 2);
             }
         } catch (Exception e) {
             log.error("Failed to import file {}: {}", location, e.getMessage(), e);
