@@ -194,4 +194,8 @@ public class DataImportService {
             // 发生异常时回滚事务（由 @Transactional 处理）
         }
     }
+
+    public void delete() {
+        influencerRepository.deleteAll();
+    }
 }

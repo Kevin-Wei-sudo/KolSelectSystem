@@ -17,19 +17,20 @@ public class DataController {
 
     private final DataImportService dataImportService;
     @GetMapping("/stats")
-    public ApiResponse<Map<String, Object>> stats() {
+    public ApiResponse<?> stats() {
         dataImportService.importFile();
         return ApiResponse.ok(null);
     }
 
     @PostMapping("/reset-demo")
     @Transactional
-    public ApiResponse<Map<String, Object>> resetDemo() {
+    public ApiResponse<?> resetDemo() {
+        dataImportService.delete();
         return ApiResponse.ok(null);
     }
 
     @GetMapping("/test-db")
-    public ApiResponse<Map<String, Object>> testDatabase() {
+    public ApiResponse<?> testDatabase() {
         return ApiResponse.ok(null);
     }
 }

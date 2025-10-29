@@ -37,17 +37,7 @@ const AppHeader = () => {
         try {
           const response = await dataAPI.resetDemo();
           console.log('重置响应:', response); // 添加调试日志
-          if (response.success) {
-            message.success(`重置成功！已加载 ${response.data.total} 条数据`);
-            // 显示详细信息
-            console.log('重置详情:', response.data);
-            // 刷新页面以更新数据
-            setTimeout(() => {
-              window.location.reload();
-            }, 1000);
-          } else {
-            message.error(response.message || '重置失败');
-          }
+          message.success(`重置成功！`);
         } catch (error) {
           console.error('重置Demo数据失败:', error);
           message.error('重置失败，请稍后重试');
