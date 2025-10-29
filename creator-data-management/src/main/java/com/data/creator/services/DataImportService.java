@@ -76,7 +76,6 @@ public class DataImportService {
                 String avatar = userInfo.get("user").get("avatar_larger").get("url_list").get(0).asText("");
 
                 List<Influencer.Works> recentWorks = new ArrayList<>();
-                Integer explosiveContentCount = 0;
                 JsonNode jsonNode = douyinGetUserVideoService.getUserVideo(DouyinConstants.SEC_USER_IDS.get(i), 1).get(0);
                 for (JsonNode video : jsonNode.get("aweme_list")) {
                     if (recentWorks.size() < 3) {
@@ -141,7 +140,7 @@ public class DataImportService {
                 influencer.setCompletionRate(dto.getCompletionRate());
                 influencer.setPublishFrequency30d(dto.getPublishFrequency30d());
                 influencer.setPublishFrequency90d(dto.getPublishFrequency90d());
-                influencer.setExplosiveContentCount(explosiveContentCount);
+                influencer.setExplosiveContentCount(dto.getExplosiveContentCount());
                 influencer.setFansGrowthTrend(dto.getFansGrowthTrend());
                 influencer.setStyleTags(dto.getStyleTags());
                 influencer.setPersonaStability(dto.getPersonaStability());
