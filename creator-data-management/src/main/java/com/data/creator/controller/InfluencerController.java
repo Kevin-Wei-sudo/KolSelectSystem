@@ -2,6 +2,7 @@ package com.data.creator.controller;
 
 import com.data.creator.dto.ApiResponse;
 import com.data.creator.dto.CompareRequest;
+import com.data.creator.dto.InfluencerDetailDTO;
 import com.data.creator.dto.SearchRequest;
 import com.data.creator.entities.Influencer;
 import com.data.creator.repositories.InfluencerRepository;
@@ -34,11 +35,8 @@ public class InfluencerController {
     }
 
     @GetMapping("/{id}")
-    public ApiResponse<Map<String, Object>> detail(@PathVariable String id) {
-        Map<String, Object> data = influencerService.getDetail(id);
-        if (data == null) {
-            return ApiResponse.fail("达人不存在: " + id);
-        }
+    public ApiResponse<InfluencerDetailDTO> detail(@PathVariable String id) {
+        InfluencerDetailDTO data = influencerService.getDetail(id);
         return ApiResponse.ok(data);
     }
 

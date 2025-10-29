@@ -1,5 +1,6 @@
 package com.data.creator.services;
 
+import com.data.creator.dto.InfluencerDetailDTO;
 import com.data.creator.dto.SearchRequest;
 import com.data.creator.entities.Influencer;
 import com.data.creator.repositories.InfluencerRepository;
@@ -207,47 +208,70 @@ public class InfluencerService {
     }
 
 
-    // 详情：返回合并后的 Map，包含趋势数据
-    public Map<String, Object> getDetail(String id) {
-        Optional<Influencer> opt = influencerRepository.findById(id);
-        if (!opt.isPresent()) return null;
-        Influencer i = opt.get();
-        Map<String, Object> map = new LinkedHashMap<>();
-        // 基础数据（蛇形键）
-        map.put("id", i.getId());
-        map.put("name", i.getName());
-        map.put("avatar", i.getAvatar());
-        map.put("platform", i.getPlatform());
-        map.put("category", i.getCategory());
-        map.put("gender", i.getGender());
-        map.put("age_range", i.getAgeRange());
-        map.put("location", i.getLocation());
-        map.put("verified", i.getVerified());
-        map.put("mcn", i.getMcn());
-        map.put("followers_count", i.getFollowersCount());
-        map.put("avg_views", i.getAvgViews());
-        map.put("engagement_rate", i.getEngagementRate());
-        map.put("completion_rate", i.getCompletionRate());
-        map.put("publish_frequency_30d", i.getPublishFrequency30d());
-        map.put("publish_frequency_90d", i.getPublishFrequency90d());
-        map.put("explosive_content_count", i.getExplosiveContentCount());
-        map.put("fans_growth_trend", i.getFansGrowthTrend());
-        map.put("scores", i.getScores());
-        map.put("potential_level", i.getPotentialLevel());
-        map.put("price_min", i.getPriceMin());
-        map.put("price_max", i.getPriceMax());
-        map.put("price_range", i.getPriceRange());
-        map.put("contact", i.getContact());
-        map.put("recent_works", i.getRecentWorks());
-        map.put("cooperation_history", i.getCooperationHistory());
-        map.put("cooperation_reputation", i.getCooperationReputation());
-        map.put("prediction_reasons", i.getPredictionReasons());
-        map.put("tags", i.getTags());
-        map.put("fans_profile", i.getFansProfile());
-        // 生成趋势（30天）
-        map.put("followers_trend", generateTrendLong(i.getFollowersCount(), 30, 0.01));
-        map.put("views_trend", generateTrendLong(i.getAvgViews(), 30, 0.05));
-        return map;
+    // 详情：返回DTO对象，包含趋势数据
+    public InfluencerDetailDTO getDetail(String id) {
+        Influencer entity = influencerRepository.findById(id).orElseThrow(() -> new IllegalArgumentException("达人不存在"));
+        InfluencerDetailDTO dto = new InfluencerDetailDTO();
+        // 基础信息
+        dto.setId(entity.getId());
+        dto.setName(entity.getName());
+        dto.setAvatar(entity.getAvatar());
+        dto.setPlatform(entity.getPlatform());
+        dto.setCategory(entity.getCategory());
+        dto.setGender(entity.getGender());
+        dto.setAgeRange(entity.getAgeRange());
+        dto.setLocation(entity.getLocation());
+        dto.setVerified(entity.getVerified());
+        dto.setMcn(entity.getMcn());
+        // 数据指标
+        dto.setFollowersCount(entity.getFollowersCount());
+        dto.setAvgViews(entity.getAvgViews());
+        dto.setEngagementRate(entity.getEngagementRate());
+        dto.setCompletionRate(entity.getCompletionRate());
+        dto.setPublishFrequency30d(entity.getPublishFrequency30d());
+        dto.setPublishFrequency90d(entity.getPublishFrequency90d());
+        dto.setExplosiveContentCount(entity.getExplosiveContentCount());
+        dto.setFansGrowthTrend(entity.getFansGrowthTrend());
+        // 评分和潜力
+        dto.setScores(entity.getScores());
+        dto.setPotentialLevel(entity.getPotentialLevel());
+        dto.setPredictionReasons(entity.getPredictionReasons());
+
+        // 价格信息
+        dto.setPriceMax(entity.getPriceMin());
+        dto.setPriceMax(entity.getPriceMax());
+        dto.setPriceRange(entity.getPriceRange());
+        // 联系和合作信息
+        dto.setContact(entity.getContact());
+        dto.setRecentWorks(entity.getRecentWorks().stream().map(work -> {
+                    InfluencerDetailDTO.Works dtoWork = new InfluencerDetailDTO.Works();
+                    dtoWork.setVideoUrl(work.getVideoUrl());
+                    dtoWork.setCover(work.getCover());
+                    if (work.getStatistics() != null) {
+                        InfluencerDetailDTO.Works.Statistics dtoStats = new InfluencerDetailDTO.Works.Statistics();
+                        dtoStats.setRecommendCount(work.getStatistics().getRecommend_count());
+                        dtoStats.setCommentCount(work.getStatistics().getComment_count());
+                        dtoStats.setDiggCount(work.getStatistics().getDigg_count());
+                        dtoStats.setAdmireCount(work.getStatistics().getAdmire_count());
+                        dtoStats.setPlayCount(work.getStatistics().getPlay_count());
+                        dtoStats.setShareCount(work.getStatistics().getShare_count());
+                        dtoStats.setCollectCount(work.getStatistics().getCollect_count());
+                        dtoWork.setStatistics(dtoStats);
+                    }
+                    return dtoWork;
+                })
+                .toList());
+        dto.setCooperationHistory(entity.getCooperationHistory());
+        dto.setCooperationReputation(entity.getCooperationReputation());
+
+        // 标签和画像
+        dto.setTags(entity.getTags());
+        dto.setFansProfile(entity.getFansProfile());
+
+        // 趋势数据
+        dto.setFollowersTrend(generateTrendLong(entity.getFollowersCount(), 30, 0.01));
+        dto.setViewsTrend(generateTrendLong(entity.getAvgViews(), 30, 0.05));
+        return dto;
     }
 
     public Map<String, Object> compare(List<String> ids) {
