@@ -51,7 +51,7 @@ export const exportToExcel = async (influencers, filename = '达人列表') => {
       potential_score: inf.scores.potential_score,
       potential_level: inf.potential_level,
       price_range: formatPriceRange(inf.price_min, inf.price_max),
-      cooperation_reputation: (inf.cooperation_reputation * 100).toFixed(0) + '%',
+      cooperation_reputation: inf.cooperation_reputation,
       fans_growth_trend: inf.fans_growth_trend,
       verified: inf.verified ? '是' : '否',
       mcn: inf.mcn || '无',

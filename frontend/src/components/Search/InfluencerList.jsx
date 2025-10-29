@@ -17,9 +17,12 @@ const InfluencerList = ({
   onSortChange,
   onSelectChange,
 }) => {
+  // 兼容不同数据源的ID字段
+  const getInfluencerId = (inf) => inf?.id ?? inf?.['inf_新编号'] ?? inf?.infId ?? inf?.influencerId ?? null;
+
   const handleSelectAll = (e) => {
     if (e.target.checked) {
-      const allIds = influencers.map(inf => inf.id);
+      const allIds = influencers.map(inf => getInfluencerId(inf)).filter(Boolean);
       onSelectChange(allIds);
     } else {
       onSelectChange([]);
@@ -99,11 +102,11 @@ const InfluencerList = ({
         loading={loading}
         dataSource={influencers}
         renderItem={(influencer) => (
-          <List.Item key={influencer.id} style={{ padding: 0, border: 'none' }}>
+          <List.Item key={getInfluencerId(influencer) || influencer.name} style={{ padding: 0, border: 'none' }}>
             <InfluencerCard
               influencer={influencer}
-              selected={selectedIds.includes(influencer.id)}
-              onSelectChange={(checked) => handleSelectOne(influencer.id, checked)}
+              selected={selectedIds.includes(getInfluencerId(influencer))}
+              onSelectChange={(checked) => handleSelectOne(getInfluencerId(influencer), checked)}
             />
           </List.Item>
         )}

@@ -21,7 +21,7 @@ const CrawlerPage = () => {
     isRunning: false,
     currentPlatform: null,
     progress: 0,
-    total: 4,
+    total: 0,
     collected: 0,
     logs: [],
   });

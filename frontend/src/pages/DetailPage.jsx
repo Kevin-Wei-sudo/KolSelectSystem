@@ -201,7 +201,15 @@ const DetailPage = () => {
                 <span className="stat-value">{formatPercent(influencer.completion_rate)}</span>
               </Descriptions.Item>
               <Descriptions.Item label="30天发布频率">
-                <span className="stat-value">{influencer.publish_frequency_30d}篇</span>
+                {(() => {
+                  const pf30 =
+                    influencer.publish_frequency_30d ??
+                    influencer.publish_frequency30d ??
+                    0;
+                  return (
+                    <span className="stat-value">{pf30}篇</span>
+                  );
+                })()}
               </Descriptions.Item>
               <Descriptions.Item label="爆款内容数">
                 <span className="stat-value">{influencer.explosive_content_count}个</span>

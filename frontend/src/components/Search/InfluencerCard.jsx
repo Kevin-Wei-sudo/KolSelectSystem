@@ -20,9 +20,14 @@ import './InfluencerCard.css';
 
 const InfluencerCard = ({ influencer, selected, onSelectChange }) => {
   const navigate = useNavigate();
+  // 兼容不同数据源的ID字段
+  const getInfluencerId = (inf) => inf?.id ?? inf?.['inf_新编号'] ?? inf?.infId ?? inf?.influencerId ?? null;
 
   const handleViewDetail = () => {
-    navigate(`/detail/${influencer.id}`);
+    const id = getInfluencerId(influencer);
+    if (id) {
+      navigate(`/detail/${id}`);
+    }
   };
 
   const getTagsToShow = () => {
