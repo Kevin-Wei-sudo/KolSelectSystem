@@ -51,16 +51,16 @@ const WorksGallery = ({ works }) => {
               <div className="work-stats">
                 <Space size={12} wrap>
                   <span className="stat-item">
-                    <EyeOutlined /> {formatNumberShort(work.views)}
+                    <EyeOutlined /> {formatNumberShort(work.statistics?.play_count || 0)}
                   </span>
                   <span className="stat-item">
-                    <HeartOutlined /> {formatNumberShort(work.likes)}
+                    <HeartOutlined /> {formatNumberShort(work.statistics?.digg_count || 0)}
                   </span>
                   <span className="stat-item">
-                    <CommentOutlined /> {formatNumberShort(work.comments)}
+                    <CommentOutlined /> {formatNumberShort(work.statistics?.comment_count || 0)}
                   </span>
                   <span className="stat-item">
-                    <ShareAltOutlined /> {formatNumberShort(work.shares)}
+                    <ShareAltOutlined /> {formatNumberShort(work.statistics?.share_count || 0)}
                   </span>
                 </Space>
               </div>
