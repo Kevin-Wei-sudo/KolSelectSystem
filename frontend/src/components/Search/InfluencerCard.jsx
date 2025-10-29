@@ -110,7 +110,7 @@ const InfluencerCard = ({ influencer, selected, onSelectChange }) => {
                 <div className="stat-item">
                   <EyeOutlined className="stat-icon" style={{ color: '#52c41a' }} />
                   <div>
-                    <div className="stat-label">平均播放</div>
+                    <div className="stat-label">总点赞数</div>
                     <div className="stat-value">{formatNumberShort(influencer.avg_views)}</div>
                   </div>
                 </div>
