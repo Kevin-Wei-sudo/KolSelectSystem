@@ -350,7 +350,7 @@ public class InfluencerService {
 
     // --------------- 预设语句常量 ---------------
     public static final List<String> PRESET_PHRASES = List.of(
-            "帮我找10个小红书美妆类的女性达人，粉丝在10-50万，互动率要高",
+            "帮我找10个抖音美妆类的女性达人，粉丝在300-500万，互动率要高",
             "找一些抖音美食类的达人，爆款潜力高，粉丝在上升期",
             "推荐几个B站数码类的达人，专业风格，粉丝50万以上",
             "找快手搞笑类达人，性价比高，口碑好",
@@ -368,8 +368,8 @@ public class InfluencerService {
 
     public Page<Influencer> searchByPresetPhrase(String phrase, Pageable pageable) {
         return switch (phrase.trim()) {
-            case "帮我找10个小红书美妆类的女性达人，粉丝在10-50万，互动率要高" ->
-                    influencerRepository.queryXhsBeautyFemaleHighEngagement(pageable);
+            case "帮我找10个抖音美妆类的女性达人，粉丝在300-500万，互动率要高" ->
+                    influencerRepository.findByCategoryContainsAndPlatformGenderFollowersRangeEngagement("美妆达人","抖音", "女",3000000, 5000000, BigDecimal.valueOf(7.5), pageable);
             case "找一些抖音美食类的达人，爆款潜力高，粉丝在上升期" ->
                     influencerRepository.queryDouyinFoodHighPotentialRising(pageable);
             case "推荐几个B站数码类的达人，专业风格，粉丝50万以上" ->

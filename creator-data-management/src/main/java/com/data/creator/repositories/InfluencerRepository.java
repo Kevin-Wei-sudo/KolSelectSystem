@@ -5,29 +5,42 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import java.util.List;
+import java.math.BigDecimal;
 
 @Repository
 public interface InfluencerRepository extends JpaRepository<Influencer, String> {
 
     // 1) 小红书 美妆 女性 粉丝10-50万 互动率高（按互动率降序）
-    @Query(value = "SELECT * FROM sys_influencer " +
-            "WHERE platform ILIKE '%小红书%' " +
-            "  AND COALESCE(category::text, '') ILIKE '%美妆%' " +
-            "  AND gender = '女' " +
-            "  AND followers_count BETWEEN 100000 AND 500000 " +
-            "  AND engagement_rate >= 7.5 " +
-            "ORDER BY engagement_rate DESC",
-            countQuery = "SELECT COUNT(*) FROM sys_influencer " +
-                    "WHERE platform ILIKE '%小红书%' " +
-                    "  AND COALESCE(category::text, '') ILIKE '%美妆%' " +
-                    "  AND gender = '女' " +
-                    "  AND followers_count BETWEEN 100000 AND 500000 " +
-                    "  AND engagement_rate >= 7.5",
+    @Query(value = """
+            SELECT * FROM sys_influencer
+            WHERE category @> to_jsonb(ARRAY[:category]::text[])
+              AND platform ILIKE CONCAT('%', :platform, '%')
+              AND gender = :gender
+              AND followers_count BETWEEN :minFollowers AND :maxFollowers
+              AND engagement_rate >= :minEngagement
+            ORDER BY engagement_rate DESC
+            """,
+            countQuery = """
+                    SELECT COUNT(*) FROM sys_influencer
+                    WHERE category @> to_jsonb(ARRAY[:category]::text[])
+                      AND platform ILIKE CONCAT('%', :platform, '%')
+                      AND gender = :gender
+                      AND followers_count BETWEEN :minFollowers AND :maxFollowers
+                      AND engagement_rate >= :minEngagement
+                    """,
             nativeQuery = true)
-    Page<Influencer> queryXhsBeautyFemaleHighEngagement(Pageable pageable);
+    Page<Influencer> findByCategoryContainsAndPlatformGenderFollowersRangeEngagement(
+            @Param("category") String category,
+            @Param("platform") String platform,
+            @Param("gender") String gender,
+            @Param("minFollowers") Integer minFollowers,
+            @Param("maxFollowers") Integer maxFollowers,
+            @Param("minEngagement") BigDecimal minEngagement,
+            Pageable pageable
+    );
 
 
     // 2) 抖音 美食 爆款潜力高 粉丝在上升期（按潜力分降序）
