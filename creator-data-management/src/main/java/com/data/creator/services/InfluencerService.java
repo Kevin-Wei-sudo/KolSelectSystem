@@ -371,7 +371,7 @@ public class InfluencerService {
             case "帮我找10个抖音美妆类的女性达人，粉丝在300-500万，互动率要高" ->
                     influencerRepository.findByCategoryContainsAndPlatformGenderFollowersRangeEngagement("美妆达人","抖音", "女",3000000, 5000000, BigDecimal.valueOf(7.5), pageable);
             case "找一些抖音美食类的达人，爆款潜力高，粉丝在上升期" ->
-                    influencerRepository.queryDouyinFoodHighPotentialRising(pageable);
+                    influencerRepository.queryInfluencersByDynamicConditions("抖音", "护肤", 80, "上升", pageable);
             case "推荐几个B站数码类的达人，专业风格，粉丝50万以上" ->
                     influencerRepository.queryBiliDigitalProfessionalFollowersOver500K(pageable);
             case "找快手搞笑类达人，性价比高，口碑好" ->

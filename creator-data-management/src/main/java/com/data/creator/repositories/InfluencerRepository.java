@@ -44,19 +44,31 @@ public interface InfluencerRepository extends JpaRepository<Influencer, String> 
 
 
     // 2) 抖音 美食 爆款潜力高 粉丝在上升期（按潜力分降序）
-    @Query(value = "SELECT * FROM sys_influencer " +
-            "WHERE platform ILIKE '%抖音%' " +
-            "  AND COALESCE(category::text, '') ILIKE '%美食%' " +
-            "  AND (scores->>'potential_score')::int >= 80 " +
-            "  AND fans_growth_trend ILIKE '%上升%' " +
-            "ORDER BY (scores->>'potential_score')::int DESC",
-            countQuery = "SELECT COUNT(*) FROM sys_influencer " +
-                    "WHERE platform ILIKE '%抖音%' " +
-                    "  AND COALESCE(category::text, '') ILIKE '%美食%' " +
-                    "  AND (scores->>'potential_score')::int >= 80 " +
-                    "  AND fans_growth_trend ILIKE '%上升%'",
+    @Query(value = """
+            SELECT *
+            FROM sys_influencer
+            WHERE (:platform IS NULL OR platform ILIKE CONCAT('%', :platform, '%'))
+              AND (:category IS NULL OR category @> to_jsonb(ARRAY[:category]::text[]))
+              AND (:minScore IS NULL OR (scores ->> 'potential_score')::int >= :minScore)
+              AND (:trend IS NULL OR fans_growth_trend ILIKE CONCAT('%', :trend, '%'))
+            ORDER BY (scores ->> 'potential_score')::int DESC
+            """,
+            countQuery = """
+                    SELECT COUNT(*)
+                    FROM sys_influencer
+                    WHERE (:platform IS NULL OR platform ILIKE CONCAT('%', :platform, '%'))
+                      AND (:category IS NULL OR category @> to_jsonb(ARRAY[:category]::text[]))
+                      AND (:minScore IS NULL OR (scores ->> 'potential_score')::int >= :minScore)
+                      AND (:trend IS NULL OR fans_growth_trend ILIKE CONCAT('%', :trend, '%'))
+                    """,
             nativeQuery = true)
-    Page<Influencer> queryDouyinFoodHighPotentialRising(Pageable pageable);
+    Page<Influencer> queryInfluencersByDynamicConditions(
+            @Param("platform") String platform,
+            @Param("category") String category,
+            @Param("minScore") Integer minScore,
+            @Param("trend") String trend,
+            Pageable pageable
+    );
 
 
     // 3) B站 数码 专业风格 粉丝50万以上（按影响力降序）
