@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Layout, Space, Typography, Button, Modal, message } from 'antd';
+import { Layout, Space, Typography, Button, Modal, message, Input } from 'antd';
 import { RocketOutlined, ReloadOutlined, ExclamationCircleOutlined } from '@ant-design/icons';
-import { dataAPI } from '../../services/api';
+import { dataAPI, cookieAPI } from '../../services/api';
 
 const { Header } = Layout;
 const { Title } = Typography;
@@ -9,6 +9,8 @@ const { confirm } = Modal;
 
 const AppHeader = () => {
   const [loading, setLoading] = useState(false);
+  const [cookieModalOpen, setCookieModalOpen] = useState(false);
+  const [cookieValue, setCookieValue] = useState('');
 
   const handleTestDatabase = async () => {
     try {
@@ -48,7 +50,38 @@ const AppHeader = () => {
     });
   };
 
+  const openCookieModal = async () => {
+    setCookieModalOpen(true);
+    try {
+      const resp = await cookieAPI.get();
+      if (resp.success) {
+        setCookieValue(resp.data || '');
+      }
+    } catch (e) {
+      // 忽略错误，用户可直接填写
+    }
+  };
+
+  const handleSaveCookie = async () => {
+    try {
+      if (!cookieValue || cookieValue.trim().length < 10) {
+        message.warning('请粘贴完整的 Cookie 字符串');
+        return;
+      }
+      const resp = await cookieAPI.set(cookieValue.trim());
+      if (resp.success) {
+        message.success('Cookie 已更新');
+        setCookieModalOpen(false);
+      } else {
+        message.error(resp.message || '更新失败');
+      }
+    } catch (e) {
+      message.error('网络错误，更新失败');
+    }
+  };
+
   return (
+    <>
     <Header style={{ 
       background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
       padding: '0 24px',
@@ -69,6 +102,17 @@ const AppHeader = () => {
       </Space>
       
       <Space>
+        <Button
+          type="default"
+          onClick={openCookieModal}
+          style={{
+            backgroundColor: 'rgba(255, 255, 255, 0.1)',
+            borderColor: 'rgba(255, 255, 255, 0.2)',
+            color: '#fff'
+          }}
+        >
+          填写Cookie
+        </Button>
         <Button
           type="default"
           onClick={handleTestDatabase}
@@ -96,6 +140,23 @@ const AppHeader = () => {
         </Button>
       </Space>
     </Header>
+    <Modal
+      title="填写抖音 Cookie"
+      open={cookieModalOpen}
+      onOk={handleSaveCookie}
+      onCancel={() => setCookieModalOpen(false)}
+      okText="保存"
+      cancelText="取消"
+    >
+      <p style={{ color: '#999' }}>请在浏览器登录抖音后，复制请求中的 Cookie 字段完整内容粘贴到下方：</p>
+      <Input.TextArea
+        value={cookieValue}
+        onChange={(e) => setCookieValue(e.target.value)}
+        autoSize={{ minRows: 4, maxRows: 12 }}
+        placeholder="例如：msToken=...; s_v_web_id=...; sessionid=...; ..."
+      />
+    </Modal>
+    </>
   );
 };
 

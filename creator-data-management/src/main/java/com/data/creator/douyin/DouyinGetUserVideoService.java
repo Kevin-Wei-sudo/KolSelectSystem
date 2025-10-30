@@ -4,7 +4,9 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import com.data.creator.services.CookieService;
 
 import javax.net.ssl.HttpsURLConnection;
 import java.io.IOException;
@@ -22,15 +24,16 @@ public class DouyinGetUserVideoService {
     private static final String USER_AGENT =
             "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36";
     private static final ObjectMapper MAPPER = new ObjectMapper();
-    private static String cookie;
+    @Autowired
+    private CookieService cookieService;
     private static String msToken = "";
 
 
 
     @SneakyThrows
     public JsonNode getUserVideo(String secUserId, int pageLimit) {
-        cookie = Files.readString(Paths.get("cookie.txt"), StandardCharsets.UTF_8).trim();
-        msToken = getCookie("msToken");
+        String cookie = cookieService.getCookie();
+        msToken = getCookie(cookie, "msToken");
 
         final int maxPages = (pageLimit <= 0) ? Integer.MAX_VALUE : pageLimit;
 
@@ -58,7 +61,7 @@ public class DouyinGetUserVideoService {
                     URLEncoder.encode(msToken, StandardCharsets.UTF_8)
             );
 
-            String response = httpGet(api);
+            String response = httpGet(api, cookie);
             JsonNode root = MAPPER.readTree(response);
 
             // 直接把“整页的 root JSON”放进数组，不做任何提取或改写
@@ -78,7 +81,7 @@ public class DouyinGetUserVideoService {
     /**
      * 简单 GET 方法
      */
-    private static String httpGet(String urlStr) throws IOException {
+    private static String httpGet(String urlStr, String cookie) throws IOException {
         URL url = new URL(urlStr);
         HttpsURLConnection conn = (HttpsURLConnection) url.openConnection();
         conn.setRequestMethod("GET");
@@ -99,9 +102,9 @@ public class DouyinGetUserVideoService {
         return body;
     }
 
-    private static String getCookie(String cname) {
+    private static String getCookie(String cookie, String cname) {
         String name = cname + "=";
-        String[] parts = cookie.split(";");
+        String[] parts = cookie == null ? new String[]{} : cookie.split(";");
         for (String c : parts) {
             c = c.trim();
             if (c.startsWith(name)) {

@@ -4,7 +4,9 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import com.data.creator.services.CookieService;
 
 import javax.net.ssl.HttpsURLConnection;
 import java.io.IOException;
@@ -22,14 +24,15 @@ public class DouyinGetUserInfoService {
     private static final String USER_AGENT =
             "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36";
     private static final ObjectMapper MAPPER = new ObjectMapper();
-    private static String cookie;
+    @Autowired
+    private CookieService cookieService;
     private static String msToken;
 
     @SneakyThrows
     public JsonNode getUserInfo(String secUserId) {
-        cookie = Files.readString(Paths.get("cookie.txt"), StandardCharsets.UTF_8).trim();
-        msToken = getCookie("msToken");               // 从 cookie 拿实时 msToken
-        String sVWebId = getCookie("s_v_web_id");     // 建议用于 verifyFp/fp
+        String cookie = cookieService.getCookie();
+        msToken = getCookie(cookie, "msToken");               // 从 cookie 拿实时 msToken
+        String sVWebId = getCookie(cookie, "s_v_web_id");     // 建议用于 verifyFp/fp
 
         // 1) 先拼不含 a_bogus 的完整 URL（注意 msToken/verifyFp/fp 都用实时值）
         String base = "https://www.douyin.com/aweme/v1/web/user/profile/other/";
@@ -46,7 +49,7 @@ public class DouyinGetUserInfoService {
                 URLEncoder.encode(secUserId, StandardCharsets.UTF_8),
                 URLEncoder.encode(msToken, StandardCharsets.UTF_8)
         );
-        String json = fetchUserInfo(fullUrl);
+        String json = fetchUserInfo(fullUrl, cookie);
         //System.out.println(json);
         return MAPPER.readTree(json);
 
@@ -55,10 +58,10 @@ public class DouyinGetUserInfoService {
     /**
      * 拉取用户信息：给完整 URL，返回原始 JSON 字符串
      */
-    public static String fetchUserInfo(String fullUrl) {
+    public static String fetchUserInfo(String fullUrl, String cookie) {
         try {
             log.info("请求用户信息...");
-            String response = httpGet(fullUrl);
+            String response = httpGet(fullUrl, cookie);
             log.info("✅ 用户信息获取完成。");
             return response; // 原样返回完整 JSON
         } catch (Exception e) {
@@ -71,7 +74,7 @@ public class DouyinGetUserInfoService {
     /**
      * 简单 GET 方法
      */
-    private static String httpGet(String urlStr) throws IOException {
+    private static String httpGet(String urlStr, String cookie) throws IOException {
         URL url = new URL(urlStr);
         HttpsURLConnection conn = (HttpsURLConnection) url.openConnection();
         conn.setRequestMethod("GET");
@@ -92,9 +95,9 @@ public class DouyinGetUserInfoService {
         return body;
     }
 
-    private static String getCookie(String cname) {
+    private static String getCookie(String cookie, String cname) {
         String name = cname + "=";
-        String[] parts = cookie.split(";");
+        String[] parts = cookie == null ? new String[]{} : cookie.split(";");
         for (String c : parts) {
             c = c.trim();
             if (c.startsWith(name)) {

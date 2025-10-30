@@ -83,5 +83,11 @@ export const dataAPI = {
   },
 };
 
+// Cookie 管理 API
+export const cookieAPI = {
+  get: () => api.get('/cookie'),
+  set: (cookie) => api.post('/cookie', { cookie }),
+};
+
 export default api;
 
