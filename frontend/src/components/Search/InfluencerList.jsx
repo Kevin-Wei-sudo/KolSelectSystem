@@ -83,16 +83,18 @@ const InfluencerList = ({
           >
             <Option value="influence_desc">影响力 从高到低</Option>
             <Option value="influence_asc">影响力 从低到高</Option>
-            <Option value="potential_desc">爆款潜力 从高到低</Option>
-            <Option value="potential_asc">爆款潜力 从低到高</Option>
-            <Option value="stickiness_desc">粉丝粘性 从高到低</Option>
-            <Option value="stickiness_asc">粉丝粘性 从低到高</Option>
-            <Option value="adaptability_desc">适配度 从高到低</Option>
-            <Option value="adaptability_asc">适配度 从低到高</Option>
-            <Option value="followers_desc">粉丝数 从高到低</Option>
-            <Option value="followers_asc">粉丝数 从低到高</Option>
-            <Option value="engagementRate_desc">互动率 从高到低</Option>
-            <Option value="engagementRate_asc">互动率 从低到高</Option>
+            <Option value="stickiness_desc">粘性评分 从高到低</Option>
+            <Option value="stickiness_asc">粘性评分 从低到高</Option>
+            <Option value="adaptability_desc">适配度评分 从高到低</Option>
+            <Option value="adaptability_asc">适配度评分 从低到高</Option>
+            <Option value="potential_desc">潜力评分 从高到低</Option>
+            <Option value="potential_asc">潜力评分 从低到高</Option>
+            <Option value="followers_count_desc">粉丝数 从高到低</Option>
+            <Option value="followers_count_asc">粉丝数 从低到高</Option>
+            <Option value="engagement_rate_desc">互动率 从高到低</Option>
+            <Option value="engagement_rate_asc">互动率 从低到高</Option>
+            <Option value="avg_views_desc">平均播放量 从高到低</Option>
+            <Option value="avg_views_asc">平均播放量 从低到高</Option>
           </Select>
         </Space>
       </div>

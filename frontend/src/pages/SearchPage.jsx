@@ -17,9 +17,9 @@ const SearchPage = () => {
   const [total, setTotal] = useState(0);
   const [filters, setFilters] = useState({
     page: 1,
-    pageSize: 20,
-    sortBy: 'influence',
-    sortOrder: 'desc',
+    page_size: 20,
+    sort_by: 'influence',
+    sort_order: 'desc',
   });
   const [selectedIds, setSelectedIds] = useState([]);
   const [stats, setStats] = useState(null);
@@ -73,11 +73,11 @@ const SearchPage = () => {
   };
 
   const handleSortChange = (sortBy, sortOrder) => {
-    handleSearch({ ...filters, sortBy, sortOrder });
+    handleSearch({ ...filters, sort_by: sortBy, sort_order: sortOrder });
   };
 
   const handlePageChange = (page, pageSize) => {
-    handleSearch({ ...filters, page, pageSize });
+    handleSearch({ ...filters, page, page_size: pageSize });
   };
 
   const handleSelectChange = (ids) => {
@@ -119,7 +119,7 @@ const SearchPage = () => {
   return (
     <div className="search-page">
       <div className="page-title">智能筛选</div>
-      
+
       {/* 统计概览 */}
       {stats && <StatsOverview stats={stats} onReload={() => {
         loadStats();

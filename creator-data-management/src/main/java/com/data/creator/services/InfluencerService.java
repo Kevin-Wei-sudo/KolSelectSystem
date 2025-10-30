@@ -32,8 +32,19 @@ public class InfluencerService {
                         || (i.getPlatform() != null && req.getPlatform().contains(i.getPlatform())))
 
                 // 分类
-                .filter(i -> req.getCategory() == null || req.getCategory().isEmpty()
-                        || (i.getCategory() != null && !Collections.disjoint(new HashSet<>(req.getCategory()), i.getCategory())))
+                .filter(i -> {
+                    if (req.getCategory() == null || req.getCategory().isEmpty()) {
+                        return true;
+                    }
+                    if (i.getCategory() == null) {
+                        log.debug("达人 {} 的category为null", i.getName());
+                        return false;
+                    }
+                    boolean hasIntersection = !Collections.disjoint(new HashSet<>(req.getCategory()), i.getCategory());
+                    log.debug("达人 {} 的category: {}, 请求category: {}, 有交集: {}", 
+                        i.getName(), i.getCategory(), req.getCategory(), hasIntersection);
+                    return hasIntersection;
+                })
 
                 // 风格标签（求交集）
                 .filter(i -> req.getStyleTag() == null || req.getStyleTag().isEmpty()
@@ -108,6 +119,33 @@ public class InfluencerService {
             case "potential_level":
                 comparator = Comparator.comparing(i -> Optional.ofNullable(i.getPotentialLevel()).orElse(""));
                 break;
+            case "influence":
+                // 按影响力评分排序
+                comparator = Comparator.comparingInt(i -> 
+                    i.getScores() != null && i.getScores().getInfluence_score() != null 
+                        ? i.getScores().getInfluence_score() : 0);
+                break;
+            case "stickiness":
+                // 按粘性评分排序
+                comparator = Comparator.comparingInt(i -> 
+                    i.getScores() != null && i.getScores().getStickiness_score() != null 
+                        ? i.getScores().getStickiness_score() : 0);
+                break;
+            case "adaptability":
+                // 按适配度评分排序
+                comparator = Comparator.comparingInt(i -> 
+                    i.getScores() != null && i.getScores().getAdaptability_score() != null 
+                        ? i.getScores().getAdaptability_score() : 0);
+                break;
+            case "potential":
+                // 按潜力评分排序
+                comparator = Comparator.comparingInt(i -> 
+                    i.getScores() != null && i.getScores().getPotential_score() != null 
+                        ? i.getScores().getPotential_score() : 0);
+                break;
+            case "followers_count":
+                comparator = Comparator.comparingLong(i -> Optional.ofNullable(i.getFollowersCount()).orElse(0));
+                break;
             default:
                 comparator = Comparator.comparingLong(i -> Optional.ofNullable(i.getFollowersCount()).orElse(0));
         }
@@ -142,8 +180,15 @@ public class InfluencerService {
                         || (i.getPlatform() != null && req.getPlatform().contains(i.getPlatform())))
 
                 // 分类筛选
-                .filter(i -> req.getCategory() == null || req.getCategory().isEmpty()
-                        || (i.getCategory() != null && !Collections.disjoint(new HashSet<>(req.getCategory()), i.getCategory())))
+                .filter(i -> {
+                    if (req.getCategory() == null || req.getCategory().isEmpty()) {
+                        return true;
+                    }
+                    if (i.getCategory() == null) {
+                        return false;
+                    }
+                    return !Collections.disjoint(new HashSet<>(req.getCategory()), i.getCategory());
+                })
 
                 // 风格标签筛选（求交集）
                 .filter(i -> req.getStyleTag() == null || req.getStyleTag().isEmpty()
