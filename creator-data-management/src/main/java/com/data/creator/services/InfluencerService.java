@@ -357,7 +357,7 @@ public class InfluencerService {
 //            "小红书时尚类达人，粉丝20-100万，完播率高",
 //            "抖音旅游类达人，爆款潜力S级或A级，女性",
             "找一些护肤类达人，亲民风格，商单口碑好",
-            "运动健身类达人，男性，粉丝在增长中"
+            "运动健身类达人，女性，粉丝在增长中"
     );
 
     // 对外提供预设语句列表
@@ -372,18 +372,18 @@ public class InfluencerService {
                     influencerRepository.findByCategoryContainsAndPlatformGenderFollowersRangeEngagement("美妆达人","抖音", "女",3000000, 5000000, BigDecimal.valueOf(7.5), pageable);
             case "找一些抖音美食类的达人，爆款潜力高，粉丝在上升期" ->
                     influencerRepository.queryInfluencersByDynamicConditions("抖音", "护肤", 80, "上升", pageable);
-            case "推荐几个B站数码类的达人，专业风格，粉丝50万以上" ->
-                    influencerRepository.queryBiliDigitalProfessionalFollowersOver500K(pageable);
-            case "找快手搞笑类达人，性价比高，口碑好" ->
-                    influencerRepository.queryKuaishouComedyCostEffectiveGoodReputation(pageable);
-            case "小红书时尚类达人，粉丝20-100万，完播率高" ->
-                    influencerRepository.queryXhsFashionFansRangeHighCompletion(pageable);
+//            case "推荐几个B站数码类的达人，专业风格，粉丝50万以上" ->
+//                    influencerRepository.queryBiliDigitalProfessionalFollowersOver500K(pageable);
+//            case "找快手搞笑类达人，性价比高，口碑好" ->
+//                    influencerRepository.queryKuaishouComedyCostEffectiveGoodReputation(pageable);
+//            case "小红书时尚类达人，粉丝20-100万，完播率高" ->
+//                    influencerRepository.queryXhsFashionFansRangeHighCompletion(pageable);
             case "抖音旅游类达人，爆款潜力S级或A级，女性" ->
                     influencerRepository.queryDouyinTravelPotentialSAFemale(pageable);
             case "找一些护肤类达人，亲民风格，商单口碑好" ->
                     influencerRepository.queryFriendlyStyleByCategoryAndReputation("护肤", BigDecimal.valueOf(4.5), pageable);
-            case "运动健身类达人，男性，粉丝在增长中" ->
-                    influencerRepository.querySportsFitnessMaleGrowthIncreasing(pageable);
+            case "运动健身类达人，女性，粉丝在增长中" ->
+                    influencerRepository.querySportsFitnessGrowth("运动", "健身", "女", "上升", "增长中", pageable);
             default -> {
                 log.warn("Unknown preset phrase: {}", phrase);
                 yield Page.empty();

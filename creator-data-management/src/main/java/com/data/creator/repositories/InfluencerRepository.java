@@ -138,18 +138,18 @@ public interface InfluencerRepository extends JpaRepository<Influencer, String> 
 
     // 7) 母婴 亲民风格 商单口碑好
     @Query(value = """
-    SELECT *
-    FROM sys_influencer
-    WHERE (:category IS NULL OR category @> to_jsonb(ARRAY[:category]::text[]))
-      AND (:minReputation IS NULL OR cooperation_reputation >= :minReputation)
-    ORDER BY cooperation_reputation DESC
-    """,
+            SELECT *
+            FROM sys_influencer
+            WHERE (:category IS NULL OR category @> to_jsonb(ARRAY[:category]::text[]))
+              AND (:minReputation IS NULL OR cooperation_reputation >= :minReputation)
+            ORDER BY cooperation_reputation DESC
+            """,
             countQuery = """
-    SELECT COUNT(*)
-    FROM sys_influencer
-    WHERE (:category IS NULL OR category @> to_jsonb(ARRAY[:category]::text[]))
-      AND (:minReputation IS NULL OR cooperation_reputation >= :minReputation)
-    """,
+                    SELECT COUNT(*)
+                    FROM sys_influencer
+                    WHERE (:category IS NULL OR category @> to_jsonb(ARRAY[:category]::text[]))
+                      AND (:minReputation IS NULL OR cooperation_reputation >= :minReputation)
+                    """,
             nativeQuery = true)
     Page<Influencer> queryFriendlyStyleByCategoryAndReputation(
             @Param("category") String category,
@@ -159,15 +159,40 @@ public interface InfluencerRepository extends JpaRepository<Influencer, String> 
 
 
     // 8) 运动健身 男性 粉丝在增长中
-    @Query(value = "SELECT * FROM sys_influencer " +
-            "WHERE (COALESCE(category::text, '') ILIKE '%运动健身%' OR COALESCE(category::text, '') ILIKE '%健身%') " +
-            "  AND gender = '男性' " +
-            "  AND (fans_growth_trend ILIKE '%上升%' OR fans_growth_trend ILIKE '%增长中%') " +
-            "ORDER BY (scores->>'stickiness_score')::int DESC",
-            countQuery = "SELECT COUNT(*) FROM sys_influencer " +
-                    "WHERE (COALESCE(category::text, '') ILIKE '%运动健身%' OR COALESCE(category::text, '') ILIKE '%健身%') " +
-                    "  AND gender = '男性' " +
-                    "  AND (fans_growth_trend ILIKE '%上升%' OR fans_growth_trend ILIKE '%增长中%')",
+    @Query(value = """
+            SELECT *
+            FROM sys_influencer
+            WHERE (
+                    (:category1 IS NULL OR category @> to_jsonb(ARRAY[:category1]::text[]))
+                 OR (:category2 IS NULL OR category @> to_jsonb(ARRAY[:category2]::text[]))
+                  )
+              AND (:gender IS NULL OR gender = :gender)
+              AND (
+                    (:trend1 IS NULL OR fans_growth_trend ILIKE CONCAT('%', :trend1, '%'))
+                 OR (:trend2 IS NULL OR fans_growth_trend ILIKE CONCAT('%', :trend2, '%'))
+                  )
+            ORDER BY (scores ->> 'stickiness_score')::int DESC
+            """,
+            countQuery = """
+                    SELECT COUNT(*)
+                    FROM sys_influencer
+                    WHERE (
+                            (:category1 IS NULL OR category @> to_jsonb(ARRAY[:category1]::text[]))
+                         OR (:category2 IS NULL OR category @> to_jsonb(ARRAY[:category2]::text[]))
+                          )
+                      AND (:gender IS NULL OR gender = :gender)
+                      AND (
+                            (:trend1 IS NULL OR fans_growth_trend ILIKE CONCAT('%', :trend1, '%'))
+                         OR (:trend2 IS NULL OR fans_growth_trend ILIKE CONCAT('%', :trend2, '%'))
+                          )
+                    """,
             nativeQuery = true)
-    Page<Influencer> querySportsFitnessMaleGrowthIncreasing(Pageable pageable);
+    Page<Influencer> querySportsFitnessGrowth(
+            @Param("category1") String category1,
+            @Param("category2") String category2,
+            @Param("gender") String gender,
+            @Param("trend1") String trend1,
+            @Param("trend2") String trend2,
+            Pageable pageable
+    );
 }
