@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col, Card, Tag, Space } from 'antd';
-import { EyeOutlined, HeartOutlined, CommentOutlined, ShareAltOutlined, FireFilled } from '@ant-design/icons';
+import { HeartOutlined, CommentOutlined, ShareAltOutlined, FireFilled } from '@ant-design/icons';
 import { formatNumberShort, formatRelativeTime } from '../../utils/format';
 import './WorksGallery.css';
 
@@ -50,9 +50,6 @@ const WorksGallery = ({ works }) => {
               <div className="work-date">{formatRelativeTime(work.publish_date)}</div>
               <div className="work-stats">
                 <Space size={12} wrap>
-                  <span className="stat-item">
-                    <EyeOutlined /> {formatNumberShort(work.statistics?.play_count || 0)}
-                  </span>
                   <span className="stat-item">
                     <HeartOutlined /> {formatNumberShort(work.statistics?.digg_count || 0)}
                   </span>

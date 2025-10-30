@@ -113,17 +113,17 @@ const AppHeader = () => {
         >
           填写Cookie
         </Button>
-        <Button
-          type="default"
-          onClick={handleTestDatabase}
-          style={{
-            backgroundColor: 'rgba(255, 255, 255, 0.1)',
-            borderColor: 'rgba(255, 255, 255, 0.2)',
-            color: '#fff'
-          }}
-        >
-          测试DB
-        </Button>
+        {/*<Button*/}
+        {/*  type="default"*/}
+        {/*  onClick={handleTestDatabase}*/}
+        {/*  style={{*/}
+        {/*    backgroundColor: 'rgba(255, 255, 255, 0.1)',*/}
+        {/*    borderColor: 'rgba(255, 255, 255, 0.2)',*/}
+        {/*    color: '#fff'*/}
+        {/*  }}*/}
+        {/*>*/}
+        {/*  测试DB*/}
+        {/*</Button>*/}
         <Button
           type="primary"
           danger
