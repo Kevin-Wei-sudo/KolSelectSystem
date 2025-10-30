@@ -47,7 +47,7 @@ public class DataImportService {
         importFile(null);
     }
 
-    @Transactional
+//    @Transactional
     public void importFile(ProgressCallback callback) {
         String location = "classpath:static/data/mock-data-douyin.json";
         try {
@@ -79,7 +79,7 @@ public class DataImportService {
                 JsonNode jsonNode = douyinGetUserVideoService.getUserVideo(DouyinConstants.SEC_USER_IDS.get(i), 1).get(0);
                 for (int j = 0; j < jsonNode.get("aweme_list").size(); j++) {
                     JsonNode video = jsonNode.get("aweme_list").get(j);
-                    if (recentWorks.size() < 5) {
+                    if (recentWorks.size() < 10) {
                         if (callback != null) {
                             callback.onProgress("正在爬取第 " + (i + 1) + " 个达人，第 " + (j + 1) + " 条视频数据...", i);
                         }
@@ -105,10 +105,10 @@ public class DataImportService {
                             // 收藏次数
                             Integer collectCount = video.get("statistics").get("collect_count").asInt();
                             recentWorks.add(new Influencer.Works(
-                                    obsFileStorage.uploadFileByUrlStream(String.format("%s/%s/%s.mp4", uniqueId, awemeId, awemeId), videoUrl),
-                                    obsFileStorage.uploadFileByUrlStream(String.format("%s/%s/%s.jpg", uniqueId, awemeId, awemeId), cover),
-//                                    videoUrl,
-//                                    cover,
+//                                    obsFileStorage.uploadFileByUrlStream(String.format("%s/%s/%s.mp4", uniqueId, awemeId, awemeId), videoUrl),
+//                                    obsFileStorage.uploadFileByUrlStream(String.format("%s/%s/%s.jpg", uniqueId, awemeId, awemeId), cover),
+                                    videoUrl,
+                                    cover,
                                     new Influencer.Works.Statistics(
                                             recommendCount,
                                             commentCount,

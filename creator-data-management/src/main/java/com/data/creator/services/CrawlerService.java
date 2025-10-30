@@ -53,16 +53,17 @@ public class CrawlerService {
                     addLog("info", "开始爬取", "正在爬取 " + currentPlatform + " 平台数据...");
 
                     // 模拟爬取时间
-                    try {
-                        Thread.sleep(2000 + (long)(Math.random() * 3000)); // 2-5秒随机延迟
-                    } catch (InterruptedException e) {
-                        Thread.currentThread().interrupt();
-                        return;
-                    }
+//                    try {
+//                        Thread.sleep(2000 + (long)(Math.random() * 3000)); // 2-5秒随机延迟
+//                    } catch (InterruptedException e) {
+//                        Thread.currentThread().interrupt();
+//                        return;
+//                    }
 
                     try {
                         addLog("info", "数据处理", "正在处理和保存数据到数据库...");
 
+                        dataImportService.delete();
                         // 使用回调来实时更新进度
                         dataImportService.importFile((message, currentCount) -> {
                             addLog("info", "处理进度", message);

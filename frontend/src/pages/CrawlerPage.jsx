@@ -112,7 +112,16 @@ const CrawlerPage = () => {
     try {
       const response = await axios.get('/api/crawler/status');
       if (response.data.success) {
-        const newStatus = response.data.data;
+        const raw = response.data.data || {};
+        // 兼容后端 Spring Boot 开启 SNAKE_CASE 命名策略时返回的字段名
+        const newStatus = {
+          isRunning: raw.isRunning ?? raw.is_running ?? (((raw.progress ?? 0) > 0) && ((raw.total ?? 0) > (raw.progress ?? 0))),
+          currentPlatform: raw.currentPlatform ?? raw.current_platform ?? null,
+          progress: raw.progress ?? 0,
+          total: raw.total ?? 0,
+          collected: raw.collected ?? 0,
+          logs: raw.logs ?? [],
+        };
         setStatus(newStatus);
 
         // 如果爬取完成，停止轮询
@@ -401,23 +410,23 @@ const CrawlerPage = () => {
           >
             启动爬虫
           </Button>
-          <Button
-            danger
-            size="large"
-            icon={<StopOutlined />}
-            onClick={stopCrawling}
-            disabled={!status.isRunning}
-          >
-            停止爬虫
-          </Button>
-          <Button
-            size="large"
-            icon={<ReloadOutlined />}
-            onClick={resetCrawler}
-            disabled={status.isRunning}
-          >
-            重置
-          </Button>
+          {/*<Button*/}
+          {/*  danger*/}
+          {/*  size="large"*/}
+          {/*  icon={<StopOutlined />}*/}
+          {/*  onClick={stopCrawling}*/}
+          {/*  disabled={!status.isRunning}*/}
+          {/*>*/}
+          {/*  停止爬虫*/}
+          {/*</Button>*/}
+          {/*<Button*/}
+          {/*  size="large"*/}
+          {/*  icon={<ReloadOutlined />}*/}
+          {/*  onClick={resetCrawler}*/}
+          {/*  disabled={status.isRunning}*/}
+          {/*>*/}
+          {/*  重置*/}
+          {/*</Button>*/}
         </Space>
       </Card>
 
