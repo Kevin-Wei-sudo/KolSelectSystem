@@ -355,7 +355,7 @@ public class InfluencerService {
 //            "推荐几个B站数码类的达人，专业风格，粉丝50万以上",
 //            "找快手搞笑类达人，性价比高，口碑好",
 //            "小红书时尚类达人，粉丝20-100万，完播率高",
-//            "抖音旅游类达人，爆款潜力S级或A级，女性",
+            "抖音养生类达人，爆款潜力S级或A级，女性",
             "找一些护肤类达人，亲民风格，商单口碑好",
             "运动健身类达人，女性，粉丝在增长中"
     );
@@ -378,8 +378,8 @@ public class InfluencerService {
 //                    influencerRepository.queryKuaishouComedyCostEffectiveGoodReputation(pageable);
 //            case "小红书时尚类达人，粉丝20-100万，完播率高" ->
 //                    influencerRepository.queryXhsFashionFansRangeHighCompletion(pageable);
-            case "抖音旅游类达人，爆款潜力S级或A级，女性" ->
-                    influencerRepository.queryDouyinTravelPotentialSAFemale(pageable);
+            case "抖音养生类达人，爆款潜力S级或A级，女性" ->
+                    influencerRepository.queryInfluencersByPlatformCategoryPotentialAndGender("抖音", "养生", "S,A", "女", pageable);
             case "找一些护肤类达人，亲民风格，商单口碑好" ->
                     influencerRepository.queryFriendlyStyleByCategoryAndReputation("护肤", BigDecimal.valueOf(4.5), pageable);
             case "运动健身类达人，女性，粉丝在增长中" ->

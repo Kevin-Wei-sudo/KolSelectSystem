@@ -120,20 +120,43 @@ public interface InfluencerRepository extends JpaRepository<Influencer, String> 
 
 
     // 6) 抖音 旅游 潜力等级S/A 女性
-    @Query(value = "SELECT * FROM sys_influencer " +
-            "WHERE platform ILIKE '%抖音%' " +
-            "  AND COALESCE(category::text, '') ILIKE '%旅游%' " +
-            "  AND UPPER(potential_level) IN ('S','A') " +
-            "  AND gender = '女性' " +
-            "ORDER BY CASE UPPER(potential_level) WHEN 'S' THEN 3 WHEN 'A' THEN 2 WHEN 'B' THEN 1 ELSE 0 END DESC, " +
-            "         (scores->>'potential_score')::int DESC",
-            countQuery = "SELECT COUNT(*) FROM sys_influencer " +
-                    "WHERE platform ILIKE '%抖音%' " +
-                    "  AND COALESCE(category::text, '') ILIKE '%旅游%' " +
-                    "  AND UPPER(potential_level) IN ('S','A') " +
-                    "  AND gender = '女性'",
+    @Query(value = """
+            SELECT *
+            FROM sys_influencer
+            WHERE (:platform IS NULL OR platform ILIKE CONCAT('%', :platform, '%'))
+              AND (:category IS NULL OR category @> to_jsonb(ARRAY[:category]::text[]))
+              AND (:gender IS NULL OR gender = :gender)
+              AND (
+                    :levels IS NULL 
+                 OR UPPER(potential_level) = ANY(string_to_array(UPPER(:levels), ','))
+                  )
+            ORDER BY CASE UPPER(potential_level)
+                        WHEN 'S' THEN 3
+                        WHEN 'A' THEN 2
+                        WHEN 'B' THEN 1
+                        ELSE 0
+                     END DESC,
+                     (scores ->> 'potential_score')::int DESC
+            """,
+            countQuery = """
+                    SELECT COUNT(*)
+                    FROM sys_influencer
+                    WHERE (:platform IS NULL OR platform ILIKE CONCAT('%', :platform, '%'))
+                      AND (:category IS NULL OR category @> to_jsonb(ARRAY[:category]::text[]))
+                      AND (:gender IS NULL OR gender = :gender)
+                      AND (
+                            :levels IS NULL 
+                         OR UPPER(potential_level) = ANY(string_to_array(UPPER(:levels), ','))
+                          )
+                    """,
             nativeQuery = true)
-    Page<Influencer> queryDouyinTravelPotentialSAFemale(Pageable pageable);
+    Page<Influencer> queryInfluencersByPlatformCategoryPotentialAndGender(
+            @Param("platform") String platform,
+            @Param("category") String category,
+            @Param("levels") String levels,     // 例如传 "S,A"
+            @Param("gender") String gender,
+            Pageable pageable
+    );
 
 
     // 7) 母婴 亲民风格 商单口碑好
