@@ -41,6 +41,32 @@ public class ObsFileStorage {
     }
 
     /**
+     * 将 bucketPrefix 与对象名进行规范化拼接，避免出现多余或缺失的斜杠。
+     */
+    private String applyPrefix(String objectName) {
+        String name = objectName == null ? "" : objectName.trim();
+        String prefix = bucketPrefix == null ? "" : bucketPrefix.trim();
+
+        if (prefix.isEmpty()) {
+            return name.startsWith("/") ? name.substring(1) : name;
+        }
+
+        String normalizedPrefix = prefix.endsWith("/") ? prefix : prefix + "/";
+        String normalizedName = name.startsWith("/") ? name.substring(1) : name;
+        return normalizedPrefix + normalizedName;
+    }
+
+    /**
+     * 根据 bucketPath 与对象 key 构造可访问的 URL，确保只有一个斜杠连接。
+     */
+    private String buildUrl(String key) {
+        String base = bucketPath == null ? "" : bucketPath.trim();
+        String normalizedBase = base.endsWith("/") ? base : base + "/";
+        String normalizedKey = key.startsWith("/") ? key.substring(1) : key;
+        return normalizedBase + normalizedKey;
+    }
+
+    /**
      * 上传文件-断点续传上传
      */
     public void uploadFileByCheckpoint(String objectName, String localPath) {
@@ -76,9 +102,10 @@ public class ObsFileStorage {
         try {
             // 上传网络流
             InputStream inputStream = new URL(url).openStream();
-            obsClient.putObject(bucketName, objectName, inputStream);
+            String finalKey = applyPrefix(objectName);
+            obsClient.putObject(bucketName, finalKey, inputStream);
             log.info("putObject successfully");
-            return bucketPath + objectName;
+            return buildUrl(finalKey);
         } catch (ObsException e) {
             log.error("putObject failed");
             logObsException(e);
@@ -99,7 +126,7 @@ public class ObsFileStorage {
             FileInputStream fis = new FileInputStream(new File(localFile));
             PutObjectRequest request = new PutObjectRequest();
             request.setBucketName(bucketName);
-            request.setObjectKey(objectName);
+            request.setObjectKey(applyPrefix(objectName));
             request.setInput(fis);
             obsClient.putObject(request);
             log.info("putObject successfully");
@@ -115,7 +142,7 @@ public class ObsFileStorage {
 
     public void uploadFileByByteStream(String objectName, byte[] bytes) {
         try {
-            obsClient.putObject(bucketName, objectName, new ByteArrayInputStream(bytes));
+            obsClient.putObject(bucketName, applyPrefix(objectName), new ByteArrayInputStream(bytes));
             log.info("putObject successfully");
         } catch (ObsException e) {
             log.error("putObject failed");
@@ -132,7 +159,7 @@ public class ObsFileStorage {
      */
     public void downloadFileByCheckpoint(String objectName, String localFile) {
         try {
-            DownloadFileRequest request = new DownloadFileRequest(bucketName, objectName);
+            DownloadFileRequest request = new DownloadFileRequest(bucketName, applyPrefix(objectName));
             // 设置下载对象的本地文件路径
             request.setDownloadFile(localFile);
             // 设置分段下载时的最大并发数
@@ -159,15 +186,15 @@ public class ObsFileStorage {
      * 重命名文件
      */
     public void renameObject(String oldKey, String newKey) {
-        CopyObjectRequest copyRequest = new CopyObjectRequest(bucketName, oldKey, bucketName, newKey);
+        CopyObjectRequest copyRequest = new CopyObjectRequest(bucketName, applyPrefix(oldKey), bucketName, applyPrefix(newKey));
         obsClient.copyObject(copyRequest);
-        obsClient.deleteObject(bucketName, oldKey);
+        obsClient.deleteObject(bucketName, applyPrefix(oldKey));
     }
 
     public void deleteObject(String objectNamePrefix) {
         try {
             ListObjectsRequest request = new ListObjectsRequest(bucketName);
-            request.setPrefix(objectNamePrefix);
+            request.setPrefix(applyPrefix(objectNamePrefix));
             ObjectListing result;
             do {
                 result = obsClient.listObjects(request);

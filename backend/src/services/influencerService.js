@@ -174,7 +174,9 @@ class InfluencerService {
 
   // 对比达人
   async compareInfluencers(ids) {
-    const influencers = ids.map(id => this.influencers.find(inf => this.getInfluencerId(inf) === id)).filter(Boolean);
+    const influencers = ids
+      .map(id => this.influencers.find(inf => this.getInfluencerId(inf) === id))
+      .filter(Boolean);
     
     if (influencers.length !== ids.length) {
       throw new Error('部分达人不存在');
