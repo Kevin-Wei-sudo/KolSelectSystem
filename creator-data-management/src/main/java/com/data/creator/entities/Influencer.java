@@ -196,6 +196,7 @@ public class Influencer {
         private Integer age_18_24;
         private Integer age_25_34;
         private Integer gender_female;
+        private Integer gender_male;
         private Integer cities_tier1;
         private Integer cities_tier2;
     }

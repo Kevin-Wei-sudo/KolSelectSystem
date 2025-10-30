@@ -153,6 +153,7 @@ public class DataImportService {
                         dto.getFansProfile().getAge_18_24(),
                         dto.getFansProfile().getAge_25_34(),
                         dto.getFansProfile().getGender_female(),
+                        dto.getFansProfile().getGender_male(),
                         dto.getFansProfile().getCities_tier1(),
                         dto.getFansProfile().getCities_tier2()
                 ));
