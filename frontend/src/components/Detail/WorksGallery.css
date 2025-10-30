@@ -28,6 +28,24 @@
   transform: scale(1.1);
 }
 
+.play-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.45);
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.work-cover:hover .play-overlay {
+  background: rgba(0, 0, 0, 0.6);
+}
+
 .explosive-badge {
   position: absolute;
   top: 8px;
