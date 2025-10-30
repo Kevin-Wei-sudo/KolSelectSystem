@@ -352,11 +352,11 @@ public class InfluencerService {
     public static final List<String> PRESET_PHRASES = List.of(
             "帮我找10个抖音美妆类的女性达人，粉丝在300-500万，互动率要高",
             "找一些抖音美食类的达人，爆款潜力高，粉丝在上升期",
-            "推荐几个B站数码类的达人，专业风格，粉丝50万以上",
-            "找快手搞笑类达人，性价比高，口碑好",
-            "小红书时尚类达人，粉丝20-100万，完播率高",
-            "抖音旅游类达人，爆款潜力S级或A级，女性",
-            "找一些母婴类达人，亲民风格，商单口碑好",
+//            "推荐几个B站数码类的达人，专业风格，粉丝50万以上",
+//            "找快手搞笑类达人，性价比高，口碑好",
+//            "小红书时尚类达人，粉丝20-100万，完播率高",
+//            "抖音旅游类达人，爆款潜力S级或A级，女性",
+            "找一些护肤类达人，亲民风格，商单口碑好",
             "运动健身类达人，男性，粉丝在增长中"
     );
 
@@ -380,8 +380,8 @@ public class InfluencerService {
                     influencerRepository.queryXhsFashionFansRangeHighCompletion(pageable);
             case "抖音旅游类达人，爆款潜力S级或A级，女性" ->
                     influencerRepository.queryDouyinTravelPotentialSAFemale(pageable);
-            case "找一些母婴类达人，亲民风格，商单口碑好" ->
-                    influencerRepository.queryMotherBabyFriendlyStyleGoodReputation(pageable);
+            case "找一些护肤类达人，亲民风格，商单口碑好" ->
+                    influencerRepository.queryFriendlyStyleByCategoryAndReputation("护肤", BigDecimal.valueOf(4.5), pageable);
             case "运动健身类达人，男性，粉丝在增长中" ->
                     influencerRepository.querySportsFitnessMaleGrowthIncreasing(pageable);
             default -> {

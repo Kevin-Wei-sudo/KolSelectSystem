@@ -137,17 +137,25 @@ public interface InfluencerRepository extends JpaRepository<Influencer, String> 
 
 
     // 7) 母婴 亲民风格 商单口碑好
-    @Query(value = "SELECT * FROM sys_influencer " +
-            "WHERE COALESCE(category::text, '') ILIKE '%母婴%' " +
-            "  AND tag @> '[\"亲民\"]'::jsonb " +
-            "  AND cooperation_reputation >= 4.5 " +
-            "ORDER BY cooperation_reputation DESC",
-            countQuery = "SELECT COUNT(*) FROM sys_influencer " +
-                    "WHERE COALESCE(category::text, '') ILIKE '%母婴%' " +
-                    "  AND tag @> '[\"亲民\"]'::jsonb " +
-                    "  AND cooperation_reputation >= 4.5",
+    @Query(value = """
+    SELECT *
+    FROM sys_influencer
+    WHERE (:category IS NULL OR category @> to_jsonb(ARRAY[:category]::text[]))
+      AND (:minReputation IS NULL OR cooperation_reputation >= :minReputation)
+    ORDER BY cooperation_reputation DESC
+    """,
+            countQuery = """
+    SELECT COUNT(*)
+    FROM sys_influencer
+    WHERE (:category IS NULL OR category @> to_jsonb(ARRAY[:category]::text[]))
+      AND (:minReputation IS NULL OR cooperation_reputation >= :minReputation)
+    """,
             nativeQuery = true)
-    Page<Influencer> queryMotherBabyFriendlyStyleGoodReputation(Pageable pageable);
+    Page<Influencer> queryFriendlyStyleByCategoryAndReputation(
+            @Param("category") String category,
+            @Param("minReputation") BigDecimal minReputation,
+            Pageable pageable
+    );
 
 
     // 8) 运动健身 男性 粉丝在增长中
