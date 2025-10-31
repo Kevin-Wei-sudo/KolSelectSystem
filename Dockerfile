@@ -28,16 +28,16 @@ RUN apt-get update && apt-get install -y curl nginx && \
     apt-get install -y nodejs && \
     rm -rf /var/lib/apt/lists/*
 
-# 复制后端 Node.js 应用
-COPY backend/package*.json ./backend/
-RUN cd backend && npm ci --only=production
-COPY backend/src/ ./backend/src/
+# 不需要 Node.js 后端，主要后端是 Spring Boot
 
 # 复制构建好的前端文件
 COPY --from=frontend-build /app/frontend/build ./frontend/build
 
 # 复制构建好的 Spring Boot JAR
 COPY --from=spring-build /app/spring/build/libs/*.jar ./spring/app.jar
+
+# 复制数据文件到运行时环境
+COPY creator-data-management/src/main/resources/static/data/ ./spring/data/
 
 # 配置 Nginx
 RUN mkdir -p /etc/nginx/sites-available && \
@@ -53,18 +53,9 @@ server {
         try_files \$uri \$uri/ /index.html;
     }
     
-    # 代理后端 Node.js API
+    # 代理 Spring Boot API（主要后端）
     location /api/ {
-        proxy_pass http://localhost:3000/;
-        proxy_set_header Host \$host;
-        proxy_set_header X-Real-IP \$remote_addr;
-        proxy_set_header X-Forwarded-For \$proxy_add_x_forwarded_for;
-        proxy_set_header X-Forwarded-Proto \$scheme;
-    }
-    
-    # 代理 Spring Boot API
-    location /spring/ {
-        proxy_pass http://localhost:8080/;
+        proxy_pass http://localhost:8080/api/;
         proxy_set_header Host \$host;
         proxy_set_header X-Real-IP \$remote_addr;
         proxy_set_header X-Forwarded-For \$proxy_add_x_forwarded_for;
@@ -84,9 +75,7 @@ set -e
 echo "Starting Spring Boot application..."
 java -jar -Dspring.profiles.active=dev /app/spring/app.jar &
 
-# 启动 Node.js 后端
-echo "Starting Node.js backend..."
-cd /app/backend && node src/app.js &
+# Node.js 后端已移除，只使用 Spring Boot
 
 # 启动 Nginx
 echo "Starting Nginx..."

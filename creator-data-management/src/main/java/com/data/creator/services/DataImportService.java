@@ -50,9 +50,20 @@ public class DataImportService {
 //    @Transactional
     public void importFile(ProgressCallback callback) {
         String location = "classpath:static/data/mock-data-douyin.json";
+        String fileSystemLocation = "/app/spring/data/mock-data-douyin.json";
         try {
             ObjectMapper mapper = new ObjectMapper().configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
-            RawInfluencer[] rawInfluencers = mapper.readValue(resourceLoader.getResource(location).getInputStream(), RawInfluencer[].class);
+            RawInfluencer[] rawInfluencers;
+            
+            // 优先尝试从文件系统读取（Docker环境）
+            try {
+                rawInfluencers = mapper.readValue(new java.io.File(fileSystemLocation), RawInfluencer[].class);
+                log.info("从文件系统读取数据文件: {}", fileSystemLocation);
+            } catch (Exception e) {
+                // 如果文件系统读取失败，回退到classpath
+                rawInfluencers = mapper.readValue(resourceLoader.getResource(location).getInputStream(), RawInfluencer[].class);
+                log.info("从classpath读取数据文件: {}", location);
+            }
 
             for (int i = 0; i < DouyinConstants.SEC_USER_IDS.size(); i++) {
                 RawInfluencer dto = rawInfluencers[i];

@@ -10,7 +10,10 @@ const schedulerRoutes = require('./routes/scheduler');
 const dataRoutes = require('./routes/data');
 
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3000;
+
+// 信任代理（用于 Nginx 反向代理）
+app.set('trust proxy', 1);
 
 // 中间件
 app.use(cors());
@@ -20,7 +23,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // 限流
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15分钟
-  max: 1000 // 限制请求数
+  max: 1000, // 限制请求数
+  trustProxy: true // 信任代理
 });
 app.use(limiter);
 
