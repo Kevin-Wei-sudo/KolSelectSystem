@@ -10,7 +10,7 @@ const schedulerRoutes = require('./routes/scheduler');
 const dataRoutes = require('./routes/data');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 // 信任代理（用于 Nginx 反向代理）
 app.set('trust proxy', 1);
