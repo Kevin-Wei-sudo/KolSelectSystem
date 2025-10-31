@@ -21,7 +21,10 @@ configurations {
 }
 
 repositories {
+	maven { url "https://maven.aliyun.com/repository/public" }
+	maven { url "https://mirrors.tuna.tsinghua.edu.cn/maven/" }
 	mavenCentral()
+	gradlePluginPortal()
 }
 
 ext {
