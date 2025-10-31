@@ -1,7 +1,7 @@
 import React from 'react';
 import { Layout, Menu } from 'antd';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { SearchOutlined, BarChartOutlined, RobotOutlined, ExperimentOutlined } from '@ant-design/icons';
+import { SearchOutlined, BarChartOutlined, RobotOutlined, ExperimentOutlined, BookOutlined } from '@ant-design/icons';
 
 const { Sider } = Layout;
 
@@ -29,6 +29,11 @@ const AppSider = () => {
       key: '/ai-model',
       icon: <ExperimentOutlined />,
       label: 'AI模型',
+    },
+    {
+      key: '/tutorial',
+      icon: <BookOutlined />,
+      label: '使用教程',
     }
   ];
 
