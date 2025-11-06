@@ -20,23 +20,33 @@ import './InfluencerCard.css';
 
 const InfluencerCard = ({ influencer, selected, onSelectChange }) => {
   const navigate = useNavigate();
+  // 兼容不同数据源的ID字段
+  const getInfluencerId = (inf) => inf?.id ?? inf?.['inf_新编号'] ?? inf?.infId ?? inf?.influencerId ?? null;
 
   const handleViewDetail = () => {
-    navigate(`/detail/${influencer.id}`);
+    const id = getInfluencerId(influencer);
+    if (id) {
+      navigate(`/detail/${id}`);
+    }
   };
 
   const getTagsToShow = () => {
     const tags = [];
-    if (influencer.tags.includes('高爆款潜力')) {
+
+    // 确保influencer.tags存在，如果不存在则使用空数组
+    const influencerTags = influencer.tags || [];
+
+    // 使用influencerTags而不是直接使用influencer.tags
+    if (influencerTags.includes('高爆款潜力')) {
       tags.push({ text: '高爆款潜力', className: 'tag-hot' });
     }
-    if (influencer.tags.includes('近期爆款')) {
+    if (influencerTags.includes('近期爆款')) {
       tags.push({ text: '近期爆款', className: 'tag-rising' });
     }
-    if (influencer.tags.includes('高性价比')) {
+    if (influencerTags.includes('高性价比')) {
       tags.push({ text: '高性价比', className: 'tag-cost-effective' });
     }
-    if (influencer.tags.includes('商单口碑优')) {
+    if (influencerTags.includes('商单口碑优')) {
       tags.push({ text: '商单口碑优', className: 'tag-reputation' });
     }
     return tags;
@@ -70,7 +80,13 @@ const InfluencerCard = ({ influencer, selected, onSelectChange }) => {
               </Space>
               <Space size={8} wrap>
                 <Tag color="blue">{influencer.platform}</Tag>
-                <Tag>{influencer.category}</Tag>
+                {Array.isArray(influencer.category) ? (
+                  influencer.category.map((cat) => (
+                    <Tag key={cat}>{cat}</Tag>
+                  ))
+                ) : (
+                  influencer.category && <Tag>{influencer.category}</Tag>
+                )}
                 <Tag>{influencer.gender}</Tag>
               </Space>
               {influencer.mcn && (
@@ -99,7 +115,7 @@ const InfluencerCard = ({ influencer, selected, onSelectChange }) => {
                 <div className="stat-item">
                   <EyeOutlined className="stat-icon" style={{ color: '#52c41a' }} />
                   <div>
-                    <div className="stat-label">平均播放</div>
+                    <div className="stat-label">总点赞数</div>
                     <div className="stat-value">{formatNumberShort(influencer.avg_views)}</div>
                   </div>
                 </div>

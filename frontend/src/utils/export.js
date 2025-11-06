@@ -1,7 +1,7 @@
 import ExcelJS from 'exceljs';
 import { jsPDF } from 'jspdf';
 import html2canvas from 'html2canvas';
-import { formatPriceRange } from './format';
+import { formatPriceRange, formatPercent } from './format';
 
 /**
  * 导出为Excel
@@ -39,19 +39,19 @@ export const exportToExcel = async (influencers, filename = '达人列表') => {
       id: inf.id,
       name: inf.name,
       platform: inf.platform,
-      category: inf.category,
+      category: Array.isArray(inf.category) ? inf.category.join('、') : inf.category,
       gender: inf.gender,
       followers_count: inf.followers_count,
       avg_views: inf.avg_views,
-      engagement_rate: (inf.engagement_rate * 100).toFixed(2) + '%',
-      completion_rate: (inf.completion_rate * 100).toFixed(2) + '%',
+      engagement_rate: formatPercent(inf.engagement_rate, 2),
+      completion_rate: formatPercent(inf.completion_rate, 2),
       adaptability_score: inf.scores.adaptability_score,
       influence_score: inf.scores.influence_score,
       stickiness_score: inf.scores.stickiness_score,
       potential_score: inf.scores.potential_score,
       potential_level: inf.potential_level,
       price_range: formatPriceRange(inf.price_min, inf.price_max),
-      cooperation_reputation: (inf.cooperation_reputation * 100).toFixed(0) + '%',
+      cooperation_reputation: inf.cooperation_reputation,
       fans_growth_trend: inf.fans_growth_trend,
       verified: inf.verified ? '是' : '否',
       mcn: inf.mcn || '无',
@@ -91,11 +91,11 @@ export const exportComparisonToExcel = async (comparison, filename = '达人对�
     ws1.addRow({
       name: inf.name,
       platform: inf.platform,
-      category: inf.category,
+      category: Array.isArray(inf.category) ? inf.category.join('、') : inf.category,
       followers_count: inf.followers_count,
       avg_views: inf.avg_views,
-      engagement_rate: (inf.engagement_rate * 100).toFixed(2) + '%',
-      completion_rate: (inf.completion_rate * 100).toFixed(2) + '%',
+      engagement_rate: formatPercent(inf.engagement_rate, 2),
+      completion_rate: formatPercent(inf.completion_rate, 2),
     });
   });
 

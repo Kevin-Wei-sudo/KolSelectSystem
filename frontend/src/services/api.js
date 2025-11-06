@@ -56,6 +56,37 @@ export const influencerAPI = {
   getOverviewStats: () => {
     return api.get('/influencers/stats/overview');
   },
+
+  // 获取预设语句（Java 后端）
+  getPresetPhrases: () => {
+    return api.get('/influencers/options/preset-phrases');
+  },
+
+  // 按预设语句搜索（Java 后端，GET + query params）
+  searchByPreset: ({ phrase, page = 1, pageSize = 20 }) => {
+    return api.get('/influencers/search/preset', {
+      params: { phrase, page, pageSize },
+    });
+  },
+};
+
+// 数据管理API
+export const dataAPI = {
+  // 重置Demo数据
+  resetDemo: () => {
+    return api.post('/data/reset-demo');
+  },
+  
+  // 测试数据库连接
+  testDatabase: () => {
+    return api.get('/data/test-db');
+  },
+};
+
+// Cookie 管理 API
+export const cookieAPI = {
+  get: () => api.get('/cookie'),
+  set: (cookie) => api.post('/cookie', { cookie }),
 };
 
 export default api;

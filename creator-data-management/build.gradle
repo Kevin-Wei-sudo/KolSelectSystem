@@ -1,0 +1,62 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '3.5.6'
+	id 'io.spring.dependency-management' version '1.1.7'
+}
+
+group = 'com.data'
+version = '0.0.1-SNAPSHOT'
+description = 'creator-data-management'
+
+java {
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(25)
+	}
+}
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	maven { url "https://maven.aliyun.com/repository/public" }
+	maven { url "https://mirrors.tuna.tsinghua.edu.cn/maven/" }
+	mavenCentral()
+	gradlePluginPortal()
+}
+
+ext {
+	set('springdocVersion', "2.8.9")
+	set('commonsLangVersion', "3.18.0")
+	set('springAiVersion', "1.0.3")
+	set('postgresqlVersion', "42.7.8")
+	set('hutoolVersion', "5.8.24")
+	set('huaweicloudVersion', "3.25.5")
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.ai:spring-ai-starter-model-openai'
+	implementation "org.springdoc:springdoc-openapi-starter-webmvc-ui:${springdocVersion}"
+	implementation "org.apache.commons:commons-lang3:${commonsLangVersion}"
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+	runtimeOnly "org.postgresql:postgresql:${postgresqlVersion}"
+	implementation "cn.hutool:hutool-core:${hutoolVersion}"
+	implementation "com.huaweicloud:esdk-obs-java-bundle:${huaweicloudVersion}"
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+dependencyManagement {
+	imports {
+		mavenBom "org.springframework.ai:spring-ai-bom:${springAiVersion}"
+	}
+}
+
+tasks.withType(Test).configureEach {
+	useJUnitPlatform()
+}

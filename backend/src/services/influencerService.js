@@ -169,12 +169,14 @@ class InfluencerService {
 
   // 根据ID获取达人详情
   async getInfluencerById(id) {
-    return this.influencers.find(inf => inf.id === id);
+    return this.influencers.find(inf => this.getInfluencerId(inf) === id);
   }
 
   // 对比达人
   async compareInfluencers(ids) {
-    const influencers = ids.map(id => this.influencers.find(inf => inf.id === id)).filter(Boolean);
+    const influencers = ids
+      .map(id => this.influencers.find(inf => this.getInfluencerId(inf) === id))
+      .filter(Boolean);
     
     if (influencers.length !== ids.length) {
       throw new Error('部分达人不存在');
@@ -187,6 +189,11 @@ class InfluencerService {
       influencers,
       analysis
     };
+  }
+
+  // 兼容不同数据源的ID字段
+  getInfluencerId(inf) {
+    return inf?.id ?? inf?.['inf_新编号'] ?? inf?.infId ?? inf?.influencerId ?? null;
   }
 
   // 获取筛选选项

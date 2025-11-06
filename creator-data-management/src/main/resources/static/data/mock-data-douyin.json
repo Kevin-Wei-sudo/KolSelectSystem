@@ -1,0 +1,1561 @@
+[
+  {
+    "id": "85be6f75-b349-49d8-8698-e987dd5c8cd7",
+    "name": "繁子Fan_",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/248.jpg",
+    "platform": "抖音",
+    "category": [
+      "美妆达人",
+      "彩妆",
+      "护肤",
+      "旅行"
+    ],
+    "gender": "女",
+    "age_range": "28-34",
+    "location": "上海",
+    "followers_count": 2480000,
+    "avg_views": 422040,
+    "engagement_rate": 79.59,
+    "completion_rate": 23,
+    "publish_frequency30d": 26,
+    "publish_frequency90d": 60,
+    "explosive_content_count": 8,
+    "fans_growth_trend": "稳定增长",
+    "style_tags": [
+      "高级化妆师",
+      "结婚热搜",
+      "混油皮",
+      "干货型博主"
+    ],
+    "persona_stability": 9.80,
+    "cooperation_reputation": 9.90,
+    "fans_profile": {
+      "age_18_24": 25,
+      "age_25_34": 45,
+      "gender_female": 65,
+      "gender_male": 30,
+      "cities_tier1": 40,
+      "cities_tier2": 35
+    },
+    "comment_quality": 9.60,
+    "content_innovation": 9.70,
+    "platform_index": 9.80,
+    "platform_recommendation_prob": 0.89,
+    "scores": {
+      "adaptability_score": 97,
+      "influence_score": 98,
+      "stickiness_score": 96,
+      "potential_score": 97
+    },
+    "potential_level": "S+",
+    "prediction_reasons": [
+      "多次登顶抖音热榜",
+      "与国际美妆品牌深度合作",
+      "稳定复投率与超强内容力"
+    ],
+    "price_range": "高端",
+    "price_min": 180000.00,
+    "price_max": 258000.00,
+    "verified": true,
+    "mcn": null,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
+    "recent_works": [
+      "欧莱雅防晒 播放量1078w 点赞17.2w",
+      "舒肤佳 播放量1166.7w",
+      "潘婷洗发水 播放量7034w 点赞18.4w"
+    ],
+    "cooperation_history": null,
+    "tags": [
+      "高级化妆师",
+      "结婚热搜",
+      "混油皮",
+      "干货型博主"
+    ],
+    "created_at": "2025-10-27T02:14:36.782714Z",
+    "updated_at": "2025-10-27T02:14:36.782714Z"
+  },
+  {
+    "id": "08c3e957-3e57-451a-b8c1-787f7413deda",
+    "name": "莓子哥哥",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/223.jpg",
+    "platform": "抖音",
+    "category": [
+      "美妆达人",
+      "测评",
+      "种草",
+      "护肤"
+    ],
+    "gender": "女",
+    "age_range": "30-36",
+    "location": "北京",
+    "followers_count": 1698000,
+    "avg_views": 574590,
+    "engagement_rate": 77.94,
+    "completion_rate": 29,
+    "publish_frequency30d": 28,
+    "publish_frequency90d": 63,
+    "explosive_content_count": 7,
+    "fans_growth_trend": "稳步上升",
+    "style_tags": [
+      "姐系氛围",
+      "测评种草",
+      "运动型人格",
+      "社牛博主"
+    ],
+    "persona_stability": 9.70,
+    "cooperation_reputation": 9.90,
+    "fans_profile": {
+      "age_18_24": 25,
+      "age_25_34": 45,
+      "gender_female": 65,
+      "gender_male": 31,
+      "cities_tier1": 40,
+      "cities_tier2": 35
+    },
+    "comment_quality": 9.70,
+    "content_innovation": 9.60,
+    "platform_index": 9.80,
+    "platform_recommendation_prob": 0.88,
+    "scores": {
+      "adaptability_score": 95,
+      "influence_score": 96,
+      "stickiness_score": 95,
+      "potential_score": 96
+    },
+    "potential_level": "S",
+    "prediction_reasons": [
+      "多场景大型测评",
+      "高质量粉丝群粘性强",
+      "大牌合作率超90%"
+    ],
+    "price_range": "高端",
+    "price_min": 146000.00,
+    "price_max": 198000.00,
+    "verified": true,
+    "mcn": null,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
+    "recent_works": [
+      "斯维诗水光瓶 点赞40w+",
+      "凡士林身体乳 播放936w 带货量18000+"
+    ],
+    "cooperation_history": null,
+    "tags": [
+      "姐系氛围",
+      "测评种草",
+      "运动型人格",
+      "社牛博主"
+    ],
+    "created_at": "2025-10-27T02:14:36.782714Z",
+    "updated_at": "2025-10-27T02:14:36.782714Z"
+  },
+  {
+    "id": "58b8d24a-8058-4209-94ff-d69ab2852bc4",
+    "name": "氛围美女张张",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/47.jpg",
+    "platform": "抖音",
+    "category": [
+      "美妆达人",
+      "彩妆",
+      "时尚大片",
+      "仿妆挑战"
+    ],
+    "gender": "女",
+    "age_range": "20-25",
+    "location": "广州",
+    "followers_count": 1680000,
+    "avg_views": 620900,
+    "engagement_rate": 62.95,
+    "completion_rate": 70,
+    "publish_frequency30d": 27,
+    "publish_frequency90d": 62,
+    "explosive_content_count": 6,
+    "fans_growth_trend": "稳步增长",
+    "style_tags": [
+      "氛围感妆容",
+      "假发造型",
+      "影视感",
+      "00后演员"
+    ],
+    "persona_stability": 9.60,
+    "cooperation_reputation": 9.70,
+    "fans_profile": {
+      "age_18_24": 45,
+      "age_25_34": 35,
+      "gender_female": 65,
+      "gender_male": 31,
+      "cities_tier1": 40,
+      "cities_tier2": 35
+    },
+    "comment_quality": 9.50,
+    "content_innovation": 9.80,
+    "platform_index": 9.70,
+    "platform_recommendation_prob": 0.85,
+    "scores": {
+      "adaptability_score": 94,
+      "influence_score": 94,
+      "stickiness_score": 93,
+      "potential_score": 94
+    },
+    "potential_level": "S",
+    "prediction_reasons": [
+      "内容风格高级",
+      "视频系列化运营成功",
+      "大牌美妆高复投率"
+    ],
+    "price_range": "高端",
+    "price_min": 120000.00,
+    "price_max": 180000.00,
+    "verified": true,
+    "mcn": null,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
+    "recent_works": [
+      "YSL口红合作复投",
+      "丝芙兰广告播放1000w+"
+    ],
+    "cooperation_history": null,
+    "tags": [
+      "氛围感妆容",
+      "假发造型",
+      "影视感",
+      "00后演员"
+    ],
+    "created_at": "2025-10-27T02:14:36.782714Z",
+    "updated_at": "2025-10-27T02:14:36.782714Z"
+  },
+  {
+    "id": "6c07488d-d017-4744-9649-08ce53efe0b7",
+    "name": "Nico靓靓",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/189.jpg",
+    "platform": "抖音",
+    "category": [
+      "美妆达人",
+      "护肤",
+      "时尚",
+      "模特",
+      "运动"
+    ],
+    "gender": "女",
+    "age_range": "26-32",
+    "location": "上海",
+    "followers_count": 1245000,
+    "avg_views": 556980,
+    "engagement_rate": 68.64,
+    "completion_rate": 43,
+    "publish_frequency30d": 24,
+    "publish_frequency90d": 60,
+    "explosive_content_count": 5,
+    "fans_growth_trend": "上升趋势",
+    "style_tags": [
+      "职业模特",
+      "飞盘健身",
+      "悦己态度",
+      "护肤气血感"
+    ],
+    "persona_stability": 9.80,
+    "cooperation_reputation": 9.90,
+    "fans_profile": {
+      "age_18_24": 30,
+      "age_25_34": 40,
+      "gender_female": 65,
+      "gender_male": 36,
+      "cities_tier1": 40,
+      "cities_tier2": 35
+    },
+    "comment_quality": 9.70,
+    "content_innovation": 9.60,
+    "platform_index": 9.80,
+    "platform_recommendation_prob": 0.87,
+    "scores": {
+      "adaptability_score": 95,
+      "influence_score": 95,
+      "stickiness_score": 94,
+      "potential_score": 95
+    },
+    "potential_level": "S",
+    "prediction_reasons": [
+      "高奢品牌深度合作",
+      "自律运动标签凸显",
+      "模特+时尚双重调性"
+    ],
+    "price_range": "高端",
+    "price_min": 86500.00,
+    "price_max": 128000.00,
+    "verified": true,
+    "mcn": null,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
+    "recent_works": [
+      "LAMER月复投3次",
+      "潇洒洗发水销量274w+ ROI31.24"
+    ],
+    "cooperation_history": null,
+    "tags": [
+      "职业模特",
+      "飞盘健身",
+      "悦己态度",
+      "护肤气血感"
+    ],
+    "created_at": "2025-10-27T02:14:36.782714Z",
+    "updated_at": "2025-10-27T02:14:36.782714Z"
+  },
+  {
+    "id": "c7cd7c3e-9b28-4d31-8375-78cecd626030",
+    "name": "咕咚er（备婚中）",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/152.jpg",
+    "platform": "抖音",
+    "category": [
+      "美妆达人",
+      "备婚",
+      "种草",
+      "护肤"
+    ],
+    "gender": "女",
+    "age_range": "26-32",
+    "location": "北京",
+    "followers_count": 780000,
+    "avg_views": 277280,
+    "engagement_rate": 73.74,
+    "completion_rate": 50,
+    "publish_frequency30d": 22,
+    "publish_frequency90d": 58,
+    "explosive_content_count": 5,
+    "fans_growth_trend": "稳定上升",
+    "style_tags": [
+      "痘敏肌",
+      "冷都女",
+      "测评达人",
+      "备婚博主"
+    ],
+    "persona_stability": 9.70,
+    "cooperation_reputation": 9.80,
+    "fans_profile": {
+      "age_18_24": 30,
+      "age_25_34": 40,
+      "gender_female": 65,
+      "gender_male": 39,
+      "cities_tier1": 40,
+      "cities_tier2": 35
+    },
+    "comment_quality": 9.50,
+    "content_innovation": 9.60,
+    "platform_index": 9.70,
+    "platform_recommendation_prob": 0.84,
+    "scores": {
+      "adaptability_score": 93,
+      "influence_score": 93,
+      "stickiness_score": 92,
+      "potential_score": 93
+    },
+    "potential_level": "A+",
+    "prediction_reasons": [
+      "测评种草内容权威性强",
+      "痘敏肌人群共鸣高",
+      "备婚场景商业价值突出"
+    ],
+    "price_range": "中高",
+    "price_min": 58000.00,
+    "price_max": 88000.00,
+    "verified": true,
+    "mcn": null,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
+    "recent_works": [
+      "潇洒洗发水 播放856.7w GMV 35w+",
+      "21金维他 GMV 100w+"
+    ],
+    "cooperation_history": null,
+    "tags": [
+      "痘敏肌",
+      "冷都女",
+      "测评达人",
+      "备婚博主"
+    ],
+    "created_at": "2025-10-27T02:14:36.782714Z",
+    "updated_at": "2025-10-27T02:14:36.782714Z"
+  },
+  {
+    "id": "4873dafd-43e6-444d-880a-56414ecc18c8",
+    "name": "原野枚子",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/262.jpg",
+    "platform": "抖音",
+    "category": [
+      "美妆达人",
+      "彩妆",
+      "化妆师",
+      "户外生活"
+    ],
+    "gender": "女",
+    "age_range": "25-32",
+    "location": "成都",
+    "followers_count": 765000,
+    "avg_views": 280600,
+    "engagement_rate": 80.09,
+    "completion_rate": 69,
+    "publish_frequency30d": 24,
+    "publish_frequency90d": 58,
+    "explosive_content_count": 6,
+    "fans_growth_trend": "稳步上升",
+    "style_tags": [
+      "东田科班化妆师",
+      "健康阳光",
+      "飞盘骑行爱好者",
+      "女性力量输出"
+    ],
+    "persona_stability": 9.60,
+    "cooperation_reputation": 9.70,
+    "fans_profile": {
+      "age_18_24": 45,
+      "age_25_34": 35,
+      "gender_female": 65,
+      "gender_male": 10,
+      "cities_tier1": 20,
+      "cities_tier2": 45
+    },
+    "comment_quality": 9.50,
+    "content_innovation": 9.70,
+    "platform_index": 9.60,
+    "platform_recommendation_prob": 0.84,
+    "scores": {
+      "adaptability_score": 93,
+      "influence_score": 94,
+      "stickiness_score": 92,
+      "potential_score": 94
+    },
+    "potential_level": "A+",
+    "prediction_reasons": [
+      "内容融合美妆与运动，风格新颖",
+      "专业化妆师身份增强信任感",
+      "品牌合作自然度高"
+    ],
+    "price_range": "中高",
+    "price_min": 58000.00,
+    "price_max": 85000.00,
+    "verified": true,
+    "mcn": null,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
+    "recent_works": [
+      "期待合作，共创爆款！"
+    ],
+    "cooperation_history": null,
+    "tags": [
+      "东田科班化妆师",
+      "健康阳光",
+      "飞盘骑行爱好者",
+      "女性力量输出"
+    ],
+    "created_at": "2025-10-27T02:14:36.782714Z",
+    "updated_at": "2025-10-27T02:14:36.782714Z"
+  },
+  {
+    "id": "d9f0e1e4-7dbb-44c8-8ed1-8dca204681ad",
+    "name": "杨璐儿",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/13.jpg",
+    "platform": "抖音",
+    "category": [
+      "美妆达人",
+      "抗老护肤",
+      "养生",
+      "贵妇风"
+    ],
+    "gender": "女",
+    "age_range": "35-40",
+    "location": "上海",
+    "followers_count": 750000,
+    "avg_views": 168820,
+    "engagement_rate": 54.52,
+    "completion_rate": 20,
+    "publish_frequency30d": 21,
+    "publish_frequency90d": 55,
+    "explosive_content_count": 5,
+    "fans_growth_trend": "稳定增长",
+    "style_tags": [
+      "36岁好状态",
+      "抗老思路",
+      "反差人设",
+      "信任口碑高"
+    ],
+    "persona_stability": 9.80,
+    "cooperation_reputation": 9.90,
+    "fans_profile": {
+      "age_18_24": 30,
+      "age_25_34": 40,
+      "gender_female": 65,
+      "gender_male": 80,
+      "cities_tier1": 40,
+      "cities_tier2": 35
+    },
+    "comment_quality": 9.70,
+    "content_innovation": 9.60,
+    "platform_index": 9.80,
+    "platform_recommendation_prob": 0.86,
+    "scores": {
+      "adaptability_score": 95,
+      "influence_score": 96,
+      "stickiness_score": 95,
+      "potential_score": 95
+    },
+    "potential_level": "S",
+    "prediction_reasons": [
+      "抗老思路系列化输出，粉丝信服度高",
+      "品效合一，带货ROI高",
+      "品牌复投率高"
+    ],
+    "price_range": "中高",
+    "price_min": 55000.00,
+    "price_max": 82000.00,
+    "verified": true,
+    "mcn": null,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
+    "recent_works": [
+      "21金维他400W+ GMV",
+      "万益蓝益生菌GMV 80W+"
+    ],
+    "cooperation_history": null,
+    "tags": [
+      "36岁好状态",
+      "抗老思路",
+      "反差人设",
+      "信任口碑高"
+    ],
+    "created_at": "2025-10-27T02:14:36.782714Z",
+    "updated_at": "2025-10-27T02:14:36.782714Z"
+  },
+  {
+    "id": "278bd48f-d31b-4afe-8ae3-1f7aca07a73f",
+    "name": "21M-",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/298.jpg",
+    "platform": "抖音",
+    "category": [
+      "美妆达人",
+      "护发",
+      "模特",
+      "抗老"
+    ],
+    "gender": "女",
+    "age_range": "26-32",
+    "location": "广州",
+    "followers_count": 753000,
+    "avg_views": 239100,
+    "engagement_rate": 75.73,
+    "completion_rate": 88,
+    "publish_frequency30d": 24,
+    "publish_frequency90d": 58,
+    "explosive_content_count": 6,
+    "fans_growth_trend": "快速增长",
+    "style_tags": [
+      "发量女王",
+      "体态管理",
+      "高颅顶造型",
+      "模特气质"
+    ],
+    "persona_stability": 9.70,
+    "cooperation_reputation": 9.80,
+    "fans_profile": {
+      "age_18_24": 30,
+      "age_25_34": 40,
+      "gender_female": 65,
+      "gender_male": 90,
+      "cities_tier1": 40,
+      "cities_tier2": 35
+    },
+    "comment_quality": 9.60,
+    "content_innovation": 9.70,
+    "platform_index": 9.80,
+    "platform_recommendation_prob": 0.87,
+    "scores": {
+      "adaptability_score": 95,
+      "influence_score": 95,
+      "stickiness_score": 94,
+      "potential_score": 95
+    },
+    "potential_level": "S",
+    "prediction_reasons": [
+      "护发赛道核心博主",
+      "模特形象与幽默内容结合度高",
+      "抗老话题兼具趣味与深度"
+    ],
+    "price_range": "中高",
+    "price_min": 52800.00,
+    "price_max": 79000.00,
+    "verified": true,
+    "mcn": null,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
+    "recent_works": [
+      "发量教母系列播放量持续增长"
+    ],
+    "cooperation_history": null,
+    "tags": [
+      "发量女王",
+      "体态管理",
+      "高颅顶造型",
+      "模特气质"
+    ],
+    "created_at": "2025-10-27T02:14:36.782714Z",
+    "updated_at": "2025-10-27T02:14:36.782714Z"
+  },
+  {
+    "id": "d8ec3ac4-fa47-4f29-903e-d7d9cbd9acc8",
+    "name": "蓉姐儿",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/26.jpg",
+    "platform": "抖音",
+    "category": [
+      "美妆达人",
+      "测评",
+      "种草",
+      "母婴"
+    ],
+    "gender": "女",
+    "age_range": "38-44",
+    "location": "成都",
+    "followers_count": 744000,
+    "avg_views": 391950,
+    "engagement_rate": 80.53,
+    "completion_rate": 51,
+    "publish_frequency30d": 22,
+    "publish_frequency90d": 57,
+    "explosive_content_count": 7,
+    "fans_growth_trend": "稳步上升",
+    "style_tags": [
+      "高品质生活",
+      "职场妈妈",
+      "观点型女性",
+      "疗愈风格"
+    ],
+    "persona_stability": 9.80,
+    "cooperation_reputation": 9.90,
+    "fans_profile": {
+      "age_18_24": 30,
+      "age_25_34": 40,
+      "gender_female": 65,
+      "gender_male": 100,
+      "cities_tier1": 20,
+      "cities_tier2": 45
+    },
+    "comment_quality": 9.70,
+    "content_innovation": 9.60,
+    "platform_index": 9.80,
+    "platform_recommendation_prob": 0.86,
+    "scores": {
+      "adaptability_score": 95,
+      "influence_score": 96,
+      "stickiness_score": 95,
+      "potential_score": 95
+    },
+    "potential_level": "S",
+    "prediction_reasons": [
+      "成熟职场女性人设稀缺",
+      "适配高端品牌广告",
+      "粉丝群体消费力强"
+    ],
+    "price_range": "中高",
+    "price_min": 56000.00,
+    "price_max": 78800.00,
+    "verified": true,
+    "mcn": null,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
+    "recent_works": [
+      "雀巢母婴合作",
+      "vivo 科大讯飞 品宣"
+    ],
+    "cooperation_history": null,
+    "tags": [
+      "高品质生活",
+      "职场妈妈",
+      "观点型女性",
+      "疗愈风格"
+    ],
+    "created_at": "2025-10-27T02:14:36.782714Z",
+    "updated_at": "2025-10-27T02:14:36.782714Z"
+  },
+  {
+    "id": "b1eaec57-a683-4a5e-9462-24af7f793917",
+    "name": "彭三岁",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/271.jpg",
+    "platform": "抖音",
+    "category": [
+      "美妆达人",
+      "护肤测评",
+      "生活方式"
+    ],
+    "gender": "女",
+    "age_range": "25-30",
+    "location": "重庆",
+    "followers_count": 750000,
+    "avg_views": 472150,
+    "engagement_rate": 70.48,
+    "completion_rate": 28,
+    "publish_frequency30d": 25,
+    "publish_frequency90d": 59,
+    "explosive_content_count": 7,
+    "fans_growth_trend": "稳定增长",
+    "style_tags": [
+      "化妆师双证",
+      "护肤干货",
+      "全能推广",
+      "综艺经验丰富"
+    ],
+    "persona_stability": 9.70,
+    "cooperation_reputation": 9.80,
+    "fans_profile": {
+      "age_18_24": 45,
+      "age_25_34": 35,
+      "gender_female": 65,
+      "gender_male": 42,
+      "cities_tier1": 20,
+      "cities_tier2": 45
+    },
+    "comment_quality": 9.60,
+    "content_innovation": 9.60,
+    "platform_index": 9.70,
+    "platform_recommendation_prob": 0.85,
+    "scores": {
+      "adaptability_score": 94,
+      "influence_score": 94,
+      "stickiness_score": 93,
+      "potential_score": 94
+    },
+    "potential_level": "S",
+    "prediction_reasons": [
+      "专业背景强，信任度高",
+      "广告转化效果突出",
+      "适配个护与生活类品牌"
+    ],
+    "price_range": "中高",
+    "price_min": 58000.00,
+    "price_max": 75000.00,
+    "verified": true,
+    "mcn": null,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
+    "recent_works": [
+      "美宝莲、阿玛尼、欧莱雅系列合作",
+      "70w护肤干货爆款视频"
+    ],
+    "cooperation_history": null,
+    "tags": [
+      "化妆师双证",
+      "护肤干货",
+      "全能推广",
+      "综艺经验丰富"
+    ],
+    "created_at": "2025-10-27T02:14:36.782714Z",
+    "updated_at": "2025-10-27T02:14:36.782714Z"
+  },
+  {
+    "id": "9ae32b81-fdae-4b51-a32d-ab121f71f68f",
+    "name": "昱七七",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/68.jpg",
+    "platform": "抖音",
+    "category": [
+      "美妆达人",
+      "护肤",
+      "抗老",
+      "备婚"
+    ],
+    "gender": "女",
+    "age_range": "32-36",
+    "location": "上海",
+    "followers_count": 759000,
+    "avg_views": 189480,
+    "engagement_rate": 79.97,
+    "completion_rate": 43,
+    "publish_frequency30d": 24,
+    "publish_frequency90d": 58,
+    "explosive_content_count": 6,
+    "fans_growth_trend": "稳步增长",
+    "style_tags": [
+      "备婚期夫妇",
+      "贵妇脸",
+      "全身抗衰",
+      "皮肤管理狂魔"
+    ],
+    "persona_stability": 9.70,
+    "cooperation_reputation": 9.90,
+    "fans_profile": {
+      "age_18_24": 30,
+      "age_25_34": 40,
+      "gender_female": 65,
+      "gender_male": 90,
+      "cities_tier1": 40,
+      "cities_tier2": 35
+    },
+    "comment_quality": 9.60,
+    "content_innovation": 9.60,
+    "platform_index": 9.80,
+    "platform_recommendation_prob": 0.87,
+    "scores": {
+      "adaptability_score": 95,
+      "influence_score": 96,
+      "stickiness_score": 94,
+      "potential_score": 96
+    },
+    "potential_level": "S",
+    "prediction_reasons": [
+      "高奢抗衰护肤内容稀缺",
+      "备婚女性人群精准",
+      "内容稳定，品牌合作度高"
+    ],
+    "price_range": "中高",
+    "price_min": 55000.00,
+    "price_max": 75000.00,
+    "verified": true,
+    "mcn": null,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
+    "recent_works": [
+      "曼秀雷敦去屑洗发水 带货24w+",
+      "兰蔻、修丽可、雅诗兰黛 系列广告合作"
+    ],
+    "cooperation_history": null,
+    "tags": [
+      "备婚期夫妇",
+      "贵妇脸",
+      "全身抗衰",
+      "皮肤管理狂魔"
+    ],
+    "created_at": "2025-10-27T02:14:36.782714Z",
+    "updated_at": "2025-10-27T02:14:36.782714Z"
+  },
+  {
+    "id": "83f0ecb7-399a-4dc0-a756-2cecb0c30d98",
+    "name": "黄亿白",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/51.jpg",
+    "platform": "抖音",
+    "category": [
+      "美妆达人",
+      "护肤",
+      "抗老",
+      "测评"
+    ],
+    "gender": "女",
+    "age_range": "28-34",
+    "location": "广州",
+    "followers_count": 738000,
+    "avg_views": 388720,
+    "engagement_rate": 69.07,
+    "completion_rate": 80,
+    "publish_frequency30d": 26,
+    "publish_frequency90d": 61,
+    "explosive_content_count": 7,
+    "fans_growth_trend": "稳步上升",
+    "style_tags": [
+      "985海归",
+      "CBC皮肤管理师",
+      "抗老护肤",
+      "医美达人"
+    ],
+    "persona_stability": 9.80,
+    "cooperation_reputation": 9.90,
+    "fans_profile": {
+      "age_18_24": 25,
+      "age_25_34": 45,
+      "gender_female": 65,
+      "gender_male": 10,
+      "cities_tier1": 40,
+      "cities_tier2": 35
+    },
+    "comment_quality": 9.70,
+    "content_innovation": 9.60,
+    "platform_index": 9.80,
+    "platform_recommendation_prob": 0.88,
+    "scores": {
+      "adaptability_score": 95,
+      "influence_score": 96,
+      "stickiness_score": 94,
+      "potential_score": 96
+    },
+    "potential_level": "S",
+    "prediction_reasons": [
+      "医美结合护肤，内容专业度高",
+      "常受邀大牌活动，素材高质",
+      "直播经验丰富，转化率高"
+    ],
+    "price_range": "中高",
+    "price_min": 48000.00,
+    "price_max": 72000.00,
+    "verified": true,
+    "mcn": null,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
+    "recent_works": [
+      "SK-II精华水 播放1330w+",
+      "欧莱雅防晒 点赞15w+ 爆款"
+    ],
+    "cooperation_history": null,
+    "tags": [
+      "985海归",
+      "CBC皮肤管理师",
+      "抗老护肤",
+      "医美达人"
+    ],
+    "created_at": "2025-10-27T02:14:36.782714Z",
+    "updated_at": "2025-10-27T02:14:36.782714Z"
+  },
+  {
+    "id": "6c4e315f-c9ca-4da6-b640-1c98514bcb7e",
+    "name": "辣味chili️",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/125.jpg",
+    "platform": "抖音",
+    "category": [
+      "美妆达人",
+      "带货",
+      "护肤",
+      "健身"
+    ],
+    "gender": "女",
+    "age_range": "24-30",
+    "location": "成都",
+    "followers_count": 744000,
+    "avg_views": 246990,
+    "engagement_rate": 77.88,
+    "completion_rate": 58,
+    "publish_frequency30d": 28,
+    "publish_frequency90d": 63,
+    "explosive_content_count": 8,
+    "fans_growth_trend": "快速上涨",
+    "style_tags": [
+      "油痘肌辣妹",
+      "全品类带货",
+      "健身户外",
+      "搞笑口播"
+    ],
+    "persona_stability": 9.60,
+    "cooperation_reputation": 9.80,
+    "fans_profile": {
+      "age_18_24": 25,
+      "age_25_34": 45,
+      "gender_female": 65,
+      "gender_male": 30,
+      "cities_tier1": 20,
+      "cities_tier2": 45
+    },
+    "comment_quality": 9.50,
+    "content_innovation": 9.80,
+    "platform_index": 9.80,
+    "platform_recommendation_prob": 0.89,
+    "scores": {
+      "adaptability_score": 96,
+      "influence_score": 97,
+      "stickiness_score": 96,
+      "potential_score": 97
+    },
+    "potential_level": "S+",
+    "prediction_reasons": [
+      "多栖达人，内容场景广",
+      "口播风格鲜明，记忆点高",
+      "健身+美妆结合赛道稀缺"
+    ],
+    "price_range": "中高",
+    "price_min": 42000.00,
+    "price_max": 72000.00,
+    "verified": true,
+    "mcn": null,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
+    "recent_works": [
+      "keep健身合作 点赞50w+",
+      "Wonderlab胶原蛋白 带货41w+"
+    ],
+    "cooperation_history": null,
+    "tags": [
+      "油痘肌辣妹",
+      "全品类带货",
+      "健身户外",
+      "搞笑口播"
+    ],
+    "created_at": "2025-10-27T02:14:36.782714Z",
+    "updated_at": "2025-10-27T02:14:36.782714Z"
+  },
+  {
+    "id": "f5f6806b-2ea1-462f-940a-3ef536390ea5",
+    "name": "sisi美颜室（测评）",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/283.jpg",
+    "platform": "抖音",
+    "category": [
+      "美妆达人",
+      "测评",
+      "护肤",
+      "彩妆"
+    ],
+    "gender": "女",
+    "age_range": "33-38",
+    "location": "杭州",
+    "followers_count": 756000,
+    "avg_views": 368840,
+    "engagement_rate": 69.98,
+    "completion_rate": 10,
+    "publish_frequency30d": 25,
+    "publish_frequency90d": 59,
+    "explosive_content_count": 6,
+    "fans_growth_trend": "稳中上升",
+    "style_tags": [
+      "轻医美测评",
+      "无滤镜真实测评",
+      "东田化妆师",
+      "知识型达人"
+    ],
+    "persona_stability": 9.70,
+    "cooperation_reputation": 9.80,
+    "fans_profile": {
+      "age_18_24": 30,
+      "age_25_34": 40,
+      "gender_female": 65,
+      "gender_male": 1,
+      "cities_tier1": 20,
+      "cities_tier2": 45
+    },
+    "comment_quality": 9.70,
+    "content_innovation": 9.60,
+    "platform_index": 9.70,
+    "platform_recommendation_prob": 0.86,
+    "scores": {
+      "adaptability_score": 94,
+      "influence_score": 94,
+      "stickiness_score": 93,
+      "potential_score": 94
+    },
+    "potential_level": "S",
+    "prediction_reasons": [
+      "测评内容真实无滤镜，极具公信力",
+      "东田背景加持，专业性强",
+      "品牌合作品类广泛"
+    ],
+    "price_range": "中高",
+    "price_min": 46800.00,
+    "price_max": 69000.00,
+    "verified": true,
+    "mcn": null,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
+    "recent_works": [
+      "兰蔻、CPB系列测评视频",
+      "FOREO护肤测评系列播放破百万"
+    ],
+    "cooperation_history": null,
+    "tags": [
+      "轻医美测评",
+      "无滤镜真实测评",
+      "东田化妆师",
+      "知识型达人"
+    ],
+    "created_at": "2025-10-27T02:14:36.782714Z",
+    "updated_at": "2025-10-27T02:14:36.782714Z"
+  },
+  {
+    "id": "2f025712-dba1-47d9-b3dd-886abecb8a26",
+    "name": "吴晓晓Wu",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/244.jpg",
+    "platform": "抖音",
+    "category": [
+      "美妆达人",
+      "护肤",
+      "医美",
+      "时尚穿搭"
+    ],
+    "gender": "女",
+    "age_range": "26-33",
+    "location": "深圳",
+    "followers_count": 747000,
+    "avg_views": 185970,
+    "engagement_rate": 74.29,
+    "completion_rate": 10,
+    "publish_frequency30d": 23,
+    "publish_frequency90d": 57,
+    "explosive_content_count": 5,
+    "fans_growth_trend": "稳步上升",
+    "style_tags": [
+      "疗愈护肤",
+      "前模特",
+      "发光素颜系列",
+      "大健康品类"
+    ],
+    "persona_stability": 9.80,
+    "cooperation_reputation": 9.80,
+    "fans_profile": {
+      "age_18_24": 30,
+      "age_25_34": 40,
+      "gender_female": 65,
+      "gender_male": 6,
+      "cities_tier1": 40,
+      "cities_tier2": 35
+    },
+    "comment_quality": 9.70,
+    "content_innovation": 9.70,
+    "platform_index": 9.80,
+    "platform_recommendation_prob": 0.87,
+    "scores": {
+      "adaptability_score": 95,
+      "influence_score": 95,
+      "stickiness_score": 94,
+      "potential_score": 95
+    },
+    "potential_level": "S",
+    "prediction_reasons": [
+      "原创发光素颜系列破4000w播放",
+      "高端审美与疗愈风格结合",
+      "多品牌适配，视觉质感突出"
+    ],
+    "price_range": "中高",
+    "price_min": 46600.00,
+    "price_max": 69000.00,
+    "verified": true,
+    "mcn": null,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
+    "recent_works": [
+      "阿玛尼、迪奥、修丽可、植村秀 品牌广告",
+      "发光素颜系列 累计播放4000w+"
+    ],
+    "cooperation_history": null,
+    "tags": [
+      "疗愈护肤",
+      "前模特",
+      "发光素颜系列",
+      "大健康品类"
+    ],
+    "created_at": "2025-10-27T02:14:36.782714Z",
+    "updated_at": "2025-10-27T02:14:36.782714Z"
+  },
+  {
+    "id": "a9f62703-5160-4e97-9d3a-6cb477dbda75",
+    "name": "高子璇",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/146.jpg",
+    "platform": "抖音",
+    "category": [
+      "美妆达人",
+      "模特",
+      "护肤",
+      "时尚"
+    ],
+    "gender": "女",
+    "age_range": "25-30",
+    "location": "上海",
+    "followers_count": 780000,
+    "avg_views": 182620,
+    "engagement_rate": 78.62,
+    "completion_rate": 84,
+    "publish_frequency30d": 24,
+    "publish_frequency90d": 58,
+    "explosive_content_count": 5,
+    "fans_growth_trend": "稳定上升",
+    "style_tags": [
+      "高级脸",
+      "模特气质",
+      "身材管理",
+      "妈生好皮"
+    ],
+    "persona_stability": 9.70,
+    "cooperation_reputation": 9.80,
+    "fans_profile": {
+      "age_18_24": 45,
+      "age_25_34": 35,
+      "gender_female": 65,
+      "gender_male": 19,
+      "cities_tier1": 40,
+      "cities_tier2": 35
+    },
+    "comment_quality": 9.60,
+    "content_innovation": 9.60,
+    "platform_index": 9.70,
+    "platform_recommendation_prob": 0.86,
+    "scores": {
+      "adaptability_score": 94,
+      "influence_score": 95,
+      "stickiness_score": 93,
+      "potential_score": 94
+    },
+    "potential_level": "S",
+    "prediction_reasons": [
+      "模特出身，视觉呈现力强",
+      "内容覆盖护肤与变美场景",
+      "高端品牌适配性强"
+    ],
+    "price_range": "中高",
+    "price_min": 45000.00,
+    "price_max": 68000.00,
+    "verified": true,
+    "mcn": null,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
+    "recent_works": [
+      "Life-Space益倍适广告合作",
+      "奇美研护肤测评视频点赞破10w"
+    ],
+    "cooperation_history": null,
+    "tags": [
+      "高级脸",
+      "模特气质",
+      "身材管理",
+      "妈生好皮"
+    ],
+    "created_at": "2025-10-27T02:14:36.782714Z",
+    "updated_at": "2025-10-27T02:14:36.782714Z"
+  },
+  {
+    "id": "7f193cdd-d0e5-405f-9204-7ec7cdd09ba5",
+    "name": "丫丫_Yabby",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/61.jpg",
+    "platform": "抖音",
+    "category": [
+      "美妆达人",
+      "护肤",
+      "测评",
+      "种草"
+    ],
+    "gender": "女",
+    "age_range": "24-28",
+    "location": "广州",
+    "followers_count": 777000,
+    "avg_views": 123700,
+    "engagement_rate": 76.88,
+    "completion_rate": 76,
+    "publish_frequency30d": 27,
+    "publish_frequency90d": 62,
+    "explosive_content_count": 8,
+    "fans_growth_trend": "快速增长",
+    "style_tags": [
+      "戏精口播",
+      "抓马学姐",
+      "趣味种草",
+      "口腔护理达人"
+    ],
+    "persona_stability": 9.60,
+    "cooperation_reputation": 9.80,
+    "fans_profile": {
+      "age_18_24": 25,
+      "age_25_34": 45,
+      "gender_female": 65,
+      "gender_male": 80,
+      "cities_tier1": 40,
+      "cities_tier2": 35
+    },
+    "comment_quality": 9.60,
+    "content_innovation": 9.80,
+    "platform_index": 9.80,
+    "platform_recommendation_prob": 0.88,
+    "scores": {
+      "adaptability_score": 96,
+      "influence_score": 97,
+      "stickiness_score": 96,
+      "potential_score": 97
+    },
+    "potential_level": "S+",
+    "prediction_reasons": [
+      "口播感染力强，品效合一表现突出",
+      "系列化测评内容传播力高",
+      "爆款频出，广告转化优异"
+    ],
+    "price_range": "中高",
+    "price_min": 45000.00,
+    "price_max": 68000.00,
+    "verified": true,
+    "mcn": null,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
+    "recent_works": [
+      "21金维他 GMV 359W+",
+      "每日博士口腔益生菌 GMV 21W+"
+    ],
+    "cooperation_history": null,
+    "tags": [
+      "戏精口播",
+      "抓马学姐",
+      "趣味种草",
+      "口腔护理达人"
+    ],
+    "created_at": "2025-10-27T02:14:36.782714Z",
+    "updated_at": "2025-10-27T02:14:36.782714Z"
+  },
+  {
+    "id": "5fa29dc8-0caf-45c5-a42c-62f143ae4e05",
+    "name": "惠惠子CARRIE",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/278.jpg",
+    "platform": "抖音",
+    "category": [
+      "美妆达人",
+      "化妆师",
+      "测评",
+      "护肤"
+    ],
+    "gender": "女",
+    "age_range": "27-33",
+    "location": "北京",
+    "followers_count": 753000,
+    "avg_views": 138600,
+    "engagement_rate": 62.58,
+    "completion_rate": 54,
+    "publish_frequency30d": 23,
+    "publish_frequency90d": 58,
+    "explosive_content_count": 6,
+    "fans_growth_trend": "稳定增长",
+    "style_tags": [
+      "极端环境测评",
+      "原相机无滤镜",
+      "户外挑战",
+      "敏感肌代言人"
+    ],
+    "persona_stability": 9.80,
+    "cooperation_reputation": 9.90,
+    "fans_profile": {
+      "age_18_24": 30,
+      "age_25_34": 40,
+      "gender_female": 100,
+      "gender_male": 12,
+      "cities_tier1": 40,
+      "cities_tier2": 35
+    },
+    "comment_quality": 9.70,
+    "content_innovation": 9.80,
+    "platform_index": 9.80,
+    "platform_recommendation_prob": 0.88,
+    "scores": {
+      "adaptability_score": 95,
+      "influence_score": 96,
+      "stickiness_score": 94,
+      "potential_score": 96
+    },
+    "potential_level": "S",
+    "prediction_reasons": [
+      "真实测评内容，可信度高",
+      "运动与美妆结合创新强",
+      "复投品牌多，合作口碑好"
+    ],
+    "price_range": "中高",
+    "price_min": 46600.00,
+    "price_max": 65000.00,
+    "verified": true,
+    "mcn": null,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
+    "recent_works": [
+      "iry广告 点赞15w+",
+      "石头扫地机器人复投合作"
+    ],
+    "cooperation_history": null,
+    "tags": [
+      "极端环境测评",
+      "原相机无滤镜",
+      "户外挑战",
+      "敏感肌代言人"
+    ],
+    "created_at": "2025-10-27T02:14:36.782714Z",
+    "updated_at": "2025-10-27T02:14:36.782714Z"
+  },
+  {
+    "id": "1f3e005a-0c22-4f52-ac16-c69495980df3",
+    "name": "主持人一汀",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/224.jpg",
+    "platform": "抖音",
+    "category": [
+      "美妆达人",
+      "贵妇",
+      "医美顾问",
+      "生活方式"
+    ],
+    "gender": "女",
+    "age_range": "36-42",
+    "location": "长沙",
+    "followers_count": 558000,
+    "avg_views": 148490,
+    "engagement_rate": 57.4,
+    "completion_rate": 46,
+    "publish_frequency30d": 21,
+    "publish_frequency90d": 55,
+    "explosive_content_count": 4,
+    "fans_growth_trend": "稳中有升",
+    "style_tags": [
+      "芒果台主持人",
+      "高知贵妇",
+      "抗衰顾问",
+      "生活方式分享"
+    ],
+    "persona_stability": 9.90,
+    "cooperation_reputation": 9.90,
+    "fans_profile": {
+      "age_18_24": 30,
+      "age_25_34": 40,
+      "gender_female": 80,
+      "gender_male": 10,
+      "cities_tier1": 20,
+      "cities_tier2": 45
+    },
+    "comment_quality": 9.70,
+    "content_innovation": 9.50,
+    "platform_index": 9.80,
+    "platform_recommendation_prob": 0.85,
+    "scores": {
+      "adaptability_score": 93,
+      "influence_score": 94,
+      "stickiness_score": 92,
+      "potential_score": 93
+    },
+    "potential_level": "A+",
+    "prediction_reasons": [
+      "主持人专业表达力强",
+      "生活品质高，适配高奢品牌",
+      "贵妇人设稳定，粉丝粘性强"
+    ],
+    "price_range": "中高",
+    "price_min": 42500.00,
+    "price_max": 63800.00,
+    "verified": true,
+    "mcn": null,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
+    "recent_works": [
+      "兰蔻、娇韵诗 品宣广告",
+      "医美顾问系列内容播放破百万"
+    ],
+    "cooperation_history": null,
+    "tags": [
+      "芒果台主持人",
+      "高知贵妇",
+      "抗衰顾问",
+      "生活方式分享"
+    ],
+    "created_at": "2025-10-27T02:14:36.782714Z",
+    "updated_at": "2025-10-27T02:14:36.782714Z"
+  },
+  {
+    "id": "487341de-c917-4a80-9efa-a9ea8cbde792",
+    "name": "杨璐冰Ruby",
+    "avatar": "https://linkgen.obs.cn-east-3.myhuaweicloud.com/RandomAvatar/254.jpg",
+    "platform": "抖音",
+    "category": [
+      "美妆达人",
+      "护肤",
+      "抗老",
+      "时尚生活"
+    ],
+    "gender": "女",
+    "age_range": "34-38",
+    "location": "北京",
+    "followers_count": 555000,
+    "avg_views": 458650,
+    "engagement_rate": 59.05,
+    "completion_rate": 60,
+    "publish_frequency30d": 22,
+    "publish_frequency90d": 58,
+    "explosive_content_count": 5,
+    "fans_growth_trend": "稳步增长",
+    "style_tags": [
+      "前主持人",
+      "贵妇风",
+      "旅行时尚",
+      "抗衰养生"
+    ],
+    "persona_stability": 9.80,
+    "cooperation_reputation": 9.90,
+    "fans_profile": {
+      "age_18_24": 30,
+      "age_25_34": 40,
+      "gender_female": 65,
+      "gender_male": 31,
+      "cities_tier1": 40,
+      "cities_tier2": 35
+    },
+    "comment_quality": 9.60,
+    "content_innovation": 9.60,
+    "platform_index": 9.80,
+    "platform_recommendation_prob": 0.86,
+    "scores": {
+      "adaptability_score": 94,
+      "influence_score": 95,
+      "stickiness_score": 94,
+      "potential_score": 94
+    },
+    "potential_level": "S",
+    "prediction_reasons": [
+      "熟龄抗老贵妇赛道核心代表",
+      "内容视觉质感强，调性高端",
+      "与高端品牌契合度极高"
+    ],
+    "price_range": "中高",
+    "price_min": 42000.00,
+    "price_max": 62800.00,
+    "verified": true,
+    "mcn": null,
+    "contact": {
+      "wechat": false,
+      "email": false,
+      "phone": false
+    },
+    "recent_works": [
+      "波司登 品宣广告",
+      "韩系医美抗衰旅行系列 vlog"
+    ],
+    "cooperation_history": null,
+    "tags": [
+      "前主持人",
+      "贵妇风",
+      "旅行时尚",
+      "抗衰养生"
+    ],
+    "created_at": "2025-10-27T02:14:36.782714Z",
+    "updated_at": "2025-10-27T02:14:36.782714Z"
+  }
+]

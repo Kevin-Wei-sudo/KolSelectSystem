@@ -21,10 +21,13 @@ export const formatNumberShort = (num) => {
   }
 };
 
-// 格式化百分比
+// 格式化百分比（后端已改为 1-100，前端不再 *100）
 export const formatPercent = (num, decimals = 1) => {
   if (num === undefined || num === null) return '0%';
-  return (num * 100).toFixed(decimals) + '%';
+  const n = Number(num);
+  if (Number.isNaN(n)) return '0%';
+  // 直接按 0-100 的百分值展示
+  return n.toFixed(decimals) + '%';
 };
 
 // 格式化分数颜色

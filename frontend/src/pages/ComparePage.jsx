@@ -116,7 +116,13 @@ const ComparePage = () => {
       key: '2',
       metric: '类目',
       ...influencers.reduce((acc, inf, index) => {
-        acc[`inf${index}`] = inf.category;
+        acc[`inf${index}`] = (
+          <Space wrap size={4}>
+            {Array.isArray(inf.category)
+              ? inf.category.map((cat) => <Tag key={cat}>{cat}</Tag>)
+              : inf.category && <Tag>{inf.category}</Tag>}
+          </Space>
+        );
         return acc;
       }, {}),
     },
@@ -156,7 +162,8 @@ const ComparePage = () => {
       key: '7',
       metric: '30天发布频率',
       ...influencers.reduce((acc, inf, index) => {
-        acc[`inf${index}`] = `${inf.publish_frequency_30d}篇`;
+        const pf30 = inf.publish_frequency_30d ?? inf.publish_frequency30d ?? 0;
+        acc[`inf${index}`] = `${pf30}篇`;
         return acc;
       }, {}),
     },
@@ -199,9 +206,12 @@ const ComparePage = () => {
       key: '11',
       metric: '商单口碑',
       ...influencers.reduce((acc, inf, index) => {
+        const rep = inf.cooperation_reputation;
+        // 根据返回值范围动态判断高口碑（仅用于颜色提示），不改变原始显示值
+        const isHigh = rep >= 8.5 || rep >= 0.85;
         acc[`inf${index}`] = (
-          <strong style={{ color: inf.cooperation_reputation >= 0.85 ? '#52c41a' : '#faad14' }}>
-            {(inf.cooperation_reputation * 100).toFixed(0)}分
+          <strong style={{ color: isHigh ? '#52c41a' : '#faad14' }}>
+            {rep}分
           </strong>
         );
         return acc;
@@ -290,7 +300,9 @@ const ComparePage = () => {
             </Space>
             <div className="influencer-tags">
               <Tag color="blue">{inf.platform}</Tag>
-              <Tag>{inf.category}</Tag>
+              {Array.isArray(inf.category)
+                ? inf.category.map((cat) => <Tag key={cat}>{cat}</Tag>)
+                : inf.category && <Tag>{inf.category}</Tag>}
             </div>
           </div>
         </div>

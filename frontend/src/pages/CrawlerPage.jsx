@@ -21,13 +21,17 @@ const CrawlerPage = () => {
     isRunning: false,
     currentPlatform: null,
     progress: 0,
-    total: 4,
+    total: 0,
     collected: 0,
     logs: [],
   });
   const [isPolling, setIsPolling] = useState(false);
   const pollingRef = useRef(null);
   const logsEndRef = useRef(null);
+  // 防止请求堆叠的锁
+  const isFetchingRef = useRef(false);
+  // 启动后的乐观运行态（用于避免首次轮询时短暂显示“空闲”）
+  const optimisticRunningRef = useRef(false);
   
   // 定时任务相关
   const [scheduleConfig, setScheduleConfig] = useState(null);
@@ -35,8 +39,8 @@ const CrawlerPage = () => {
   const [selectedCron, setSelectedCron] = useState('0 0 * * *');
 
   useEffect(() => {
-    loadScheduleConfig();
-    loadPresets();
+    // loadScheduleConfig();
+    // loadPresets();
     
     return () => {
       if (pollingRef.current) {
@@ -56,6 +60,12 @@ const CrawlerPage = () => {
     try {
       const response = await axios.post('/api/crawler/start');
       if (response.data.success) {
+        // 启动后立即在前端将状态置为“运行中”（乐观更新），避免等待后端首次进度返回
+        setStatus(prev => ({
+          ...prev,
+          isRunning: true,
+        }));
+        optimisticRunningRef.current = true;
         setIsPolling(true);
         startPolling();
       }
@@ -68,6 +78,13 @@ const CrawlerPage = () => {
   const stopCrawling = async () => {
     try {
       await axios.post('/api/crawler/stop');
+      // 停止后立即将状态置为“空闲”（乐观更新）
+      setStatus(prev => ({
+        ...prev,
+        isRunning: false,
+        currentPlatform: null,
+      }));
+      optimisticRunningRef.current = false;
       setIsPolling(false);
       if (pollingRef.current) {
         clearInterval(pollingRef.current);
@@ -97,22 +114,57 @@ const CrawlerPage = () => {
     // 立即获取一次状态
     fetchStatus();
 
-    // 每500ms轮询一次状态
+    // 每1000ms轮询一次状态，并避免请求堆叠
     pollingRef.current = setInterval(async () => {
+      if (isFetchingRef.current) return;
       await fetchStatus();
-    }, 500);
+    }, 1000);
   };
 
   const fetchStatus = async () => {
+    if (isFetchingRef.current) return;
+    isFetchingRef.current = true;
     try {
       const response = await axios.get('/api/crawler/status');
       if (response.data.success) {
-        const newStatus = response.data.data;
+        const raw = response.data.data || {};
+        // 兼容 Spring Boot 的布尔 JSON 命名：
+        // isRunning(boolean getter) 在 Jackson 默认序列化下可能表现为 `running`
+        const backendIsRunning = (raw.isRunning ?? raw.is_running ?? raw.running) ?? false;
+        const progress = raw.progress ?? 0;
+        const total = raw.total ?? 0;
+        const currentPlatform = raw.currentPlatform ?? raw.current_platform ?? null;
+        // 如果后端已确认运行中，关闭乐观运行标记
+        const startedSignal = backendIsRunning || (progress > 0) || !!currentPlatform;
+        if (startedSignal) {
+          optimisticRunningRef.current = false;
+        }
+        // 展示用运行态仅基于后端或乐观态，避免任务完成后误判为运行中
+        const displayIsRunning = backendIsRunning || optimisticRunningRef.current;
+        // 调试日志：帮助定位“运行中”闪回“空闲”的原因
+        console.debug('[CrawlerStatus] poll', {
+          backendIsRunning,
+          optimisticRunning: optimisticRunningRef.current,
+          isPolling,
+          progress,
+          total,
+          displayIsRunning,
+        });
+
+        const newStatus = {
+          isRunning: displayIsRunning,
+          currentPlatform,
+          progress,
+          total,
+          collected: raw.collected ?? 0,
+          logs: raw.logs ?? [],
+        };
         setStatus(newStatus);
 
         // 如果爬取完成，停止轮询
-        if (!newStatus.isRunning && newStatus.progress === newStatus.total && isPolling) {
+        if (!backendIsRunning && progress === total && isPolling) {
           setIsPolling(false);
+          optimisticRunningRef.current = false;
           if (pollingRef.current) {
             clearInterval(pollingRef.current);
           }
@@ -120,6 +172,8 @@ const CrawlerPage = () => {
       }
     } catch (error) {
       console.error('获取状态失败:', error);
+    } finally {
+      isFetchingRef.current = false;
     }
   };
 
@@ -196,6 +250,8 @@ const CrawlerPage = () => {
         return <ExclamationCircleOutlined style={{ color: '#faad14' }} />;
       case 'error':
         return <ExclamationCircleOutlined style={{ color: '#f5222d' }} />;
+      case 'info':
+        return <ClockCircleOutlined style={{ color: '#1890ff' }} />;
       default:
         return <LoadingOutlined style={{ color: '#1890ff' }} />;
     }
@@ -392,23 +448,23 @@ const CrawlerPage = () => {
           >
             启动爬虫
           </Button>
-          <Button
-            danger
-            size="large"
-            icon={<StopOutlined />}
-            onClick={stopCrawling}
-            disabled={!status.isRunning}
-          >
-            停止爬虫
-          </Button>
-          <Button
-            size="large"
-            icon={<ReloadOutlined />}
-            onClick={resetCrawler}
-            disabled={status.isRunning}
-          >
-            重置
-          </Button>
+          {/*<Button*/}
+          {/*  danger*/}
+          {/*  size="large"*/}
+          {/*  icon={<StopOutlined />}*/}
+          {/*  onClick={stopCrawling}*/}
+          {/*  disabled={!status.isRunning}*/}
+          {/*>*/}
+          {/*  停止爬虫*/}
+          {/*</Button>*/}
+          {/*<Button*/}
+          {/*  size="large"*/}
+          {/*  icon={<ReloadOutlined />}*/}
+          {/*  onClick={resetCrawler}*/}
+          {/*  disabled={status.isRunning}*/}
+          {/*>*/}
+          {/*  重置*/}
+          {/*</Button>*/}
         </Space>
       </Card>
 

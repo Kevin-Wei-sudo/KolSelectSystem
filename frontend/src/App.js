@@ -8,6 +8,7 @@ import DetailPage from './pages/DetailPage';
 import ComparePage from './pages/ComparePage';
 import CrawlerPage from './pages/CrawlerPage';
 import AIModelPage from './pages/AIModelPage';
+import TutorialPage from './pages/TutorialPage';
 import './App.css';
 
 const { Content } = Layout;
@@ -36,6 +37,7 @@ function App() {
                 <Route path="/compare" element={<ComparePage />} />
                 <Route path="/crawler" element={<CrawlerPage />} />
                 <Route path="/ai-model" element={<AIModelPage />} />
+                <Route path="/tutorial" element={<TutorialPage />} />
               </Routes>
             </Content>
           </Layout>

@@ -147,7 +147,13 @@ const DetailPage = () => {
                 </Space>
                 <div className="profile-tags">
                   <Tag color="blue" style={{ fontSize: 14 }}>{influencer.platform}</Tag>
-                  <Tag style={{ fontSize: 14 }}>{influencer.category}</Tag>
+                  {Array.isArray(influencer.category) ? (
+                    influencer.category.map((cat) => (
+                      <Tag key={cat} style={{ fontSize: 14 }}>{cat}</Tag>
+                    ))
+                  ) : (
+                    influencer.category && <Tag style={{ fontSize: 14 }}>{influencer.category}</Tag>
+                  )}
                   <Tag style={{ fontSize: 14 }}>{influencer.gender}</Tag>
                   <Tag style={{ fontSize: 14 }}>{influencer.age_range}岁</Tag>
                   <Tag style={{ fontSize: 14 }}>{influencer.location}</Tag>
@@ -195,7 +201,15 @@ const DetailPage = () => {
                 <span className="stat-value">{formatPercent(influencer.completion_rate)}</span>
               </Descriptions.Item>
               <Descriptions.Item label="30天发布频率">
-                <span className="stat-value">{influencer.publish_frequency_30d}篇</span>
+                {(() => {
+                  const pf30 =
+                    influencer.publish_frequency_30d ??
+                    influencer.publish_frequency30d ??
+                    0;
+                  return (
+                    <span className="stat-value">{pf30}篇</span>
+                  );
+                })()}
               </Descriptions.Item>
               <Descriptions.Item label="爆款内容数">
                 <span className="stat-value">{influencer.explosive_content_count}个</span>

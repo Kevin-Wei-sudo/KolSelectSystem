@@ -29,36 +29,36 @@ const FilterPanel = ({ onFilterChange, loading }) => {
     const values = form.getFieldsValue();
     const filters = {};
 
-    // 处理表单值
+    // 处理表单值 - 使用下划线命名
     if (values.platform) filters.platform = values.platform;
     if (values.category) filters.category = values.category;
-    if (values.styleTag) filters.styleTag = values.styleTag;
+    if (values.styleTag) filters.style_tag = values.styleTag;
     if (values.gender) filters.gender = values.gender;
-    if (values.potentialLevel) filters.potentialLevel = values.potentialLevel;
-    if (values.fansGrowthTrend) filters.fansGrowthTrend = values.fansGrowthTrend;
+    if (values.potentialLevel) filters.potential_level = values.potentialLevel;
+    if (values.fansGrowthTrend) filters.fans_growth_trend = values.fansGrowthTrend;
 
     // 粉丝量范围
     if (values.followersRange) {
       const [min, max] = values.followersRange;
-      filters.followersMin = min;
-      filters.followersMax = max;
+      filters.followers_min = min;
+      filters.followers_max = max;
     }
 
     // 互动率
     if (values.engagementRate !== undefined) {
-      filters.engagementRateMin = values.engagementRate / 100;
+      filters.engagement_rate_min = values.engagementRate;
     }
 
     // 完播率
     if (values.completionRate !== undefined) {
-      filters.completionRateMin = values.completionRate / 100;
+      filters.completion_rate_min = values.completionRate;
     }
 
     // 评分筛选
-    if (values.adaptabilityScore) filters.adaptabilityScoreMin = values.adaptabilityScore;
-    if (values.influenceScore) filters.influenceScoreMin = values.influenceScore;
-    if (values.stickinessScore) filters.stickinessScoreMin = values.stickinessScore;
-    if (values.potentialScore) filters.potentialScoreMin = values.potentialScore;
+    if (values.adaptabilityScore) filters.adaptability_score_min = values.adaptabilityScore;
+    if (values.influenceScore) filters.influence_score_min = values.influenceScore;
+    if (values.stickinessScore) filters.stickiness_score_min = values.stickinessScore;
+    if (values.potentialScore) filters.potential_score_min = values.potentialScore;
 
     onFilterChange(filters);
   };
@@ -147,7 +147,7 @@ const FilterPanel = ({ onFilterChange, loading }) => {
         </Form.Item>
 
         {/* 适配度评分 */}
-        <Form.Item label="适配度评分" name="adaptabilityScore">
+        <Form.Item label={`适配度评分 ≥(当前:${form.getFieldValue('adaptabilityScore') || 0}%)`} name="adaptabilityScore">
           <Slider min={0} max={100} marks={{ 0: '0', 50: '50', 100: '100' }} />
         </Form.Item>
 
@@ -169,15 +169,15 @@ const FilterPanel = ({ onFilterChange, loading }) => {
         </Form.Item>
 
         {/* 影响力评分 */}
-        <Form.Item label="影响力评分" name="influenceScore">
+        <Form.Item label={`影响力评分 ≥(当前:${form.getFieldValue('influenceScore') || 0}%)`} name="influenceScore">
           <Slider min={0} max={100} marks={{ 0: '0', 50: '50', 100: '100' }} />
         </Form.Item>
 
         <Divider>粉丝粘性筛选</Divider>
 
-        {/* 互动率 */}
+        {/* 互动率（范围改为 0-100） */}
         <Form.Item label={`互动率 ≥ (当前: ${form.getFieldValue('engagementRate') || 0}%)`} name="engagementRate">
-          <Slider min={0} max={15} step={0.5} marks={{ 0: '0%', 5: '5%', 10: '10%', 15: '15%' }} />
+          <Slider min={0} max={100} step={1} marks={{ 0: '0%', 20: '20%', 50: '50%', 100: '100%' }} />
         </Form.Item>
 
         {/* 完播率 */}
@@ -199,7 +199,7 @@ const FilterPanel = ({ onFilterChange, loading }) => {
         </Form.Item>
 
         {/* 粘性评分 */}
-        <Form.Item label="粘性评分" name="stickinessScore">
+        <Form.Item label={`粘性评分 ≥ (当前: ${form.getFieldValue('stickinessScore') || 0}%)`} name="stickinessScore">
           <Slider min={0} max={100} marks={{ 0: '0', 50: '50', 100: '100' }} />
         </Form.Item>
 
@@ -219,7 +219,7 @@ const FilterPanel = ({ onFilterChange, loading }) => {
         </Form.Item>
 
         {/* 潜力评分 */}
-        <Form.Item label="爆款潜力评分" name="potentialScore">
+        <Form.Item label={`爆款潜力评分 ≥ (当前: ${form.getFieldValue('potentialScore') || 0}%)`} name="potentialScore">
           <Slider min={0} max={100} marks={{ 0: '0', 50: '50', 100: '100' }} />
         </Form.Item>
 
